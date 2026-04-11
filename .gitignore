@@ -1,0 +1,25 @@
+# 원본 이미지 (WebP로 대체)
+output/images/**/*.jpg
+
+# PDF 원본
+*.pdf
+
+# 처리 캐시 및 진행상황
+output/cache/
+cache/
+output/progress_*.json
+
+# Claude 설정
+.claude/
+
+# 백업 파일
+*_backup.json
+
+# Python 스크립트 (서버에 불필요)
+*.py
+__pycache__/
+*.pyc
+
+# 시스템 파일
+.DS_Store
+Thumbs.db

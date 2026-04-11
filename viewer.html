@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>기출 인덱스</title>
+<style>
+  :root {
+    --bg: #111;
+    --bg2: #1a1a1a;
+    --border: #2a2a2a;
+    --text: #ddd;
+    --sub: #666;
+    --accent: #4a8cf7;
+    --wrong: #e05555;
+    --star: #f0b429;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; display: flex; height: 100vh; overflow: hidden; }
+
+  /* 사이드바 */
+  #sidebar {
+    width: 260px; flex-shrink: 0;
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  #sidebar-top {
+    padding: 10px; border-bottom: 1px solid var(--border);
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  #search {
+    background: var(--bg2); border: 1px solid var(--border);
+    color: var(--text); padding: 6px 10px; border-radius: 6px;
+    font-size: 13px; width: 100%; outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .filter-row { display: flex; gap: 4px; flex-wrap: wrap; }
+  .filt {
+    font-size: 11px; padding: 4px 8px;
+    background: var(--bg2); border: 1px solid var(--border);
+    color: var(--sub); border-radius: 4px; cursor: pointer; white-space: nowrap;
+  }
+  .filt.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .filt[data-f="star"].on { background: var(--star); border-color: var(--star); color: #111; }
+  .filt[data-f="wrong"].on { background: var(--wrong); border-color: var(--wrong); color: #fff; }
+
+  #bookmark-bar {
+    display: none;
+    align-items: center; gap: 8px;
+    padding: 6px 10px;
+    background: #1e1a0e;
+    border: 1px solid #5a4a1a;
+    border-radius: 6px;
+    font-size: 11px; color: #c8a840; cursor: pointer;
+  }
+  #bookmark-bar:hover { background: #2a2410; }
+  #bookmark-bar .bm-icon { font-size: 13px; }
+  #bookmark-bar .bm-label { flex: 1; }
+  #count { font-size: 11px; color: var(--sub); text-align: right; }
+
+  #list { flex: 1; overflow-y: auto; }
+  #list::-webkit-scrollbar { width: 3px; }
+  #list::-webkit-scrollbar-thumb { background: #333; }
+
+  .item {
+    padding: 8px 12px; cursor: pointer;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 8px; font-size: 12px;
+    border-left: 2px solid transparent;
+  }
+  .item:hover { background: var(--bg2); }
+  .item.active { background: #1e2a3a; border-left-color: var(--accent); }
+  .item.wrong-mark { border-left-color: var(--wrong); }
+  .item.star-mark  { border-left-color: var(--star); }
+  .item.wrong-mark.star-mark { border-left-color: var(--star); }
+  .item.bookmark-mark { position: relative; }
+  .item.bookmark-mark::after {
+    content: '🔖';
+    position: absolute; right: 36px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px; opacity: 0.85;
+  }
+
+  .item-left { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+  .item-num  { font-size: 10px; color: var(--sub); }
+  .item-topic   { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hide-topic .item-topic { filter: blur(4px); user-select: none; }
+  .item-summary { font-size: 11px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item-dots { display: flex; gap: 4px; flex-shrink: 0; align-items: center; }
+
+  .dot-btn {
+    width: 14px; height: 14px; border-radius: 50%;
+    background: transparent; border: 1px solid var(--sub);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    font-size: 9px; line-height: 1; color: transparent;
+  }
+  .dot-btn.wrong-dot.on { background: var(--wrong); border-color: var(--wrong); }
+  .dot-btn.star-dot  { border-radius: 2px; }
+  .dot-btn.star-dot.on { background: var(--star); border-color: var(--star); color: #111; }
+
+  /* 메인 */
+  #main { flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
+  #main::-webkit-scrollbar { width: 4px; }
+  #main::-webkit-scrollbar-thumb { background: #333; }
+  #empty { flex: 1; display: flex; align-items: center; justify-content: center; color: var(--sub); font-size: 14px; }
+  #content { padding: 16px; max-width: 860px; }
+
+  /* 헤더 */
+  #q-header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+  #q-title  { font-size: 15px; font-weight: 700; flex: 1; min-width: 120px; }
+  #q-meta   { font-size: 12px; color: var(--sub); }
+
+  .hdr-btn {
+    padding: 4px 12px; font-size: 12px; border-radius: 4px;
+    border: 1px solid var(--border); background: var(--bg2);
+    color: var(--sub); cursor: pointer;
+  }
+  .hdr-btn:hover { border-color: #555; color: var(--text); }
+  #wrong-btn.on { border-color: var(--wrong); color: var(--wrong); background: #2a1414; }
+  #star-btn.on  { border-color: var(--star);  color: var(--star);  background: #2a2414; }
+
+  /* 이미지 */
+  #page-img {
+    width: 100%; border-radius: 6px; border: 1px solid var(--border);
+    display: block; margin-bottom: 16px; background: #222;
+  }
+
+  /* 개념 메모 섹션 */
+  #memo-section {
+    border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+  }
+  #memo-header {
+    padding: 10px 14px; background: var(--bg2);
+    display: flex; align-items: center; gap: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  #memo-header-title { font-size: 13px; font-weight: 700; flex: 1; }
+  #memo-saved-badge {
+    font-size: 10px; padding: 2px 8px; border-radius: 8px;
+    background: #2a2414; color: var(--star); border: 1px solid var(--star);
+    display: none;
+  }
+  #memo-edit-btn {
+    font-size: 11px; padding: 3px 10px; border-radius: 4px;
+    border: 1px solid var(--border); background: transparent;
+    color: var(--sub); cursor: pointer; display: none;
+  }
+  #memo-edit-btn:hover { color: var(--text); border-color: #555; }
+
+  #memo-display {
+    padding: 12px 14px; font-size: 13px; line-height: 1.9;
+    white-space: pre-wrap; color: var(--text);
+    display: none;
+  }
+
+  #memo-editor { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
+  #memo-textarea {
+    width: 100%; background: var(--bg); border: 1px solid var(--border);
+    border-radius: 4px; color: var(--text); font-size: 13px; line-height: 1.8;
+    padding: 10px 12px; resize: vertical; min-height: 140px;
+    font-family: inherit; outline: none;
+  }
+  #memo-textarea:focus { border-color: var(--accent); }
+  #memo-textarea::placeholder { color: #444; }
+  .memo-btn-row { display: flex; gap: 8px; }
+  #memo-save-btn {
+    flex: 1; padding: 7px; font-size: 12px; border-radius: 6px;
+    border: 1px solid var(--star); background: transparent;
+    color: var(--star); cursor: pointer;
+  }
+  #memo-save-btn:hover { background: var(--star); color: #111; }
+  #memo-del-btn {
+    padding: 7px 14px; font-size: 12px; border-radius: 6px;
+    border: 1px solid var(--border); background: transparent;
+    color: var(--sub); cursor: pointer; display: none;
+  }
+  #memo-del-btn:hover { border-color: var(--wrong); color: var(--wrong); }
+
+  /* 하단 버튼들 */
+  #gemini-btn {
+    margin-top: 10px; width: 100%; padding: 9px;
+    font-size: 12px; border-radius: 6px;
+    border: 1px solid #2a3a2a; background: #111e11;
+    color: #6abf6a; cursor: pointer;
+  }
+  #gemini-btn:hover { background: #1a2e1a; border-color: #6abf6a; }
+
+  /* Anki CSV 패널 */
+  #anki-panel {
+    margin-top: 10px; border: 1px solid #1e2a3a;
+    border-radius: 8px; overflow: hidden;
+  }
+  #anki-panel-header {
+    padding: 9px 14px; background: #0e1620;
+    font-size: 12px; font-weight: 700; color: #4a8cf7;
+    display: flex; align-items: center; justify-content: space-between;
+    cursor: pointer; user-select: none;
+  }
+  #anki-panel-body { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
+  #anki-csv-input {
+    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
+    border-radius: 4px; color: var(--text); font-size: 12px; line-height: 1.6;
+    padding: 8px 10px; resize: vertical; min-height: 90px;
+    font-family: 'Consolas', monospace; outline: none;
+  }
+  #anki-csv-input:focus { border-color: var(--accent); }
+  #anki-csv-input::placeholder { color: #333; font-family: inherit; }
+  #anki-dl-btn {
+    padding: 7px 14px; font-size: 12px; border-radius: 6px;
+    border: 1px solid var(--accent); background: transparent;
+    color: var(--accent); cursor: pointer; width: fit-content;
+  }
+  #anki-dl-btn:hover { background: var(--accent); color: #fff; }
+  #anki-dl-btn:disabled { opacity: 0.4; cursor: default; }
+  #anki-dl-msg { font-size: 11px; color: var(--sub); }
+</style>
+</head>
+<body>
+
+<!-- 사이드바 -->
+<div id="sidebar">
+  <div id="sidebar-top">
+    <input id="search" type="text" placeholder="토픽, 키워드 검색...">
+    <div id="bookmark-bar" onclick="goToBookmark()">
+      <span class="bm-icon">🔖</span>
+      <span class="bm-label" id="bookmark-label"></span>
+      <span style="color:#666;font-size:10px">바로가기</span>
+    </div>
+    <div class="filter-row" id="filter-row">
+      <button class="filt on" data-f="all">전체</button>
+      <button class="filt" data-f="wrong">오답만</button>
+      <button class="filt" data-f="star">★ 중요만</button>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div id="count"></div>
+      <button id="topic-toggle" onclick="toggleTopics()" style="font-size:10px;padding:3px 8px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">토픽 숨기기</button>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <span id="sync-indicator" onclick="openSyncSettings()" style="font-size:10px;color:#555;cursor:pointer;user-select:none">○ 동기화 미설정</span>
+      <button onclick="openSyncSettings()" style="font-size:10px;padding:2px 7px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">⚙ 동기화</button>
+    </div>
+  </div>
+  <div id="list"></div>
+</div>
+
+<!-- 메인 -->
+<div id="main">
+  <div id="empty">왼쪽에서 문제를 선택하세요</div>
+  <div id="content" style="display:none">
+
+    <div id="q-header">
+      <div>
+        <div id="q-title"></div>
+        <div id="q-meta"></div>
+      </div>
+      <button id="wrong-btn"    class="hdr-btn" onclick="toggleWrong()">오답 표시</button>
+      <button id="star-btn"     class="hdr-btn" onclick="toggleStar()">★ 중요 표시</button>
+      <button id="bookmark-btn" class="hdr-btn" onclick="toggleBookmark()">🔖 책갈피</button>
+      <button class="hdr-btn" onclick="navigate(-1)">◀ 이전</button>
+      <button class="hdr-btn" onclick="navigate(1)">다음 ▶</button>
+    </div>
+
+    <img id="page-img" src="" alt="문제 페이지">
+
+    <!-- 개념 메모 -->
+    <div id="memo-section">
+      <div id="memo-header">
+        <span id="memo-header-title">개념 메모</span>
+        <span id="memo-saved-badge">★ 중요 표시됨</span>
+        <button id="memo-edit-btn" onclick="openMemoEditor()">수정</button>
+      </div>
+      <div id="memo-display"></div>
+      <div id="memo-editor">
+        <textarea id="memo-textarea" placeholder="Gemini에서 생성한 개념을 여기에 붙여넣으세요.&#10;저장하면 자동으로 ★ 중요 표시됩니다."></textarea>
+        <div class="memo-btn-row">
+          <button id="memo-save-btn" onclick="saveMemo()">저장 (★ 중요 자동 표시)</button>
+          <button id="memo-del-btn" onclick="deleteMemo()">메모 삭제</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="gemini-btn" onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')">✦ Gemini 열기</button>
+
+    <!-- Anki CSV 패널 -->
+    <div id="anki-panel">
+      <div id="anki-panel-header" onclick="toggleAnkiPanel()">
+        <span>⬛ Anki CSV 가져오기</span>
+        <span id="anki-panel-arrow">▼</span>
+      </div>
+      <div id="anki-panel-body">
+        <textarea id="anki-csv-input" placeholder="Gemini에서 받은 CSV를 여기에 붙여넣으세요.
+앞면,뒷면,태그
+&quot;질문&quot;,&quot;답변&quot;,&quot;산부인과&quot;"></textarea>
+        <div style="display:flex;align-items:center;gap:10px">
+          <button id="anki-dl-btn" onclick="downloadCSV()" disabled>⬇ CSV 다운로드</button>
+          <span id="anki-dl-msg">붙여넣기 후 활성화됩니다</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+let all = [], filtered = [], cur = null;
+let filter = 'all';
+
+let wrongs    = JSON.parse(localStorage.getItem('wrongs')    || '{}');
+let important = JSON.parse(localStorage.getItem('important') || '{}');
+let memos     = JSON.parse(localStorage.getItem('memos')     || '{}');
+let bookmark  = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
+let topicHidden = localStorage.getItem('topicHidden') === '1';
+
+// ── Anki CSV ──────────────────────────────────────────
+let ankiPanelOpen = true;
+function toggleAnkiPanel() {
+  ankiPanelOpen = !ankiPanelOpen;
+  document.getElementById('anki-panel-body').style.display = ankiPanelOpen ? 'flex' : 'none';
+  document.getElementById('anki-panel-arrow').textContent = ankiPanelOpen ? '▼' : '▶';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('anki-csv-input').addEventListener('input', function() {
+    const hasContent = this.value.trim().length > 0;
+    document.getElementById('anki-dl-btn').disabled = !hasContent;
+    document.getElementById('anki-dl-msg').textContent = hasContent ? '준비됨' : '붙여넣기 후 활성화됩니다';
+  });
+});
+
+function downloadCSV() {
+  const csv = document.getElementById('anki-csv-input').value.trim();
+  if (!csv) return;
+  const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  const q    = cur !== null ? all[cur] : null;
+  const name = q ? `anki_${q.category||''}_Q${q.q_num||''}.csv` : 'anki_cards.csv';
+  a.href = url; a.download = name; a.click();
+  URL.revokeObjectURL(url);
+  document.getElementById('anki-dl-msg').textContent = `✓ ${name} 저장됨`;
+}
+
+function toggleTopics() {
+  topicHidden = !topicHidden;
+  localStorage.setItem('topicHidden', topicHidden ? '1' : '0');
+  applyTopicVisibility();
+}
+function applyTopicVisibility() {
+  document.getElementById('list').classList.toggle('hide-topic', topicHidden);
+  document.getElementById('topic-toggle').textContent = topicHidden ? '토픽 보이기' : '토픽 숨기기';
+}
+
+// ── 데이터 로드 ──────────────────────────────────────
+async function load() {
+  const files = [
+    'output/questions_vol1.json','output/questions_vol2.json',
+    'output/questions_vol3.json','output/questions_vol4.json',
+    'output/questions_vol5.json','output/questions_vol6.json',
+    'output/questions_vol7.json','output/questions_vol8.json',
+    'output/questions.json',
+  ];
+  for (const f of files) {
+    try {
+      const r = await fetch(f);
+      if (!r.ok) continue;
+      const d = await r.json();
+      if (Array.isArray(d) && d.length) all.push(...d);
+    } catch {}
+  }
+  buildCategoryFilters();
+  applyFilter();
+  updateBookmarkBar();
+  applyTopicVisibility();
+  const last = localStorage.getItem('last');
+  if (last !== null && all[+last]) select(+last);
+  initSync(); // localStorage 렌더 후 Gist에서 머지
+}
+
+// ── 카테고리 필터 ─────────────────────────────────────
+function buildCategoryFilters() {
+  const cats = [...new Set(all.map(q => q.category).filter(Boolean))].sort();
+  const row = document.getElementById('filter-row');
+  row.querySelectorAll('.filt.cat').forEach(b => b.remove());
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filt cat';
+    btn.dataset.f = `cat:${cat}`;
+    btn.textContent = cat;
+    btn.addEventListener('click', () => setFilter(`cat:${cat}`, btn));
+    row.appendChild(btn);
+  });
+}
+
+function setFilter(f, clickedBtn) {
+  document.querySelectorAll('.filt').forEach(b => b.classList.remove('on'));
+  clickedBtn.classList.add('on');
+  filter = f;
+  applyFilter();
+}
+
+// ── 필터 / 검색 ──────────────────────────────────────
+function applyFilter() {
+  const kw = document.getElementById('search').value.toLowerCase();
+  filtered = all.filter((q, i) => {
+    if (filter === 'wrong' && !wrongs[i]) return false;
+    if (filter === 'star'  && !important[i]) return false;
+    if (filter.startsWith('cat:') && q.category !== filter.slice(4)) return false;
+    if (!kw) return true;
+    return [q.category, q.topic, q.question_summary, memos[i] || '']
+      .join(' ').toLowerCase().includes(kw);
+  });
+  renderList();
+}
+
+function renderList() {
+  const el = document.getElementById('list');
+  el.innerHTML = '';
+  filtered.forEach(q => {
+    const i = all.indexOf(q);
+    const div = document.createElement('div');
+    let cls = 'item';
+    if (i === cur)    cls += ' active';
+    if (wrongs[i])    cls += ' wrong-mark';
+    if (important[i]) cls += ' star-mark';
+    if (bookmark === i) cls += ' bookmark-mark';
+    div.className = cls;
+    div.innerHTML = `
+      <div class="item-left">
+        <div class="item-num">Q.${q.q_num || i+1} · p.${q.page || '-'}${q.category ? ` · <span style="color:var(--accent);font-size:10px">${esc(q.category)}</span>` : ''}</div>
+        <div class="item-topic">${esc(q.topic || '(토픽 없음)')}</div>
+        <div class="item-summary">${esc(q.question_summary || '')}</div>
+      </div>
+      <div class="item-dots">
+        <div class="dot-btn wrong-dot ${wrongs[i]?'on':''}" title="오답" onclick="event.stopPropagation();markWrong(${i})"></div>
+        <div class="dot-btn star-dot  ${important[i]?'on':''}" title="중요" onclick="event.stopPropagation();markStar(${i})">★</div>
+      </div>`;
+    div.addEventListener('click', () => select(i));
+    el.appendChild(div);
+  });
+  document.getElementById('count').textContent = `${filtered.length} / ${all.length}문제`;
+}
+
+// ── 선택 ─────────────────────────────────────────────
+function select(i) {
+  cur = i;
+  localStorage.setItem('last', i);
+  renderList();
+
+  const q = all[i];
+  document.getElementById('empty').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+
+  document.getElementById('q-title').textContent = `Q.${q.q_num || i+1}  ${q.topic || ''}`;
+  document.getElementById('q-meta').textContent  = `p.${q.page || '-'}  ·  정답: ${q.answer || '?'}번  ·  ${q.category || ''}`;
+
+  updateHeaderBtns(i);
+
+  const img = document.getElementById('page-img');
+  const volDir = q.vol ? `output/images/${q.vol}/` : 'output/images/';
+  const pageBase = `${volDir}page_${String(q.page || 1).padStart(4,'0')}`;
+  img.src = `${pageBase}.webp`;
+  img.onerror = () => { img.src = `${pageBase}.jpg`; img.onerror = null; };
+
+  renderMemo(i);
+  document.getElementById('main').scrollTo({ top: 0 });
+  document.querySelector('.item.active')?.scrollIntoView({ block: 'nearest' });
+}
+
+function updateHeaderBtns(i) {
+  const wb = document.getElementById('wrong-btn');
+  wb.textContent = wrongs[i] ? '오답 해제' : '오답 표시';
+  wb.className = 'hdr-btn' + (wrongs[i] ? ' on' : '');
+
+  const sb = document.getElementById('star-btn');
+  sb.textContent = important[i] ? '★ 중요 해제' : '★ 중요 표시';
+  sb.className = 'hdr-btn' + (important[i] ? ' on' : '');
+
+  const bb = document.getElementById('bookmark-btn');
+  const isBookmark = bookmark === i;
+  bb.textContent = isBookmark ? '🔖 책갈피 해제' : '🔖 책갈피';
+  bb.className = 'hdr-btn' + (isBookmark ? ' on' : '');
+  bb.style.borderColor = isBookmark ? '#c8a840' : '';
+  bb.style.color = isBookmark ? '#c8a840' : '';
+}
+
+function toggleBookmark() {
+  if (cur === null) return;
+  if (bookmark === cur) {
+    bookmark = null;
+    localStorage.removeItem('bookmark');
+  } else {
+    bookmark = cur;
+    localStorage.setItem('bookmark', cur);
+  }
+  updateHeaderBtns(cur);
+  updateBookmarkBar();
+  renderList();
+  schedulePush();
+}
+
+function goToBookmark() {
+  if (bookmark !== null && all[bookmark]) select(bookmark);
+}
+
+function updateBookmarkBar() {
+  const bar   = document.getElementById('bookmark-bar');
+  const label = document.getElementById('bookmark-label');
+  if (bookmark !== null && all[bookmark]) {
+    const q = all[bookmark];
+    label.textContent = `Q.${q.q_num || bookmark+1} · ${q.topic || ''}`;
+    bar.style.display = 'flex';
+  } else {
+    bar.style.display = 'none';
+  }
+}
+
+// ── 오답 / 중요 ───────────────────────────────────────
+function markWrong(i) {
+  wrongs[i] = !wrongs[i];
+  if (!wrongs[i]) delete wrongs[i];
+  localStorage.setItem('wrongs', JSON.stringify(wrongs));
+  if (i === cur) updateHeaderBtns(i);
+  renderList();
+  schedulePush();
+}
+function toggleWrong() { if (cur !== null) markWrong(cur); }
+
+function markStar(i) {
+  important[i] = !important[i];
+  if (!important[i]) delete important[i];
+  localStorage.setItem('important', JSON.stringify(important));
+  if (i === cur) { updateHeaderBtns(i); renderMemo(i); }
+  renderList();
+  schedulePush();
+}
+function toggleStar() { if (cur !== null) markStar(cur); }
+
+// ── 개념 메모 ─────────────────────────────────────────
+function renderMemo(i) {
+  const memo = memos[i] || '';
+  const hasMemo = memo.trim().length > 0;
+
+  const display  = document.getElementById('memo-display');
+  const editor   = document.getElementById('memo-editor');
+  const badge    = document.getElementById('memo-saved-badge');
+  const editBtn  = document.getElementById('memo-edit-btn');
+  const delBtn   = document.getElementById('memo-del-btn');
+  const textarea = document.getElementById('memo-textarea');
+
+  if (hasMemo) {
+    // 저장된 메모 있음 → 표시 모드
+    display.textContent = memo;
+    display.style.display = 'block';
+    editor.style.display  = 'none';
+    badge.style.display   = important[i] ? 'inline-block' : 'none';
+    editBtn.style.display = 'inline-block';
+    delBtn.style.display  = 'none';
+  } else {
+    // 메모 없음 → 편집 모드
+    display.style.display = 'none';
+    editor.style.display  = 'flex';
+    badge.style.display   = 'none';
+    editBtn.style.display = 'none';
+    delBtn.style.display  = 'none';
+    textarea.value = '';
+  }
+}
+
+function openMemoEditor() {
+  if (cur === null) return;
+  const display  = document.getElementById('memo-display');
+  const editor   = document.getElementById('memo-editor');
+  const editBtn  = document.getElementById('memo-edit-btn');
+  const delBtn   = document.getElementById('memo-del-btn');
+  const textarea = document.getElementById('memo-textarea');
+
+  display.style.display = 'none';
+  editor.style.display  = 'flex';
+  editBtn.style.display = 'none';
+  delBtn.style.display  = 'inline-block';
+  textarea.value = memos[cur] || '';
+  textarea.focus();
+}
+
+function saveMemo() {
+  if (cur === null) return;
+  const val = document.getElementById('memo-textarea').value.trim();
+  if (!val) return;
+
+  memos[cur] = val;
+  localStorage.setItem('memos', JSON.stringify(memos));
+
+  // 메모 저장 시 자동 중요 표시
+  if (!important[cur]) {
+    important[cur] = true;
+    localStorage.setItem('important', JSON.stringify(important));
+  }
+
+  renderMemo(cur);
+  updateHeaderBtns(cur);
+  renderList();
+  schedulePush();
+}
+
+function deleteMemo() {
+  if (cur === null) return;
+  if (!confirm('메모를 삭제할까요?')) return;
+  delete memos[cur];
+  localStorage.setItem('memos', JSON.stringify(memos));
+  renderMemo(cur);
+  schedulePush();
+}
+
+// ── GitHub Gist 동기화 ────────────────────────────────
+const GIST_FILE = 'study_sync.json';
+let gistToken = localStorage.getItem('gist_token') || '';
+let gistId    = localStorage.getItem('gist_id')    || '';
+let syncTimer = null;
+
+function updateSyncUI(status, msg) {
+  const el = document.getElementById('sync-indicator');
+  if (!el) return;
+  const map = { idle: ['○','#555'], syncing: ['↻','#4a8cf7'], ok: ['●','#4caf4c'], error: ['!','#e05555'] };
+  const [icon, color] = map[status] || map.idle;
+  el.textContent = `${icon} ${msg}`;
+  el.style.color = color;
+}
+
+async function gistFetch() {
+  if (!gistToken || !gistId) return null;
+  updateSyncUI('syncing', '불러오는 중...');
+  try {
+    const res = await fetch(`https://api.github.com/gists/${gistId}`, {
+      headers: { 'Authorization': `token ${gistToken}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (!res.ok) { updateSyncUI('error', '불러오기 실패'); return null; }
+    const data = await res.json();
+    const content = data.files?.[GIST_FILE]?.content;
+    updateSyncUI('ok', '동기화됨');
+    return content ? JSON.parse(content) : {};
+  } catch { updateSyncUI('error', '오류'); return null; }
+}
+
+async function gistPush() {
+  if (!gistToken || !gistId) return;
+  updateSyncUI('syncing', '저장 중...');
+  try {
+    const res = await fetch(`https://api.github.com/gists/${gistId}`, {
+      method: 'PATCH',
+      headers: {
+        'Authorization': `token ${gistToken}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark }) } } })
+    });
+    if (res.ok) {
+      const t = new Date();
+      updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 저장됨`);
+    } else {
+      updateSyncUI('error', '저장 실패');
+    }
+  } catch { updateSyncUI('error', '오류'); }
+}
+
+async function gistCreate() {
+  updateSyncUI('syncing', 'Gist 생성 중...');
+  try {
+    const res = await fetch('https://api.github.com/gists', {
+      method: 'POST',
+      headers: {
+        'Authorization': `token ${gistToken}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({
+        description: 'Study App Sync',
+        public: false,
+        files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark }) } }
+      })
+    });
+    if (!res.ok) { updateSyncUI('error', 'Gist 생성 실패'); return null; }
+    const data = await res.json();
+    updateSyncUI('ok', 'Gist 생성됨');
+    return data.id;
+  } catch { updateSyncUI('error', '오류'); return null; }
+}
+
+function schedulePush() {
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(gistPush, 2000);
+}
+
+async function initSync() {
+  if (!gistToken) { updateSyncUI('idle', '동기화 미설정'); return; }
+  if (!gistId) {
+    const newId = await gistCreate();
+    if (!newId) return;
+    gistId = newId;
+    localStorage.setItem('gist_id', gistId);
+    return;
+  }
+  const d = await gistFetch();
+  if (!d) return;
+  // 머지: wrongs/important는 union, memos는 Gist 우선, bookmark는 Gist 우선
+  if (d.wrongs)    { Object.assign(wrongs, d.wrongs);       localStorage.setItem('wrongs', JSON.stringify(wrongs)); }
+  if (d.important) { Object.assign(important, d.important); localStorage.setItem('important', JSON.stringify(important)); }
+  if (d.memos)     { Object.keys(d.memos).forEach(k => { if (d.memos[k]) memos[k] = d.memos[k]; }); localStorage.setItem('memos', JSON.stringify(memos)); }
+  if (d.bookmark != null) { bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); }
+  renderList();
+  updateBookmarkBar();
+  if (cur !== null) { updateHeaderBtns(cur); renderMemo(cur); }
+}
+
+function openSyncSettings() {
+  document.getElementById('token-input').value  = gistToken;
+  document.getElementById('gistid-input').value = gistId;
+  document.getElementById('sync-modal').style.display = 'flex';
+}
+function closeSyncModal() {
+  document.getElementById('sync-modal').style.display = 'none';
+}
+async function connectSync() {
+  const token = document.getElementById('token-input').value.trim();
+  const gId   = document.getElementById('gistid-input').value.trim();
+  if (!token) { alert('토큰을 입력해주세요.'); return; }
+  gistToken = token; gistId = gId;
+  localStorage.setItem('gist_token', token);
+  if (gId) localStorage.setItem('gist_id', gId); else localStorage.removeItem('gist_id');
+  closeSyncModal();
+  await initSync();
+  if (!gId && gistId) alert(`Gist 생성 완료!\nGist ID: ${gistId}\n\n다른 기기 설정 시 이 ID를 입력하세요.`);
+}
+function disconnectSync() {
+  if (!confirm('동기화 연결을 해제할까요?')) return;
+  gistToken = ''; gistId = '';
+  localStorage.removeItem('gist_token'); localStorage.removeItem('gist_id');
+  updateSyncUI('idle', '동기화 미설정');
+  closeSyncModal();
+}
+
+// ── 이전/다음 ─────────────────────────────────────────
+function navigate(d) {
+  if (cur === null) return;
+  const fi = filtered.findIndex(q => all.indexOf(q) === cur);
+  const ni = fi + d;
+  if (ni >= 0 && ni < filtered.length) select(all.indexOf(filtered[ni]));
+}
+
+// ── 유틸 ─────────────────────────────────────────────
+function esc(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── 이벤트 ───────────────────────────────────────────
+document.getElementById('search').addEventListener('input', applyFilter);
+document.querySelectorAll('.filt').forEach(b => {
+  b.addEventListener('click', () => setFilter(b.dataset.f, b));
+});
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') navigate(1);
+  if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   navigate(-1);
+});
+
+load();
+</script>
+<!-- 동기화 설정 모달 -->
+<div id="sync-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:200;align-items:center;justify-content:center">
+  <div style="background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:24px;width:380px;max-width:92vw">
+    <div style="font-size:14px;font-weight:700;margin-bottom:6px">⚙ GitHub Gist 동기화</div>
+    <div style="font-size:12px;color:#666;margin-bottom:18px">오답·중요·메모를 모든 기기에서 동기화합니다.</div>
+
+    <div style="font-size:11px;color:#888;margin-bottom:4px">GitHub Personal Access Token <span style="color:#555">(gist 권한 필요)</span></div>
+    <input id="token-input" type="password" placeholder="ghp_..." style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;margin-bottom:12px;outline:none;box-sizing:border-box">
+
+    <div style="font-size:11px;color:#888;margin-bottom:4px">Gist ID <span style="color:#555">(비워두면 자동 생성)</span></div>
+    <input id="gistid-input" placeholder="처음이면 비워두세요 → 자동 생성" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;margin-bottom:6px;outline:none;box-sizing:border-box">
+    <div style="font-size:10px;color:#555;margin-bottom:18px">다른 기기에서 연결할 때 위 Gist ID를 동일하게 입력하세요.</div>
+
+    <div style="display:flex;gap:8px">
+      <button onclick="connectSync()" style="flex:1;padding:9px;background:#4a8cf7;border:none;color:#fff;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">연결하기</button>
+      <button onclick="disconnectSync()" style="padding:9px 14px;background:transparent;border:1px solid #444;color:#888;border-radius:6px;cursor:pointer;font-size:12px">해제</button>
+      <button onclick="closeSyncModal()" style="padding:9px 14px;background:transparent;border:1px solid #2a2a2a;color:#555;border-radius:6px;cursor:pointer;font-size:12px">닫기</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

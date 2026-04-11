@@ -1,0 +1,3287 @@
+[
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "척추 질환",
+    "question_summary": "75세 남자의 척추 협착으로 인한 파행 증상의 진단",
+    "page": 5,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "척추 질환",
+    "question_summary": "40세 남성의 요통과 신경학적 증상의 원인 질환",
+    "page": 5,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "요통의 원인",
+    "question_summary": "40세 남자 허리통증의 원인 감별",
+    "page": 6,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "요통의 원인",
+    "question_summary": "요통을 호소하는 환자에게 묻는 것",
+    "page": 6,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추/척추의 변형",
+    "question_summary": "15세 여자아이의 학교 검진상 척추 측만증 의심으로 내원한 환자, 정상 발육, 2차 성징 정상이었으며 Cobb's angle 18도. 이후 처치는?",
+    "page": 8,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추/척추의 변형",
+    "question_summary": "15세 여학생이 우연히 발견된 발진한 척추측만증으로 내원하였다. 이차 성징은 정상적으로 발달하였고, x-ray에서 cobb's angle 42도를 보임. 앞으로 치료 계획은?",
+    "page": 8,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추/척추의 변형",
+    "question_summary": "14세 여중생이 학교 정기 검진에서 우연히 발견된 척추측만증으로 내원하였다. cobb's angle 18, 였고 이차 성징은 정상이었다. 앞으로 치료 계획은?",
+    "page": 8,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "64",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "척추/주간판탈출증, radiculopathy",
+    "question_summary": "64세 여자 양 손의 시림 증상, 근전도검사상 양상으로 주면에 지장 초래, 경도로 불편하다고 함. 경추 X-선상 소견에 대한 진단",
+    "page": 10,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "55",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추 질환",
+    "question_summary": "55세 남성, 최근 무거운 것을 들다가 생긴 요통 발 위픔치로 서는 것이 힘들었다. L spine MRI 사진에서 L4-5 HLD 소견",
+    "page": 10,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "요추 신경근병증",
+    "question_summary": "L4, L5, S1 신경근 병증의 방사통, 감각이상, 근력약화, 선별검사, 반사 소견 비교",
+    "page": 12,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "4",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "경추 신경근병증",
+    "question_summary": "58세 여자가 2개월전부터 손저림증으로 내원한 환자의 진단",
+    "page": 13,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "요추부 질환",
+    "question_summary": "30대 남자 3-4개월간 허리통증으로 물치료 받은 후 T2 MRI 이상 시 다음 처치",
+    "page": 13,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "515",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "신경근병증",
+    "question_summary": "35세 남자 하지통증과 우측 다리저림증으로 내원한 환자의 신경근 병변 부위 판정",
+    "page": 14,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "신경근병증",
+    "question_summary": "35세 남자 요통과 우측 다리 방사통으로 내원한 환자의 신경학적 검사 소견에서 신경근 병변 부위",
+    "page": 15,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "정형외과",
+    "topic": "Radiculopathy",
+    "question_summary": "L4/L5/S1 Radiculopathy의 신경근 압박 및 임상 증상",
+    "page": 16,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "척추 디스크 신경근 압박",
+    "question_summary": "L4-5 디스크 탈출로 인한 신경근 압박 및 요통의 감별 진단",
+    "page": 17,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "척추/주간판탈출증",
+    "question_summary": "척추/주간판탈출증의 임상소견 및 신경학적 검사 소견",
+    "page": 18,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추/척추 협착증",
+    "question_summary": "척추협착증의 보존적 치료에 대한 설명",
+    "page": 20,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "척추/척추 협착증",
+    "question_summary": "60세 남자 하지마비 양측 대퇴부 통증의 원인 진단",
+    "page": 20,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "강직성척추염",
+    "question_summary": "강직성척추염 환자의 내장장기 합병증",
+    "page": 21,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "강직성척추염",
+    "question_summary": "65세 환자의 요추 MRI 소견 해석",
+    "page": 21,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "spinal stenosis",
+    "question_summary": "50세 남자가 보행시 악화되는 양하지 파행이 있다. 신경인성 파행을 시사하는 소견은?",
+    "page": 22,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "spinal stenosis",
+    "question_summary": "spinal stenosis 수술 적응증?",
+    "page": 22,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "57",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추/손상 및 골절",
+    "question_summary": "57세 여자 수년간 지속된 허리통증 및 골절 후 구부렸다 하면 더 아파한다면 진단은?",
+    "page": 25,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "척추 질환",
+    "question_summary": "70세 여자 일주일 전에 낙상 후 지속한 요통으로 내원한 환자의 X-ray 사진에서 압박골절 소견이 있고 감각과 운동기능에는 이상이 없다. 환자의 X-ray 사진이 중증골절화의 척추뼈형을 교정하기 위한 치료는?",
+    "page": 26,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "골반·고관절 질환",
+    "question_summary": "35세 여성의 외측족 허벅지 통증, DTR·SLRT 검사에서 이상 소견",
+    "page": 28,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "고관절·무릎관절 질환",
+    "question_summary": "42세 남성의 좌측 무릎 전방통, 진찰·영상검사·병력 분석",
+    "page": 28,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "47",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "외측대퇴피부신경병증",
+    "question_summary": "45세 여자환자의 좌측 대퇴부 정외측의 화끈거림을 주소로 내원한 경우의 진단",
+    "page": 29,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "대퇴골두 무혈성 괴사(Osteonecrosis of Femoral Head, ONFH)",
+    "question_summary": "대퇴골두 무혈성 괴사의 원인, 임상소견, 진단 및 치료",
+    "page": 30,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "Patrick test",
+    "question_summary": "Patrick test에서 양성이면 활측 좌측의 관절 운동에 제한이 관찰되는데, 특히 외감과 내회전의 제한이 심하다. 골무의 함몸이 심한 경우 하지 단측 소견을 보인다.",
+    "page": 31,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "견갑부/어깨 통증",
+    "question_summary": "Lt. shoulder pain으로 내원한 환자의 관절운동범위 150 150 30 80? neer test는 음성일 때 진단",
+    "page": 32,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2016",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "견갑부/어깨 통증",
+    "question_summary": "페인트칠하던 남자 우측폭 어깨 통증, 운동범위 저하, 검사는?",
+    "page": 32,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "견갑부/흉곽출구증후군",
+    "question_summary": "45세 여성의 견갑부 우측 통증, Tinel's sign, spurling test 양성 소견의 진단",
+    "page": 33,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "흉곽출구증후군",
+    "question_summary": "42세 여자 수궤침 전부터 발생한 우측 전완부 악지, 새끼 손가락의 감각이상으로 내원한 환자에서 우측팔과 어깨에 눈하고 우치는 통증을 호소하며 Tinel 징후, Spurling 검사 모두 음성인 상태에서 최적 신경마비 손진을 보이면 몸찰출구증후 교 증을 감별해야 한다. 환자의 증상을 재현하기 위한 검사는?",
+    "page": 34,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "50",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "견갑부/중둘증후군 & 회전근개질환",
+    "question_summary": "50대 남자 하루 종일 패인 작업 후 발생한 어깨 통증, 전 범위 운동 범위 저하, 특히 외회전, 내회전이 더 저하. 진단 방법은?",
+    "page": 36,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "51",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "견갑부/중둘증후군 & 회전근개질환",
+    "question_summary": "43세 담자 2일전 천장에 페인트 칠 하고 나서 발생한 우측 어깨 통증으로 내원. 수평내전 움직임 제한, 팔을 내려 가만히 있으로 편안하다. 우심 시행할 검사는?",
+    "page": 36,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "견관절/유착성 관절낭염(동결견)",
+    "question_summary": "55세 여자 이개 통증으로 내원, 관절위는 금곡 110 외전(?) 30 내회전 40(?) 지료는?",
+    "page": 37,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "견관절/유착성 관절낭염(동결견)",
+    "question_summary": "53세 남자가 3달전부터 깨끗 오른쪽 이깨 통증으로 내원, 진찰결과 전, 외전, 내회전 운동제한 있음. 진단은?",
+    "page": 37,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "52",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "동결견(frozen shoulder)",
+    "question_summary": "동결견의 정의와 병태생리에 대한 이해",
+    "page": 38,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "53",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "어깨 관절 검진",
+    "question_summary": "어깨 오십견의 진단을 위한 검사 방법",
+    "page": 38,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "견갑부/식괴화 건염",
+    "question_summary": "55세 여자 2개월 견부통 및 오른쪽어깨 아프고 힘이 없어 힘든 경우의 진단",
+    "page": 41,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "건관절 검사",
+    "question_summary": "23세 야구선수의 경기 중 외상 후 오른쪽 어깨 통증으로 내원, 오른팔이 외전, 외회전 상태로 원손으로 오른팔을 잡고 팔을 몸통에 붙이고 있다. 오른팔을 내렸을 때 내회전 시 팔 통증을 호소하였다. 진단은?",
+    "page": 42,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "견관절 검사",
+    "question_summary": "절은 남성이 오른쪽 어깨를 다쳐 내원하였다. 상각근 부근이 평평해지고 견윤 바로 밑이 움푹 들어가 있었다. 환자는 내접 및 내회전 시 통증이 심해짐고 이깨 전방 불안정 검사(anterior apprehension test) 상 전방으로 힘을 가할 때 어깨에 힘을 주어 저항하였다. 올바른 처치는?",
+    "page": 42,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "어깨 관절 검진 방법",
+    "question_summary": "42세 남자 육주하다가 Rt. Shoulder 부분에 오른쪽 어깨통증으로 내원한 환자의 pulse palpation 검사 방법",
+    "page": 43,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "24",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "상완골 골절과 요골신경 손상",
+    "question_summary": "24세 남자가 자전거를 타다가 넘어져 X-ray 결과 상완골 골절이 발생했을 때 가장 손상될 위험이 있는 신경",
+    "page": 43,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "견갑골 손상",
+    "question_summary": "27세 남자 자전거 낙상 후 우측 어깨 통증, X선상 5kg 추를 이용한 부하 X선 검사에서 7mm 이상 변위 시 의심할 수 있는 진단",
+    "page": 44,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "금성 관절염의 치료",
+    "question_summary": "금성 관절염 타구는 가능한 한 빨리 정복을 시행하는 것이 중요하며, 치료 방법 중 올바른 것을 선택",
+    "page": 46,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "건봉 쇄골의 손상",
+    "question_summary": "건봉 쇄골 관절의 해부학적 특징과 손상의 분류에 대한 이해",
+    "page": 46,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "견갑부/기타",
+    "question_summary": "35세 남자 2주 전 좌부터 지속된 견갑부 통증으로 왔다. 통증은 국좌 우사는 못한 양상이었고, 기침을 하거나 숨을 깊게 들이쉴 때 들이쉴 더 심해졌다. 극측의 방형 능금의 압통이 1/3부위에 함통이 있다. 적절한 진단은?",
+    "page": 48,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "48",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "팔꿈치/질환",
+    "question_summary": "48세 남자 팔꿈치 통증으로 내원한 환자의 진단",
+    "page": 49,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "41",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "팔꿈치/질환",
+    "question_summary": "41세 남자 관절염 환자의 약물 선택",
+    "page": 49,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "40",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "팔꿈치/질환",
+    "question_summary": "40세 남자 팔꿈치 통증 원인",
+    "page": 49,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "테니스 주관절(tennis elbow)",
+    "question_summary": "테니스 주관절의 정의, 임상 특징, 진단, 치료",
+    "page": 51,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "주두 점액낭염(olecranon bursitis)",
+    "question_summary": "주두 점액낭염의 정의, 원인, 진단, 치료",
+    "page": 52,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "팔꿈치/외상 및 골절",
+    "question_summary": "원꿈치 우상골(?), supracondylar fx(?), 스플린트 법위?",
+    "page": 53,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "손과 손목/견의 염증성 질환 및 포착증우군",
+    "question_summary": "55세 남자가 오른손 중지가 잘 움직이지 않는다며 왔다. 중지를 구부렸다 펼 때 걸리는 느낌이 있고 통증이 있다. 바스 운전 기사로 하루 종일 운전대를 잡는다. 진단은?",
+    "page": 54,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "손과 손목/견의 염증성 질환",
+    "question_summary": "여자 업지손가락 굳힘 때 요골 쪽 손목 통증",
+    "page": 54,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "요통의 약물치료",
+    "question_summary": "35세 여자 기저귀 폐렴 능력저 우측 엉덩이 순가락 아래뭐 손등통증방생, 렐라비롱어염 때 아프고 잠지 순가락 화어래 층진딩 때 아팟다. 손목에 악간 규죽, 누르면 뭉증징덩고 보건적 처료에 방응 없윤 떠 지료는?",
+    "page": 55,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "115",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "드퀘르벵 건초염",
+    "question_summary": "손목 통증 환자의 핑켈스타인 검사 및 아이코프 검사",
+    "page": 56,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "손목 통증",
+    "question_summary": "35세 여자가 기저귀 손떨림 자숙하여 엄지손가락 하부의 궤우로 움직임 때 통증이 있고 손목 요측부위 부종과 통증을 주 호소 내원하였다 치진은",
+    "page": 58,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "신체검사",
+    "question_summary": "28세 남자로 오른쪽 손목, 통증을 주소로 내원하였다. 2개월 전 부업으로 시작하였으며 매일 2시간 이상 연습하였다고 한다. 2주전부터 발생한 우는 명지 손가락속 손목부위 통증이 집작 심해졌다고 한다. 진단에 도움이 되는 검사는",
+    "page": 58,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "정형외과",
+    "topic": "드퀘르방 병",
+    "question_summary": "드퀘르방 병(De Quervain's disease)의 정의, 원인, 증상 및 진단",
+    "page": 59,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "손과 손목/신경포착증후군",
+    "question_summary": "50세 여자 오른손이 저리다고 왔다. 1년 전부터 시작되었으며, 자다가 깨고 아침에 침을 깨는데, 손을 으쓱이면 증상 당한다. 유루폰 위축(thenar atrophy)이 있으며, 야콕 팔의 심부건 반사는 정상이다. 조직은?",
+    "page": 61,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "손과 손목/신경포착증후군",
+    "question_summary": "52세 여자가 1년간 지속된 왼손 저림으로 방문. 손 옆에 화근기림이 있다. 손가락 끝으로 팔 안쪽에 있다고 하면, 손이 저리는 증상 유발되었다 진단은?",
+    "page": 61,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "신경근병증",
+    "question_summary": "70대 여자 환자의 2갈공부터 어깨통증과 팔 감각저하 발생 - 신경학적 검사 소견 분석",
+    "page": 62,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "우근관 증후군의 치료",
+    "question_summary": "50대 여자환자의 손이 저려다는 증상 - 진단 및 치료 방법",
+    "page": 62,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "55",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "Trigger finger",
+    "question_summary": "55세 남환 갑자기 수일전부터 가운데 손가락이 움직이지 않음. 특히 펴려 할 때 소리와 함께 펴지며 통증 있음. 진단은?",
+    "page": 63,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "수근관 증후군(Carpal Tunnel Syndrome, CTS)",
+    "question_summary": "수근관 증후군의 원인, 임상 증상, 진단 및 치료에 대한 검토",
+    "page": 64,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "손과 손목/골절",
+    "question_summary": "65세 여자의 손목 골절 원인 및 골절 유형 감별",
+    "page": 67,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "손과 손목/골절",
+    "question_summary": "Anatomical snuff box 통증과 X-ray상 특별한 소견 없는 손목 손상의 진단",
+    "page": 67,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "Snuff box 압통",
+    "question_summary": "구관절봉, X ray상 저명한 골절이 없을 때 Snuff box 압통은 무엇을 시사하는가?",
+    "page": 68,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "26",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "무릎 검사",
+    "question_summary": "26세 여자가 스키를 타고 넘어진 후 Rt. knee에 신전 불능으로 내원. 신체검사상 ant. drawer test + post. drawer test - Lachman test + 운상방앞다고 제자되는 구조물은?",
+    "page": 70,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "41",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "무릎 손상",
+    "question_summary": "41세 남자가 앉아서 짐을 들고 일어나다가 오른쪽 무릎 통증이 발생하였고 관절염을 받침 부지가 동반되었고 무릎을 움직일 때 덜걸음이 발생하였다. 오른쪽 구절이 완전히 펴지지 않았다. 손상된 부위는?",
+    "page": 70,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "29",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "Lachman 검사",
+    "question_summary": "전방십자인대 손상 판단 구조 - Lachman 검사 양성 소견",
+    "page": 71,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "32",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "무릎 손상 검사",
+    "question_summary": "무릎 손상 평가 - valgus stress test 양성, lachman test 음성 소견의 의미",
+    "page": 71,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "32",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "내측측부인대손상 진단검사",
+    "question_summary": "32세 남자 스키타다 넘어져 우측 외회전 순상으로 무릎 통증 호소 시 사용하는 검사법",
+    "page": 72,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "23",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "발목 염좌",
+    "question_summary": "23세 남자가 족구(족구) 후 발생한 우측 족중증으로 내원. McMurray 검사에서 의의징 및 신전시 파열음 발생. 손상 구조의 진단",
+    "page": 73,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "반월연골판 손상",
+    "question_summary": "반월연골판 손상(Injury of Meniscus)의 진단, 임상검사, 영상검사",
+    "page": 74,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "반월상 연골 파열의 치료",
+    "question_summary": "반월상 연골 파열 확진 후 관절 유지, 약물 치료, 재활의 적절한 치료 순서",
+    "page": 75,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "내측측부인대 손상",
+    "question_summary": "내측측부인대 손상의 진단 및 치료",
+    "page": 76,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "전방 십자인대 손상",
+    "question_summary": "전방 십자인대 손상의 임상 검사 방법 및 등급 분류",
+    "page": 77,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "Osgood-Schlatter 병",
+    "question_summary": "식고 고정 후 활동 제한",
+    "page": 79,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "Osgood-Schlatter 병",
+    "question_summary": "12살 운동 선수의 무릎 통증 원인",
+    "page": 79,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "Osgood-Schlatter 병",
+    "question_summary": "13세 남아 심하게 달리기 후 무릎 통증 원인",
+    "page": 79,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "Osgood-Schlatter 병",
+    "question_summary": "Osgood-Schlatter 병의 증상, 진단 및 치료",
+    "page": 80,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "장경대 마찰 증후군",
+    "question_summary": "24세 사이클 선수가 오른쪽 무릎 관절 외측의 통증으로 내원한 경우의 진단",
+    "page": 81,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "고관절염",
+    "question_summary": "30세 여자 팽스 조직 오른쪽 허벅지를 터로 급히된 통증, 대퇴 외측, 무릎 위쪽으로 뻗친 경우의 진단",
+    "page": 81,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "무릎/슬개골 병변",
+    "question_summary": "20세 여자 2개월 전부터 시작된 앉을 때 무릎 통증의 원인",
+    "page": 83,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "무릎 구조 이상",
+    "question_summary": "23세 여자 양 무릎 통증의 원인 진단",
+    "page": 83,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "요통 및 운동",
+    "question_summary": "21세 여자가 계단을 오를 때 발생하는 무릎통증을 주소로 내원하였을 때, 요통 환자에게 권장되는 운동 방법",
+    "page": 84,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "슬개대퇴 증후군",
+    "question_summary": "20세 여성의 슬개골 통증, X-선 검사 소견",
+    "page": 85,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "슬개골연골연화증",
+    "question_summary": "17세 여학생의 슬관절 무릎 통증 진단 및 치료",
+    "page": 85,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "슬개대퇴 통증 증후군",
+    "question_summary": "슬개대퇴 통증 증후군(Patellofemoral pain syndrome)의 정의, 증상, 진단, 치료",
+    "page": 86,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2022",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "무릎 X-ray 소견",
+    "question_summary": "무릎뼈 골절 X-ray사진, 골밀도는 괜찮은데, 신전 시 통증, 치료는?",
+    "page": 88,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "골관절염 약물 치료",
+    "question_summary": "75세 여성 양 무릎 아프다며 왔다. 무릎 통증 3년 전부터 시작됐으면 최근에 심해졌다. 혈액검사 결과 이상 없고, 3년 전 위정강출혈로 지료받은 적 있다. 혈압 136/80 mmHg, 맥박수 분당 92회, 호흡수 분당 18회, 체온 36.7℃이다. 안전 무릎의 조금 부어있고, 압통이 있다. 무릎 X-선(사진)이다. 치료제는?",
+    "page": 88,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "X-선 검사 해석",
+    "question_summary": "58세 여성의 2개월 전 낙상 후 X-선 촬영, 키 157cm, 몸무게 70kg 환자의 X-선 사진에서 보이는 이상 소견",
+    "page": 89,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "X-선 검사 해석",
+    "question_summary": "60대 환자의 X-선 사진에서 5mm 정도의 내반슬이 동반되어 있는 경우의 진단",
+    "page": 89,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "운동 전 스트레칭",
+    "question_summary": "65세 여성의 무릎등증을 주소로 내원, 운동 전 준비운동으로 권장할 수 있는 운동 방법",
+    "page": 90,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "Baker's cyst",
+    "question_summary": "65세 여자의 무릎 뒷쪽 통증 및 종괴에 대한 진단 영상 검사",
+    "page": 91,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "발과 발목/외상 및 골절",
+    "question_summary": "20대 남자가 운동 중 발가락 발목이 펴이다 복사뼈 외측 상방 3cm에 부종과 점상출혈이 있을 때 필요한 조치",
+    "page": 92,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "발과 발목/외상 및 골절",
+    "question_summary": "25세 여자가 야구선수로 외개종으로 내렸을 때 외측, 외회전한 상태로 전방 탈골된 고정시킬 상태로 내린 내전, 내회전시에 충증 호소",
+    "page": 92,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "Anterior drawer test",
+    "question_summary": "전방서랍검사에서 2mm 전방전위 소견을 보일 때 진단",
+    "page": 93,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "발목 염좌",
+    "question_summary": "발목 염좌 환자의 단계별 치료 및 운동 처방",
+    "page": 94,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "발목 인대손상",
+    "question_summary": "발목 외측 인대 손상 시 손상된 인대 구조",
+    "page": 95,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "족부 손상",
+    "question_summary": "족부 손상 환자의 신체 소견과 진단",
+    "page": 95,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "발목 염좌",
+    "question_summary": "발목 염좌의 임상양상 및 진단",
+    "page": 97,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "발과 발목/발통증",
+    "question_summary": "50세 여자 발뒤꿈치 통증의 감별진단",
+    "page": 99,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "발과 발목/발통증",
+    "question_summary": "44세 남자 발바닥 통증 및 저린감의 감별진단",
+    "page": 99,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "metatarsalgia",
+    "question_summary": "30세 남환이 걸을때 발생하는 오른발의 통증을 주소로 내원. 진찰상 2~4 중족골 발바닥 쪽에 LOM 은 없었다. 지사 요손수치는 정상이었으며 X-ray 도 정상 소견이었다. 진단은?",
+    "page": 100,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2011",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "발바닥 통증",
+    "question_summary": "35세 남자가 바닥이 닿은 신발 신은 후 발뒷꿈치 통증이 있어서 내원한 경우, X-ray상 작은 골편이 보이는 경우의 진단",
+    "page": 101,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "척추 손상",
+    "question_summary": "55세 여자 1년 전부터 발 뒤꿈치 통증이 있는 환자의 진단",
+    "page": 102,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "족저근막염",
+    "question_summary": "족저근막염과 지방패드증후군의 감별진단",
+    "page": 102,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "뒤꿈치 통증",
+    "question_summary": "40세 남성 뒤꿈치 통증 환자의 영상검사 소견",
+    "page": 102,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "족저 근막염",
+    "question_summary": "동통성 족저부 증후군(족저 근막염, 족하 통증 증후군)의 진단 및 치료",
+    "page": 103,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "종골 상부 통증 증후군",
+    "question_summary": "Insertional Achilles Tendinopathy, Non-insertional Achilles Tendinopathy, Retrocalcaneal Bursitis, Haglund's Deformity의 특징 및 감별",
+    "page": 104,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "전족부의 질환",
+    "question_summary": "무지 외반증(hallux valgus)의 정의 및 특징",
+    "page": 105,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "정형외과",
+    "topic": "모튼신경종(Morton's Neuroma)",
+    "question_summary": "모튼신경종의 임상증상, 진단, 치료에 관한 설명 페이지",
+    "page": 106,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "발과 발목/건 손상",
+    "question_summary": "57세 남자의 자저러 높푸이뛰기 운동 중 오른쪽 뒷꿈치 통증 - Thomson squeezing test 양성 소견에서 손상된 구조",
+    "page": 107,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "35",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "발과 발목/기타",
+    "question_summary": "35세 마라톤 선수의 발목 통증 원인 및 치료",
+    "page": 110,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "골절/스트레스골절",
+    "question_summary": "20대 마라톤 선수의 골절 원인과 증상 및 진단",
+    "page": 111,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "골절/스트레스골절",
+    "question_summary": "25세 여자 우골중상 3주 경과 후 X-ray상 우측 정골 인단 부위의 피질골 비후",
+    "page": 111,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "골절/기타 골절",
+    "question_summary": "75세 남자 좌측 융통으로 내원, 동네 산책중 자전거에 부딪힌 후 중둔도 통증 발생. COPD는 거둥 힘들어 주로 집에서 지낸다. 응급방사선상 제7,8늑골 골절 소견 지료는?",
+    "page": 115,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "골절/기타 골절",
+    "question_summary": "우경골 골절로 인한 35세 남자가 케스트를 풀뭐 우측 다리 앞쪽과 가족이 저리고 감각이 저하 되었다고 한다. 발을 족저굴곡(plantar flexion) 내림(inversion)된 상태였다. 손상된 신경은?",
+    "page": 115,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "골절/기타 골절",
+    "question_summary": "여자 35세 2중골부터 원족가슴 통증, trauma Hx (-) coughing시 pain agg. 원족에게 방사통 있음. 검사상 원족 3번째 늑골골절 임통있음. 적정한조치는?",
+    "page": 115,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "요통의 약물치료",
+    "question_summary": "75세 환자의 요통 관리를 위한 약물 선택",
+    "page": 116,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "외상 환자의 초기 처치",
+    "question_summary": "40세 남자 2주 전 가슴 외상 후 증상 발생 시 감별진단",
+    "page": 116,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "감염관절염",
+    "question_summary": "무릎통증을 유발하는 감염관절염의 원인균과 임상 특징",
+    "page": 117,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "반응성 관절염",
+    "question_summary": "35세 남자, 2일 전 장염 후 무릎, 발, 왼쪽 어깨, 손 통증, 요도염 증상 있고 양성 동증/discharge 있는 경우의 진단",
+    "page": 118,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "화농성 관절염",
+    "question_summary": "무릎 종창과 발열이 있는 환자의 활액액 검사 결과 해석 및 진단",
+    "page": 119,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "근막통증 증후군/셀룰라이트",
+    "question_summary": "24시간 남자가 오른쪽 어깨와 팔이 아프다며 왔다. 프로게이닌 주입를 시작하면서 어깨가 아프기 시작했다. 어깨에 14시간 정도 4~5년 동안 계속 제인을 했다. 최근 6개월을 심하지만 좋아졌다고 한다. 목을 오른쪽으로 앞 바뀌 돌려 보면, 중간에 움직임이 어깨 위 붓팔랍으로 닿는고 고통이 느껴지는 부분이 있다. 손은 찬 것이 보면 아픈 자리가 참하지는 않는다. 약물질을 표시한 (사진)이다. 통증유발점 주사를 해야 할 주요 근육은?",
+    "page": 120,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "급성 염증성 질환",
+    "question_summary": "40대 여자, 6개월 전부터 전신통증, 피로감, 3개월 전부터 심해졌고, 밤에 와드거리고 물이 조이는 느낌으로 같게 못 잠. 목적, 전산을 사이, 어깨, 팔꿈치, 골반, 무릎관절주위로 뜨겁한 압통 있음, xray 특이소견 없고, WBC, ESR정상범위, 진단지료에는?",
+    "page": 120,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "정형외과",
+    "topic": "HIV/AIDS 환자의 기회감염",
+    "question_summary": "52세 여자환자의 신경계 증상과 진단에 관한 문제",
+    "page": 121,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "구마통증군",
+    "question_summary": "50세 남자의 골프 후 우측 어깨 통증 원인 진단",
+    "page": 121,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "섬유근육통",
+    "question_summary": "60대 여자의 광범위 근육통, 미열, 피로감, 혈침동증 증가 시 치료약물",
+    "page": 122,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "섬유근육통",
+    "question_summary": "40대 여자환자의 6개월 전신통증, 피로감 환자의 적절한 치료약물",
+    "page": 122,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "정형외과",
+    "topic": "근막통증증후군(Myofascial Pain Syndrome, MPS)",
+    "question_summary": "근막통증증후군의 정의, 진단, 치료에 대한 리뷰",
+    "page": 123,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "26",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "상완골 과상부 골절 합병증",
+    "question_summary": "8세 아이의 상완골 과상부 골절 후 발생 가능한 합병증",
+    "page": 124,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "소아 팔꿈치 손상",
+    "question_summary": "3세 여아가 업어 아팠다 그리를 닫고 놀다가 갑자기 팔 사용 중단. 부종 및 요골두 부(±)입금이 있었고 부종이나 열감은 없었다. 외래 처치는?",
+    "page": 125,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "소아 팔꿈치 손상",
+    "question_summary": "3세 아기의 팔을 들고 그네타기 놀이하다가 움틀어 팔을 들고 들어옴. x-ray 촬영 결과 소견은 없었다. 이후 처치는?",
+    "page": 125,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "소아 팔꿈치 손상",
+    "question_summary": "남아, 아버지가 팔을 잡아당기다 아이가 통증을 호소하면서 이후로 만지지 못하게 하였다. X-ray상 골절 소견은 없었다. 이후 처치는?",
+    "page": 125,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "화농성 관절염",
+    "question_summary": "7세 남아의 1주간 무릎 운동하다가 한측 다리 의상위치고 외부 상처는 나았으나 계속 다리를 절뚝 거리고 통증 호소하여 x-ray 촬영 결과 임상소견 원인",
+    "page": 126,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "요골두 부분탈구",
+    "question_summary": "3세 남아가 오른쪽 팔굼치를 못 움직이며 반대쪽 팔로 불칠고 옮겨 보게 되어 내원한 환자의 부분은 어디인지 X-ray 촬영 후 울지도 않고 보채지도 않았을 때 처치 방법",
+    "page": 126,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "41",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "세균 감염",
+    "question_summary": "골절 후 내원한 환자의 균 배양 결과와 임상 특징에 맞는 원인균 동정",
+    "page": 127,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "일과성 고관절 활액막염",
+    "question_summary": "소아 일과성 고관절 활액막염의 원인, 임상소견, 감사소견",
+    "page": 128,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "Legg-Calves-Perthes disease",
+    "question_summary": "대퇴골두 무혈성 괴사의 임상 증상 및 진단",
+    "page": 129,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "감시소견",
+    "question_summary": "감시소견의 정의, 진단방법, 치료원칙",
+    "page": 130,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "골수염",
+    "question_summary": "급성 혈행성 골수염의 발생 부위, 원인, 진단 및 임상 증상",
+    "page": 131,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "혈변",
+    "question_summary": "혈변의 원인 감별 - 소변색이 진하고 occult blood 양성, RBC 0-2인 경우",
+    "page": 132,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "혈뇨",
+    "question_summary": "20대 남자의 새로운 운동 시작 후 혈뇨 발생 시 검사 방법",
+    "page": 132,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "정형외과",
+    "topic": "혈변의 원인 감별",
+    "question_summary": "17세 남자 식고혈 제거 후 발열 및 혈변 주환자 증고 처리다며 있다. 1개월 전 청불에서 떨어지고 생긴 외족 박목 열적으로 4주 동안 식고봉대로 고정을 하였고, 3일 전 식고봉대를 제거하였다면 함. 조직은?",
+    "page": 132,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "류마티스 관절염",
+    "question_summary": "58세 여성 류마티스 관절염 환자의 약물 치료 선택",
+    "page": 133,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "만성 신장질환",
+    "question_summary": "20대 여성 만성 신장질환 환자의 진단",
+    "page": 133,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "흉부 통증 질환",
+    "question_summary": "35세 남자가 2주 전부터 지속된 가슴통증을 주소로 내원하였을 때, 임상적 특징으로 보아 가장 가능성 높은 진단",
+    "page": 134,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "정형외과",
+    "topic": "방사선 영상검사",
+    "question_summary": "21세 남자의 상추궤양으로 의다가 감작기 턱의 통증을 호소할 때, 진단하기 위해 필요한 영상 view",
+    "page": 134,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "턱관절장애",
+    "question_summary": "58세 남자 아픔하다가 다리 빠졌다, 교합하는 방향은",
+    "page": 134,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "근염(myositis)",
+    "question_summary": "72세 남자의 근육통과 근력약화 원인 진단을 위한 검사",
+    "page": 135,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2014",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "페짓병(Paget's disease)",
+    "question_summary": "65세 여자의 알칼리포스파타제 상승과 뼈 질환 진단",
+    "page": 135,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "34",
+    "answer": 5,
+    "category": "정형외과",
+    "topic": "파상풍",
+    "question_summary": "파상풍 예방접종 후 분은 적 없을 때 처치",
+    "page": 136,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "35",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "Polymyalgia Rheumatica",
+    "question_summary": "60-70대 환자의 Polymyalgia Rheumatica 증상 및 진단",
+    "page": 136,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2013",
+    "answer": 2,
+    "category": "정형외과",
+    "topic": "골절 후 합병증",
+    "question_summary": "19세 남자의 폐쇄성 골절 후 운동 장애, 감각 이상 발생 - 손상된 신경 판단",
+    "page": 137,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2010",
+    "answer": 1,
+    "category": "정형외과",
+    "topic": "골질환 표지자",
+    "question_summary": "69세 남자의 우측 족관절 골절 후 X선 검사에서 보인 소견 - 측정 지표 판단",
+    "page": 137,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "딱지(crust, scab)",
+    "question_summary": "농가진 아기 얼굴(코주위 농가진, 피부소진)로 직달한것은?",
+    "page": 141,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": null,
+    "category": "피부과",
+    "topic": "태선화(lichenification)",
+    "question_summary": "아토피 피부염 환자, 피부소진 격렴한 것은?",
+    "page": 141,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "광의학, 물리적 피부질환",
+    "question_summary": "25세 남자 족부 통증을 주소로 내원하였다. 병력은 누름 때 통증을 호소하였고, 손목 후 우측항 갈로 찰아내니 가운데 동그란 핵이 보였다. 직합한 치료는?",
+    "page": 142,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "광의학, 물리적 피부질환",
+    "question_summary": "25세 남자 족부 통증을 주소로 내원하였다. 병력은 누름 때 통증을 호소하였고, 손목 후 우측항 갈로 찰아내니 가운데 동그란 핵이 보였다. 직합한 치료는?",
+    "page": 142,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "250402",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "족저사마귀",
+    "question_summary": "30세 남자가 발바닥과 발가락 사이에 판 모양의 구진을 주소로 내원. 티눈, 곤은살과의 감별점",
+    "page": 143,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "화상(sunburn) 치료",
+    "question_summary": "20대 남성이 일광욕 후 어깨 및 등에 발생한 화상 치료 중 피부 손상과 부종을 줄이기 위해 사용할 약물",
+    "page": 144,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "27",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "Erythema ab igne",
+    "question_summary": "27세 여자환자가 조 붓에 법원에 내원하였다. 왼쪽 다리의 얼굴딩을한 무닉의 간선밥점으로 내원하였고, 인제 샛점느지 징장하는 모로 자면, 최근에 인지하지 시작하였다 한다. 아붕 응상이 없고, 긴장환 환자러린 가정 가능성 있는 질환은?",
+    "page": 145,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "물리적 인자에 의한 피부손상",
+    "question_summary": "티눈의 정의, 원인, 증상, 치료에 관한 설명",
+    "page": 149,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "물리적 인자에 의한 피부손상",
+    "question_summary": "욕창의 정의, 원인, 증상, 치료에 관한 설명",
+    "page": 149,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "피부과",
+    "topic": "사마귀(Wart, Verruca)",
+    "question_summary": "사마귀의 종류, 임상특징, 발바닥사마귀의 티눈과의 감별점",
+    "page": 150,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "주부습진",
+    "question_summary": "30대 여자가 부업으로 식당일을 하면서 설거지를 도운 지 7일만에 다음과 같은 병변이 손에 생겼다. 진단은?",
+    "page": 152,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "기저귀피부염",
+    "question_summary": "기저귀피부염이 있는 세계에 칠기 집중할 경우 이로 인한 만성자극으로 피부염이 잘 발생해진다. 우루움성에는 개이직한 아이는 환아하면 인하 문제를 레르기가 병발하는 경우가 있으므로 고무장품, 향료, 금속 등에 알레르기가 있는지 확인하면 인하",
+    "page": 152,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "xerotic eczema",
+    "question_summary": "65세 남자의 한랭 절벽 감각이 생긴 일궁음 제외한 전신의 가려움증",
+    "page": 153,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "습진성 피부염",
+    "question_summary": "OO에 여성 멧돌질부터 손바닥과 손가락에 물질이 닿히고 무러지어 오는 두피 거친 증상",
+    "page": 153,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "주부습진(Housewife's eczema)",
+    "question_summary": "30대 여자, 습윤이드사질과 동일, 진단은?",
+    "page": 154,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "기초 화장품 성분",
+    "question_summary": "겔(gel)은 피부보습 효과가 있는가?",
+    "page": 155,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "기저귀피부염",
+    "question_summary": "기저귀 부위의 피부염에 대한 원인, 증상, 치료법",
+    "page": 156,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "서혜부 피부질환",
+    "question_summary": "서혜부 피부질환에서 고주파치료 후 발생한 합병증 치료",
+    "page": 157,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "화농성 한선염",
+    "question_summary": "25세 여자의 화농성 한선염 진단 및 치료",
+    "page": 157,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "기저귀 피부염",
+    "question_summary": "기저귀 피부염의 치료에서 zinc oxide 사용에 대한 설명",
+    "page": 158,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "28",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "동전습진",
+    "question_summary": "동전습진의 원인, 병변 특징 및 치료",
+    "page": 161,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "29",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "건성습진",
+    "question_summary": "건성습진의 원인, 병변 특징 및 치료",
+    "page": 161,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "30",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "순환 폐쇄습진",
+    "question_summary": "순환 폐쇄습진의 원인, 병변 특징 및 치료",
+    "page": 161,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "31",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "기저귀 피부염",
+    "question_summary": "기저귀 피부염의 원인, 병변 특징 및 치료",
+    "page": 161,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "습진/아토피피부염, 가려움피부병",
+    "question_summary": "8세 여아의 한담 전부터 발머다 가려워 금을 설지며 이용에 패기 문을 정도로 금징된 2세부터 임금 권은금 금증에 홍반성 구진, 능프 노란 세 기피가 반복적으로 쌔집다. 익충 주위는 주름이 많으며 경제가 분명한 병변 사이에 노란색 가려기 끼어있었다. 맑은금 병변 사진은 다음과 같다.",
+    "page": 162,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "7",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "소아 피부질환",
+    "question_summary": "7세 여아의 antecubital, 손목, popliteal에 가려운 병진이 나타났다. 병변이 피부는 두꺼워져 있었다. 완하는 불룩하다 곧음이 있었다. 치료 중 맞는 것은?",
+    "page": 163,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "6",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "소아 약물치료",
+    "question_summary": "6세 남아가 심한 아토피 피부염으로 약 1년간 보습제와 국소 스테로이드 연고로 치료하였으나 호전되지 않았다. 고려할 수 있는 치료는?",
+    "page": 163,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "아토피 피부염 치료",
+    "question_summary": "아토피 피부염 보조 요법 중 맞는 것",
+    "page": 164,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "아토피 피부염 악화",
+    "question_summary": "아토피 피부염의 악화에 관련된 다음 설명 중 옳은 것",
+    "page": 164,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "피부과",
+    "topic": "아토피피부염의 원인과 병기",
+    "question_summary": "아토피피부염의 정의, 원인, 병기 및 증상에 대한 검토 자료",
+    "page": 165,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "피부과",
+    "topic": "아토피피부염의 진단",
+    "question_summary": "한국인 아토피피부염의 진단 기준",
+    "page": 166,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "합진/접촉피부염",
+    "question_summary": "23세 여자가 2일 전 화장품 바른 후 얼굴에 홍반과 구진이 동반되면서 가려웠다. 적절한 국소 스테로이드 제제는?",
+    "page": 168,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "합진/접촉피부염",
+    "question_summary": "25세 여자 한자가 1년 3일전부터 얼굴에 발생한 홍반을 동반한 구진, 눈 주위의 유루 등을 주소로 내원하였다. 병력상 내원 3~4일전 자외선 자닌 제품 연골에 바른 후 마터지피부염이 있었다. 이 환자에게 우선 시행해야 할 검사는?",
+    "page": 168,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "56",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "피부병변",
+    "question_summary": "56세 남자의 2일 질붕 감자기 발생한 피부병변으로 왔다 두피를 포함한 안면 전체에 가려움을 동반한 부종과 소수포, 홍반이 관찰되었다 네일 4일 전에 머리염색을 한 적이 있었다",
+    "page": 169,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "23",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부질환 치료",
+    "question_summary": "23세 여자 화장품 변경 후 안면부 구진 홍반 가려움이 발생하였다 다음 중 가장 적절한 약제는",
+    "page": 169,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "261",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "알레르기성 접촉피부염",
+    "question_summary": "75세 여자 환자의 나부 3일 선태성 납질염 병변을 통해 두터한 구진, 농 주기의 두종 등을 주호로 내림하였다. 병력상 나부 4일 전 저항자 자극제를 반영에 바른 내금자리중 중상이 입었던 것 외에는 특이 시항이 없었다. 이 환자에서 우선 시협하야 할 검사는?",
+    "page": 170,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2015",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "관절염",
+    "question_summary": "65세 여자의 아래팔과 같은 안팎으로 내원한 환자에서 질환의 원인 물질은",
+    "page": 171,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2014",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "감염성 질환",
+    "question_summary": "65세 여자가 아래팔의 종창으로 내원 시 원인 질환의 치료 약물",
+    "page": 171,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "피부과",
+    "topic": "접촉성 피부염",
+    "question_summary": "귀걸이를 한 20대 여성의 귀에 접촉 및 가려움이 발생하였다. 원인으로 가장 가능성 있는 성분은?",
+    "page": 172,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "피부과",
+    "topic": "thimerosal 독성",
+    "question_summary": "10세 남아가 도장래밤 접촉 후 접촉 상박부 발적, 부종, 가려움 가능성 높은 원인 물질은?",
+    "page": 172,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "합진/지루피부염",
+    "question_summary": "이마, 눈썹, 코주변 노봉고 인설, 염증에 바를 수 있는 것",
+    "page": 175,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "합진/지루피부염",
+    "question_summary": "66세 남환, 염공과 두피의 가려움증 주소로 내원시 진단 및 치료",
+    "page": 175,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "합진/지루피부염",
+    "question_summary": "남자화장자 이마, 눈썹 주위에 인설이 노랗게 있었고 두피에도 인설이 동반되었다",
+    "page": 175,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "여름철 질병 예방",
+    "question_summary": "여름에 흔하고 겨울에 악화되는 질환 40대 남자 치료는?",
+    "page": 176,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "임파절염 항생제 치료",
+    "question_summary": "평소 술을 자주 마시는 52세 남자의 임파염 치료약",
+    "page": 176,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "28",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "tinea pedis (족부 백선)",
+    "question_summary": "두꺼운 인설과 소양증을 동반하고 있는 건선은?",
+    "page": 177,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "421",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "접촉성 피부염 치료",
+    "question_summary": "45세 남자의 안경 인상성 병변 치료 방법",
+    "page": 179,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "422",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "35세 남자 약물 투여 후 발생한 피부 병변의 원인 약물",
+    "page": 179,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "합진/지루피부염",
+    "question_summary": "합진/지루피부염의 정의, 역학, 원인과 병인, 증상, 치료",
+    "page": 180,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "약진, 홍반 및 두드러기",
+    "question_summary": "여자 다른 약 먹다가 최근 명성제 먹었다는 Hx에서 원인약물",
+    "page": 181,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "약진, 홍반 및 두드러기",
+    "question_summary": "30세 여자환자 순한 동근 중반성 구진이 발생, 소양증 있을 때 치료",
+    "page": 181,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "홍반성 피부질환",
+    "question_summary": "35세 남자 환자의 얼굴 양쪽에 나타난 erythematous skin rash의 원인 약물",
+    "page": 182,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "족부 질환",
+    "question_summary": "22세 남자 발가락 주 개골 전부 파토환 운동으로 뛰거운 통증 후 가려움증을 동반한 팽건이 발생하는 질환",
+    "page": 182,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "감기약 복용 후 며칠 뒤 아래와 같은 증상이 발생한다고 하였다. 원인 가능성이 높은 약물은?",
+    "page": 183,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "피부질환 임상 특징",
+    "question_summary": "16세 남자 운동, 목욕 후 다니던 곳에서 가려움을 동반한 홍반과 발진이 나타나는 질환에 대한 설명",
+    "page": 183,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "260601",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "대상포진",
+    "question_summary": "30세 여자환자 손에 동전 폭발성 구진이 발생, 1년 내에 자주 재발함. 진료는?",
+    "page": 184,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "260601",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "대상포진의 원인",
+    "question_summary": "다음 질환의 원인이 될 수 없는 것은?",
+    "page": 184,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "금기약을 먹은 면 질발뼈에 2cm정도의 구진이 반복하여 발생하는 환자에서 구진의 원인인 가능성이 가장 높은 약물은",
+    "page": 185,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "26세 여자가 인두염, 발열 증상으로 수일 전 약국에서 항생제 및 소염제를 복용했던 여성이 발진이 생기고 입안의 수포성 궤양이 발생했다. 원인은",
+    "page": 185,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "63세 여성, 1시간 전보다 입술, 혀, 눈주증이 있다. 다리부종은 없었고 최근 고혈압으로 ACH 복용중. 진단은",
+    "page": 185,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "목통증",
+    "question_summary": "28세 남자 프라운 목욕 후 폐경, 따거운 중증 발생했다. 다음 중 옳은 것은?",
+    "page": 186,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "구직비늘질환/건선",
+    "question_summary": "38세 여자가 가려움을 동반한 무릎의 피부병변으로 왔을 때, 6개월 전 발생하여 스트레스 후 악화된 증상의 진단",
+    "page": 189,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "구직비늘질환/건선",
+    "question_summary": "피부 사진 주고 문물 가려고 금으니 출혈 있었다. 건선은?",
+    "page": 189,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부질환",
+    "question_summary": "50대 남성의 경제적 문제와 관련된 피부 질환의 원인",
+    "page": 190,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "여성 하루 수심작취 걸작기 가려움증",
+    "question_summary": "45세 여자 하루 수심작취 걸작기 가려움증 발생하면, 건강하던 전신에 가려움증 발생하며 복합 질에 금은 걸작 관장된다. 진단은?",
+    "page": 191,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "17세 남자 1개월 전부터 지작된 피부병변",
+    "question_summary": "17세 남자가 1개월 전부터 지작된 피부병변으로 내원하였다. 경계가 뚜렷하고 은백색 인설이 있는 구진과 판 같은 병변이 확공자와 구둠에 대정적으로 보였다. 인설을 제거하니 점상출혈이 보였다. 가능성 높은 질환은?",
+    "page": 191,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "편평태선",
+    "question_summary": "42세 남자의 팔꿈치 자주색 판형한 구진으로 내원, 기타증 동반하였고 미세파란증 하야 그룹",
+    "page": 192,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "피부질환의 원인 및 임상",
+    "question_summary": "0에 남성이 다음의 사진과 같은 피부병변이 다리에 발생하여 왔다. 해당 병변은 도뿐은 인상을 도발하였고 인장을 벗길 시 점상출혈이 발생하였다. 약화요인은?",
+    "page": 192,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "251001",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "성병",
+    "question_summary": "45세 남자의 음부 안쪽 붉은색 손톱에 사마귀 윤광의 구진상 파프병변이 매주 가려고, 재족 닭지는 것 같았다고 하였다. 이 환자의 피부병변으로 보아 가장 타당한 진단은?",
+    "page": 193,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "구강 캔디다증",
+    "question_summary": "구강 내 Buccal mucosa의 칸디다증 원인",
+    "page": 194,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "271218",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "무릎 부종",
+    "question_summary": "28세 여성의 무릎 부종 원인 감별진단",
+    "page": 195,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "27",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "건선",
+    "question_summary": "27세 여자의 무릎, 팔굼치, 두부에 발병되는 은백색 인설로 덮인 구진이 발생하였다. 진단에 도움이 되는 특징은?",
+    "page": 196,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "건선",
+    "question_summary": "43세 남자가 은백색 인설로 덮인 구진 발생 후 구진이 점점 커지고 융모되어 형태와 입금에 따라 병변으로 판정되지만 무릎에 피질치로 있었고 가려움증은 도발되지 않았다. 자각을 피해야 할 고열임계는?",
+    "page": 196,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "만성 단순 태선",
+    "question_summary": "65세 남자 환자의 3-4년 전부터 지속된 팔꿈치 피부 단순 태선의 감별진단",
+    "page": 197,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "건선의 병태생리",
+    "question_summary": "건선에 대해 옳은 것은?",
+    "page": 198,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2013",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "여자 환자의 손톱과 손목에 심한 가려움",
+    "question_summary": "57세 여자 환자의 손톱과 손목에 심한 가려움의 원인",
+    "page": 198,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "건선의 임상양형",
+    "question_summary": "건선의 다양한 임상 양형에 대한 특징 및 분류",
+    "page": 200,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "6",
+    "answer": null,
+    "category": "피부과",
+    "topic": "피부질환의 치료",
+    "question_summary": "피부질환의 예방 및 치료 방법",
+    "page": 201,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "장미색비늘질환/구진비늘질환",
+    "question_summary": "20세 여자의 피부병변 원인 감별진단",
+    "page": 202,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2021",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "장미색비늘질환",
+    "question_summary": "18세 여자 가슴 칙칙한 피부소견의 진단명",
+    "page": 202,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "20182014",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "피부연화제",
+    "question_summary": "피부연화제의 치료 성분 감별",
+    "page": 202,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "27",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "여성 비듬증",
+    "question_summary": "27세 여자가 비듬을 동반한 발진이 있고, 가려움이 있을 때 진단",
+    "page": 203,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "25",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "감염성질환",
+    "question_summary": "25세 여성이 음부에 인설이 있는 윤반성 발이 발생했을 때 원인 감별진단",
+    "page": 203,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "장미색 비강진(Pityriasis rosea)",
+    "question_summary": "15세 남자의 2주 전 목감기 이후 나타난 피부 병변의 원인 질환",
+    "page": 204,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "비강진",
+    "question_summary": "20대 여자의 복부 분홍색 인장이 되었던 후 호전되었다가 10일 후 전신에 발진 생김",
+    "page": 204,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "피부과",
+    "topic": "장미색비강진",
+    "question_summary": "장미색 비강진(Pityriasis Rosea)의 개요, 증상, 진단, 치료",
+    "page": 205,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "감염피부질환/세균성 피부질환",
+    "question_summary": "오한, 발열, 근육통이 있는 환자 진단은? 사진 주어짐",
+    "page": 207,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "8",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "임페티고",
+    "question_summary": "8세 남아의 농가진으로 인한 크루스트성 병변, 항생제 치료 중 악화된 원인",
+    "page": 208,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "포도알균화상피부증후군",
+    "question_summary": "5세 남아의 농가진으로 치료받던 중 전신 증상 및 박탈성 피부염 발생",
+    "page": 208,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "연조직염(cellulitis)",
+    "question_summary": "족부변선 자주재발, 하지 붉은 날은 열감 부종 있는 응반의 진단",
+    "page": 209,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "여드름 치료",
+    "question_summary": "25세 남성의 여드름 치료 약물 선택",
+    "page": 210,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "세균감염 치료",
+    "question_summary": "22세 남자 화농성 상처의 항생제 선택",
+    "page": 210,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "59",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "59세 남자환자의 당뇨로 치료중 발진이 나타났을 때 피부병변에 대한 치료는",
+    "page": 211,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "70",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "streptococcal infection",
+    "question_summary": "70세 여자환자의 5일 전부터 발생한 안면부 좌측의 피부병변으로 내원했을 때 치료약제",
+    "page": 211,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "농가진",
+    "question_summary": "입주변으로 접염성 농가진 발생한 환아 시진, 치료는?",
+    "page": 212,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "오목각질융해증",
+    "question_summary": "21세 군인이 발바닥에 딱딱하고 발바닥이 양쪽에 움은 정도 진단명은?",
+    "page": 212,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "импетиго 감염증 치료",
+    "question_summary": "6세 남아가 얼굴의 전부터 팔 뒤 거터랑이에 크기가 다른 수포가 생기고 시작했을 때, 터진면서 사진과 같은 소견을 보였을 때의 치료는?",
+    "page": 213,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "오목각질융해증",
+    "question_summary": "21세 남자 궁인이 발에서 나는 심한 냄새, 가려지나 아픔 없음, 발바닥 냄새 질환에 대한 진단 및 분류",
+    "page": 214,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "20141",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "간찰진(intertrigo)",
+    "question_summary": "64세 여자 간찰진 피부 병변 치료제",
+    "page": 215,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "20121",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "당뇨병에 동반된 피부 감염",
+    "question_summary": "45세 당뇨 환자의 발바닥 궤양 치료",
+    "page": 215,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "급성 기저귀염",
+    "question_summary": "65세 여자의 3달 골절 후 지속된 기저귀염 치료",
+    "page": 216,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "소양증",
+    "question_summary": "14/M 차축 유발 약간의 소양증을 동반한 황갈색 반응의 원인",
+    "page": 216,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "22",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "연골질의 의심 증례",
+    "question_summary": "22세 군인이 요염 행군 후 발열, 오한, 근육통을 호소하며 원측 발이 감자기 붓고 붉어져서 대원하였다. 환자는 평소 족부백선이 있었다고 하는데 전창에서 정족 발이 마 부하고 붉었으면 합요무중이 관찰되었다. 적당한 치료는?",
+    "page": 217,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "9",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "감염성 관절염",
+    "question_summary": "9세 남아, 왼팔지 가려움, 이후 진울 나타나 수주 생기고 터짐. 2cm 크기의 가피와 치료는?",
+    "page": 217,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "연골하감",
+    "question_summary": "연골하감(chancroid)에 관한 설명 중 맞는 것",
+    "page": 218,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "소아 약중 악치",
+    "question_summary": "10세 남아의 약중 악치에 여러 개의 소수포, 농포, 가피가 뒤섞여 있을 때 질환",
+    "page": 218,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "20101",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "곤균의 치료",
+    "question_summary": "곤 종기의 치료로 맞는 것",
+    "page": 219,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "20102",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "곰팡이 치료",
+    "question_summary": "초기에 온천질환 환성제투어을 하던 진행이 중단된 주변에 먹흑질염이 동반되거나 알이나면 권선생세제 penicillinase-resistant penicillin이나 세대 cephalosporin을 사용한다",
+    "page": 219,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "피부과",
+    "topic": "종기와 큰 종기(furuncle and carbuncle)",
+    "question_summary": "종기와 큰 종기의 정의, 원인균, 증상, 치료",
+    "page": 221,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "홍색음선",
+    "question_summary": "기타 세균에 의한 피부감염증 - 홍색음선의 원인, 증상, 진단, 치료",
+    "page": 224,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "오목각질용해증",
+    "question_summary": "발바닥 각질층에 우중상의 작은 구멍을 만드는 알은 피부세균감염증의 원인균 동정",
+    "page": 225,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "감염성피부질환/피부곰팡이증",
+    "question_summary": "20세 남자의 찰흙 침침 피부 병변, 진단은? (백버증/마루니기)",
+    "page": 226,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "남자 음낭 동자진 주름살",
+    "question_summary": "43세 남자의 동자진 주름살고 야무른 중세 암음, 우드풍 검사상 황갈색 치료",
+    "page": 227,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "49",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "여자 다리 피부병변",
+    "question_summary": "49세 여자가 1개월 전부터 생긴 오른쪽 발 피부 병터 진단",
+    "page": 227,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름",
+    "question_summary": "50대 남자 우측 턱주위 피부병변으로 내원, 초기에 농포가 있었으며 1개월전 편도도 함께 우측 근처에서 가려움증 있음. 자신 제시, 국소치료",
+    "page": 228,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "피부질환",
+    "question_summary": "30세 여자가 가려움으로 내원하였음. 사진은 다음과 같다. 진단은?",
+    "page": 228,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "손발톱진균증",
+    "question_summary": "흰 여자의 손톱에 보이는 피부질환 진단",
+    "page": 229,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "손발톱진균증",
+    "question_summary": "손발톱진균증의 다른 임상적 치료로 무엇인가",
+    "page": 229,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "320201",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "곰팡이 감염",
+    "question_summary": "4세 남아의 다리로부터 시작된 버짐 및 가려움증의 원인 진단",
+    "page": 230,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "311101",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부 감염질환",
+    "question_summary": "12세 여아의 얼굴 및 목 부위 붉은 돌기와 진물의 원인 진단",
+    "page": 230,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "살박선증",
+    "question_summary": "30세 남자가 우측 사혤부에 소양감을 동반한 발진으로 왔다. 발진은 주변 피부와 경계가 명확하고 악선의 입선이 있는 척색반이다. 다음으로 시행해야 하는 검사는?",
+    "page": 231,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "발톱백선",
+    "question_summary": "발톱백선 치료는?",
+    "page": 231,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "고양이 박힌 상처 감염",
+    "question_summary": "고양이 박힌 상처의 국소치료 방법",
+    "page": 232,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "tinea capitis (두부백선)",
+    "question_summary": "10세 남아의 탈모 부위에 인장으로 묻어있는 병변의 치료",
+    "page": 232,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "Itraconazole pulse therapy",
+    "question_summary": "Itraconazole pulse therapy의 올바른 용량",
+    "page": 232,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "피부과",
+    "topic": "발백선 (linea pedis)",
+    "question_summary": "Trichophyton rubrum이 원인인 발백선의 임상 증상 및 치료",
+    "page": 234,
+    "vol": "vol6"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "피부과",
+    "topic": "손발톱백선",
+    "question_summary": "손발톱백선의 원인균, 임상 증상 및 치료 방법",
+    "page": 234,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "피부과",
+    "topic": "어루러기(Pityriasis versicolor)",
+    "question_summary": "어루러기의 원인, 증상, 진단, 치료에 대한 설명",
+    "page": 235,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "감염피부질환/바이러스 피부질환",
+    "question_summary": "18세 남자 환자의 구강궤양 감별진단",
+    "page": 236,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "수두(Chicken Pox)",
+    "question_summary": "40대 남자 조현병으로 정신과 입원중. 1일 전부터 전신에 발진, 수포, 농, 구진 등 다양한 양상으로 보이는 피부병변 나타남. 질단은?",
+    "page": 237,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "대상포진(Herpes Zoster)",
+    "question_summary": "10년 이상 당뇨병으로 치료받고 있는 73세 여자가 5일 전부터 입란이 따갑고 윤사을 삼기기 어려워서 왔다. 입란 소견(사진)이다. 치료는?",
+    "page": 237,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "241001",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "구강 캔디다증",
+    "question_summary": "20년 이상 당뇨병을 앓아온 78세 여자의 구강 소견이다. 적절한 치료는?",
+    "page": 238,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "10대 남아의 전신 수포성 발진 원인 약물",
+    "page": 239,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "약물 부작용",
+    "question_summary": "24세 여자 과로 후 동에 동증 있고 다음과 같은 병변 나타남, 치료는",
+    "page": 239,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "피부질환",
+    "question_summary": "65세 남자의 4일전 입족 열구궤증에 있었고 2일전 수포성 병변과 작열통이 있었다. 대상포진 사적 보여주고 치료는?",
+    "page": 240,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "피부감염질환",
+    "question_summary": "우영장 갓다 온 소아 목에 분홍색 융기 된 병변 가려움증 있다. 진단은?",
+    "page": 240,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "탯줄 감염",
+    "question_summary": "황암지로증인 사람의 정시 구조에 발생한 피부병변으로 umbilication을 동반한 우주성 발진의 진단은?",
+    "page": 241,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "수족구병",
+    "question_summary": "1세 아이, 잦은 미식 앓고 보채서 내원, 3일전 미열, 1일 전 손바닥, 발바닥 앞 안쪽 3mm 직경 수상 발진이 있는 다른 아이도 미식한 증상 있었던 진단은?",
+    "page": 241,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2006",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "단순포진 치료",
+    "question_summary": "단순 포진에 대한 설명 중 맞는 것은?",
+    "page": 242,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2005",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "단순포진 치료",
+    "question_summary": "30세 여자환자로 외음부 수포가 자주 발생하여 내원한 경우, 수포는 균집성으로 3개월에 2-3회 재발하였고 중상은 1주 후 사라졌다. 이 환자의 치료 목표는?",
+    "page": 242,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "감염 피부질환/옴/기생충성 피부질환",
+    "question_summary": "58세 여성의 옴 감염 환자에서 재발한 감염의 원인 규명",
+    "page": 243,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "감염 피부질환/옴/기생충성 피부질환",
+    "question_summary": "83세 남자 환자의 질환 진단 및 감별진단",
+    "page": 243,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "22",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "접촉피부염",
+    "question_summary": "22세 남자의 습진성 손 피부염 원인 물질",
+    "page": 244,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "53",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "소아 피부염",
+    "question_summary": "53세 남자환자의 사타구니 피부염 치료 약물",
+    "page": 244,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "이(pediculosis)",
+    "question_summary": "감염피부질환/동물 기생충성 피부질환 - 이의 원인, 증상, 치료",
+    "page": 245,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "피부과",
+    "topic": "옴(scabies)",
+    "question_summary": "옴의 정의, 원인, 증상, 진단, 치료에 관한 설명",
+    "page": 246,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부부속기질환/여드름",
+    "question_summary": "19세 여성, 이마에 면포로 나타난 구진, 결절 없음?",
+    "page": 247,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "피부부속기질환/여드름",
+    "question_summary": "30세 여자, 얼굴과 목에 붉은 병변, 구진, 결절, 면포, 임신 중 안전한 치료?",
+    "page": 247,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "여드름",
+    "question_summary": "여드름 병인 및 치료 - 면포성 여드름의 치료",
+    "page": 248,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름",
+    "question_summary": "중등도 이상 여드름의 구강 항생제 치료",
+    "page": 248,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2019",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름(Acne conglomerate) 치료",
+    "question_summary": "22세 남성의 심한 여드름으로 내원, 개발된 질은 면포 있으며 고름과 혈액이 있는 낭종성 여드름이 이깟측 덮 부근에 다수 관찰되었다. 가슴, 등, 어깨에도 다수의 여드름 있었다. 치료는?",
+    "page": 249,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2018",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름 국소황산제 안전성",
+    "question_summary": "26세 여자 환자로 얼굴과 목의 여드름 치료로 국소 황산제와 각질용해제 사용 중이었으나 오전되지 않았다. 현재 결론 2년 차이며 양증 입원 계획 중으로 사용할 수 있는 치료제는?",
+    "page": 249,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2017",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름 치료",
+    "question_summary": "18세 남자 다음과 같다. 치료제는 사용할 것은? 불결해도 많은 사진이 있습니다. 20대 젊은 남자 얼굴 곳이 검은 면포등 발한 여드름 문제",
+    "page": 250,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2014",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "여드름 치료",
+    "question_summary": "23세 여자가 얼굴에 무역인가 났다고 왔다. 양 볼에는 수수의 면포를 동반 한 구진과 농포성 구진이 관찰되었다. 의사는 세안을 지구하고, 화장품 사용을 자제하라고 하였다. 다음 중 치료는?",
+    "page": 250,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2013",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "여드름 치료제",
+    "question_summary": "여드름 치료에 관한 설명 중 맞는 것",
+    "page": 251,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2011",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름(Acne conglomerate)",
+    "question_summary": "25세 남자, 얼굴, 가슴, 어깨에 낭종이 있는 융결어드름 가장 효과적인 치료제는?",
+    "page": 252,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "여드름 치료(retinoid)",
+    "question_summary": "국소 retinoid 사용 시 발생하는 흔한 부작용으로는?",
+    "page": 252,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "26",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "여드름 치료제",
+    "question_summary": "여드름 치료에 사용되는 약물 중 기형 유발 가능성이 있는 약제",
+    "page": 253,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "피부과",
+    "topic": "여드름",
+    "question_summary": "보통여드름(acne vulgaris)의 정의, 원인과 병변, 증상, 긴단",
+    "page": 254,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "여드름의 치료",
+    "question_summary": "여드름 치료에 사용되는 피지분비 조절, 털집과다각질화 교정 약물",
+    "page": 255,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "피부부속기질환/땀샘질환",
+    "question_summary": "17세 여자 주위 피부 병변, 시린고마 진단",
+    "page": 256,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부부속기질환/땀샘질환",
+    "question_summary": "액취증에 대한 선명으로 맞는 것",
+    "page": 256,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "정, 모반",
+    "question_summary": "정모반의 특징과 임상 양상",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "검버섯",
+    "question_summary": "검버섯의 특징과 치료",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "흑자(일광성 피부병변)",
+    "question_summary": "흑자의 특징과 감별 진단",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "비립종",
+    "question_summary": "비립종의 특징과 임상 양상",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "한관종",
+    "question_summary": "한관종의 특징과 감별 진단",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "6",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "쥐젖(연성섬유유종)",
+    "question_summary": "쥐젖의 특징과 치료 방법",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "7",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "사마귀",
+    "question_summary": "사마귀의 특징과 감별 진단",
+    "page": 257,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "피부부속기질환/탈모증",
+    "question_summary": "2주 전부터 동전 크기의 원형 탈모, 치료는?",
+    "page": 259,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "피부부속기질환/탈모증",
+    "question_summary": "3개월간 10kg 감량 후 전체적 모발 탈모, 원인은?",
+    "page": 259,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "40",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "원형탈모증",
+    "question_summary": "40세 여자, 3개월 점부터 남편과 사별한 후 저체적으로 머리카락이 빠지는 증상으로 내원한 환자. 파부범진이나 인설 없고, 가려움증도 없었다. 적절한 치료는?",
+    "page": 260,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "원형탈모증",
+    "question_summary": "40대 남성의 금전 문제로 스트레스를 많이 받음, 두피에 동전 모양의 탈모가 있어 내원. 머리카락은 잘 뽑아지는 양상. 치료는?",
+    "page": 261,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "40",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "남성형 탈모",
+    "question_summary": "40세 남자의 머리카락 탈모 원인 및 치료약",
+    "page": 262,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "27",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "원형탈모증",
+    "question_summary": "27세 원형탈모증 환자의 가장 효과적인 치료",
+    "page": 262,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "탈모증",
+    "question_summary": "8세 여자 원형 탈모로 내원, 경추리뭇더 머리 전체로 번지는 모양이었고 경계선은 불분명했으며 크리스마스트리 형태였다. 원인은?",
+    "page": 263,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "외상성 탈모",
+    "question_summary": "25/M 여름 휴가가 끝난 후 탈모를 주소로 내원하였다. 탈모의 부위는 올림직하고, 머리카락은 잎이 없었으며, 탈모 부위의 경계 불분명하였다. 원인은?",
+    "page": 263,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "원형탈모증",
+    "question_summary": "원형탈모증의 개요, 임상양상, 진단 및 감별진단",
+    "page": 264,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "안드로겐탈모증(남성형탈모증)",
+    "question_summary": "남성형탈모증의 개요, 임상양상, 치료",
+    "page": 265,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "피부부속기질환/기타",
+    "question_summary": "딱지은 것 때문에 것 먹으면 입술 주변에 뭔가 나는 사진, 지료는?",
+    "page": 267,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "161",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "주사(Rosacea)",
+    "question_summary": "주사의 피부 발적을 중소혈관 내 혈액이 머거운 증상, 종반, 눈 주위 부종 등 소견이 있을 때 치료는?",
+    "page": 268,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "색소이상증",
+    "question_summary": "사람인데 여름에 악화되고 겨울에는 호전되는 병변, 어떤 치료를 할 수 있는가",
+    "page": 270,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "여드름",
+    "question_summary": "12세 소아환자의 목 주위에 생긴 이상소견으로 내원한 경우 진단",
+    "page": 271,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "피하지방괴사",
+    "question_summary": "25세 여자 3일전 발생한 하지 전면부 홍반성 결절, 높을 때 앞쪽과 국소 열감을 동반, 귀양없고 ESR 50mm/h, 진단을 위해 필요한 검사는?",
+    "page": 272,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "사지 감염",
+    "question_summary": "35세 여환 2주 전부터 시작된 사지의 병변을 주소로 내원함, 피부 발적 및 누르면 압통, 진단은?",
+    "page": 272,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "250202",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "접촉피부염",
+    "question_summary": "동전 크기 정도의 융기가 여러 개 분포하는 사진의 진단",
+    "page": 273,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "260501",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "화폐상습진",
+    "question_summary": "기저 기울임이 은 질환",
+    "page": 273,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "부종",
+    "question_summary": "35세 여자 환자의 양쪽 하지에 발생한 부종 감별진단",
+    "page": 274,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "피부결홍반",
+    "question_summary": "피부결홍반의 정의, 원인, 임상증상, 진단 및 치료",
+    "page": 275,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2022",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "접촉질환",
+    "question_summary": "접촉피부염의 유형 분류",
+    "page": 276,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "271",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "재발성 아프타성 구내염",
+    "question_summary": "18세 남자 반복적 구강궤양 환자의 진단",
+    "page": 277,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "임신에 동반되는 특이피부병",
+    "question_summary": "임신 중 동반되는 특이피부병의 분류",
+    "page": 278,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "26",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "기저세포암종의 치료",
+    "question_summary": "기저세포암종의 모반과 종양에 대한 Mohs 수술의 적응증",
+    "page": 280,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "표피낭종(Epidermal cyst)",
+    "question_summary": "목 뒤쪽에 생긴 종이 사진. 표피낭종의 특징과 치료법",
+    "page": 281,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "표피낭종",
+    "question_summary": "28세 남자의 등의 혹에 대한 진단",
+    "page": 282,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "결절기저세포암",
+    "question_summary": "슬라이드 사진으로 보이는 병변의 진단",
+    "page": 282,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "표피낭종(epidermoid cyst)",
+    "question_summary": "4cm 크기의 낭종 주수술 내원하였을 때 자가로 흡인 시 원인, 가장 적절한 치료는",
+    "page": 283,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "피부과",
+    "topic": "표피낭종(epidermoid cyst)",
+    "question_summary": "40세 남자 2cm 크기의 흑색 혹, 병력 방문함 시 가장 적절한 치료는",
+    "page": 283,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "혈관종",
+    "question_summary": "딸기 혈관종 문제, 2세, 커진다고 함, 처치는?",
+    "page": 284,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "피부과",
+    "topic": "피부생검",
+    "question_summary": "65세 남자환자 손톱 말에 수지 잉자모양의 검강색 선이 생겼다. 동중, 압통 없다. 우중상, 진단을 위해 검사해야 할 것은?",
+    "page": 284,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "250901",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "흑색종(Melanonychia)",
+    "question_summary": "45세 남자의 손톱 검은 선에 대한 금금해화의 의심에 제인딩을 물어봤다. 발진한지 7-8년 되었으며 른 날따는 없었다고 한다. 족이 병혈이나 족중 증인 악증은 없었다. 진단명은?",
+    "page": 285,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "피부과",
+    "topic": "악성 흑색종의 의심 소견",
+    "question_summary": "악성 흑색종을 의심할 수 있는 모반의 소견은? ABCDE 기준",
+    "page": 286,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "피부과",
+    "topic": "스테로이드의 효과",
+    "question_summary": "스테로이드의 효과가 큰 것부터 작은 것 순으로?",
+    "page": 289,
+    "vol": "vol6"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "피부과",
+    "topic": "국소 병변 부위 주사 치료의 부작용",
+    "question_summary": "국소 병변 부위 주사 치료의 부작용으로 맞는 것?",
+    "page": 289,
+    "vol": "vol6"
+  }
+]

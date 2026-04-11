@@ -1,0 +1,3179 @@
+[
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "산모의 체중 변화와 평가",
+    "question_summary": "산모의 체중 변화 평가의 기초이 되는 것",
+    "page": 5,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "산전관리",
+    "question_summary": "임신 28일로 규칙적인 여성이 인신여부 확인을 위해 2021년 6월 1일부터 6월 7일까지 검사 시 가장 먼저 확인할 날짜",
+    "page": 11,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 검진",
+    "question_summary": "임신 10주 산모 임신 후 첫 검진하려 오심, 해야 할 검사?",
+    "page": 12,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "비만",
+    "question_summary": "임신부 체중 증가 시 BMI 27 이상일 때 제왕절개율",
+    "page": 13,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "고혈압",
+    "question_summary": "가임기 여성의 신경관 결손증 예방을 위한 엽산의 하루 최소 권장용량",
+    "page": 13,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자간전증",
+    "question_summary": "임신부에서 권장되는 직점한 제증 증가량의 절정 기준",
+    "page": 13,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "9",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "산전검사 및 항생제 감수성",
+    "question_summary": "임신 9주, 28세 산모의 산전검사 상 VDRL 양성 소견에 대한 치료",
+    "page": 14,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "산전검사-산후감염-산후 감염",
+    "question_summary": "산전검사-분만과정-산후에 대한 설명으로 맞는 것을 고르시오",
+    "page": 15,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "인플루엔자 예방접종-산모",
+    "question_summary": "당뇨, 임산부 인플루엔자 백신 접종 원하는 경우",
+    "page": 15,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "자궁저 높이와 임신주수의 관계-BMI와 자궁저높이",
+    "question_summary": "24세 임산부가 제중관리를 주수로 앉다. 임신 중 키는 160cm, 몸무게는 56kg, BMI 21.9이다. 임신 중 적절한 체중증가는",
+    "page": 15,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "영양소 결핍",
+    "question_summary": "입신초기에 추가로 섭취할 필요가 있는 영양소",
+    "page": 16,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 체중 증가",
+    "question_summary": "30세 경산모 임신전 BMI 20일때 24kg 몸무게 증가 평가",
+    "page": 16,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자간전증",
+    "question_summary": "2개월 전 종진 백선 질종한 24세 여자로 임신 4주째, 항우 조치",
+    "page": 16,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 염산 복용",
+    "question_summary": "임신 10주 질 분비물이 증가하여 내원한 환자에서 염산과 생활에 특별한 이상은 없으나 조치는",
+    "page": 17,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "영양 문제",
+    "question_summary": "임산부 영양 문제. 말는 것은",
+    "page": 17,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "임신 중 약물 노출",
+    "question_summary": "28일로 규칙적인 여성이 임신여부 확인을 위해 왔다. 소년 임신반응검사가 양성이고 마지막 월경은 2010년 6월 1일부터 6월 7일까지 하였을 때 분만예정일은?",
+    "page": 18,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신 중 질병",
+    "question_summary": "임산부의 질분 복용에 관해 올은 것은?",
+    "page": 18,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 감염",
+    "question_summary": "임신 가능성이 있는 여성에게 염산 복용을 권장하는 시기는?",
+    "page": 18,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "임신 중 감염성 질환",
+    "question_summary": "임신 9주일 28세 산모가 산전 검사에서 VDRL 양성으로 판정되었을 때의 치료",
+    "page": 19,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "산전검사",
+    "question_summary": "28세 산모의 산전검사에서 발견되는 질환과 위험인자",
+    "page": 19,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "162",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "마르판 증후군",
+    "question_summary": "모체-태아의학 전문가에게 자문 필건을 구해야 할 질환",
+    "page": 24,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "산전 진단",
+    "question_summary": "남편 쌍생아 임신부가 내원하였을 때, 남편 혈우병, 부인의 아버지는 혈우병이고 부인의 어머니는 혈우병의 가족력이 없을 때 태아날 아기의 혈우병 확률",
+    "page": 29,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "정상진통 및 분만",
+    "question_summary": "29세 39주 임산부 양막 파수 후 24시간 동안 진통이 시작되지 않았을 때 태아와 산모는 진창에서 이상소견이 있었다. 조치는?",
+    "page": 30,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "한약 및 자궁 수축제",
+    "question_summary": "제왕절개 1주일 전 산모가 복용 중이면 입산을 중단해야 하는 이유는?",
+    "page": 30,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "정상 질식 분만시 회음절개",
+    "question_summary": "정상 질식 분만시 외음부 절제(episiotomy)의 적정한 시기는?",
+    "page": 30,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "회음신경",
+    "question_summary": "여성 무음 신경을 마취하는 방법",
+    "page": 31,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "질의 해부학적 변화",
+    "question_summary": "30세 경산부의 5분간의 주기적 질 수축 시 신경생리학적 반응",
+    "page": 31,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "우두위에서의 정상 분만 기전",
+    "question_summary": "우두위 분만 시의 기본 운동(cardinal movement) - 진입, 하강, 굴곡, 내회전, 신전, 외회전, 만출",
+    "page": 32,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "33",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "산욕기 질환",
+    "question_summary": "산욕기 발열 환자의 진단",
+    "page": 34,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "신생아 감염",
+    "question_summary": "28세 여자 환자가 침범보다 발생한 임종 유방의 농증을 주소로 내원한 경우, 2주 후 신생아에게 영향을 미칠 수 있는 항생제의 선택",
+    "page": 35,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "신생아 폐렴",
+    "question_summary": "산과력 2-0-0-2인 26세 경산모의 중산지질 감자기 용증과 오줌군란 증 오소하였을 때 신생아의 진단",
+    "page": 35,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "유선염(mastitis)의 원인균",
+    "question_summary": "유선염(mastitis)의 가장 흔한 원인균은?",
+    "page": 36,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "모유수유",
+    "question_summary": "모유수유를 피해야 하는 경우는?",
+    "page": 36,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "221",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "유방울혈과 겹살관 막힘, 그리고 유방염의 비교",
+    "question_summary": "유방울혈, 겹살관 막힘, 유방염의 원인, 증상, 치료 및 특징 비교",
+    "page": 39,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "조산/조기양막파수, 조기진통",
+    "question_summary": "35주 임산부의 질에서 많은 액체 유출, 진통, 복통 증상 시 처치",
+    "page": 41,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "응모악임 관리",
+    "question_summary": "응모악임이 동반된 경우 신생아 사망률과 이환율 증가 원인 및 치료",
+    "page": 43,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "조기진통",
+    "question_summary": "양막파수가 없는 상태에서의 조기진통 진단 기준 및 치료",
+    "page": 44,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2010",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "태아 발육 장애",
+    "question_summary": "임신 30주 여성의 초음파 검사에서 태아 기대 체중이 10% 미만, 움직임 적절한 경우의 진단",
+    "page": 45,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "임신 중 고혈압",
+    "question_summary": "임신 중 사용가능한 고혈압 약물은?",
+    "page": 46,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신 중 고혈압",
+    "question_summary": "임신 중 고혈압 관리 및 합병증",
+    "page": 46,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신성 고혈압",
+    "question_summary": "임신성 고혈압에 대한 설명 중 맞는 것",
+    "page": 46,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "중첩성 전치태",
+    "question_summary": "임신 16주, 28주 여자가 내원하였을 때 완전성 임신 전에 객혈이 140/90이었는데 재내원시 정상으로 보였다. 이번 내원시 객혈은 150/105이었다. 소변 검사 수치 변화는 +1, BUN/Cr은 22/1.3(?)이었다. 다음 중 이 환자의 저작으로 옳은 것은?",
+    "page": 47,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "산모의 혈압 관리",
+    "question_summary": "자간증 산모가 이완기 혈압이 90mmHg이다. 적절한 조치는?",
+    "page": 47,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신 중 혈압약 사용",
+    "question_summary": "임신 중 사용 가능한 고혈압약은?",
+    "page": 47,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "임신 중 고혈압",
+    "question_summary": "임신 중 합병되는 고혈압의 진단 기준 검토",
+    "page": 48,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자간전증의 증상도를 평정하는 지표",
+    "question_summary": "자간전증의 중증도 판정 기준 (혈압, 단백뇨, 증상 등)",
+    "page": 49,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자간증(eclampsia)",
+    "question_summary": "자간증의 원인적 치료와 고혈압약 선택",
+    "page": 51,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "임신성 당뇨병",
+    "question_summary": "40세 임신부의 오랜 오줌에 결층혈이 있어 왔다. 현재 임신 34주 이고 순혈시 통증은 없었다고 한다. 산부인과 초음파(사진)이다. 지단은?",
+    "page": 52,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "331",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신성 당뇨병",
+    "question_summary": "임신성 당뇨병 검사 시기",
+    "page": 53,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "32",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "심장 통증(Heartburn)",
+    "question_summary": "32세 여자 27주 임산부가 소화불량과 가슴 앓이로 내원한 경우의 치료약물",
+    "page": 57,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "27",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "심장 통증(Heartburn)",
+    "question_summary": "27세 여자 27주 임산부가 소화불량과 가슴 앓이로 내원한 경우 초기 치료로 적절한 약제",
+    "page": 57,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "30",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "약물 상호작용",
+    "question_summary": "30주 임산부가 종종 뒤뜨린 목자지 음약으로 다는 동한 느껴 함께 소화장애가 동반되었을 때 임산부에게 사용할 수 있는 약물",
+    "page": 57,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 신흥 감염질환 치료",
+    "question_summary": "임산부에서 신음 울라을 때 치료로 좋은 것",
+    "page": 58,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "설사 환자의 약물 치료",
+    "question_summary": "임신 35주 여성이 급북 시 설사로 넘어온 증세를 주소로 내원하였을 때 가장 적절한 약물은",
+    "page": 58,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "감염성 설사의 치료",
+    "question_summary": "임신 4개월인 임산부가 해외여행 중 발열, 복통, 설사로 급히 귀국하였을 때 치료로 옳은 것",
+    "page": 58,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2020",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "임신과 동반된 내 외과 질환/호흡기",
+    "question_summary": "임신한 32세 여자, 코막힘, 콧물 증상, 천식으로 치료 받고 있다. 가장 적절한 치료약은?",
+    "page": 62,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2015",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "임신 중 감염성 질환",
+    "question_summary": "15주 임산부 재정기, 콧물로 내원. 임신 전에도 가끔 완전기에 재재기, 콧물 있었다. 치료?",
+    "page": 62,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신과 동반된 내 외과 질환/내분비",
+    "question_summary": "임신 30세 여성의 임신 24주 여자가 임신성 당뇨가 진단되었을 때 적절한 초기 관리",
+    "page": 63,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "임신과 동반된 내 외과 질환/내분비",
+    "question_summary": "중상한 지 4개월된 갑상선 항진증 중상, HR 항진, TSH<0.01, T4 5절도, RAIU 3% 시 치료",
+    "page": 63,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "prolactinoma와 bromocriptin",
+    "question_summary": "prolactinoma로 bromocriptin 복용 중 임신한 경우의 처치",
+    "page": 64,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "Hashimoto thyroiditis",
+    "question_summary": "30세 여자가 임신 7주 동안 피로, 체중증가, 갑상선염 증상 시 진단과 치료",
+    "page": 64,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "임신부 감염/항생제",
+    "question_summary": "임신 10주 임산부 자침검사에서 발열, 폐노듐, 빈뇨, 급박뇨 있을 때 선택 항생제",
+    "page": 66,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신부 질염",
+    "question_summary": "임신 32주 여자가 하루 질분비 심한 질 소양증 및 작열감, 회음 부위 종창 발적이 있을 때 진단 및 치료",
+    "page": 66,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "소변 배양검사 및 요로감염",
+    "question_summary": "임신 10주 31세 임산부의 첫 산전검진에서 요로증상 없이 무증상 세균뇨 진단 시 처치",
+    "page": 67,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2012",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "소변배양검사 및 항생제 감수성",
+    "question_summary": "임신 12주 32세 여성의 소변배양검사에서 WBC 5-9/HPF 특별한 증상 없고 독이 소견 있을 때 항생제 치료제약",
+    "page": 67,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "소아 요로감염",
+    "question_summary": "12주 영아의 요로감염 증상과 치료",
+    "page": 68,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "소아 요로감염",
+    "question_summary": "소변 배양에서 10^4 CFU/mL 이상 E. coli 검출 시 적절한 다음 조치",
+    "page": 68,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "신생아 감염성 질환",
+    "question_summary": "임신 10주 째인 31세 임산부가 정맥 주사 후 발열하여 10⁵ CFU/mL 이상의 E. coli가 검출된 경우의 적절한 항생제 선택",
+    "page": 69,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "소아 요로감염",
+    "question_summary": "소변배양에서 10⁵ CFU/mL의 E. coli가 나타난 경우의 적절한 항생제 투여 방법",
+    "page": 69,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "39",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "임신과 동반된 내 외과 질환/피부",
+    "question_summary": "임신부가 앓은 과열이에 내원하였다. 헤르페스 외음부 질염이 확인되었다. 다음에 시행할 처치는?",
+    "page": 72,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "40",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "임신과 동반된 내 외과 질환/피부",
+    "question_summary": "임신 39주 임산부, 자궁경부 관찰했더니 herpetic vaginitis 의심되는 소견. 다음 처치는?",
+    "page": 72,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신과 등반된 내 외과 질환/감염",
+    "question_summary": "임신 10주된 35세 여자가 4살된 딸에게 미열, 피부 발진이 생겼다는 말을 듣고 콧길 접촉 후 동반된 내 외과 질환에 대한 조치",
+    "page": 73,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "신생아 황달",
+    "question_summary": "임신 기간 중 심청성 공진 중우로에 이환되기 쉬운 시기는",
+    "page": 74,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신성 혈소판감소증",
+    "question_summary": "임신 35주 입산부가 발등 부종, 명으로 내원 시 이전 과거력 유무. 임신 후기부터 질문제 복용 중단은?",
+    "page": 75,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "혈구감소증",
+    "question_summary": "37세 임산부가 2일전부터 발열, 어지러움으로 내원. 혈액검사 결과 빈혈, 혈소판 저하 시 진단은?",
+    "page": 75,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "임신 중 약물복용",
+    "question_summary": "임신 중 약물 안정성에 대한 FDA분류 및 임신 중 안전한 약물 사용",
+    "page": 76,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "고혈압 약물치료",
+    "question_summary": "임신 중 고혈압 치료에 사용 가능한 약물",
+    "page": 77,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "소아 감염성 질환 치료",
+    "question_summary": "임신 중 비교적 안전하게 사용할 수 있는 경구약제",
+    "page": 78,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "일반부인과학/유산",
+    "question_summary": "18주 임산부의 특별한 임신 상실, 유산의 종류 판단",
+    "page": 79,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "일반부인과학/유산",
+    "question_summary": "임신 11주 여성의 질출혈과 복통으로 나타난 유산의 종류 판단",
+    "page": 79,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "자연유산의 위험율",
+    "question_summary": "첫 임신 10주에 유산을 경험한 임산부에 대한 설명 중 옳은 것",
+    "page": 80,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2015",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "자궁외임신",
+    "question_summary": "33세 여성의 자궁외임신 증상 및 진단",
+    "page": 83,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "피임",
+    "question_summary": "5일 전 무보호 성관계 후 긴급피임약 복용 시 선택할 약제",
+    "page": 84,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2011",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "경피임약 오용",
+    "question_summary": "경피임약 오용으로 인한 35세 여성의 복부 통증 환자에서 적절한 치료 방법",
+    "page": 85,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "IUD 제거 후 임신",
+    "question_summary": "IUD 30세 여자, 마지막 월경일로부터 6주 후부터 생리가 없어 질경점사 시행하였다. IUD 꼬리를 확인하였고 인정 반응 검사상 양성으로 제거되었다. 출혈은 조치는 무엇인가?",
+    "page": 86,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "경곡피임제 복용하는 경우 감염 복용 시 피임 실패할 수 있는 것",
+    "question_summary": "다음 중 경곡피임약을 복용하는 경우 같이 복용 시 피임 실패할 수 있는 것은?",
+    "page": 86,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "월경통 및 일반부인과/물반통",
+    "question_summary": "17세 여자 월경 시작 시 하복부·허리 중증 통증으로 내원한 환자의 적절한 약물 치료",
+    "page": 89,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "월경통",
+    "question_summary": "24세 여자 월경통으로 내원한 환자의 원인 규명과 치료 방침",
+    "page": 89,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "일반부인과/월경과다",
+    "question_summary": "월경과다 16세 중상증 환자의 약물 선택",
+    "page": 91,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "일반부인과/월경과다",
+    "question_summary": "45세 월경과다 환자의 간기능 이상 시 적절한 약물 선택",
+    "page": 91,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "일반부인과학/월경 전 증후군",
+    "question_summary": "28세 여자가 생리 전 시기마다 뇌편 우울하고 힘 없음, 생리가 시작되면 증강이 관해하는 증상의 치료 약물",
+    "page": 92,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "월경전불쾌장애(PMDD)",
+    "question_summary": "23세 여자가 생리가 시작되기 3~4일 전부터 몸이 붓고 우울해지는 증상으로 방문한 환자의 진단",
+    "page": 93,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "월경 관련 증상의 영양소 보충",
+    "question_summary": "월경 관련 증상 완화에 필요한 영양소",
+    "page": 93,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "31",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "기능성 자궁출혈",
+    "question_summary": "31세 여성의 어제부터 시작된 과도한 자궁출혈로 내원, 평소 생리주기가 불규칙했고 최근 3개월간 세라피 복용, urine hCG(-), Hb 10, 지혈는?",
+    "page": 95,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "57",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "폐경 여성의 비정상 자궁출혈",
+    "question_summary": "57세 여성이 2년 전 폐경되어 estrogen 부족 요법을 받던 중 질출혈이 있어 내원하였다. 시행할 검사는?",
+    "page": 95,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "질염",
+    "question_summary": "35세 여자 질 분비물 주소로 내원한 환자의 질염 원인균 감별진단",
+    "page": 99,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "39",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "자궁경부염",
+    "question_summary": "39세 여자 요로불편감, 공황통 증중 있어 내원한 딸기자궁경부 치료제",
+    "page": 99,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "칸디다증",
+    "question_summary": "임신 중 질염 증상의 원인 진단 및 임산부에서의 치료",
+    "page": 100,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임신 중 요로감염",
+    "question_summary": "임신 10주 무증상 세균뇨의 진단 및 치료",
+    "page": 100,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "임신 중 감염병 치료",
+    "question_summary": "임신 20주차 여성의 남편 감염 후 항체 내원시 권장되는 항생제 치료",
+    "page": 101,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "성병",
+    "question_summary": "32세 여성의 5년 전부터 외음부 자주 불편이 생겼을 때 의심생활이 동반되더 내원한 경우 적절한 치료약물",
+    "page": 101,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "임신 중 칸디다증 치료",
+    "question_summary": "임신 32주 질 분비물 증가로 내원한 환자의 치료 방법",
+    "page": 102,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "질염의 감별 진단",
+    "question_summary": "30세 여자 질 분비물과 소양증 증상의 원인 질환",
+    "page": 102,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "재발성 외음부 소양증",
+    "question_summary": "3년간 재발된 외음부 소양증의 원인",
+    "page": 102,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "질염",
+    "question_summary": "23세 여자의 5일 전부터 시작된 방열과 이깬 통증으로 내원한 환자의 질병명",
+    "page": 103,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "질염 치료",
+    "question_summary": "35세 여자의 황녹색 분비물을 중증으로 내원한 현미경상 관모가 닮은 타원형 물체 관찰시 치료약",
+    "page": 103,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "산부인과",
+    "topic": "질염 치료",
+    "question_summary": "질염 치료제 중 치료시 금주해야 되는 것",
+    "page": 103,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "임질",
+    "question_summary": "30세 여자가 임신 20주에 남편과 함께 나현하였고, 질 분비물 1주일 전 임질 감염 발견. 치료 선택",
+    "page": 104,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "생식비인더",
+    "question_summary": "23세 여자가 질분비물로 내원하였고, 생식비인더가 나는 질분비물을 보임. 정확한 진단과 치료",
+    "page": 104,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "23",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "신생아 감염증",
+    "question_summary": "3일전부터 잔노금이 있고 자주 소변이 마렵다고 내원한 여성의 자궁경부 도말검사에서 diplococcus 보임 - 신생아 치료제",
+    "page": 105,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "32",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "성병",
+    "question_summary": "32세 여자 환자 성기에 자주 재발하는 genital herpes 치료",
+    "page": 105,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "트리코모나스 질염",
+    "question_summary": "Trichomonas vaginalis 질염의 증상, 진단, 치료",
+    "page": 107,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "45",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "자궁경부암 선별검사",
+    "question_summary": "45세 여자 자궁경부암 검진 결과 자궁경관병상피내병변(LSIL)으로 나왔을 때 조치",
+    "page": 110,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "32",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "자궁경부 병변",
+    "question_summary": "32세 여자 자궁경부세포진검사에서 ASC-US, HPV 16 양성 확인 시 조치",
+    "page": 110,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "자궁경부암 선별검사",
+    "question_summary": "43세 여자 Pap smear에서 HSIL 나올 때 다음에 해야 할 것",
+    "page": 110,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "45",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "자궁경부암 검진",
+    "question_summary": "45세 여자의 pap smear 검사 이후 HPV 검사에서 양성으로 확인된 경우의 추적 검사",
+    "page": 111,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "자궁경부 상피내종양",
+    "question_summary": "HSIL 진단 후 CIN2/3기 검사 결과 음성일 때 다음 단계 처치",
+    "page": 112,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "Pap smear 선별검사",
+    "question_summary": "Pap smear에 대한 설명으로 올은 것",
+    "page": 113,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자궁경부암 검진 및 HPV 검사",
+    "question_summary": "50세 여자가 pap smear 검사를 받은 결과 ASCUS로 나왔을 때 HPV 검사에서 음성으로 판인된 경우의 추적관찰",
+    "page": 113,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "산부인과",
+    "topic": "비정형 편평상피세포",
+    "question_summary": "Pap smear 결과에 따른 관리 흐름도",
+    "page": 114,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "자궁내막암",
+    "question_summary": "자궁내막암의 상대적 위험도가 가장 높은 것",
+    "page": 116,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2022",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "난소종양",
+    "question_summary": "50대 여자환자 질초음파상 우측 난소종괴 관찰 시 난소암 위험도 평가",
+    "page": 117,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "자궁부족기",
+    "question_summary": "30대 임신 12주 여성의 오른쪽 자궁부속기에 3.5cm 낭종이 발견되었을 때 필요한 조치",
+    "page": 118,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "난소암의 위험도",
+    "question_summary": "난소암의 위험도가 가장 높은 것",
+    "page": 118,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "산부인과",
+    "topic": "난소암",
+    "question_summary": "난소암의 역학, 상피성 종양, 위험인자, 증상",
+    "page": 119,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "무월경",
+    "question_summary": "16세 여자 3개월 동안 지속적인 무월경이 있어 내원하였을 때, 폐쇄 월경 랑이 없고 월경 주기가 길다고 했다. 다음으로 해야하는 검사는?",
+    "page": 120,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "무월경",
+    "question_summary": "25세 여자 환자가 4개월 간의 무월경으로 내원하였다. 환자는 매라론 저스종 약을 중단 후 무월경이다. 2차 성징은 정상이지만, 임신 검사는 음성이었고, TSH와 prolactin도 정상 범위였다. 무월경의 원인은?",
+    "page": 120,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "37",
+    "answer": 2,
+    "category": "산부인과",
+    "topic": "이차성 무월경의 진단과정",
+    "question_summary": "TSH, Prolactin, Estradiol, FSH 측정 및 Progestin challenge test를 통한 이차성 무월경의 감별진단",
+    "page": 124,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "부인과 내분비학/다낭성 난소 증후군(PCOS)",
+    "question_summary": "28세 여자 PCOS 환자의 초음파 소견 해석",
+    "page": 125,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "부인과 내분비학/다낭성 난소 증후군(PCOS)",
+    "question_summary": "20대 여자 PCOS 환자의 치료제 선택",
+    "page": 125,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "난임치료 약물",
+    "question_summary": "25세 여성 난임환자의 난소과자극증후군(OHSS) 위험요인 및 약물선택",
+    "page": 126,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "다낭성난소증후군(PCOS)",
+    "question_summary": "22세 여성의 무월경, 고안드로겐혈증, 프로게스테론 부하 검사의 출혈 증상",
+    "page": 126,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "산부인과",
+    "topic": "부인과 내분비학/다낭성 난소 증후군 (PCOS)",
+    "question_summary": "PCOS의 정의, 진단, 증상, 치료에 대한 검토 자료",
+    "page": 127,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "49",
+    "answer": 3,
+    "category": "산부인과",
+    "topic": "부인과 내분비학/폐경",
+    "question_summary": "49세 여성 폐경 후 발생한 안면 홍조를 호소하며 내원한 환자의 치료제",
+    "page": 128,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2007",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "호르몬 대체요법과 에스트로겐",
+    "question_summary": "갱년기 호르몬 대체 요법에 관한 설명 중 맞는 것",
+    "page": 129,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "산부인과",
+    "topic": "부인과 내분비학/불임",
+    "question_summary": "결혼 3년 된 30대 부부가 불임으로 내원하였다. 남편이 어업 때 불기러 올 윤 있었다고 한다. 먼저 할 검사는?",
+    "page": 130,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2007",
+    "answer": 5,
+    "category": "산부인과",
+    "topic": "비노부인과학 및 성화/성폭력",
+    "question_summary": "20세 여성이 입신한 것으로 의심되는 경우의 진료 및 치료",
+    "page": 131,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신생아 성장 발달",
+    "question_summary": "14세 남아의 유방이 커지는 문제로 내원, 한쪽은 5cm 정도 앞둥이 있고 다른쪽은 3cm 정도 불증은 없다. 진단은?",
+    "page": 136,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 발달",
+    "question_summary": "소아가 모르는 사람 낯을 가리는 시기는?",
+    "page": 136,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "유방질환",
+    "question_summary": "15세 남자 유방 유방증의 원인 감별",
+    "page": 137,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "소아의 정상 행동 발달",
+    "question_summary": "연령별 소아의 정상 발달 단계 및 특징",
+    "page": 138,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "9",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "아동기 정신장애",
+    "question_summary": "9세 남아가 딤병태고 이수선한 학교 생활로 인해 선생님으로부터 잦은 야단맞아 어머니와 함께 병문하였다. 남아는 의지에 가만히 않아있지 못하고 감감한 듯 듣을 뒤돌려 채 말이 끝나기도 전에 대답하는가 하면 하던 놀이가 끝나기도 전에 다른놀이기구를 만지작 거린다. 가장 의심되는 질환은?",
+    "page": 141,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "7",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "아동기 정신장애",
+    "question_summary": "7세 남아가 학교에 가기 싫어하는 것을 주소로 내원하였다. 학교에 가지 않으려 할 때 메거 아프로 설사를 한다. 문자서는 심부름도 안가고 잡도 혼자 자러 가하지 않는다. 선생님은 학교에서 특별한 문제는 없었다고 한다. 진단은?",
+    "page": 141,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "수면장애",
+    "question_summary": "5세 남아의 sleep walking 진단을 위한 검사",
+    "page": 142,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "야뇨증",
+    "question_summary": "8세 남아의 야뇨증 약물 치료",
+    "page": 142,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "정신지지치료",
+    "question_summary": "한달된 턱 case 8세 남아, 적정한 치료는?",
+    "page": 143,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "자폐장애",
+    "question_summary": "4세 남아 엄마와 이상한 소리 지르고 또래아이들과 잘 어울리지 못하고 장난감 놀이에 열중함, 장난감 조작은 다른아이들 보다 정하하나 아이들과 어울리지 못하고 눈맞추지 못하는 기질, 정확한 기억이 없나지만 자폐 아이에 관한 문제였습니다. 진단은??",
+    "page": 143,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "4",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "학교공포증(학교거부)",
+    "question_summary": "학교 가지 않으려는 아동의 진단 및 처치 방향",
+    "page": 144,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "7",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "ADHD 치료",
+    "question_summary": "ADHD 환자의 약물치료 선택 (imipramine vs SSRI vs TCA)",
+    "page": 144,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "학교 거부(School Refusal)",
+    "question_summary": "7세 남아의 학교 가지 않으려 하는 내적, 학교에 가지 않을 때는 편찮은데, 학교에 간 시간이 되면 배가 아프다고 한다. 혼자 집부룸을 가는 것 싫어하고, 밤에 혼자 자지 않으려 한다. 학교 선생님 말문은 학교 생활은 별다른 문제가 없이 정상적이라고 한다. 진단은?",
+    "page": 145,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "야경증",
+    "question_summary": "7세 남아의 2개월 집중 잠을 자다가 비명을 지르고 온몸이 떨리는 증상에 대한 진단",
+    "page": 146,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "유뇨증",
+    "question_summary": "아동기 정신장애 중 유뇨증(enuresis)의 정의, 분류, 임상양상, 치료",
+    "page": 147,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "자폐 스펙트럼 장애",
+    "question_summary": "자폐 스펙트럼 장애의 특징 및 진단 기준",
+    "page": 149,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2014",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "모유수유와 약물",
+    "question_summary": "모유수유 중 피해야 하는 경우는?",
+    "page": 152,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2012",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 비만의 정의",
+    "question_summary": "소아 비만의 정의",
+    "page": 152,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "비타민 D 결핍",
+    "question_summary": "비타민 D 결핍의 증상, 진단 및 임상 특징",
+    "page": 154,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "소아과",
+    "topic": "모유 영양 및 철결핍",
+    "question_summary": "모유 영양의 특성 및 철결핍 예방 관리",
+    "page": 154,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "모유수유의 금기",
+    "question_summary": "모유수유의 금기 사항에 대한 문제",
+    "page": 155,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "신생아 질환/정상 신생아",
+    "question_summary": "생후 2개월 된 아기의 Moro reflex 검사에 대한 임상적 의의",
+    "page": 158,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 반사",
+    "question_summary": "9개월 영아에서 정상적으로 보일 수 있는 반사를 코드시오",
+    "page": 159,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2019",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "scropululent, 자궁분문 하악고 무관절 분만",
+    "question_summary": "생후 15일 된 남아로 생후 7일경 제대가 탈락한 후 장액능성(scropululent) 분비물이 지속되고 압절적의 암고 부드러운 조직으로 덮여 있다. 자궁분문 하악고 무관절 분만으로 특별한 합병증은 없었다. 적절한 처료는?",
+    "page": 160,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "신생아 반사",
+    "question_summary": "신생아의 주요 반사와 소실 시기",
+    "page": 161,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 질환/호흡기질환",
+    "question_summary": "신생아 폐렴으로 출생한 1개월 여아의 쌍곡 10일째부터 눈물이 있어서 공눈으로 눈곱이 자주 생기는 질환",
+    "page": 162,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 질환",
+    "question_summary": "생후 1개월 여아, 생후 10일부터 눈곱, 공눈, 도움수 증가 있었을 때 진단",
+    "page": 162,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "영양 평가",
+    "question_summary": "40주 정상산모와 요음 태변이 지연된 아기의 상태 평가 및 원인 진단",
+    "page": 163,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신경학적 진찰",
+    "question_summary": "38주 3.2kg 신생아의 호흡곤란과 X선 소견으로 진단 판단",
+    "page": 163,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "38",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 호흡곤란",
+    "question_summary": "38주 분만한 신생아의 호흡곤란 진단 - RR 40회, nasal flare, x-ray 상 ground glass appearance, lung fissure, 경한 심박떨림",
+    "page": 164,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "129",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "신생아 소생술",
+    "question_summary": "신생아 태아나면서 태변 흡인 증중군 중삭 있었을 때, 자궁에 열골 짓고 정상중 동반된 상태, HR 96회/분, 척정한 조치는?",
+    "page": 165,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "Apgar Score",
+    "question_summary": "신생아 Apgar 점수 평가 기준 및 임상적 의의",
+    "page": 166,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "소아과",
+    "topic": "태변 흡인 증후군",
+    "question_summary": null,
+    "page": 168,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "소아과",
+    "topic": "신생아 일과성 빠른호흡",
+    "question_summary": "신생아 일과성 빠른호흡(transient tachypnea of the newborn)의 임상 및 진단",
+    "page": 169,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신생아 황달",
+    "question_summary": "신생아의 병적인 황달로 의심되는 경우는?",
+    "page": 170,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신생아 황달",
+    "question_summary": "생리적 황달과 병적 황달을 구분하는 지표",
+    "page": 170,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신생아 황달",
+    "question_summary": "생후 7일 아기의 황달 원인 감별진단",
+    "page": 171,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "11",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신생아 황달",
+    "question_summary": "신생아 생리적 황달과 병적 황달의 감별 및 관리",
+    "page": 172,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "신생아 질환/감염질환",
+    "question_summary": "신생아 뇌수막염 치료 항생제 요법",
+    "page": 174,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신생아 질환/피부질환",
+    "question_summary": "생후 6주 아기의 2일전부터 왼쪽 어깨에 울긋진 붉은 구진이 발생하고 우윤을 누르면 들어가고(raised) 정상 피부와 명확한 경계를 보였을 때 진단",
+    "page": 176,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 질환/선천 기형",
+    "question_summary": "6개월 된 유아가 울 때마다 배꼽이 나온다며 왔다 결정한 조치는?",
+    "page": 178,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신생아 질환/선천 기형",
+    "question_summary": "생후 1개월 남아, 배꼽 육아조직 있으며 접액 분비물 있다. 추후 처치는?",
+    "page": 178,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "육아종 및 댓줄 폴립",
+    "question_summary": "신생아 질환/선천 기형 - 육아종 및 댓줄 폴립의 임상특징 및 치료",
+    "page": 179,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "소아과",
+    "topic": "배꼽탈장",
+    "question_summary": "배꼽탈장(Umbilical hernia)의 개요, 치료 및 수술 적응증",
+    "page": 180,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "감염병/종론",
+    "question_summary": "농가진 의심증상이 있는 경우 기술된 원인, 적절한 치치는?",
+    "page": 181,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "감염병/종론",
+    "question_summary": "8세 남아 감은 병변이 목, 팔, 다리에 있고 같이 놀던 친구들도 비슷한 병변이 있었다. 치료는?",
+    "page": 181,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "결핵",
+    "question_summary": "5세 아이가 3주간 항아버지와 함께 생활했을 때 결핵 감염 및 질병 진단에 대한 검사",
+    "page": 184,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "결핵",
+    "question_summary": "18, 20개월 남아의 영아결핵 치료 시 INH, RFP 등 약제 선택 및 재검사 시기",
+    "page": 184,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신생아 감염 및 진단",
+    "question_summary": "6세 남아의 어머니와 함께 내원하였을 때 X-ray와 PPD 검사 결과 해석 및 진단",
+    "page": 185,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아청소년 잠복결핵감염 치료",
+    "question_summary": "소아청소년 잠복결핵감염 치료의 적응증 및 치료방법",
+    "page": 188,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "결핵 진단 및 치료",
+    "question_summary": "소아에서 결핵 진단 및 치료 알고리즘",
+    "page": 189,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "결핵 진단",
+    "question_summary": "소아결핵에서 결핵 진단자 진전 및 치료",
+    "page": 189,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "감염병/세균 감염",
+    "question_summary": "2세 여아의 구강 궤양, 수포성 발진 환자의 감염 원인 약제",
+    "page": 190,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "감염병/항생제",
+    "question_summary": "8세 남아의 고열, 전신근육통, 인후통 환자의 적절한 항생제",
+    "page": 190,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "201701",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "감염질환",
+    "question_summary": "12개월 남아의 2일 전부터 시작된 고열로 내원한 환자의 원인질환 감별진단",
+    "page": 191,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "영양실조 및 파상풍 예방",
+    "question_summary": "8세 영아 자궁기루 달콤 덜어지며 절조망에 급여시 다리에 영상이 생겼다. 상처는 비교적 깨끗했고 2년 전 DTaP 추가 접종을 받았다고 한다. 파상풍 예방 및 치료를 위한 처치는?",
+    "page": 192,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아 입두선염 치료지침",
+    "question_summary": "소아 입두선염 진단 및 치료 경로",
+    "page": 195,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 3,
+    "category": "소아과",
+    "topic": "감염병/바이러스 감염",
+    "question_summary": "7개월 영아의 발열, 기침, 구토, 설사 증상에서 감별진단 고려사항",
+    "page": 198,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "17",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "예방접종",
+    "question_summary": "7세 남아의 중증 감염증 기질, 곡률 있고 귀 뒤부터 발진 생겨 얼굴까지 번지고 결막충혈 있을 때 12개월된 동생에게 처치는?",
+    "page": 199,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "12",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "수은중독",
+    "question_summary": "홍역에 감수성이 있는 사람이 홍역 환자와 접촉한 경우, 백신이나 면역글로불린을 투여했을 때 감염 여부 및 예방 효과",
+    "page": 201,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "임신중독증(자간전증) 관리",
+    "question_summary": "자간전증 관리 및 노출 후 예방요법",
+    "page": 202,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "43",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "임신중독증(자간전증) 예방 및 치료",
+    "question_summary": "자간전증 임산부의 노출 후 예방약물 투여",
+    "page": 202,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "예방접종",
+    "question_summary": "2014년 질병관리본부 예방접종 기준에서 MMR 가속접종 대상자 판정",
+    "page": 204,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "소아 외상",
+    "question_summary": "1세 아이의 3mm 정도 구멍 발견 시 응급처치",
+    "page": 205,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "4세 남아의 기침, 콧물, 결막염 증상의 원인 질환",
+    "page": 206,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "14개월 영아의 고열과 경련 환자의 원인 질환 감별",
+    "page": 206,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "불거리 질환",
+    "question_summary": "불거리 길면 소야가 상복부 아프다. 감별증은?",
+    "page": 207,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "롱진",
+    "question_summary": "귀뒤에서 어지구 저지구 발진 시 진단",
+    "page": 207,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "14세 수두에 걸린 아이에서 금기인 약물",
+    "page": 208,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "22세 남자 5일전부터 발열, 오한, 두통, 무력감 후 heterophil Ab 양성인 원인",
+    "page": 208,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "홍역의 합병증",
+    "question_summary": "8세 남아가 3일전 시작된 고열, 기침, 콧물 결막염으로 내원. 홍역 의심 중 합병증은?",
+    "page": 209,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "난소의 해부학적 위치",
+    "question_summary": "6세여아 5인친부터 발열 앗증 귀멍 종창 염감 1일전부터 상복부 통증을 호소한다. 가능한 질환은?",
+    "page": 210,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 약물 부작용",
+    "question_summary": "10세 남아의 스테로이드 장기복용으로 인한 부작용",
+    "page": 211,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 약물 부작용",
+    "question_summary": "10세 남아의 스테로이드 약물 부작용",
+    "page": 211,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2018",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "예방접종",
+    "question_summary": "17세 남자아이의 낚시 사고로 인한 파상풍·광견병 노출 후 필요한 예방접종 조합",
+    "page": 212,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "홍역(Measles)",
+    "question_summary": "홍역의 감염경로, 감염력, 임상증상 및 진행 단계",
+    "page": 213,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "감수성자에 대한 판단 기준",
+    "question_summary": "홍역에 대한 면역성이 있다고 인정될 수 없는 경우 감수성자로 판단",
+    "page": 215,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "접촉자 관리 및 검사",
+    "question_summary": "접촉자 72시간 이내 생후 6개월 이상 감수성자의 예방접종",
+    "page": 215,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "12",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "면역글로불린 투여",
+    "question_summary": "예방접종을 하지 않은 소아가 홍역 환자와 접촉한 경우, 감마글로불린 투여 시기",
+    "page": 216,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "풍진(German Measles, Rubella)",
+    "question_summary": "풍진의 역학, 증상, 합병증, 진단, 치료에 관한 문제",
+    "page": 217,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "볼거리(Mumps)",
+    "question_summary": "볼거리의 감염경로, 전염시기, 임상증상 및 합병증",
+    "page": 219,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "6",
+    "answer": null,
+    "category": "소아과",
+    "topic": "수두(chickenpox, Varicella)",
+    "question_summary": "수두의 임상증상, 진단, 치료에 관한 내용",
+    "page": 226,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "7",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "장미진, 돌발진(Exanthem subitum, Roseola infantum, 인제 herpesvirus 6)",
+    "question_summary": "HHV-6, HHV-7에 의한 영아 소아 질환의 원인, 역학, 임상증상 및 감별진단",
+    "page": 227,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "8",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "공수병",
+    "question_summary": "공수병의 원인, 역학, 예방 및 치료에 관한 문제",
+    "page": 229,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "감염병/예방 소아과학",
+    "question_summary": "9세 아이 인플루엔자 예방접종 이형제 하는가",
+    "page": 231,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "설사",
+    "question_summary": "11개월 남아가 설사 하루 3번, 미열이 있으며 현재 모유수유중이다. 적절한 조치는?",
+    "page": 233,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "설사",
+    "question_summary": "출생 후 6개월 된 남아가 반복되는 설사 때문에 내원하였다. 하루 3~4회의 수양성 설사를 하였고 구토가 동반되기도 하였다. 피부 건장도가 저하되어 있었지만 소변량은 정상이었다. 적절한 조치는?",
+    "page": 233,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "11",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "설사의 원인 및 치료",
+    "question_summary": "모유수유아 11개월 남아가 설사를 하루에 3번 하였고 미열이 있었다. 처지는 양상은 없다. 적절한 조치는?",
+    "page": 234,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "직장음 진단",
+    "question_summary": "직장음 다니는 엄마가 직장락아슨에 발기된 13개월 아기가 설사를 3회 하고 발열 있다고 해서 의료기관 방문하였다. 아기는 분유를 먹이고 있으며 주위 아기들도 설사가 발다고 한다. 이 아기에서 수분 전해질 충급 및 식이에 대한 설명으로 맞는 것은?",
+    "page": 235,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아의 설사시 수분보충 치료",
+    "question_summary": "소아의 설사시 수분보충 치료 중 맞는 것은?",
+    "page": 236,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "설사/탈수",
+    "question_summary": "급성 설사의 원인과 위장관염 합병증",
+    "page": 237,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/주요 증상/변비",
+    "question_summary": "5개월 된 아이가 3일에 한 번씩 딱딱한 변을 보는 경우의 원인 감별",
+    "page": 240,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/주요 증상/변비",
+    "question_summary": "5개월 아이가 3일에 한 번씩 딱딱한 변을 보는 경우의 적절한 조치",
+    "page": 240,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "영유아 설사 및 탈수",
+    "question_summary": "3개월 아기의 설사와 탈수 증상에 대한 임상 판단 및 처치",
+    "page": 241,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소화기/주요 증상/변비",
+    "question_summary": "소아 변비의 진단 기준 및 Rome III 기준에 따른 변비 진단",
+    "page": 242,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "영아산통",
+    "question_summary": "3개월 영아의 복통 원인 감별진단",
+    "page": 244,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "납중독",
+    "question_summary": "납 노출 관련 증상 및 검사 소견",
+    "page": 244,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "135",
+    "answer": null,
+    "category": "소아과",
+    "topic": "영아산통(infantile colic)",
+    "question_summary": "영아산통의 진단 기준 및 증상",
+    "page": 245,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "136",
+    "answer": null,
+    "category": "소아과",
+    "topic": "영아산통(infantile colic)",
+    "question_summary": "영아산통의 치료 방법",
+    "page": 245,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/위장관/구강질환",
+    "question_summary": "2세 남아의 지속된 고열과 먹이와 입에서 악취, 침을 흘리는 증상에서 진단",
+    "page": 247,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2020",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "PROM(조기양막파열)",
+    "question_summary": "PROM의 늦어 뛰어 있는 15개월 아이, 질음 제끼고 숨차하며 입들이 입. 오른쪽 하반 구진모양의 명된 있음. 임박은 지칠는?",
+    "page": 248,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "헤르페스 바이러스 감염",
+    "question_summary": "소아 여아 고열, 입에서 악취 구토 입압 수포? 등 진단명?",
+    "page": 248,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "헤르페스 잇몸 구내염",
+    "question_summary": "Herpetic gingivostomatitis의 원인, 증상, 치료에 관한 내용",
+    "page": 249,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "20161",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/위장관/장자검침증",
+    "question_summary": "6세 남아의 장폐색 증상 평가 및 원인 감별진단",
+    "page": 253,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "20141",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/위장관/장자검침증",
+    "question_summary": "3세 남아의 장폐색 증상과 원인 감별진단",
+    "page": 253,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2017",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "9개월 아이 간질적 구토, 조음과 사진 보여줌",
+    "question_summary": "9개월 아기의 간질적 구토와 조음 문제에 대한 감별진단",
+    "page": 254,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2020",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "12개월 남아 12시간 설사",
+    "question_summary": "12개월 남아의 설사 원인 감별 - 공기정복과 응급개복술",
+    "page": 254,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "117",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소화기/위장관/선천 거대 결장증",
+    "question_summary": "선천성 거대결장증(Congenital Megacolon) 환자의 직장 흡입 검사 결과 해석 및 대변 배출 곤란의 원인",
+    "page": 257,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "선천 거대결장증",
+    "question_summary": "선천 거대결장증(Congenital aganglionic megacolon, Hirschsprung disease)의 병태생리, 임상양상, 진단 및 치료",
+    "page": 258,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "소화기/위장관/급성중수염",
+    "question_summary": "소아 중추들기염에서 가장 많은 만큼 미란 소견은",
+    "page": 261,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "lithium 중독",
+    "question_summary": "4세 남아의 lithium 중독 시 내원 경로와 식도 이물의 특징",
+    "page": 262,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소아과",
+    "topic": "소아 발열 및 응급 처치",
+    "question_summary": "4세 소아의 고열과 경련 증상에 대한 진단 및 처치",
+    "page": 263,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 복부 응급질환",
+    "question_summary": "50원짜리 동전 삼킨 무순감사 했다면 위에 있는지 보임. 복통 등 증상 없을 때의 처치",
+    "page": 264,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소화기/간 및 담도질환",
+    "question_summary": "6세 여자 아이의 중복증후군 내원 원인과 장기 약물 치료 선택",
+    "page": 266,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "인종혼합자증",
+    "question_summary": "14살 남아의 인종혼합자증 원인으로 가장 흔한 약물",
+    "page": 267,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "라이 증후군",
+    "question_summary": "라이 증후군의 정의, 병인, 증상, 진단, 치료 및 예후에 대한 검토",
+    "page": 268,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소화기/복벽질환",
+    "question_summary": "6개월 유아로 울 때마다 배꼽이 튀어나온다. 적절한 치료는?",
+    "page": 269,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "영아 산통",
+    "question_summary": "생후 3개월 영아가 우측 서혜부 올림 위하나으는 법칙 크기의 종물 증상 시 감별진단",
+    "page": 270,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "설사",
+    "question_summary": "8개월 영아 서혜부 탈장 수술은 언제 해야 하는가",
+    "page": 270,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "12",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "임신 중 복부 통증",
+    "question_summary": "임신 12개월 이기 중 파마다 서혜부와 고환 옆 둔이나요는 사진, 다음으로 해야 할 것은?",
+    "page": 271,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "호흡기/호흡기감염/상기도 감염",
+    "question_summary": "5세 남아의 목아프고 음식삼키기 어려워서 내원한 1년전 편도선염으로 10회 치료한 장 지연도 있었다. 맞는것은?",
+    "page": 274,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아과 질환",
+    "question_summary": "2세 여아가 콧물, 기침 가래가 있었다. 지료 4일째 귀가 아프다며 보채기 시작했다. 적절한 치료는?",
+    "page": 274,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "연쇄구균 인두염",
+    "question_summary": "12세 남아 발열과 우도통으로 내원한 환자의 진단 및 치료",
+    "page": 275,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "27",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "급성 인두편도염의 항생제 치료",
+    "question_summary": "급성 인두편도염에서 A군 연쇄상구균 감염 시 항생제 선택 기준",
+    "page": 277,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "부비동염",
+    "question_summary": "부비동염 X-ray 주고 치차는?",
+    "page": 278,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "영양결핍",
+    "question_summary": "감기있는 환아, 중상 호흡/병기간 단족 가능한 약은?",
+    "page": 278,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "비타민결핍",
+    "question_summary": "5세아아 2일전부터 발열, 기전 곳물 코막힘 있었다. 병력 및 신체검진상 특이사항 없이 류머기간 단족 및 중상완화에 도움주는 치료는?",
+    "page": 278,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "소아과",
+    "topic": "A군 사슬알균 감염",
+    "question_summary": "A군 사슬알균(Group A Streptococcus)의 특성, 진단, 항체 검사 및 임상 의의",
+    "page": 280,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "펜도와 아데노이드",
+    "question_summary": "편도와 아데노이드의 비대에 따른 증상 및 질환 특징",
+    "page": 281,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "급성 중이염",
+    "question_summary": "급성 중이염의 원인, 증상, 진단, 치료에 관한 문제",
+    "page": 282,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "6",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "부비동염",
+    "question_summary": "급성 부비동염의 정의, 진단 기준, 치료 방법",
+    "page": 284,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "호흡기/호흡기감염/하기도감염",
+    "question_summary": "5세 남아의 오전부터 기침, 6시부터 제호 39.5도까지 열, 음식 못 삼키고 침흘리며 숨차함. 진찰시 흉부함음 보임. 적절한 치료는?",
+    "page": 285,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "호흡기/호흡기감염/하기도감염",
+    "question_summary": "5세 남아 오전부터 기침하다가 저녁 6시경부터 발음 질못하고 짖흘리고 음식 삼메마다 흡부함음 질진정 stridor",
+    "page": 285,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "X선 검사",
+    "question_summary": "2세 여아의 골절 진단을 위한 적절한 영상검사",
+    "page": 286,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "폐렴",
+    "question_summary": "3세 남아의 폐렴 진단 및 항생제 치료",
+    "page": 286,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "급성 후두개염(epiglottitis)",
+    "question_summary": "5세 남아의 급성 인후두염 원인 병원균",
+    "page": 287,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "급성 세기관지염",
+    "question_summary": "급성 세기관지염의 치료 방법",
+    "page": 288,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "영아 호흡기 감염",
+    "question_summary": "1세 남아에서 5일 전부터 콧물 기침과 3일전부터 발열 있는 경우 원인균",
+    "page": 289,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "기관지염",
+    "question_summary": "발열과 기침이 있고 RR 50회 청진상 천명음이 들릴 때 치료방법",
+    "page": 289,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "소아 감염병",
+    "question_summary": "7개월 남아의 음음관선종 증상으로 응급실내원 3일전부터 열없이 콧물과 재채기가 있다가 발작성 호기성 천명이 있고 심하게보채고 38.6도 호흡수 60 맥박야항은?",
+    "page": 290,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "급성 세기관지염",
+    "question_summary": "3개월 유아의 쌕음 증상과 호흡곤란 정도 평가",
+    "page": 291,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "흉부 함몰 호흡",
+    "question_summary": "5개월아 호흡곤란 소아, 함몰, 최근 폐렴 가정중, 우위중 도하고 숨기기 흰눈이하고 호흡시 chest retraction, xray 상 폐의 과팽창?",
+    "page": 292,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "20121",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "임신 중 X-ray 검사",
+    "question_summary": "18개월 남아 질소이기침·발열 증상 있다가 호전되는 양상, 5일뒤 다시 발열한 함께 구도·설사 동반될 때 X-ray는 정상이었다. 진단은?",
+    "page": 293,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "20211",
+    "answer": null,
+    "category": "소아과",
+    "topic": "3세 남아 3일전부터 시작한 경경거리는 기침",
+    "question_summary": "3세 남아 3일전부터 시작한 경경거리는 기침인단은?",
+    "page": 293,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소아과",
+    "topic": "직업성질환",
+    "question_summary": "18개월 남아 싱조피기질, 방열 증상 있다가 호전되는 양상 5명 뒤 다시 발열과 함께 구토, 설사 등발열, 배 정장은 장장이었다. 진단은?",
+    "page": 294,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "크루프(급성 후두기관지염)",
+    "question_summary": "급성 후두기관지염의 원인, 병태생리, 임상증상 및 진단",
+    "page": 295,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "급성 후두개염",
+    "question_summary": "급성 후두개염의 원인, 임상증상, 진단 및 치료",
+    "page": 295,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "급성 감염성 후두염",
+    "question_summary": "급성 감염성 후두염의 특징 및 임상 양상",
+    "page": 296,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "연쇄성 크루프",
+    "question_summary": "1~3세 급성 후두염의 진단 및 치료",
+    "page": 296,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소아과",
+    "topic": "급성 세기관지염",
+    "question_summary": "이 페이지는 해설 페이지입니다. 문제가 없습니다.",
+    "page": 298,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "호흡기/호흡기감염/하기도 감염(폐렴)",
+    "question_summary": "11세 남아의 폐렴 환자에서 M.pneumoniae 감염시 적절한 항생제 선택",
+    "page": 300,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "호흡기/호흡기감염/하기도 감염(폐렴)",
+    "question_summary": "4세 기관지 천식 여아에서 theophylline 300mg 투여시 약물상호작용",
+    "page": 300,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "마이코플라즈마 폐렴",
+    "question_summary": "10세 남아의 1주일 동안의 심한 기침, 관절통, 피부발진, 기침으로 내원한 X선 검사상 우측 폐하엽에 침윤 보이는 3일간 ampicillin을 투여했으나 호전이 없었을 때 처용 약물",
+    "page": 301,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "폐렴",
+    "question_summary": "중성 1개월된 남아의 2일전부터 급속도로 악화되는 기침과 호흡곤란으로 응관상입지료 후 2주간 퇴원하였다가 신제질감 상 정성증과 빈호흡 관찰되고 정전상 수포음이 들리며 기흉 xray상 폐음이 증가된 소견이 관찰되었다. 의심되는 원인균은 무엇인가",
+    "page": 302,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "폐쇄성 수면무호흡증",
+    "question_summary": "15개월 남아가 감작스러운 dyspnea와 발작적 기침, 청진상 우-폐하에 호흡음 감소로 내원한 환자에서 진단은?",
+    "page": 308,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "철결핍빈혈/비혈",
+    "question_summary": "10개월 남아, 창백 증상으로 내원한 환자의 ferritin, TIBC, IDA lab 소견",
+    "page": 311,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "16",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "철결핍빈혈",
+    "question_summary": "영아의 철결핍빈혈 원인 및 임상증상",
+    "page": 312,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "철결핍빈혈",
+    "question_summary": "소아에서 철결핍 빈혈의 생후 6개월 이후 3세 사이의 가장 많은 원인",
+    "page": 313,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "철결핍성빈혈/ITP",
+    "question_summary": "임신 중 빈혈 진단 기준과 철분 보충 후 혈소판 감소의 원인",
+    "page": 315,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "철결핍성빈혈/ITP",
+    "question_summary": "Hb 정상, PLT 48000일 때 임산부의 처치",
+    "page": 315,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신생아 황달",
+    "question_summary": "14세 아이가 저심박수로 내원하였을 때 검사소견 해석 및 진단",
+    "page": 316,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "혈소판 감소증",
+    "question_summary": "혈소판 감소증의 감별진단 및 치료",
+    "page": 318,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "면역성혈소판감소증(ITP)",
+    "question_summary": "소아 급성 ITP의 진단 및 치료 원칙",
+    "page": 319,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "중앙질환",
+    "question_summary": "5세 남아 한 달 남게 지속된 감기로 내원, 구도, 덤프질비데, 구강정맥 증정이 동반되었고 간이나 비장 비대는 뚜렷하게 나타나지 않았다. Hb 6.2 WBC 35000 Plt 35000으로 확인되었다. 진단을 위해 시행해야할 검사는?",
+    "page": 320,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "빈혈",
+    "question_summary": "17세 여아의 창백함과 숨참증, 검사 결과 해석 및 감별진단",
+    "page": 322,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "임신 중 약물 사용",
+    "question_summary": "임신 2주 전부터 섭취한 약물의 기형 유발 위험성 평가 및 임신 유지 여부",
+    "page": 323,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소아과",
+    "topic": "급성 림프모구 백혈병(ALL)",
+    "question_summary": "급성 림프모구 백혈병의 임상 특징 및 진단 검사",
+    "page": 324,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신-요로생식기/신질환/단독 단백뇨",
+    "question_summary": "8세 남자 학생의 신검검사에서 단백뇨 발견, 850mg/d의 결과가 나왔을 때 진단",
+    "page": 326,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "신-요로생식기/신질환/단독 단백뇨",
+    "question_summary": "11세 학교 검진에서 발견된 단백뇨, v/s 모두 정상일 때의 첫 검사",
+    "page": 326,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신요로생식기/신결환/혈뇨",
+    "question_summary": "8개월 소아 혈뇨 환자에서 occult blood, RBC many, nitrite(+), ketone(+), WBC many 소견을 보일 때 적절한 검사",
+    "page": 328,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신-요로생식기/신실환/사구체신염",
+    "question_summary": "6세 남아의 혈뇨, 고혈압, 요검사 이상 소견에서 급성 사구체신염의 진단 및 치료",
+    "page": 329,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "IgA nephropathy",
+    "question_summary": "3일전 감기 후 혈뇨, CBC/BUN/Cr/소변 정상, ANA(-), C3/C4 정상 환자의 진단",
+    "page": 330,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "급성 사구체신염",
+    "question_summary": "사슬알균 감염 후 급성 사구체신염(APSGN)의 임상 특징과 진단",
+    "page": 331,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 3,
+    "category": "소아과",
+    "topic": "루푸스신염",
+    "question_summary": "C3저하를 보이는 신질환의 진단",
+    "page": 332,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "소아과",
+    "topic": "급성사구체신염",
+    "question_summary": "혈뇨와 단백뇨 소견의 해석",
+    "page": 332,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "5",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "신생아 용혈성 질환/신결환/기타",
+    "question_summary": "5세 남아 2주전 설사, 발열 후 감장기 알굼창백하고 자궁 장막 자려고 한다 소변방이 증었다. WBC 9600, Hb 6, Plt 100,000, Bu, n 29, Cr 2.2, LDH 500, PBS상 helmet cell, burr cell 보였다 지료는?",
+    "page": 334,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "소아 신장질환",
+    "question_summary": "18세 남자의 단백뇨와 혈뇨로 내원한 환자의 진단",
+    "page": 335,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "용혈성빈혈",
+    "question_summary": "4세 남아의 내일 수술 전부터 혈변과 미열이 있었던 경우의 진단",
+    "page": 336,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "용혈성요독증후군",
+    "question_summary": "소아 장백하고 저진단, 혈뇨고 설사했을 때의 진단",
+    "page": 336,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "5",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 용혈성 빈혈",
+    "question_summary": "5세 남아의 2주 전부터 설사, 혈혈있었고 그 후 혈뇨가 장혈하고 자주 잠만 자려고 함. 소변량 줄었을 때 진단",
+    "page": 337,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "신-요로생식기/요로질환",
+    "question_summary": "방광-요관 역류가 있는 소아의 치료 중 올은 것",
+    "page": 340,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 요로감염",
+    "question_summary": "소아 요로감염의 역학, 발병기전, 임상 증상, 진단 및 감별진단에 대한 종합 문제",
+    "page": 341,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "뇨로 채뇨법",
+    "question_summary": "무증기저기가 있는 영유아에서 가장 숨쉬는 채뇨법으로 회음부를 청결하게 닦은 후 무균 채뇨법을 볼여 소변을 채취한 경우",
+    "page": 342,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "도뇨관 채뇨",
+    "question_summary": "무균 조작 후 카테터를 삽입하여 채뇨한 경우의 세균 기준값",
+    "page": 342,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "4",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "방광 천자",
+    "question_summary": "천공직인 검사이나, 우중기저기가 안전 영유아에서 가장 정확한 채뇨법의 세균 기준값",
+    "page": 342,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "신우신염",
+    "question_summary": "신우신염의 요로계 영상검사 방법과 시기",
+    "page": 343,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1150",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "신-요로생식기/외성기질환",
+    "question_summary": "9개월 남아의 우측 음낭 부어 있고 시진이 정과향에 따라 크기가 변하였으며 펜라이트를 비쳐 보았더니 투과되었다. 알으로의 치료는?",
+    "page": 345,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "음낭 수종(Hydrocele)",
+    "question_summary": "9개월 남아의 음낭 종창 평가 및 관찰 기준",
+    "page": 346,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아 영양",
+    "question_summary": "1세 남아가 오르목 고환이 만져지지 않아 내원하였을 때, 신체진찰에서 고환은 치골에서 만져졌다. 적절한 조치는?",
+    "page": 347,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "생후 10개월 남아가 오르목 고환이 만져지지 않아 내원하였을 때, 신체진찰에서 고환은 산골부위에서 만져지지 않고 서혜부에서 만져졌다. 적절한 조치는?",
+    "page": 347,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "1세 남아, 인족 고열이 만지지않아 왔다. 조치는?",
+    "page": 348,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 감염질환",
+    "question_summary": "10개월 남아 오른쪽 고환이 만지지지 않아 내려감. 고환은 살금 부위에서 만지지지 않고 직장에서 만져짐. 치료는?",
+    "page": 348,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "신경계/감염질환",
+    "question_summary": "4세 단자기 두통 구역 발열 수막자극 징후 있을 때 진단",
+    "page": 351,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "바이러스성 뇌수막염",
+    "question_summary": "CSF lab 결과로 바이러스성 뇌수막염 진단 시 성인에서는 본원 치료를 알고 있는데 소아에서도 독감나요?",
+    "page": 352,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소아과",
+    "topic": "소아 응급의학/해열제",
+    "question_summary": "38.3°C 열을 가진 5세 아이에게 투여할 해열제 선택",
+    "page": 354,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "소아 신경학/경련",
+    "question_summary": "12개월 소아의 39도 발열 및 열경련으로 내원 시 EEG 촬영 필요성",
+    "page": 354,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소아과",
+    "topic": null,
+    "question_summary": "이 페이지는 Review 섹션의 설명 페이지이며 객관식 문제가 없습니다.",
+    "page": 355,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "소아과",
+    "topic": "신경계/넉전증 지속증",
+    "question_summary": "30개월 여아의 경련 증상과 뇌파검사 결과를 토대로 진단 및 치료 선택",
+    "page": 358,
+    "vol": "vol7"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소아과",
+    "topic": "뇌전증 지속증",
+    "question_summary": "뇌전증 지속증의 정의, 분류, 임상양상 및 치료",
+    "page": 359,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "22",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "골격계 질환/국소적 정형외과 질환",
+    "question_summary": "5세 남아의 중심성 구조 이상으로 인한 고관절 질환 진단",
+    "page": 361,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "일과성 고관절 활막염",
+    "question_summary": "10세 이하 소아에서 고관절통을 호소하는 경우의 진단 및 치료",
+    "page": 362,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "알레르기 질환",
+    "question_summary": "10세 아이 알레르기 비염 관리 및 FEV1/FVC 비율 해석",
+    "page": 363,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "PEV1",
+    "question_summary": "17세 남자 천식으로 방에 환한 쌕 약화, 폐기능 검사 결과지 PEV1 15% 증가",
+    "page": 364,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "소아 체질량지수 및 건강검진",
+    "question_summary": "12세 아이의 체질량지수와 혈액검사 결과에 따른 질환 진단 및 치료",
+    "page": 365,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "결제 조직질환/가와사키병",
+    "question_summary": "4세 여아 5일 전부터 해열제로도 떨어지지 않는 열이 지속되고 인제검사에서 악증 결막충혈, 입술의 홍조와 박기로양의 혀, 부정형 발진, 2cm정도의 비화농성 경부림프절이 만져졌다. 적절한 치료는?",
+    "page": 372,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "결제 조직질환/가와사키병",
+    "question_summary": "5세 남아가 6일 전부터 해열제로도 떨어지지 않는 열이 지속되고 있다. 신체검사에서 앙증 비화농 결막염, 입술 홍조와 박기로양의 혀, 부정형 발진, 2.5cm정도의 비화농성 경부림프절이 만져졌다. 치료 방법은?",
+    "page": 372,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2010",
+    "answer": 3,
+    "category": "소아과",
+    "topic": "임신 중 합병증",
+    "question_summary": "18개월된 왕아가 1주일간 38-39도의 발열이 있었고, 내원 4일 전부터 몸통의 붉은 반점이 생겼다. 내원 하루전부터는 손발과 입술이 탈골게 되고 손이 부어있고 말기 모양의 혀가 생겼다. 사지와 몸통부위 1.5cm의 입파진 종류가 있고 얍뭉을 동반하였다. 이 질환의 가장 중요한 합병증은?",
+    "page": 373,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2018",
+    "answer": null,
+    "category": "소아과",
+    "topic": "감염성 질환",
+    "question_summary": "닭기러 보여주고 가와사기증에, 예우위해 필요한검사?",
+    "page": 373,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "감염성 질환",
+    "question_summary": "13개월 소아 1개월전 가와사기로 급은불렬치료 이후 경중에대해서?",
+    "page": 373,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "12",
+    "answer": 5,
+    "category": "소아과",
+    "topic": "소아 감염병",
+    "question_summary": "6개월 영아의 열과 임파선 종대 증상에 대한 감별진단",
+    "page": 374,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "Henoch-Schönlein Purpura",
+    "question_summary": "5세 남아의 심한 복통으로 내원한 환자에서 1주일 전 감기 후 발라 다리에 발진이 나타난 경우, 확인해야 할 검사",
+    "page": 378,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소아과",
+    "topic": "Henoch-Schönlein 자반병",
+    "question_summary": "상기도 감염 후 아이가 둔부 발장술 생기고 복통 호소한 경우의 진단",
+    "page": 379,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "Henoch-Schönlein 자반병",
+    "question_summary": "12세 여아의 다리에 분홍색 다양한 크기의 불은색 발진이 생겼을 때의 진단",
+    "page": 379,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 혈액학 - 혈소판감소증",
+    "question_summary": "12세 여아의 다리에 다양한 크기의 반점 발생, 북측과 설사가 있으며 방목통증을 호소하는 환아의 진단",
+    "page": 380,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2020",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 자반증",
+    "question_summary": "7세 남아의 하루종일 부터 자반으로 내원, 3일 전부터 복통, 관절통이 있어 내원한 환자의 진단명",
+    "page": 381,
+    "vol": "vol7"
+  },
+  {
+    "q_num": "2018",
+    "answer": 2,
+    "category": "소아과",
+    "topic": "소아 혈액계 질환",
+    "question_summary": "12세 여아의 다리에 다랭한 크기의 발진이 발생하여 내원, 비출혈 질사가 있으면 발목융증을 오소하였다, 다음은 혈액검사 결과이다",
+    "page": 381,
+    "vol": "vol7"
+  }
+]

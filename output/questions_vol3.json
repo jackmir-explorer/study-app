@@ -1,0 +1,4133 @@
+[
+  {
+    "q_num": "77",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "담낭결석",
+    "question_summary": "77세 남자 4개월 전부터 시작된 시사 후 더부룩함 증상으로 내원한 환자의 우측상복부 대움 증상 발생함. 복시기도 발생. 시사 후 몇시간 뒤 드렴이 나오고 나란 증금 요전되는 것 같음. 자적상 담낭 거적지고, 담석으로 보이는 개 보임",
+    "page": 5,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "41",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 운동 장애",
+    "question_summary": "60대 남자의 상복부 불편감, 오심, 구기 포만감을 주소로 내원한 환자의 약물 치료",
+    "page": 6,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "34",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "변비",
+    "question_summary": "변비 임주인에 대한 아래베 누르면서 자중 배변, 평소 시사랑은 작음, 고시이섬유, 수분 섭취했지만 호전없음. 피지결상 특이소견 없었음. 치료 약제 선택",
+    "page": 7,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "변비",
+    "question_summary": "변비에 대한 설명 중 맞는 것은? Psyllium의 작용 기전, 자행성 변비, Lactulose, 신부전 환자, 유유식이",
+    "page": 7,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 출혈",
+    "question_summary": "상부위장관내시경 시행 시 출혈 병소가 보이지 않는 경우의 진단적 접근",
+    "page": 9,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 출혈",
+    "question_summary": "40세 남자 위장관 출혈 환자의 원인 진단",
+    "page": 9,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2009",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 출혈",
+    "question_summary": "45세 남자 위장관 출혈 환자의 내시경 검사 결과 해석",
+    "page": 9,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20222014",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 주요 검사",
+    "question_summary": "40세 남자의 위내시경(사진) 검정부이다. 이질환의 치료 맞는 것은?",
+    "page": 10,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "소화기",
+    "topic": "치질",
+    "question_summary": "통증 있는 선종색 혈변있는 38세 여성의 진단",
+    "page": 11,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "식도 질환",
+    "question_summary": "무는 약염고 식도에 흰 병변 있는 문제",
+    "page": 12,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "위염",
+    "question_summary": "50대 남자 악고혈압에 복용 중 궁분에 중상 악화, 솔 염이 마심 내시경 검사에서 다름과 같은 소견 지료는",
+    "page": 12,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "출혈성 위염",
+    "question_summary": "25세 남자의 고혈우와 멕주를 2-3잔 가정 섭이 먹고 난 이틀 뒤, 명지부위 에 통증과 토, 구역질 메스꺼움이 림방했다. 특증은 1분 간격으로 20-30초 씩 자는 듯이 아팠다. 직업인 걷태들 프로그래머 스트레스를 받이 받 된 이고 인제 복용하는 약은 없다.내시경 (사진)이다. 진단은?",
+    "page": 13,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "흑색변",
+    "question_summary": "40대 여자 대장내시경 사진 나오고 질문은 작성된 사진",
+    "page": 14,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "이소성 췌장",
+    "question_summary": "위내시경 전정부에 이소성 췌장이 있는 사진의 진단",
+    "page": 14,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "식도암",
+    "question_summary": "68세 여자가 연골층질로 지행질세증을 시행받았다. 지행질세증 시행부터는 음식 연하곤란이 나 3개월가지 항토 증혈의 자속회였다. 진단을 위한 검사는 무엇인가?",
+    "page": 15,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "식도질환",
+    "question_summary": "당뇨로 지표 발고 있는 환자로 최근 연하곤란 등의 증상. 지료는?",
+    "page": 15,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위궤양",
+    "question_summary": "45세 남자 건강검진 시행한 위내시경에서 다음소견. 진단은?",
+    "page": 16,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위암의 분류",
+    "question_summary": "Borrmann 분류를 이용한 진행성 위암의 내시경 및 병리 소견",
+    "page": 17,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "내시경 소견 분류",
+    "question_summary": "내시경 소견 사진에서 대장 내시경에서 사진과 비슷했던 것",
+    "page": 18,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "위내시경 사진 해석",
+    "question_summary": "위내시경 사진에서 보이는 해부학적 구조 부위 위치",
+    "page": 19,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "위내시경 사진 해석",
+    "question_summary": "위내시경 사진에서 병변의 위치",
+    "page": 19,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "소화성궤양",
+    "question_summary": "위궤양 사진 중 천공 위험도가 높은 Bormann type III 인식",
+    "page": 21,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2016",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "소화성궤양",
+    "question_summary": "60세 남환 위궤양 스트레스 궤양 항충혈제 치료 선택",
+    "page": 21,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "감염성장염",
+    "question_summary": "대장내시경 장천공 합병증 치료제 선택 - Senna",
+    "page": 21,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "52",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위식도 역류질환",
+    "question_summary": "위식도 역류질환 진단을 위한 검사",
+    "page": 22,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "GERD 진단",
+    "question_summary": "남자 속이 쓰림증으로 과산시에 심해진다. 위내시경상 위축성위염 의 특이소견 없다. 다음 필요한 검사는?",
+    "page": 23,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "GERD 약물치료",
+    "question_summary": "속쓰림으로 내원한, 과산하한 심해질, GERD 사진. Nitrate를 다음 중 어느 것으로?",
+    "page": 23,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "작열감 증후군(Burning Mouth Syndrome)",
+    "question_summary": "사자 후 호전되는 여종증 문제, 구강작열감이 생김",
+    "page": 24,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "Burning Mouth Syndrome",
+    "question_summary": "구강작열감증후군의 약물 치료",
+    "page": 25,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "PPI 오래 복용 시 흡수 장애",
+    "question_summary": "PPI 오래 복용 시 흡수가 방해되는 물질",
+    "page": 26,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "53",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "GERD",
+    "question_summary": "위산 역류질환 바꾼 뒤 GERD 증상이 발생한 53세 남자 환자의 원인 약물",
+    "page": 27,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "GERD",
+    "question_summary": "다른 증상 없이 흉통이 가슴 증상 부위에 식사 후 자주 발생하여 내원한 45세 여자 환자의 검사",
+    "page": 27,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "GERD 유발 약물",
+    "question_summary": "42세 남자가 당뇨, 고혈압으로 아래와 같은 약들을 복용 중인데 상복부 통증 및 역류성 식도염 증상이 발생했을 때 GERD에 피해야 할 약제",
+    "page": 28,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 약물 및 GERD",
+    "question_summary": "위식도 역류질환을 악화시키는 약물은 무엇인가",
+    "page": 28,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "PPI 부작용",
+    "question_summary": "PPI에 대한 설명으로 맞는 것은?",
+    "page": 29,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2011",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "GERD 약물치료",
+    "question_summary": "알레르기 병력, 전신으로 치료 받고 있는 42세 여자가 내원 2일 전부터 가슴이 타는 듯한 증상을 호소하였다. GERD에 피해야 할 약제",
+    "page": 30,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2010",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "식도 질환",
+    "question_summary": "오랫동안 가슴쓰림이 있던 역류성 식도염 환자에서 가슴쓰림 증상이 시래지고 연하곤란이 발생하였을 때 가능한 진단",
+    "page": 30,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "위식도역류병",
+    "question_summary": "위식도역류병의 정의, 임상소견, 진단, 치료에 관한 문제",
+    "page": 31,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "식도이완불전증",
+    "question_summary": "30세 여자 3개월 연하곤란 증상, 고형식·유동식·음식 모두 곤란, 역류증상 없음. 진단 및 치료",
+    "page": 33,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "젠커게실",
+    "question_summary": "주머니 모양 자전, 입딕세 나고 진단은?",
+    "page": 33,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2022",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "Barrett 식도",
+    "question_summary": "GERD 증상인데 보기에 GERD는 없고 '바렛식도'?",
+    "page": 34,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2022",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "Mallory-Weiss 열상",
+    "question_summary": "전열 술 많이 마신 후 토함, 토혈로 내원한 상방위장관내시경 시행",
+    "page": 34,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소화기",
+    "topic": "Barrett 식도 감시",
+    "question_summary": "Barrett 식도 환자의 감시 내시경 시간 간격",
+    "page": 35,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "49",
+    "answer": null,
+    "category": "소화기",
+    "topic": "인두암(oropharynx cancer)",
+    "question_summary": "49세 여자의 갑작기 발성 삼킴곤란으로 내원, 음식이나 물 마실 때 기침이 나고 코로 물이 넘어오기도 함. 인후두 검진 필요",
+    "page": 36,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "연하곤란",
+    "question_summary": "65세 여자 특이질환 없던 환자의 4개월 점진적 고형식 연하곤란 원인 추정",
+    "page": 37,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2014",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "식도질환",
+    "question_summary": "식도질환 중 맞는 설명",
+    "page": 38,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2013",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "위장질환 진단",
+    "question_summary": "45세 여자환자의 입냄새와 위장 증상 원인 진단",
+    "page": 38,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "식도경련",
+    "question_summary": "45세 남자의 음통 증상과 식도경련의 진단",
+    "page": 39,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "54",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "식도열공탈장",
+    "question_summary": "54세 남자의 오목가슴에 불증한 신물의 역류로 내원한 환자의 진단",
+    "page": 39,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "4",
+    "answer": null,
+    "category": "소화기",
+    "topic": "식도열공탈장",
+    "question_summary": "식도열공탈장의 4가지 유형 분류 및 특징",
+    "page": 41,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소화기",
+    "topic": "게실(Diverticulum)",
+    "question_summary": "게실의 개념, 병태생리, 분류 및 식도게실의 정의",
+    "page": 42,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "63",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "소화성궤양",
+    "question_summary": "63세 남자 1주일간 자술된 속쓰림으로 위내시경 검사를 받았고, 내시경 검사 결과 다발성 미란성 위염과 항중성 실이자장궤양이 발견되었다. 최근에 aspirin, clopidogrel 을 복용 중이었다. 어떤 조치를 취해야 하는가?",
+    "page": 44,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "소화성궤양",
+    "question_summary": "50세 남자 수확불량 등 소화기 증상, 위내시경에서 위염, 심이지장 다발성 궤양 소견, CLO (-)일 때 제속 재발하는 궤양으로 내원한 환자에게 상부위장관 내시경을 시행한 결과 다발성 궤양 확인되었다. 검사해야 할 것은?",
+    "page": 44,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "PPI와 H2RA의 약물상호작용",
+    "question_summary": "궤양자진 보여주면서 치료제 약제는 H2수용체 길항제(H2RA)와 PPI중 선가지를 1차 치료제로 사용한 다 웨피고박터균이 검출된 경우 H.pylori 제균료 변과 더불어 4주에서 8주가지 사용한다. PPI 궤양 치료응은 H2RA 보다 우수하다. 획근 칼출경 짧것 위심분비 억제제(potassium-competitive acid blocker, P-CAB)와 새로운 기전의 의산분 비억제제가 출시되어 역류성식도염에 사용 가능하며, 일부 약제는 소화성 궤양에도 차방이 가능하다.",
+    "page": 45,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "상한성 궤양의 원인과 치료",
+    "question_summary": "R형, 궁핍 시 복통, 날자 배변사 커피색 변 - 상한성 궤양의 원인은 명지궁 톨증은 소화성 궤양의 전형적인 증상이다. 그러나 출산으로 궤양여부 및 위궤양과 신이기장궤양은 감별할 수 없다. 특히 NSAID에 의한 궤양의 70%는 합병증이 나타나 마차지 증상이 없다. 깅기지 심한 톨증으로 궤양 전곡. 음식으로 섭해지는 구역 및 구토는 위장관 출구폐쇄, 흙색변 등은 출혈을 의심할 수 있지만 증상만으로 진단하기 어렵다.",
+    "page": 45,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위염관련 단계별 모습",
+    "question_summary": "55세 여자환자의 내시경 소견에서 위염의 단계별 변화",
+    "page": 46,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "H. pylori 진단 - Rapid urase test",
+    "question_summary": "위내시경 검사에서 심이질정 궤양 발견 시 환자가 rapid urase test상 양성이었을 때 추후 재발여부 확인하기 위한 적절한 검사는?",
+    "page": 47,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "H. pylori 진단 - 비침습 검사",
+    "question_summary": "심이질정 구부에 궤양소견이 보여 H. pylori 지균 치료 시행하였다. 추후 재발여부 확인하기 위한 적절한 검사는?",
+    "page": 47,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "NSAID 관련 위궤양",
+    "question_summary": "50세 여자 상복부 통증과 혈변을 주소로 내원한 환자의 위내시경에서 출혈성 위궤양이 관찰되었다. 환자는 관절염으로 NSAIDs를 복용 중이며 저축적으로 복용해야 한다면 약물 선택은?",
+    "page": 48,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "H2 수용체 길항제",
+    "question_summary": "45세 천식 환자 ulcer있는 위내시경 사진, 소화기증상+, CLO negative인 환자의 약물 치료",
+    "page": 48,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "헬리코박터 제균 치료 후 신택기 검사",
+    "question_summary": "조기위암 수술 후 신택기가 거의나내요",
+    "page": 49,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관 질환",
+    "question_summary": "상부위장관시경 검사상 A2 위궤양이 발견되어 2017년 10월 1-14일 헬리코박터 제균 치료하였고, 10월 15-11월 15일 PPI 사용하였다. 재균 치료에 대한 확인으로 골바른 것은?",
+    "page": 50,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "헬리코박터 제균 후 장상이 악화될 수 있는 경우",
+    "question_summary": "헬리코박터 제균 후 증상이 악화될 수 있는 경우",
+    "page": 51,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "소화성 궤양환자의 H. pylori 제균 요법",
+    "question_summary": "소화성 궤양환자의 H. pylori 제균 요법 중 올은 설명",
+    "page": 51,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위장관 림프종",
+    "question_summary": "65세 남자의 상복부 불편감으로 내원한 저등급 뮤코사-관련 림프절 림프종의 원인",
+    "page": 52,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "소화성궤양",
+    "question_summary": "51세 위궤양 환자의 약제 중 COX-2 선택적 억제제 관련 약물",
+    "page": 52,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "30",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "H. pylori 감염과 위궤양",
+    "question_summary": "30대 여자가 상부위장관 내시경 검사상 위궤양 위전정부의 만성 위축성 위염이 있었을 때 CLO 양성이었다. 다음 중 옳은 내용은?",
+    "page": 53,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "소화성궤양질환",
+    "question_summary": "소화성 궤양 치료에서 H. pylori 제균으로 가장 기대되는 효과",
+    "page": 54,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "소화성궤양질환",
+    "question_summary": "소화성 궤양의 진단 및 평가 중 올은 것",
+    "page": 54,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "소화성 궤양",
+    "question_summary": "소화성 궤양의 개요, 병태생리, 임상소견",
+    "page": 55,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "7",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "헬리코박터균 관련 위염",
+    "question_summary": "헬리코박터 제균 적응증",
+    "page": 58,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "염증성 장질환",
+    "question_summary": "64세 남성의 혈변, 설사, 복통 증상과 ANCA(+) 검사 결과를 통한 크론병 vs 궤양성 대장염 감별진단",
+    "page": 59,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "위장관 출혈",
+    "question_summary": "25세 남자의 토혈 및 흑색변으로 나타난 위장관 출혈의 진단 및 치료",
+    "page": 60,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "크론병",
+    "question_summary": "35세 남성 크론병 환자의 임상 증상 및 검사 결과 분석",
+    "page": 61,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "영양실조 및 비타민 결핍",
+    "question_summary": "52세 남자, 5개월 전부터 알코올 과다복용으로 인한 영양실조. 소주 2-3병씩 마시고 인수는 명료한 미지 않았던 환자의 인한 B12 결핍 확인. 메트포민 복용하고 있다. 6개월 전부터 임팩트 있었고 점차 악화. 결손 4주 증상. 3개월 전부터 모이 힘들어 옷을 완전히 못했다. 2개월 전 당뇨합병증소는 5.7% 였다. 간손소지는 정상으로 회복되고 있다. 진단 검사는?",
+    "page": 64,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "비타민 B1 결핍",
+    "question_summary": "68세 남자, 매일 소주2병 마시는 자로 기억력저하, 최근 눈과 몸 운동 기능 저하가 생겼다 할 때 결핍된 비타민 한가지를 고르시오",
+    "page": 64,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "허혈성 대장염",
+    "question_summary": "32세 여자의 급성 복통, 설사, 정혈 혈변의 원인 진단",
+    "page": 65,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 3,
+    "category": "소화기",
+    "topic": "궤양성 대장염 환자의 X-ray 소견",
+    "question_summary": "궤양성대장염으로 치료받던 환자가 북통이 있어서 시행한 X-ray소견상 장이 확장된 소견 보일 때 다음 중 틀린 것은?",
+    "page": 66,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "소화기",
+    "topic": "염증성 대장질환의 발병위험을 가장 높이는 요인",
+    "question_summary": "염증성 대장질환의 발병위험을 가장 높이는 요인은?",
+    "page": 66,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "진단적 검사",
+    "question_summary": "궤양성 대장염과 크론병의 대장조영검사 및 내시경 소견 비교",
+    "page": 73,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소화기",
+    "topic": "궤양성 대장염 vs 크론병",
+    "question_summary": "궤양성 대장염과 크론병의 내시경 소견 및 조직학적 차이",
+    "page": 74,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "과민대장증후군",
+    "question_summary": "과민대장증후군 환자의 설사형 IBS-D 치료 약물",
+    "page": 79,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "소아 복통",
+    "question_summary": "30세 여자의 1년 전부터 간헐적 하복부 통증, 배변 후 완화되는 양상의 원인",
+    "page": 80,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "소아 복통",
+    "question_summary": "43세 남자의 2년 전부터 자주 발복되는 하복부 통증의 원인",
+    "page": 80,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "27",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "IBS 복부팽만감",
+    "question_summary": "IBS 환자의 복부팽만감 원인과 치료에 대한 문제",
+    "page": 81,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "30",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "IBS 복부팽만감 치료",
+    "question_summary": "30세 여성 원장 질 복통, 장음 선택 문제",
+    "page": 81,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "320",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "과민성대장증후군",
+    "question_summary": "과민성대장증후군에서 변비와 반복적으로 하는 과민성대장증후군에서 효과 좋은 약물",
+    "page": 82,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": null,
+    "question_summary": null,
+    "page": 83,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "과민성대장증후군",
+    "question_summary": "과민성대장증후군의 진단기준 및 치료방법",
+    "page": 86,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "약물지료 및 기타치료법",
+    "question_summary": "loperamide의 작용기전과 부작용",
+    "page": 87,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "기타 치료법",
+    "question_summary": "각 진료 영역별 스트레스 관리 및 의료진의 역할",
+    "page": 87,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "세균성 복막염",
+    "question_summary": "58세 남자 간경변 환자의 세균성 복막염 치료 항생제 선택",
+    "page": 88,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "대장암",
+    "question_summary": "70세 노인의 대장암 진단 후 수술 전 선택 검사",
+    "page": 88,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장암 선별검사",
+    "question_summary": "35세 당뇨환자 2년 전부터 좌하복부 통증이 생겨 내원한 환자의 검사 선택",
+    "page": 89,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "62",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "게실질환",
+    "question_summary": "62세 남자의 대장내시경 검사 중 우측 결장에서 발견된 무증상 게실의 관리",
+    "page": 89,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "80",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "적혈구 이상",
+    "question_summary": "80세 여자 2일간 지속된 좌하복부 복통, 오심 증상의 진단",
+    "page": 89,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성복증",
+    "question_summary": "38세 남자 갑자기 발생한 심한 상복부 통증으로 내원, 최근 심이지장궤양 약으로 약물치료 중 CXR 우위침에서 free air로부임, 진단은?",
+    "page": 95,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성복증",
+    "question_summary": "67세 남자 2일전부터 좌하복부 통증, 복통은 하루 중 지속되고 설사나 구토 없음, 대변 굵기 체크, 38.6도 장상 중심 시 복부도음장치 좌하복부에 압통과 반발통이 있을 항온 진찰시 만져지는 것 없으나 자장 쪽에 압통, WBC:12,000, Hb:13.5 Hct:45%, PLT:183,000 다음 중 앞맞은 치찰은?",
+    "page": 95,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "만성 장간막 허혈증",
+    "question_summary": "78세 여자 복통 및 체중 감소 환자의 진단",
+    "page": 96,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈증",
+    "question_summary": "70세 남자 급성 복통 환자의 진단 및 치료",
+    "page": 96,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "80",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "장간막동맥혈전증",
+    "question_summary": "60대 환자의 급성 복통, 혈변, vital sign stable 상태에서 Hb 11, WBC 26000인 경우 진단",
+    "page": 97,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위장관천공",
+    "question_summary": "55세 남자의 급성 좌상복부 복통 및 X-ray상 free air 소견일 때의 진단",
+    "page": 97,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈증",
+    "question_summary": "복통과 AF 같은 심혈관질환 Hx에 혈액소견 보기에 CT, Colonoscopy 있었으며 angiography는 없었을 때의 진단",
+    "page": 98,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈",
+    "question_summary": "급성 장간막 허혈의 진단 및 관리",
+    "page": 99,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2016",
+    "answer": null,
+    "category": "소화기",
+    "topic": "허혈성 대장염",
+    "question_summary": "허혈성 장염의 원인, 병태생리, 진단 및 치료",
+    "page": 100,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2015",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "급성 복통",
+    "question_summary": "급성 복통의 감별진단 및 접근",
+    "page": 100,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈증",
+    "question_summary": "67세 여자의 급성 복부통 환자의 진단 검사",
+    "page": 101,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈증",
+    "question_summary": "70세 여자의 급성 복부통 환자의 진단 검사",
+    "page": 101,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소화기",
+    "topic": "급성 장간막 허혈",
+    "question_summary": "급성 장간막 허혈의 정의 및 원인",
+    "page": 104,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장내시경 - 맹장 위치 표지",
+    "question_summary": "대장내시경에서 맹장 위치를 확인하기 위한 해부학적 표지점",
+    "page": 109,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "장페쇄",
+    "question_summary": "72세 남자 이전부터 시작된 복부 불편감, 복부 팽만감 주소로 내원한 환자의 장폐색 원인 진단",
+    "page": 111,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "장폐색",
+    "question_summary": "90세 여자가 1주 전부터 시작된 복부 팽만감과 장폐색 증상으로 40대 전 중증 증상을 보인 환자의 진단",
+    "page": 111,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "장폐색",
+    "question_summary": "43세 남자 12시간 전 시작된 복통, 10번 전 중추능력 저하, 장음은 항진, 복부 X-ray에서 다중과 감금",
+    "page": 112,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "44",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "장폐색 징후",
+    "question_summary": "복부팽만감, 항정제 복음중, 장음은 둔리적 없었다 - Step ladder sign",
+    "page": 112,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "직장폐색(Sigmoid volvulus)",
+    "question_summary": "흡수된 볼톨로 내입합, v/s stable, 해야 할 것은?",
+    "page": 113,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "대장의 기계적 폐쇄",
+    "question_summary": "68세 남자가 복부팽만과 구토로 내원, 수술력 있었으며, 1일 전에도 유사한 증상이 있었고, 3일간 변을 보지 못했으나 간간히 방귀는 뀌었다고 한다. 복부진찰에서 대변과 가스가 보인 형태를 보면, 가장 임상에 할 진단은?",
+    "page": 113,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "동적 장폐새증",
+    "question_summary": "72세 남자 1일 전부터 복부팽만감과 함께 깻깍강이 있었다. 진찰 결과 복부 팽만, bowel sound decreased, Td/RTd(-/-) 진단은?",
+    "page": 114,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "급성 담낭염",
+    "question_summary": "27세 여자가 오심 구토를 동반한 경험성 복통을 주소로 내원하였다. 최근 변비와 복부팽만이 있었다고 한다. 3개월 전 충수절제술을 받았으며 복부 팽만과 함께 장운동이 항진되어 있었다. 다음 중 가장 의심되는 질환은?",
+    "page": 114,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 충수염",
+    "question_summary": "30세 여자 우하복부 통증으로 내원한 환자의 Obturator test 양성, RLQ 압통, 발열 시 진단 및 치료",
+    "page": 115,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2020",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 충수염",
+    "question_summary": "70세 여자 2일전부터 발열, 구토, 설사 증상으로 내원한 환자의 진단 및 치료",
+    "page": 115,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "충수염",
+    "question_summary": "23세 여환의 초음파 검사에서 보이는 소견 해석 - 충수염 진단",
+    "page": 116,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2010",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "게실염",
+    "question_summary": "75세 남자환자의 복부 통증 및 검사 소견에 대한 진단",
+    "page": 116,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "급성 중추염 - 개요, 임상증상, 진찰소견",
+    "question_summary": "급성 중추염의 정의, 임상증상, 진찰소견 및 특징적 임상징후(McBurney point, Rovsing sign, Dunphy sign, Psoas sign, obturator sign) 설명",
+    "page": 117,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위막성대장염(PMC)",
+    "question_summary": "항생제 치료 후 위막성대장염의 의심, 빠른 진단법",
+    "page": 119,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "담낭염",
+    "question_summary": "25세 남자 우상복부 통증, 발열, 구역질 환자의 진단 검사 이상소견 해석",
+    "page": 120,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "위막성대장염",
+    "question_summary": "51세 여자 2주간 자궁경제술 후 설사, 메트로니다졸 치료 중 재발 환자의 원인 병원체",
+    "page": 120,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "41",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "황문질환",
+    "question_summary": "41세 남자 대변에서 피 묻어 내용, 증상은 마로 없고 가급 있어 옮음, 황문질환 증혈 동반되지 않는 내치혁",
+    "page": 121,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "황문질환",
+    "question_summary": "35세 여자가 대변으로 붉 후 피가 묻어나운다며 방문, 6개월 전부터 대변 출혈 후 응지로 닦으면 불은 모습, 통증은 없었다. 2개월 전부 변변을 볼 때 황문 주위에 붉지된 피어나오는 것이 있었다. 지료는?",
+    "page": 121,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "28",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "치핵",
+    "question_summary": "내 시에 진찰상 직장이 항문 밖으로 튀어나와 손으로 넣어도 들어가지 않았다 치료는",
+    "page": 122,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "57",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "대변 변비",
+    "question_summary": "단자 대변에 피 묻어 나옴, 가음 변비 있으며 1달 전 항문 진찰상 출혈 동반 되지 않은 내치핵, 조치는",
+    "page": 122,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "34",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "약물 부작용",
+    "question_summary": "prolapse 유발 약물의 spontaneous 감소 기전",
+    "page": 123,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "치질",
+    "question_summary": "항문 부종 후 swelling의 원인 진단",
+    "page": 123,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "치질",
+    "question_summary": "43세 남자 항문가 1일전 배변 후 항문주위 통증으로 발문, 평소 변비있었고 이하작적 검사상 과리도양의 swelling있었음. 치료로 적당한 것은?",
+    "page": 124,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "서혜부 탈장",
+    "question_summary": "3개월 된 남아의 인직 서혜부에 울린 1cm 정도의 종물이 나타났다가 들어가는 경우, 수술 적응증 판단",
+    "page": 127,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "덤핑증후군",
+    "question_summary": "Early dumping 증후군의 임상 특징과 위장관 증상",
+    "page": 130,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2016",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "덤핑증후군",
+    "question_summary": "덤핑증후군의 병태생리와 치료",
+    "page": 130,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "47",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "열상(화상) 치료",
+    "question_summary": "47세 남자 화상으로 3평 전 위 부분공계속을 방앗고 삭후 20-30분 후 상복부 불편감 함께 오심과 구토가 발생하였다. 가슴 심사 중체로도 전장되었다. 혈압 120/80 3℃, 호흡 16회/분이었다. 이 환자에게 교육할 내용 중 맞는 것은?",
+    "page": 131,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "위절제술(Subtotal gastrectomy) 후 합병증",
+    "question_summary": "50대 남자 5일전 지속되는 명국점로 내렬, 이전에 위암으로 subtotal gastrectomy 시행한 병력 존재. 과음, 과식하면 나타나다고 하며 현달에 멧 변절(한두번?) 재발한다고 함. 지는는?",
+    "page": 131,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "약물유발성 위장관계 부작용",
+    "question_summary": "양자자 펌프 억제제를 복용한 환자의 이상증상과 관련된 약물",
+    "page": 133,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "46",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "위장관계 독성물질 제거",
+    "question_summary": "위암으로 인한 위궤양 천공 후 조기포만감, 상복부 통증 환자의 치료약물",
+    "page": 133,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "Billroth II 위장공장문합술",
+    "question_summary": "위절제술 후 Billroth II 위장공장문합술을 받은 환자에서 부족할 수 있는 영양소",
+    "page": 134,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위암/위용종",
+    "question_summary": "35세 남자 위내시경 검사에서 0.5cm 크기의 Y-II 융종 발견, 조직검사결과 fundic gland polyp 진단 시 추적관찰 필요 여부",
+    "page": 135,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2019",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "위의 용종",
+    "question_summary": "40세 남자 위내시경 시행에서 위 전정부에 0.5cm 아버드 3 type polyp 발견, 조직검사상 hyperplastic polyp일 때 적절한 조치는?",
+    "page": 136,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2013",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "위의 용종",
+    "question_summary": "40세 여자가 위내시경에서 전정부에 1cm의 융종이 발견되어 조직검사시 시행하였고 선종으로 확인되었다. 적절한 조치는?",
+    "page": 136,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2010",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위의 용종",
+    "question_summary": "54세 남자가 위 전정부에 1.5cm 유경성 융종이 EGD상 확인되었다. 조직검사상 과형성 용종이었으며 H. pylori 감염이 되어 있었다. 치료는 무엇인가?",
+    "page": 136,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "52",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "대장암/대장용종",
+    "question_summary": "52세 여자의 대장내시경으로 발견된 용종 2개의 크기 및 조직검사 결과에 따른 추적관찰 기간",
+    "page": 137,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "대장암/대장용종",
+    "question_summary": "55세 남자의 대장내시경 검사에서 발견된 1.5cm 크기 병변의 조직검사 결과 관상샘종으로 확인된 경우의 추적검사 계획",
+    "page": 137,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2018",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장 용종 제거",
+    "question_summary": "60세 남자, 시행한 대장내시경 상 distal T colon 0.8cm/sig. colon 1.5cm polyp 발견, 폴립 조직검사상 focal high grade dysplasia를 일부 포함한 관상선종으로 나왔을 때 응버는 처치는?",
+    "page": 138,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장내시경 추적검사",
+    "question_summary": "대장내시경 관상선종 제거 후 대장내시경 f/u 시기?",
+    "page": 138,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "68",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "hyperplastic polyp",
+    "question_summary": "68세 여환의 대장내시경에서 0.6cm, 0.8cm 용종이 발견된 조직검사상 hyperplastic 나왘다. 향후 조직검사는?",
+    "page": 139,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2014",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "대장내시경",
+    "question_summary": "Sigmoidoscopy에서 용종 발견시 용종절제술 시행 여부",
+    "page": 140,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2013",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장용종",
+    "question_summary": "60세 남자 대장내시경에서 발견된 8mm, 1.5cm polyp 절제술 후 관리",
+    "page": 140,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20121",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "대장내시경 검진 시기",
+    "question_summary": "52세 여자가 첫 대장내시경 방았는데 용종 2개 발견되어 제거하였다. 4mm, 6mm였고 조직검사결과 관상선종, 저등급 이형성이었다. 복용, 제충질소, 혈변은 없었으며 흡연력 및 음주력 없었다. 1년 전 사촌 오빠가 대장암으로 사망한 병력이 있었다. 적절한 조치는?",
+    "page": 141,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20122",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대장내시경 검사 시기 결정",
+    "question_summary": "대장암 선별검사에서 옳은 것은?",
+    "page": 141,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "대장용종 추적 검사",
+    "question_summary": "65세 여자 우측 대장내시경에서 발견된 0.3cm, 0.6cm 용종(hyperplastic polyp)의 추적 검사 간격",
+    "page": 142,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "대장용종 치료",
+    "question_summary": "50세 남자 좌측결장 대장궤양증에서 2cm 용종 발견 시 치료 방법",
+    "page": 142,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "58",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "간질환의 진단적 접근",
+    "question_summary": "58세 알코올중독 환자의 복부 팽만, 부종, 복수 평가 및 진단",
+    "page": 143,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "간기능 평가",
+    "question_summary": "55세 여자 간경화 환자의 간기능 검사 결과 해석 및 진단",
+    "page": 144,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "Dubin-Johnson syndrome",
+    "question_summary": "28세 남자 건강검진에서 황달이 발견된 환자의 진단",
+    "page": 145,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "HAV 감염",
+    "question_summary": "20대 여자 구역 구토 내원, AST/ALT 상승 환자의 검사",
+    "page": 145,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2019",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 간염",
+    "question_summary": "1.35세 여성의 황달, 구역질 증상 후 황달 증상 발생 환자의 혈청 검사 및 추가 검사",
+    "page": 148,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "급성 간부전",
+    "question_summary": "23세 여성의 황달, 관절통, 전신무력증 환자의 원인 감별 및 진단 검사",
+    "page": 148,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "Gilbert syndrome",
+    "question_summary": "25세 남자의 정기 검사 결과 이상 소견 해석",
+    "page": 149,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "Autoimmune hepatitis",
+    "question_summary": "4B세 여자의 자가면역성 간염 진단을 위한 추가 검사",
+    "page": 149,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "급성 바이러스 간염",
+    "question_summary": "Anti-HCV (+), HCV RNA (-)인 환자의 진단",
+    "page": 150,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "급성 바이러스 간염",
+    "question_summary": "Anti-HCV 양성으로 나왔고, 남병은 음성으로 나왔다. 적절한 조치",
+    "page": 150,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "28",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형간염 예방접종",
+    "question_summary": "HBsAg 양성 간염환에서 노출 시 과거의 B형간염 백신 3회 접종력은 없고 현재 항체 생성여부를 모를 때 조치",
+    "page": 151,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "28",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "C형간염",
+    "question_summary": "C형간염 환자의 항HCV 음성, AST/ALT 24/35 정상화 후 치치 중단 가능성",
+    "page": 153,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "25",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "C형간염",
+    "question_summary": "C형간염 환자 재활하다 바늘에 찔림, 조치",
+    "page": 153,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "25",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "C형간염",
+    "question_summary": "C형간염 앓은 후 HCV 항체 음성, 적절한 치치",
+    "page": 153,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소화기",
+    "topic": "B형간염 예방접종",
+    "question_summary": "HBsAg 양성 산모에서 12년 전 접종한 B형 간염 항체(+) 소실, 현재 접종 방법",
+    "page": 154,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2011",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "HBsAg, HBe Ag 양성 환자의 간염 진단",
+    "question_summary": "HBsAg(+), HBe Ag(+)인 환자의 혈액에 노출된 바늘에 찔린 간호사의 치료는?",
+    "page": 155,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2009",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "B형 간염 예방접종",
+    "question_summary": "간호사가 HBsAg양성인 환자를 케어하다가 바늘에 찔렸을 때의 처치",
+    "page": 155,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "만성 B형 간염",
+    "question_summary": "HBsAg(+), HBeAg(+) 환자의 항바이러스제 치료 선택",
+    "page": 157,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "만성B형간염",
+    "question_summary": "28세 여성 만성B형간염 진단받았을 때 직장검진 시 의심질환 및 치료 선택",
+    "page": 158,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "결핵 및 간질환",
+    "question_summary": "결핵 남자 b형 항체가 없다고 나왔을 때 회사원이었다, 과거 b형 예방접종 여부 확인 및 치료",
+    "page": 158,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "만성 B형간염",
+    "question_summary": "HBsAg, HBeAg 양성인 환자에서 DNA 3,800IU, AST/ALT 상정 높은 환자의 1개월 뒤 예상 검사 결과",
+    "page": 159,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형간염 치료",
+    "question_summary": "간경변증 환자의 B형간염 치료제 선택",
+    "page": 159,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "53",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "만성간질환",
+    "question_summary": "53세 남자의 피로와 황달로 내원, 간염 바이러스 표지자 검사 결과 해석",
+    "page": 160,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "48",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "간경변증",
+    "question_summary": "48세 남자의 3주간 피로감으로 내원, 간경변 진단 후 관찰 지표 해석",
+    "page": 160,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "에이즈 환자의 기회감염",
+    "question_summary": "35세 남자 간경질환 환자의 CD4 수치에 따른 예방적 항생제 치료",
+    "page": 162,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "에이즈 환자의 기회감염",
+    "question_summary": "50세 남자 1개월 증상 호소 환자의 폐렴구균 감염 예방",
+    "page": 162,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "HBV 감염, HBeAg/항체 해석",
+    "question_summary": "AST/ALT 23/30, HBsAg/Ab(+/-), HBeAg/Ab(+)일 때 HBV DNA 2 IU/mL인 경우의 해석",
+    "page": 166,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형 간염",
+    "question_summary": "HBeAg(+)인 B형 간염 바이러스 보균자에서 라미부딘 치료를 중단하는 시기를 결정하는 결과는?",
+    "page": 168,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형 간염",
+    "question_summary": "다음 혈청검사의 상태는? (HBsAg(-), Anti HBs Ab(-), IgM Anti-HBc(+), HBc Ag(+), Anti HBe Ab(-))",
+    "page": 168,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20162015",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "B형간염 검사 해석",
+    "question_summary": "B형간염 관련 마커 검사에서 백신 접종 후 항체 형성 상태 판단",
+    "page": 169,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2014",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형간염 마커 해석",
+    "question_summary": "Anti-HBs(+), anti-HBc(+) 검사 결과의 의미",
+    "page": 169,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "4",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "B형간염 3차 접종",
+    "question_summary": "B형간염 3차 접종이 미뤄진 경우 아이의 B형간염 예방접종을 언제 시작해야 하는가",
+    "page": 170,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "B형 간염",
+    "question_summary": "라미부딘 치료 중 B형 간염 악화의 임상 의의",
+    "page": 171,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형 간염",
+    "question_summary": "간경변증 환자의 B형 간염 치료 경과 평가",
+    "page": 171,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "B형간염",
+    "question_summary": "HBsAg 양성, HBeAg 음성 만성 B형 간염 환자의 치료 선택",
+    "page": 172,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "B형간염",
+    "question_summary": "65세 여자의 HBsAg/Ab 양성, HBeAg 음성, 정상 AST/ALT, HBV DNA 고값 환자의 치료 선택",
+    "page": 172,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "B형 간염",
+    "question_summary": "B형 간염 바이러스 보윤자인 30세 남자에게 시작한 전신 피로와 HBsAg(+), HBsAb(-), HBeAg(+), HBeAb(-), HBV DNA titer: 2만 IU/ml 이상, AST 153 U/L, ALT 179 U/L인 경우 가장 적절한 치료",
+    "page": 173,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "48",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "만성 C형 간염",
+    "question_summary": "48세 남자의 1개월 전 황달과 피로, 공막 황달과 정도의 간비대가 있는 환자. 검사결과는 아래와 같다. 치료는?",
+    "page": 181,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "HCV 감염",
+    "question_summary": "50대 남자의 시행한 혈액검사에서 anti-HCV(+) 이정으나 항당 보이지 않고, 정상 ALT를 보일 때 HCV RNA(+)일 확률",
+    "page": 182,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "C형간염 치료",
+    "question_summary": "40세 남자 C형간염 양성 환자의 최적 치료제 선택",
+    "page": 183,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "C형간염 치료",
+    "question_summary": "만성 C형간염 환자의 최적 치료 방법",
+    "page": 183,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "C형간염 항바이러스 치료",
+    "question_summary": "48세 남자 1개월 전부터 피로가 있었던 환자의 검사 결과에서 AST/ALT 550/600, 간염 항체 양성, HCV RNA 양성 소견 보이는 중증 간염 진단 후 치료제 선택",
+    "page": 184,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2007",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "C형간염 진단",
+    "question_summary": "부인에게 Anti-HCV 양성으로 나왔으나 남편은 음성인 경우 적절한 조치",
+    "page": 184,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "소화기",
+    "topic": "C형 간염 치료",
+    "question_summary": "C형 간염 바이러스의 구조와 생활사 기반으로 직접 작용 항바이러스제의 개발",
+    "page": 189,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "알코올성 간질환",
+    "question_summary": "50세 남자의 우상복부 종괴감과 피로감으로 내원한 환자의 진단",
+    "page": 192,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "알코올성 간질환",
+    "question_summary": "48세 여자가 1주일 전부터 오심과 피로가 있었던 환자의 치료제",
+    "page": 192,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "알코올 사용장애의 선별",
+    "question_summary": "알코올 사용장애 선별을 위한 진료지침 및 CAGE 설문지 소개",
+    "page": 194,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "알코올 사용 장애 선별검사",
+    "question_summary": "AUDIT-K를 이용한 알코올 사용 장애 선별 검사",
+    "page": 195,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "알코올성 간염",
+    "question_summary": "알코올성 간염(alcoholic hepatitis)의 진단 기준 및 치료 방법",
+    "page": 200,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "알코올성 간질환의 치료",
+    "question_summary": "중증 알코올성 간염(MELD≥21)의 우선치료 선택",
+    "page": 201,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "47",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "비알코올 지방간질환",
+    "question_summary": "47세 남자 간기능 검사 이상소견으로 왔다. 비알코올 지방간질환 진단 시 필요한 검사",
+    "page": 202,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "지방간질환(NAFLD)",
+    "question_summary": "0엔 남자 간정질 폐쇄 폐렴감으로 시행한 검사상 AST/ALT 60/80, HbA1c 6.3, 이상 기본적인 Lab들 및 viral marker 있었고 모두 정상소견. Lipid profile 있었는데 제산에 보면 LDL 타겟 안에 들어 있었습니다. 키 170cm, 86kg일 때 진단은?",
+    "page": 203,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "비알코올성 지방간질환",
+    "question_summary": "45세 남자의 피로로 왔다. AST 100, ALT 110, GGT 80, ALP 46, HBsAg/Ab/anti-HCV (-/-/-) 이고 BMI 30 kg/m2, 우 1회 소주 반병 마신다. 이 남자의 질환은?",
+    "page": 204,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "45세 남자 좌측 족궁파에서 보이는 지방간 소견, AST/ALT 상승 환자의 관리",
+    "page": 205,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "47",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "지방간질환",
+    "question_summary": "47세 남자 건강검진에서 발견된 지방간, 이상지질혈증 환자의 치료",
+    "page": 205,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "213",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "간경변증 및 합병증",
+    "question_summary": "간경변과 복수 있는 환자의 치료 선택 및 TIPS 적응",
+    "page": 206,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "214",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "간경변증 및 합병증",
+    "question_summary": "식도정맥류 출혈 환자의 혈압 조절 및 약물 치료",
+    "page": 206,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "식도 내시경상 정맥류",
+    "question_summary": "40~50세 남성의 복수와 하지 부종으로 내원한 환자, 검사상 저알부민혈증과 혈소판 감소 소견에서 진단적 검사는?",
+    "page": 207,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "17",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "간성뇌증",
+    "question_summary": "간경변으로 인한 간성뇌증 환자의 원인 파악 및 치료",
+    "page": 209,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "8",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "간경변증의 유발인자 및 합병증",
+    "question_summary": "간경변증 환자가 자발성 세균복막염의 병인이 있거나 유출관통을 이용한 경우, 혹은 위출관통을 이용한 자동세정치료 고려할 때 권장되는 항생제 치료",
+    "page": 210,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "항생제 선택",
+    "question_summary": "56세 환자의 간경변증 진단받은 환자가 위장출혈, 복수로 내원하였다. 입원 중 발열이 있어 복강천자를 시행하였고, 다양한 세척인 압등이 있었다. 제 2세대 3세대 세팔로스포린 중 가장 적절한 것은?",
+    "page": 211,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "복수",
+    "question_summary": "2WA abd distension, controlled ascites 환자의 복수 원인 감별",
+    "page": 212,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "간경변증 환자의 약물 치료",
+    "question_summary": "56세 여자 간경변 환자의 복부팽만, 부종 증상에 대한 추가 치료약 선택",
+    "page": 213,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "57",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "만성 간질환 환자의 약물 선택",
+    "question_summary": "간경변으로 외래 치료중인 환자에게 적절한 약물 선택",
+    "page": 213,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "63",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "복막염",
+    "question_summary": "복막염의 감별진단 - 신장질환 환자의 복부 통증, 발열, 복음 소견과 검사결과 해석",
+    "page": 214,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "58",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "알코올성 간질환",
+    "question_summary": "알코올중독으로 발열, 복통 및 황달 있는 환자의 검사실 수치 해석",
+    "page": 214,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "간농양",
+    "question_summary": "60세 환자의 1주 전 우측 발열, 오한, 구역, 구토 증상 및 혈액 배양 검사 결과에 따른 항생제 치료 선택",
+    "page": 215,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "38",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "R-type 인터페이닝",
+    "question_summary": "38세 남자의 3년 전부터 피로 어드러딘 환자의 검사 결과 해석 및 진단",
+    "page": 216,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "39",
+    "answer": null,
+    "category": "소화기",
+    "topic": "R-type 인터페이닝",
+    "question_summary": "35세 여자가 5년 전부터 피로 어드러딘 환자의 검사 결과 해석 및 진단",
+    "page": 216,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2022",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "담낭결석",
+    "question_summary": "42세 여자, 6개월 전부터 식사 후 소화 불량, 복통 있었음. 초음파상 multiple gallstones, GB wall thickening 소견. 진단?",
+    "page": 217,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "담낭슬러지",
+    "question_summary": "임신 30주인 31세 여자가 기흉컬 음식을 먹으면 소화가 안 되고 불편하다고 호소. 구역 증상 있음. 초음파상 biliary sludge 소견. 진단?",
+    "page": 217,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "소화기",
+    "topic": "간경변증 합병증",
+    "question_summary": "거대 담석 있는 CT사진 동반한 황달버지, TB 3, DB 1 치료는?",
+    "page": 218,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "담낭염",
+    "question_summary": "1.2cm 담낭과 담낭벽 석회화에서 임플론트로 예방적 담낭절제술 시행하는 것은 권고하지 않고 비용-효과적인 측면에서도 합리적이지 않다는 근거의 설명",
+    "page": 219,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "복합감염 치료",
+    "question_summary": "44세 여자 3시간동안 지속되는 우측복부 통증의 주증상 경우 항생제 선택 (Piperacillin, Clindamycin, Gentamycin, Azithromycin, TMP/SMX)",
+    "page": 219,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "폐경기 여성의 조홍과 사지이상",
+    "question_summary": "40대 여성 조홍과 사지이상, 올바른 치치는?",
+    "page": 220,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "60",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "고령 남자의 담즙 이상 및 간기능 검사",
+    "question_summary": "60세 남자 황달 및 간기능 검사 이상 환자의 원인 감별",
+    "page": 220,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "담낭질환",
+    "question_summary": "55세 여자 환자 복부 초음파에서 1.5cm 담석과 석회화된 담낭이 발견된 경우 BMI 28로 치료는?",
+    "page": 221,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "담낭질환",
+    "question_summary": "45세 남자 복부 초음파상 담낭 우중 7mm 발견되었을 때 적절한 조치는?",
+    "page": 221,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "38",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "담낭절제술 후 설사",
+    "question_summary": "담낭절제술 후 심한 설사의 치료약물",
+    "page": 222,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "대장 폴립",
+    "question_summary": "40대 여성 조충과 사진에서 shadowing 있는 1.5cm GB polyp의 처치",
+    "page": 222,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "67",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "담낭질환",
+    "question_summary": "67여자, 음파로 처치는? - 복부초음파 shadowing 있는 12mm GB polyp",
+    "page": 223,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "담낭용종",
+    "question_summary": "50대 남자환자 복부불편감 소화불량 증세로 내원, 복부초음파상 담낭용종, 결석 관찰됨",
+    "page": 223,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "담낭질환",
+    "question_summary": "40세 남자 담석증 의심 증상으로 내원, 복부 통증 등의 중상은 없었으나 자른는?",
+    "page": 224,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "담관염",
+    "question_summary": "45세 여성 담도폐색 및 고열, 황달 증상으로 내원 환자의 치료 방법",
+    "page": 224,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "담석증",
+    "question_summary": "담석증으로 수술을 거부하는 환자에서 할 수 있는 치료법",
+    "page": 225,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병성 케톤산증",
+    "question_summary": "47세 여자 당뇨병 환자의 의식저하 증상에 대한 진단",
+    "page": 226,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "담낭결석",
+    "question_summary": "50세 남자 복통 환자의 혈액검사 이상 소견 해석 및 진단",
+    "page": 226,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "54",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "간염",
+    "question_summary": "54세 남자의 우상복부 불편감, HBs Ag/Ab, AST/ALT 상승 환자의 진단",
+    "page": 227,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "담관 산통시 영양관리",
+    "question_summary": "담관 산통시 영양법에 대해 맞는 것은?",
+    "page": 228,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "67",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "총담관 담석",
+    "question_summary": "67세 남자의 복부초음파에서 1.5cm의 담도 결석과 함께 총담관이 확장된 소견이 보였을 때 진단 및 치료 방법",
+    "page": 229,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "68",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "담낭 담석증",
+    "question_summary": "55세 남자 조용한 담석증 환자의 임상적 의의와 관리",
+    "page": 229,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "53",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "북부초음파에서의 담낭 용종",
+    "question_summary": "53세 남자 1년간 북부초음파에서 0.7cm 담낭 용종 발견, 금년도 검사에서 1.5cm로 커진 경우 감별진단 및 처치",
+    "page": 230,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "44",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "급성 복부통증의 항생제 치료",
+    "question_summary": "44세 여자환자 3시간 전부터 우상복부 통증과 구토를 주소로 내원, 1년 전부터 전강감염 상 2cm 담석과 1cm 우측 신결석 있음, 38도 열, 치료제는?",
+    "page": 230,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "급성/만성 췌장염",
+    "question_summary": "55세 남환 급성 췌장염 환자의 실험실 검사 해석",
+    "page": 231,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "급성/만성 췌장염",
+    "question_summary": "58세 남자 만성 췌장염 환자의 복부 증상 및 검사 해석",
+    "page": 231,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "가성낭종",
+    "question_summary": "50세 남자 복부 통증으로 입원, 복부초음파에서 5cm 낭종 발견, 3~4회 소주 2병씩 음주력 있음, 적절한 처치는?",
+    "page": 232,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "급성 췌장염",
+    "question_summary": "급성 췌장염 증상과 CT에서 Tail 부위 exudate 있을 때 안전 보여주고 직단은?",
+    "page": 232,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "체강기성남종",
+    "question_summary": "음주 복통 환자, 체강기성남종, 이후 처치는?",
+    "page": 233,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "체강기성남종",
+    "question_summary": "평소 술 많이 먹는 남성이 복통으로 내원하여 시행한 CT 사진이다, 진단은?",
+    "page": 233,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "54",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "만성 췌장염의 진단",
+    "question_summary": "54세 남자의 만성 췌장염 진단을 위한 검사 선택",
+    "page": 234,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2016",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "급성 췌장염의 중증도 판정",
+    "question_summary": "62세 남자환자의 급성 췌장염 중증도 판정 기준",
+    "page": 235,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "만성 췌장염",
+    "question_summary": "만성 췌장염 환자의 pancreatic pseudocyst 진단 및 치료",
+    "page": 236,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "간경변증",
+    "question_summary": "간경변증 환자의 혈액검사 이상소견 해석",
+    "page": 238,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "급성췌장염",
+    "question_summary": "급성췌장염 환자의 치료약물 선택",
+    "page": 238,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "췌장암",
+    "question_summary": "65세 남자 3개월간 10kg의 체중감소로 내원한 환자의 진단검사에서 무통성 담낭증대, 담도 폐쇄, 고직접빌리루빈혈증을 보일 때 가장 가능성 있는 병변 위치",
+    "page": 239,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "췌장암",
+    "question_summary": "췌장암의 개요, 임상특징, 진단, 치료에 관한 종설",
+    "page": 240,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "뇌하수제 기능저하중",
+    "question_summary": "32세 여자의 무월경, 쇠약, 체중 감소 증상에서 뇌하수제 질환의 감별 진단",
+    "page": 245,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "31",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "뇌하수체 전엽 종양",
+    "question_summary": "31세 여성의 폐쇄성 무월경, 유즙분비, 두통에서 bromocriptin 치료법",
+    "page": 250,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "말단비대증",
+    "question_summary": "42세 남성 말단비대증 환자의 Phalen 징후, 혈당, Tinnitus 증상에서 검사 선택",
+    "page": 250,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "뇌하수체 종양",
+    "question_summary": "40세 남자 야콘증 진단, 200 ng/dL 고프로락틴혈증에 대한 검사",
+    "page": 251,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "뇌하수체 종양",
+    "question_summary": "36세 여자 6개월 전부터 시작된 무월경, prolactin 234 ng/mL 상승 환자의 진단",
+    "page": 251,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "404",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "요붕증의 감별진단",
+    "question_summary": "20대 남자의 다뇨증, 고혈장삼투압 환자에서 ADH 억제 후 요삼투압 변화로 요붕증 감별",
+    "page": 255,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "57",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "SIADH",
+    "question_summary": "저나트륨혈증 환자의 진단 - SIADH 감별",
+    "page": 256,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선질환",
+    "question_summary": "60세 갑상선기능저하증 환자의 TSH 7, freeT4 1에서 Levothyroxine 용량 결정",
+    "page": 259,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선질환",
+    "question_summary": "33세 여자 임신 중 갑상선중독증으로 L-thyroxine 복용 중, TSH 10.1 상승 시 적절한 처치",
+    "page": 259,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선기능저하증",
+    "question_summary": "66세 여자, 1개월 전부터 지속된 피로감으로 내원, 혈심증으로 약물 치료 중. 검사 결과 TSH 11.XX, fT4 0.49, TPO Ab 양성 bradycardia (HR 48). 2019년 인턴레이닝 BB, 갑상선 초음파, 3개월 추 갑상선기능검사 추적, levothyroxine 50 μg 치료 시작, 2주후 25 μg증량, levothyroxine 25 μg 치료시작, 6주후 12.5 μg 증량",
+    "page": 260,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "갑상선기능저하증 진단",
+    "question_summary": "46세 여자, 최근 1년간 6kg 체중증가 보였으며 기운없고 피로하며 최근 1년 전과 비교했을 때 우울감이 심해졌다고 함. 신체검사상 정장이 부위 놀피도 들어가지 않는 부종이 보였다. 환자에게 지금 필요한 검사는?",
+    "page": 260,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "67",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선기능저하증",
+    "question_summary": "67세 남자의 levothyroxine 복용 중 TSH 1.5, free T4 1.0 정상 범위에서 여전히 증상이 있는 경우 다음 약물은?",
+    "page": 261,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선기능저하증",
+    "question_summary": "42세 여자 6개월전부터 기운없고 피로감 있었으며 혈압은 110/60, TSH 52로 정상 용부를명장 심비대가 있는 경우 다음으로 해야 할 검사는?",
+    "page": 261,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선기능검사",
+    "question_summary": "56세 여자환자가 붓고 피로하여 내원한 경우 CBC, AST/ALT 정상 범위, TSH 0.7, fT4 0.6일 때 다음으로 시행할 검사는?",
+    "page": 262,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "57",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "갑상샘기능저하증",
+    "question_summary": "갑상샘 기능저하증 약물치료 중 맞는 것?",
+    "page": 262,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선 호르몬 복용량",
+    "question_summary": "갑상선 저하증에서 갑상선 호르몬 백드리코 복용량 결정 방법",
+    "page": 263,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "인슐린 결핍",
+    "question_summary": "46세 여자 1년 중증 저혈당증 환자의 약물 용량 조정",
+    "page": 263,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상샘 기능항진증",
+    "question_summary": "35세 남자 갑상샘기능항진증 환자의 필요한 검사",
+    "page": 264,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "53",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "감상선기능항진증",
+    "question_summary": "감상선기능항진증으로 MTZ 복용 중, URI 증상 시 lever 있고 나머지는 stable한 경우의 처치",
+    "page": 265,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "31",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선독성증(thyrotoxicosis) 진단",
+    "question_summary": "31세 여성, 2주 전부터 3kg 체중감소와 두근거림을 주소로 내원한 환자. TSH 0.01, 정상수치 저장해숨 다음 검사는?",
+    "page": 266,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "32",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선기능항진증",
+    "question_summary": "갑상선기능항진증 환자의 TSH, T4, T3 검사 결과 해석 및 PTU 용량 결정",
+    "page": 267,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선중독증",
+    "question_summary": "35세 남성 하시마모토 증급성 내원 환자의 신체검사상 미만성 갑상선종 및 bruitt 음성 시 진단",
+    "page": 268,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선기능항진증",
+    "question_summary": "갑상선기능항진증으로 메티마졸 복용중인 환자에서 항갑상선제 용량 조절을 위해 사용할 수 있는 가장 민감한 지표",
+    "page": 268,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선기능항진증",
+    "question_summary": "갑상선기능항진증 치료 후 재발가능성이 높은 것",
+    "page": 268,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "그레이브스병",
+    "question_summary": "35세 여자 그레이브스병으로 메티마졸 25mg 18개월 복용 중 감상선기능저하증 약을 궁고 싶다",
+    "page": 269,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "PTU 부작용",
+    "question_summary": "임신 6개월인 33세 임산부가 왔다. 감상선 항진증으로 PTU 복용 중이다. 감상에서 fT4는 정상이고 TSH는 감소되어 있다. 적절한 치치는",
+    "page": 269,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "27",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "27세 여성 피로 제증상을 주소로 내원, 갑상선 결절에서 hot nodule 발견 시 최적의 장기 치료법",
+    "page": 270,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "31",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선중독증",
+    "question_summary": "31세 여자 2주전부터 3kg체중감소와 두근거림, TSH 0.01일 때 갑상선중독증의 원인 감별",
+    "page": 270,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선기능항진증",
+    "question_summary": "35세 여성 항갑상선제 복용 2주 만에 가려움증 발생, 금질 및 박적의 특이사항없음, 사용한 약은",
+    "page": 271,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "PTU 사용중 검사",
+    "question_summary": "PTU 치료중 환자에서 발열, 인후통 발생, 우선 시행할 검사",
+    "page": 271,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선암",
+    "question_summary": "4kg 체중감소, 25세 여자의 갑상선 스캔 이상 - 진단명",
+    "page": 272,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "메타마숨",
+    "question_summary": "45세 여자, 메타마숨 복용 중 엘러이 발생 - 검사 결과 해석",
+    "page": 272,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "폐경기 여성의 안구 건조증",
+    "question_summary": "70대 여자의 안구 건조증, 폐경 후 호르몬 변화와 관련된 검사",
+    "page": 273,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "감염성 합병증",
+    "question_summary": "24세 여자의 갑상선기능 항진증으로 진단받은 환자의 특정 합병증 검사",
+    "page": 273,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선기능항진증 치료",
+    "question_summary": "23세 여자 갑상선기능항진증으로 갑상선아전절제술 1년 후 시행한 추적 검사에서 T3, T4 상승 TSH 감소되었을 때 치료 약물",
+    "page": 274,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선암 진단 및 치료",
+    "question_summary": "56세 남자가 근육통과 함께 피로감과 열리는 증상이 발생하여 내원한 경우, 3kg 체중 감소, 갑상선염 의심 시 검사실 소견 분석 및 진단",
+    "page": 274,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 기능저하증",
+    "question_summary": "갑상선 기능저하증 치료 후 재발 가능성이 높은 경우",
+    "page": 275,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선암 방사성 요오드 치료",
+    "question_summary": "갑상선암 치료 후 TSH 억제 목표 달성을 위한 추가 조치",
+    "page": 276,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "자가면역 갑상선염 항체",
+    "question_summary": "젊은 여성의 갑상선기능저하증 관련 항체 검사",
+    "page": 276,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선암",
+    "question_summary": "35세 여성 갑상선 기능항진으로 22주 전부터 항갑상선제를 복용한 후 가러움증이 발생되었다. 진찰에서 등피 문제에 가버운 발적과 금은 혼작이 있었나 적절한 치치는?",
+    "page": 277,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "PTU 부작용",
+    "question_summary": "40세 여자가 3일 전부터 시작된 고열과 인후통으로 왔다. 1개월 전부터 갑상샘 기능항진증으로 PTU를 복용 중이다. 적절한 조치는?",
+    "page": 277,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선염/기타 갑상선질환",
+    "question_summary": "30대 초반 여자 명개혈전 출산 과거력, 갑상선 압통음증 환자의 진단 및 치료",
+    "page": 278,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "377",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "아급성갑상선염",
+    "question_summary": "아급성갑상선염의 임상경과 및 검사소견",
+    "page": 279,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "산후갑상선염",
+    "question_summary": "산후갑상선염 환자의 베타차단제 선택",
+    "page": 280,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "아급성갑상선염",
+    "question_summary": "아급성갑상선염 환자의 치료약물 선택",
+    "page": 280,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "갑상선염",
+    "question_summary": "급성화농성 갑상선염 환자의 임상검사 및 치료",
+    "page": 281,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선기능항진증",
+    "question_summary": "甲状腺中毒症 후 갑상선기능항진증의 감별진단",
+    "page": 281,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선중독증",
+    "question_summary": "갑상선중독증, 빈맥, 피로 증상의 28세 여자 환자의 초음파에서 3개월 뒤 이상 소견, ESR 30, FT4 1.1, TSH <0.01, RAIU 3% 적절한 처치",
+    "page": 282,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "산후갑상선염",
+    "question_summary": "33세 여자환자로 둘째 작은 딸이라 만자격서 내원했을 때, 4개월전 출산 이후 의심증상, TSH 0.07, FT4 3.5, 방사성 스캔 3% 적절한 조치",
+    "page": 282,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "39",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선기능저하증",
+    "question_summary": "TSH 상승, Free T4 저하 환자의 진단",
+    "page": 283,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "33",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선결절",
+    "question_summary": "TSH 상승, fT4 저하 환자의 진단",
+    "page": 283,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선중독증",
+    "question_summary": "ESR 상승, T3/T4 상승, TSH 저하 환자의 치료",
+    "page": 283,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선 기능 저하증",
+    "question_summary": "중년 남성, 이전 현침증 등 다양한 underlying, 머침전 무률 수술한 lab) T3 감소, free T4 감소, TSH 정상, TSH 자극 시험 정상",
+    "page": 284,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 질환",
+    "question_summary": "50세 여자, 목 앞부위 통증으로 내원, 감상선 미만성 종대와 압통이 있음. ESR 45, TSH 0.03, freeT4 2.3 적절한 치료는?",
+    "page": 284,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "59",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선염",
+    "question_summary": "갑상선 결절과 높은 TSH, FT4&T3 정상, TPO Ab+ 환자의 진단",
+    "page": 285,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "16",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선염",
+    "question_summary": "갑상선 결절 환자의 FT4, T3, TSH, anti-thyroid peroxidase Ab, RAIU 결과 해석",
+    "page": 285,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "30",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "아급성 갑상선염",
+    "question_summary": "아급성 갑상선염 환자의 ESR 상승, 저TSH, 고T4 소견에서 초기 치료 약물",
+    "page": 285,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선결절/갑상선암",
+    "question_summary": "갑상선결절 0.8cm, TSH 2.05, T3/T4 정상인 환자의 진찰 소견 해석",
+    "page": 286,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선결절",
+    "question_summary": "40대 여자 음든 목갑상선 단순 냉증 1.5cm처치",
+    "page": 286,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선암",
+    "question_summary": "45세 여자 갑상선암으로 수술받은 3일 후 부정맥, 손발저림, 입주변 감각이상 증상",
+    "page": 286,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "48",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "48세 여자 우연히 발견된 뇌 부위의 종괴로 왔다. 신체검사에서 1.5cm 경도의 단단한 결절이 만져졌다. 갑상선 검사 결과는 다음과 같다. 다음 검사는?",
+    "page": 287,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "40",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "40대 여자 건강검진에서 1.5cm? 0.8cm? 우측곡 갑상선 결절, TSH 0.05일 때 다음 검사는?",
+    "page": 287,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "정상 TFT 갑상선 결절에서 5*5*11mm 저에코 고형 결절의 관리",
+    "page": 288,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "40대 여성 갑상선 결절 1.5cm, 0.8cm 초음파 소견과 TSH 0.05에서 진단 및 처치",
+    "page": 288,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "40대 여성의 0.9cm 갑상선 결절에 대한 감시 방침",
+    "page": 289,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 기능 검사",
+    "question_summary": "갑상선 우엽에 결절이 있고 TSH와 free T4가 정상인 경우의 다음 검사",
+    "page": 289,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선결절",
+    "question_summary": "56세 여자 간강점성 갑상선 조음막에서 작업 0.8cm 결절 발견되었다 경부 림프절 비대는 없었다 TSH 0.15(범호안 정상수치우이디) 일 다음 처치는",
+    "page": 290,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "32",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "32세 여자 목에 0.8cm 혼합경계 내혼 침삼징 때 움직임 있고 단단한 결절이며 TSH 12로 상승함. 적절한 검사는?",
+    "page": 291,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 기능 이상",
+    "question_summary": "56세 여자 간장결절상 갑상선 종물에서 좌엽 0.8cm경 혼련되었다. 경부 림프절 비대는 없었다. TSH 0.18(판호오 정상수치주어짐) 일때 다음 처치는?",
+    "page": 291,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "갑상선 결절 환자의 TSH 수준과 추가 검사 필요성",
+    "page": 292,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선암",
+    "question_summary": "갑상선암 수술 후 TSH 억제 치료 시 추적 관찰",
+    "page": 292,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선암",
+    "question_summary": "43세 여자환자 갑상선초음파검진에서 tall than wide hypoechoic lesion FNA상 유두세포종. 의사로서 권고할 사항은?",
+    "page": 293,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선결절",
+    "question_summary": "35세 남자가 갑상선 초음파 검사에서 우연히 1cm의 결절이 발견된 atypia of undetermined significance. 다음 조치는?",
+    "page": 293,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선결절",
+    "question_summary": "27세 여자 12주 임신부의 우연히 발견된 우측 갑상선 결절에 대한 진단 및 관리",
+    "page": 294,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절 진단",
+    "question_summary": "30세 여자의 갑상선 결절 진단 방법 선택",
+    "page": 295,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선 결절 추적 관찰",
+    "question_summary": "56세 여자 갑상선 결절의 추적 검사 시기",
+    "page": 295,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "44",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "갑상선 악성 결절 특징",
+    "question_summary": "30세 남자 갑상선 악성 결절의 안전성 평가",
+    "page": 295,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "55세 여자 갑상선 결절 환자에서 악성 종양 위험도 평가",
+    "page": 296,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선 결절",
+    "question_summary": "56세 남성 갑상선 결절 환자의 진단 검사 선택",
+    "page": 296,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "46",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상선암 수술 후 추적검사",
+    "question_summary": "46세 여자 갑상선암 수술 후 1.5cm 지에코 결절이 있을 때 추가 검사",
+    "page": 297,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "35",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "갑상샘기능검사",
+    "question_summary": "35세 여자 2년간 피로감, TSH 상승, 무통절혈 발견 시 조치",
+    "page": 297,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "부신피질질환",
+    "question_summary": "부신피질질환의 진단을 위한 검사 순서",
+    "page": 298,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "4",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "원발성 알도스테론증",
+    "question_summary": "44세 여성의 고혈압, 저칼륨혈증, 대사성 알칼로시스 환자의 진단",
+    "page": 299,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "쿠싱증후군",
+    "question_summary": "40세 남성의 고혈압, 저칼륨혈증, 중심비만 환자의 진단 검사",
+    "page": 299,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2020",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "쿠싱증후군 진단",
+    "question_summary": "비만여성에서 중심성 비만, 자색선조 의심 시 초기 검사",
+    "page": 300,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2019",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "쿠싱증후군 진단",
+    "question_summary": "52세 여성 신증상으로 내원, cortisol 49ug/dL일 때 다음 검사",
+    "page": 300,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "쿠싱증후군",
+    "question_summary": "16세 여자, 중심비만·무월경·체중증가·혈압 170/100인 쿠싱증후군 의심 환자의 선별검사",
+    "page": 301,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "원발성 부신부전",
+    "question_summary": "50세 여자 저혈당, 피로, 저나트륨혈증, 80/50 저혈압 환자의 진단 검사",
+    "page": 302,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "비만",
+    "question_summary": "26세 여자 1년 동안 체중이 10kg 증가한 환자의 혈압 및 검사 결과 해석",
+    "page": 303,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "쿠싱증후군",
+    "question_summary": "35세 여환 원형 혈장뇨질로 내원한 환자의 진단 검사",
+    "page": 303,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "일차성 알도스테론증",
+    "question_summary": "43세 여자, 8년 전 고혈압 진단받은 환자의 진단 및 원인 감별",
+    "page": 304,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "58",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "쿠싱증후군 진단",
+    "question_summary": "여자 고혈압, 골밀도 감소 환자의 쿠싱증후군 진단 검사",
+    "page": 305,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "쿠싱증후군",
+    "question_summary": "27세 여성의 쿠싱증후군 진단을 위한 선별검사",
+    "page": 306,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "쿠싱증후군의 진단",
+    "question_summary": "52세 여자의 중심성 비만, 자주색 줄무늬, 고혈압, 당뇨병 환자에서 cortisol 49μg/dL(정상 30) 일 때 다음 단계로 시행할 적절한 검사",
+    "page": 307,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "일차성 알도스테론증",
+    "question_summary": "26세 여자의 1년 동안 체중 10Kg 증가, 우측 옆구리와 배에 상이 깔다고 호소, 혈압 170/100 mmHg인 환자의 진단적 검사",
+    "page": 307,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "16",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "고혈압과 저칼륨혈증",
+    "question_summary": "50세 남자의 고혈압, 저칼륨혈증 환자에서 향후 추가 검사",
+    "page": 308,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "카테콜아민 분비 종양",
+    "question_summary": "두통, 심계항진, 발한 3대 증상. 검사는?",
+    "page": 309,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "카테콜아민 분비 종양",
+    "question_summary": "21세 남자, 고혈압, 저칼륨혈증 환자의 진단 검사",
+    "page": 309,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병",
+    "question_summary": "67세 남자 당뇨병 환자의 혈당 조절 상태 평가",
+    "page": 310,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병",
+    "question_summary": "47세 남자 당뇨병 환자의 혈당 관리 및 치료",
+    "page": 310,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 진단",
+    "question_summary": "외국인 남자 최근 2달 사이 10kg 감소 후 당뇨병 진단 시 필요한 검사",
+    "page": 311,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 선별검사",
+    "question_summary": "47세 남자 당뇨 가족력 있을 때 공복혈당 검사 간격",
+    "page": 311,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "54",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 선별검사",
+    "question_summary": "54세 여자, 3개월 전부터 몸 무게 마시고 소변 많이 본다. 3kg 감소, 어지러운 먹고 있다. 다음에 할 검사는?",
+    "page": 312,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 진단 및 관리",
+    "question_summary": "35세 남자의 공복혈당 130, 8시간 공복후 129에서 당뇨병 진단 및 치료 방침",
+    "page": 313,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선 기능 항진증",
+    "question_summary": "53세 여자 2개월 동안 6kg 체중감소, 식욕항진, 열감 증상의 진단 및 치료",
+    "page": 313,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "인슐린 분비 자극 약물",
+    "question_summary": "인슐린 분비시 부산물로서 1형 당뇨에서는 감소하고, 2형 당뇨에서는 약간 증가 되어 측정되는 지표",
+    "page": 314,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 관리",
+    "question_summary": "46세 여자 BMI 27.4 공복혈당 105 BP 130/78 HbA1c 6.8 환자에게 어떤 검사를 제일 할 것인가",
+    "page": 314,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "12",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "새로 진단된 제2형 당뇨병 치료",
+    "question_summary": "새로 진단된 제2형 당뇨병 환자에서 경구 혈당강하제 추가 요법 선택",
+    "page": 315,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "2형 당뇨병 환자의 인슐린 도입 시 적절한 약물 선택",
+    "page": 316,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 진단",
+    "question_summary": "신규 진단 2형 당뇨병 환자의 초기 치료 약물 선택",
+    "page": 316,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20211",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 치료약물",
+    "question_summary": "HbA1c 8.0, Cr 1.6, AST/ALT 220/240인 환자의 적절한 치료약",
+    "page": 317,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "20171",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 치료약물",
+    "question_summary": "DPP4억제제 복용 중 ALT/AST 상승 시 적절한 약물",
+    "page": 317,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "소화기",
+    "topic": "당뇨병 환자의 약물 치료",
+    "question_summary": "비만 심부정맥증 환자, Cr 1.2 LFT 정상 공복혈당 높음 - 약물 선택",
+    "page": 318,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병 환자의 치료",
+    "question_summary": "60세 남자, 키 168cm 체중 58kg, Cr 2.1, AST 35 ALT 38 - 적절한 치료약",
+    "page": 318,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "138",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "당뇨약 metformin 2000mg 복용 중 혈당 조절 불량 환자에서 추가할 약제 선택",
+    "page": 319,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "Metformin 복용 중 혈당 조절 실패 환자의 추가 약물 선택",
+    "page": 320,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "고혈압 약물치료",
+    "question_summary": "75세 고혈압 환자의 적절한 치료 약물 선택",
+    "page": 320,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "임신 중 혈당관리",
+    "question_summary": "42세 남자가 13시간 걸린 미국 출장 중 혈당 제어 시 하루 중 가장 인슐린 요구량이 조정되어야 할 시간대",
+    "page": 321,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "50",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "제2형 당뇨병 약물치료",
+    "question_summary": "50세 남자 1개월간 5kg 체중감소로 내원, 당뇨병 소견의 진단 및 약물치료",
+    "page": 321,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "노인 당뇨병 환자의 약물 선택",
+    "question_summary": "58세 남자의 당뇨병 약물 치료 선택",
+    "page": 322,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병 약물 치료",
+    "question_summary": "60세 남자 당뇨병 환자의 약물 선택",
+    "page": 322,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "46",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "이상지질혈증 약물치료",
+    "question_summary": "46세 여성의 이상지질혈증 환자에서 Simvastatin 복용 중 LDL 45인 경우 추가 약물 선택",
+    "page": 323,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "53",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "53세 여성 3년전 당뇨 진단받고 Metformin 복용 중 FBS 130, HbA1c 8.5%일 때 추가 약물 선택",
+    "page": 323,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "Metformin 부작용",
+    "question_summary": "당뇨 환자 metformin 사용 중 발기력 증상, 결핍영양소는?",
+    "page": 324,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 약물 치료",
+    "question_summary": "58세 비만 당뇨 환자의 적절한 약물 선택",
+    "page": 324,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "15",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "NPH 인슐린",
+    "question_summary": "15시간 경구혈당강하제 중단 후 최근에 혈당관리가 안 되어 NPH 40/10단위 맞는 환자의 식욕항상 210→상승 170→하강 조치",
+    "page": 325,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "경구혈당강하제",
+    "question_summary": "남자가 13시간 걷히는 미국에 2주간 여행 시 당뇨병 있으면 경구혈당강하제 복용중일 때 처치",
+    "page": 325,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "30대 남성 당뇨병 환자의 크레아티닌 청소율에 따른 메트포르민 용량 조절",
+    "page": 326,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "제2형 당뇨병 약물치료",
+    "question_summary": "50세 남자 당뇨병 환자의 글리메피리드 복용 중 저혈당 발생 시 적절한 약물",
+    "page": 327,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "제2형 당뇨병",
+    "question_summary": "62세 여자, 식욕 저하 환는데도 최근 1개월 동안 4kg의 체중 감소, HbA1c 11, 미세알부민뇨 양성 환자의 약물 치료",
+    "page": 328,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "제2형 당뇨병",
+    "question_summary": "54세 남자가 피로감으로 내원, 혈압 130/80, HbA1c 7.5, HBs Ab 양성 환자의 약물 선택",
+    "page": 328,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "해외여행 시 인슐린 투여",
+    "question_summary": "한국에서 미국으로 2주간 여행 중 인슐린 투여 시간 결정",
+    "page": 329,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 환자의 약물 치료",
+    "question_summary": "63세 남자, 10년 경 당뇨병 진단, 고혈압으로 치료 중인 환자의 추가 치료 약물",
+    "page": 330,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "47",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 치료",
+    "question_summary": "47세 여자, 2형 당뇨병 환자의 glimepiride 4mg 복용 중 FBS 90~110, HbA1c 7.9%일 때 적절한 다음 조치",
+    "page": 331,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "제2형 당뇨병 환자의 적절한 추가 약물 선택",
+    "page": 332,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "당뇨병 환자의 혈당 조절을 위한 적절한 약물 선택",
+    "page": 332,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 환자의 약물 치료",
+    "question_summary": "51세 남성 당뇨병 환자의 혈당 조절 실패 시 추가 약물 선택",
+    "page": 333,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "5",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 환자의 약물 치료",
+    "question_summary": "50세 여성 제2형 당뇨병 환자의 혈당 조절 상태에서 적절한 치료",
+    "page": 333,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "당뇨병성 혼합증: 금성 혼병증",
+    "question_summary": "23세 여자 혼수 호소 환자의 혈액 및 요검사 결과 해석 및 적절한 수액 치료액 선택",
+    "page": 334,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병",
+    "question_summary": "68세 당뇨 환자의 고혈당증 상태에서 혈당 90/50 혈압 650에 배터 및 의식이 저하 되어 있을 때 응급 처치",
+    "page": 334,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "28",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병성 케톤산증",
+    "question_summary": "28세 여환의 당뇨병성 케톤산증 치료액 선택",
+    "page": 335,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "29",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "저나트륨혈증",
+    "question_summary": "저혈당·저나트륨혈증 환자의 수액 요법",
+    "page": 335,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "대사성산증",
+    "question_summary": "45세 남자 의식 소실, 혈압 저하, 고혈당증 환자의 진단",
+    "page": 336,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "26",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "저혈당증 치료",
+    "question_summary": "26세 여자 저혈당증 환자의 혈당 수치와 전해질 이상에 대한 치료액 선택",
+    "page": 337,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "63",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "고혈당성 고삼투압 상태",
+    "question_summary": "63세 여자 당뇨병 환자의 의식 변화와 합병증 진단",
+    "page": 337,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "27",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 케톤산혈증",
+    "question_summary": "27세 여자 의식장애 환자의 혈압과 대사성 산증 진단",
+    "page": 337,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "212",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "당뇨병성신장병증",
+    "question_summary": "10년 당뇨, 62세 남자의 약순 무감각 이상감각 통증 주소로 내원, HbA1c 9.3 cr2.1 환자의 치료",
+    "page": 338,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병성 신경병증",
+    "question_summary": "64세 남자 환자의 다리가 아프다고 내원, 20년전부터 당뇨를 알고 있으며 인슐린으로 조절중, HbA1c 9.4% 소견 당뇨병성 신경병증의 증례에서 100mg/dL 일때 말초신경병증은?",
+    "page": 339,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "위마비(gastroparesis)",
+    "question_summary": "60대 남자, 1년 전부터 발생한 소화불량, 오심, 구기 포만감을 주소로 내원, 자주 식이나 가스블롯 없고 당뇨병 있는 환자로 인슐린 치료중, 적절한 약물치료로?",
+    "page": 339,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 약물치료",
+    "question_summary": "65세 당뇨 환자의 인슐린, 메트포민, 스타틴 복용 중 야간뇨, 피로증 발생시 대처 방법",
+    "page": 340,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병 관리",
+    "question_summary": "59세 여성 DM 환자의 저혈당증 증상과 대응 방법",
+    "page": 340,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병성 신경병증",
+    "question_summary": "당뇨병성 신경병증에 관한 설명 중 옳은 것",
+    "page": 341,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "소화기",
+    "topic": "당뇨병성 신경병증 치료",
+    "question_summary": "63세 당뇨병 환자의 신경통증 치료약",
+    "page": 341,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "소화기",
+    "topic": "당뇨병성 신경병증",
+    "question_summary": "당뇨병 55세 여자 중족 발바닥 마가증, 저릿저릿 통증 시 가장 적절한 치료 약제",
+    "page": 342,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병 합병증",
+    "question_summary": "저혈당의 증상 중 메타칼단제로 masking되지 않아 가장 신뢰할 수 있는 증상",
+    "page": 344,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "당뇨병",
+    "question_summary": "58세 남자의 20년 전 2형 당뇨병으로 진단받은 후, 10년 전부터 인슐린으로 치료받고 있는 환자의 저혈당 중상에 발생하지 않는 가장 가능성이 높은 원인",
+    "page": 344,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "인슐린 투여의 적응증",
+    "question_summary": "제1형 당뇨병 환자의 인슐린 치료 시작 기준",
+    "page": 355,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "소화기",
+    "topic": "기저-볼루스 인슐린 요법",
+    "question_summary": "기저인슐린에 식전 인슐린 요법(basal-bolus) 설명",
+    "page": 357,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "소화기",
+    "topic": "당뇨병 인슐린 요법의 비교",
+    "question_summary": "기저 인슐린요법, 혼합형 인슐린요법, 기저-식전 인슐린에 식전 인슐린 요법의 장단점 비교",
+    "page": 358,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "소화기",
+    "topic": "당뇨병성 인슐린 치료법",
+    "question_summary": "기본 의인-제1형 당뇨병 인슐린 요법 관리",
+    "page": 359,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2013",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "여성 갱년기 증후군",
+    "question_summary": "50세 여성의 안면홍조 증상으로 내원한 환자의 총콜레스테롤 212, HDL 56, TG 110일 때 적절한 치료약물",
+    "page": 360,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "호르몬치료(폐경)",
+    "question_summary": "폐경과 관련된 질환에서 호르몬치료의 적응증과 용량",
+    "page": 363,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "48",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "남성 갱년기 증후군",
+    "question_summary": "남성 갱년기 증후군의 진단검사",
+    "page": 368,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2018",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "부갑상샘 및 칼슘대사 질환",
+    "question_summary": "60대 남자의 고칼슘혈증(Ca 10.5, ALP 300, LFT, Viral marker 정상)에서 진단을 위한 적절한 검사",
+    "page": 369,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "63",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "부갑상선 기능 항진증",
+    "question_summary": "고칼슘혈증 환자의 검사실 소견 해석 및 감별진단",
+    "page": 370,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "61",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "갑상선절제술 후 저칼슘혈증",
+    "question_summary": "갑상선 수술 후 감작이상 호소 시 가장 먼저 시행할 검사",
+    "page": 370,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "고칼슘혈증",
+    "question_summary": "중앙의 고칼슘혈증 치료로 다음 중 맞는 것은",
+    "page": 371,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "55",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "골다공증(Osteoporosis)",
+    "question_summary": "55세 여자, 골밀도 검사 결과 대퇴부 T score -2.7일 때 적절한 약물 치료",
+    "page": 372,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "66",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "골다공증",
+    "question_summary": "66세 여성 DXA 결과해석 및 치료약물 선택",
+    "page": 373,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "67",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "골다공증",
+    "question_summary": "67세 여성 골다공증 치료에서 약물 선택",
+    "page": 373,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "폐경 후 여성 골다공증",
+    "question_summary": "61세 여성 골다공증으로 6년간 리세드로네이트를 복용하였을 때, 골절 병력은 없었으나 이번에 촉각한 T-2.6 이었을 때 우우어떻게 해야하나",
+    "page": 374,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "71",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "골다공증",
+    "question_summary": "71세 여성, BMD T score -3.1, Hx 3A RA 진단, steroid therapy 시행 중인 환자의 치료약 선택",
+    "page": 375,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "64",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "골다공증",
+    "question_summary": "64세 여성, 요추 부 골밀도 검사 소견, L1-L4의 T-score 계산",
+    "page": 375,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "72",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "골다공증",
+    "question_summary": "RA로 수년간 PD 복용한 72세 여자, T score -3.1 일때 입자 약제는",
+    "page": 375,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "골다공증 치료약물",
+    "question_summary": "67세 여성의 골다공증으로 인한 대퇴골 골절 환자에서 Femur T=-3.5 수치 저하 시 적절한 약물 선택",
+    "page": 376,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "골다공증 약제 작용기전",
+    "question_summary": "골다공증 약제에 관한 작용기전의 올바른 설명",
+    "page": 376,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "골다공증 진단",
+    "question_summary": "골밀도 측정의 적응증 - NOF 가이드라인과 대한골대사학회 가이드라인 비교",
+    "page": 380,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "69",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "Paget disease",
+    "question_summary": "69세 남자의 우측 종아리 통증이 있고 X선에서 두꺼워진 골과 미골절한 골관손증 양상을 보일 때, 진단과 치료법용 평가에 필요한 검사",
+    "page": 387,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "122",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "당뇨병 환자의 이상지질혈증 관리 및 스타틴 용량 결정",
+    "page": 388,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "이상지질혈증 치료",
+    "question_summary": "TG 350, HDL 45, LDL 196인 환자의 약물 치료",
+    "page": 389,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "Atorvastatin 복용 중 ASL ALT 72/80, GGT 42, BMI 24 환자의 처치",
+    "page": 390,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "Atorvastatin 변경 후 3개월 뒤 OT/PT mild elevation, TG 300 LDL 130 T chol 230 HDL 40 환자의 처치",
+    "page": 390,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "55세 남자 혈압 138/88, LDL 콜레스테롤 236, Total cholesterol 236, TG 550 HDL 38인 환자의 약물 선택",
+    "page": 391,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2016",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "50세 남자 atorvastatin 복용 중 AST/ALT 60/80 GTP상승 BMI 23.4 평소 혈1 떨 떨추완병정도증우 Viral load 정상 다음 중 적절한것은",
+    "page": 392,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2015",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "경구혈당강하제 복용중인 40세 남자 현자가 내원하였다. 극저 소주 한병정도 마셨고 답변는 하루 한잔마셨다. 판상동맥경화의 가족력은 없었다. 지질 수치 목표치는",
+    "page": 392,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "스타틴 부작용 및 약물 선택",
+    "question_summary": "Atorvastatin 복용 중 AST/ALT 상승 환자의 약물 변경",
+    "page": 393,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "43",
+    "answer": 4,
+    "category": "소화기",
+    "topic": "이상지질혈증 약물 치료",
+    "question_summary": "고트리글리세리드혈증 환자의 약물 선택",
+    "page": 393,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "55세 남자 고콜레스테롤혈증 환자의 지질 개선 약물 선택",
+    "page": 394,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "고혈압",
+    "question_summary": "63세 남자 고혈압 환자의 약물 치료 변경",
+    "page": 394,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "56",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "LDL 콜레스테롤 계산",
+    "question_summary": "Total cholesterol 220, Triglyceride 300, HDL 30인 환자의 LDL 치료 목표",
+    "page": 395,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "54",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "이상지질혈증 치료",
+    "question_summary": "TC 245, TG 300, HDL 40인 환자의 치료약",
+    "page": 395,
+    "vol": "vol3"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "소화기",
+    "topic": "스타틴 부작용",
+    "question_summary": "스타틴 약물 사용 중 근육통, 근력약화 환자의 관리",
+    "page": 395,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "54세 남자 고혈압·당뇨병 환자의 LDL콜레스테롤 치료 목표",
+    "page": 396,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증 약물치료",
+    "question_summary": "40세 미만, 75세 이상의 당뇨 환자에서 ASCVD위험도를 낮추는 약물 선택",
+    "page": 409,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "소화기",
+    "topic": "대사증후군",
+    "question_summary": "대사 증후군의 진단 기준에 속하는 것",
+    "page": 412,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "이상지질혈증",
+    "question_summary": "65세 여자 고지혈증 환자의 약물 치료 선택",
+    "page": 413,
+    "vol": "vol3"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "소화기",
+    "topic": "유증분비가 되지 않는 질환",
+    "question_summary": "유증분비가 되지 않는 질환의 감별",
+    "page": 413,
+    "vol": "vol3"
+  }
+]

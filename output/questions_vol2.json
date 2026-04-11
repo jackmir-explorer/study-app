@@ -1,0 +1,5159 @@
+[
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Aortic Stenosis",
+    "question_summary": "70세 남자, 실신·협심증 흉통, 우상흉골연 수축기 심잡음 → 진단",
+    "page": 5,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Aortic Regurgitation",
+    "question_summary": "수축기 심잡음과 함께 온몸이 떨리는 듯한 느낌 → 진단",
+    "page": 5,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "MVP/HCMP - Dynamic auscultation",
+    "question_summary": "40세 여자, 수축기 잡음+클릭, Valsalva 시 잡음 증가 → 진단 및 치료",
+    "page": 6,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "1,2",
+    "category": "심혈관",
+    "topic": "실신(syncope)",
+    "question_summary": "30대 남자, 무서운 영화 보다가 실신, 심전도 정상 - 적절한 검사 2가지",
+    "page": 7,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "실신(syncope)",
+    "question_summary": "22세 여자, 화장실/운동장에서 반복적 실신, 앉아서 5분 후 호전 - 적절한 검사",
+    "page": 7,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "기립저혈압 / 반사실신 치료",
+    "question_summary": "누웠다 일어날 때 발생하는 어지럼증, 기립 시 혈압 저하 - 적절한 치료제",
+    "page": 8,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "혈관미주신경실신",
+    "question_summary": "18세 여자, 채혈 중 실신, 1~2분 후 회복, 혈압 정상 - 진단",
+    "page": 8,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "혈관미주신경실신",
+    "question_summary": "23세 여자 반복적 실신, BP 120/80→110/80, ECG 정상 소견에서 다음 시행할 검사",
+    "page": 9,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "실신 감별진단",
+    "question_summary": "75세 여환 하루전 정신잃고 이마 상처, 1개월간 2차례 실신, 실신 전 가슴두근거림 후 의식소실 BP 140/70에서 시행할 검사",
+    "page": 9,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "1, 7",
+    "category": "심혈관",
+    "topic": "Cardiac syncope / 운동시 실신",
+    "question_summary": "50대 남자 운동시작시 의식소실, 수축기 심잡음 - 적절한 검사 2개 선택",
+    "page": 10,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": "2",
+    "category": "심혈관",
+    "topic": "Vasovagal syncope / 신경매개 실신",
+    "question_summary": "20대 여자 공포 유발 실신 병력 - 적절한 검사 2개 선택",
+    "page": 10,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "혈관 미주신경 실신 (Vasovagal syncope)",
+    "question_summary": "37세 여자, 반복적 실신, 기립자세 유지 상황에서 발생, 어지럼·구역 동반 - 진단은?",
+    "page": 12,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "실신 원인 평가 - Holter monitoring",
+    "question_summary": "75세 여자, 반복 실신 및 쓰러짐, 실신 전 가슴 두근거림 동반 - 시행할 검사는?",
+    "page": 12,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "신경매개 실신 / 직립경사판검사",
+    "question_summary": "22세 여자, 화장실·운동장에서 반복 실신, 기본검사 정상 → 다음 검사",
+    "page": 13,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "혈관 미주신경 실신 / 직립경사판검사",
+    "question_summary": "35세 남자 비행기 조종사, 식사 중 어지러움 후 실신, 1-2분 후 회복 → 우선 시행할 검사",
+    "page": 13,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "안정형 협심증 (Stable angina)",
+    "question_summary": "63세 남자 운동시 흉통, 휴식 5분내 소실, 고혈압/당뇨 병력 - 다음 단계 검사",
+    "page": 25,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 78,
+    "category": "심혈관",
+    "topic": "비심인성 흉통 (쓸개 급통증, 위궤양)",
+    "question_summary": "42세 남자 식후 지속되는 흉통, 우상복부 압박통증, 우측 어깨 통증 - 진단 2개 선택",
+    "page": 25,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "흉통 감별진단",
+    "question_summary": "흉통의 감별진단에 관한 설명으로 옳은 것",
+    "page": 26,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "협심증 CCS 분류 Class III",
+    "question_summary": "캐나다 심장학회 협심증 증상강도 III에 해당하는 것",
+    "page": 26,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "약물 유발 부종 (Amlodipine)",
+    "question_summary": "62세 남자, amlodipine 복용 후 1개월째 정강이·발등 부종, 4kg 체중 증가",
+    "page": 31,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "정맥부전증(Venous insufficiency)",
+    "question_summary": "70세 여환, 오른쪽 다리 부종, 다리 올리면 호전, 심부정맥혈전증 과거력, 표재정맥 보임",
+    "page": 31,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "림프부종 치료",
+    "question_summary": "복막 전이된 대장암 환자, 우측 다리 부종, 압통 없음 - 처치는?",
+    "page": 31,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "전신부종/이노제",
+    "question_summary": "43세 여성, 얼굴·손발 붓는 전신부종, 혈액·소변 이상 없음 - 처치는?",
+    "page": 32,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "하지부종/약물유발부종",
+    "question_summary": "56세 여성, 10일 전 시작된 하지부종, 고혈압·위식도역류질환 약물치료 중 - 다음 시행할 검사는?",
+    "page": 32,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "특발성 부종",
+    "question_summary": "28세 미혼 여성, 몸전체 붓는 증상, 최근 3-4kg 늘었다 줄었다, 월경 주기와 무관한 주기적 부종",
+    "page": 33,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "특발성 부종 / 월경전 증후군",
+    "question_summary": "35세 여자, 주기적 부종, 다리 부음, 경미한 복부팽만감, 흉부X선·심전도 정상, 키 165cm 몸무게 60kg - 두 가지 진단 선택",
+    "page": 33,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "완전방실차단 (Complete AV Block) / 인공심박동기",
+    "question_summary": "48세 여자, 한 달간 어지럼증, 맥박수 42회/분, 심전도상 완전방실차단 소견 - 치료는?",
+    "page": 45,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "45",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "고칼륨혈증 (Hyperkalemia)",
+    "question_summary": "72세 남자, 전신 무력감·손발 마비감, ACEi·이뇨제·베타차단제·아스피린 복용 중, 과일 섭취 후 심전도 이상 - 진단은?",
+    "page": 46,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "46",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Complete AV Block",
+    "question_summary": "어지럼증 주소로 내원한 80세 여자환자의 EKG에서 진단",
+    "page": 47,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "APC / 1도 AV block",
+    "question_summary": "42세 무증상 남자, 건진 심전도에서 APC 또는 1도 AV block 발견 시 적절한 조치",
+    "page": 48,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "RVH / 심부전",
+    "question_summary": "52세 COPD+고혈압 남자, 심전도에서 RVH 소견 시 치료",
+    "page": 48,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Complete AV block (3도 방실차단)",
+    "question_summary": "심전도에서 P파와 QRS파가 완전 해리되는 소견의 진단",
+    "page": 49,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Hyperkalemia",
+    "question_summary": "72세 남환, CKD+ARB+diuretics+betablocker 복용 중 과일만 섭취 후 발생한 전해질 이상 진단",
+    "page": 49,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "좌심실비대 (LVH)",
+    "question_summary": "4세 남자, BP 170/70, PR 84, RR 16, 심전도 소견으로 진단",
+    "page": 50,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "고칼륨혈증 (Hyperkalemia) EKG 소견",
+    "question_summary": "EKG상 hyperkalemia의 소견",
+    "page": 50,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013_2012",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "Mobitz type II AV block / 영구적 pacemaker",
+    "question_summary": "건강한 35세 여자에서 Mobitz type II AV block 심전도 소견 시 치료",
+    "page": 52,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "PSVT 치료",
+    "question_summary": "PSVT에서 경동맥마사지 및 adenosine 2회 투여 후에도 지속될 때 치료",
+    "page": 61,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심방세동(AF) 치료",
+    "question_summary": "58세 남환, 승모판치환술 과거력, BP 90/60mmHg, NSR 후 a.fib 관찰 시 치료",
+    "page": 61,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "55",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심방조동(Atrial Flutter)",
+    "question_summary": "55세 남자, 간헐적 가슴 두근거림, 심전도에서 톱날모양 F wave와 4:1 QRS 소견",
+    "page": 62,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2020 인트레이닝",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심방세동 - 항응고 치료 (Warfarin/NOAC, CHA2DS2-VASc)",
+    "question_summary": "55세 남성, 고혈압·당뇨 병력, 심방세동 심전도 소견 시 적절한 치료제",
+    "page": 63,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "PSVT (발작성 상심실성 빈맥)",
+    "question_summary": "24세 여자, 심계항진·호흡곤란·어지러움, 맥박 156회, 심전도상 PSVT 소견 - 치료",
+    "page": 64,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "PSVT (발작성 상심실성 빈맥) 장기 유지 치료",
+    "question_summary": "17세 남학생 달리기 중 PSVT 발생, 경동맥 마사지 후 호전, 장기 사용 치료제",
+    "page": 65,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심방세동 항응고 치료 (CHA2DS2-VASc)",
+    "question_summary": "54세 남자 심방세동, 고혈압·당뇨·만성폐쇄성폐질환 동반, 치료 선택",
+    "page": 65,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "수술 전 와파린 관리",
+    "question_summary": "65세 심방세동 와파린 복용 중 대장용종제거술 예정 시 처치",
+    "page": 65,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2018",
+    "answer": null,
+    "category": "심혈관",
+    "topic": "PSVT/WPW/A.fib 치료",
+    "question_summary": "각종 부정맥(PSVT, WPW, A.fib with RVR)에 대한 rate control drugs, vagal maneuver, RFCA, DC cardioversion 적응증",
+    "page": 66,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "PSVT 초기 치료",
+    "question_summary": "24세 여성, 심계항진·호흡곤란·어지러움, BP 98/70, HR 156, PSVT 심전도 소견 시 적절한 치료제",
+    "page": 66,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "54",
+    "answer": "3, 4",
+    "category": "심혈관",
+    "topic": "심방세동(AF) - Acute heart rate control",
+    "question_summary": "54세 남자, 3개월간 두근거림, HR 122회, AF 소견 - 치료 선택",
+    "page": 67,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "상심실성빈맥 (SVT)",
+    "question_summary": "26세 여자, 두근거림이 발살바 메뉴버로 소실 - 가능한 진단",
+    "page": 69,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "PSVT 치료 - Verapamil",
+    "question_summary": "45세 여자 PSVT, 경동맥 마사지 및 Adenosine 2회 투여 후 호전 없을 때 다음 처치",
+    "page": 69,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심방세동 / 항응고치료 / CHA2DS2-VASc score",
+    "question_summary": "54세 남자, 당뇨·고혈압·만성폐쇄성폐질환, 심전도상 심방세동 소견 시 적절한 치료",
+    "page": 70,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "발작성 상심실성 빈맥(PSVT) 치료",
+    "question_summary": "35세 여자, 심박수 180회, P파 불명확, RR 규칙적, 경동맥 압박 실패 후 우선 투여할 치료제",
+    "page": 71,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심방세동 환자 수술 전 warfarin 관리",
+    "question_summary": "심방세동으로 warfarin 복용 중인 65세 남자, 대장용종 절제술 시술 전 적절한 조치",
+    "page": 71,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "PSVT 예방 치료",
+    "question_summary": "체육시간 가슴 두근거림 HR 200회/분, 경동맥 마사지로 소실된 PSVT 예방약",
+    "page": 72,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "PSVT 급성기 치료 - Adenosine",
+    "question_summary": "45세 여자 HR 180회/분 규칙적 빈맥, 경동맥 자극 후에도 지속되는 PSVT 치료",
+    "page": 72,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "PSVT 장기치료 약물",
+    "question_summary": "17세 학생 달리기 중 심계항진/어지러움, 경정맥 마사지 후 호전, PSVT 장기치료 약물",
+    "page": 73,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "73",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심방세동 - Rate control",
+    "question_summary": "52세 남자, 음주 후 답답함, 심전도 A fib, 맥박 150회/분 - 치료",
+    "page": 74,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "PSVT 유지 치료",
+    "question_summary": "PSVT 남자환자에서 치료 유지 요법으로 사용할 수 있는 약제",
+    "page": 75,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "Warfarin 약물 상호작용",
+    "question_summary": "심방세동으로 warfarin 복용 중 감기약 복용 후 혈뇨 발생 - 원인 약물",
+    "page": 75,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "빈맥성 상심실성 부정맥 / 승모판탈출",
+    "question_summary": "무증상 45세 남자 건강검진 EKG 소견에서 다음 할 일",
+    "page": 76,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심방조동 (Atrial Flutter)",
+    "question_summary": "70세 남환의 심전도 소견으로 진단",
+    "page": 76,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심부전",
+    "question_summary": "67세 남자, 흉통·호흡곤란, 발열, 폐 하부 수포음, CXR상 폐·심장 특이소견 없음 → 다음 검사",
+    "page": 106,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "심혈관",
+    "topic": "심부전",
+    "question_summary": "60세 심부전 치료 중 호흡곤란 악화, 폐부종, BP 90/60 → 사용 가능한 약",
+    "page": 106,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "심혈관",
+    "topic": "심부전",
+    "question_summary": "30세 여성 숨차 내원, 심박출량 30%, 심장 비대 및 Kerley line → 치료",
+    "page": 106,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심부전 - 피오글리타존 금기",
+    "question_summary": "74세 남자, EF 25% 심부전 환자에서 끊어야 할 약물",
+    "page": 107,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심부전 치료 - ARB (Losartan)",
+    "question_summary": "64세 남자, 고혈압+이상지질혈증, 폐 수포음, 심부전 의심 시 치료제",
+    "page": 107,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심부전 vs COPD 감별",
+    "question_summary": "67세 남성, 40갑년 흡연력, 양측 폐 미세한 거품소리, 운동 시 SpO2 84%로 감소 - 진단은?",
+    "page": 108,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심부전 확진 검사",
+    "question_summary": "48세 여환, 피로/호흡곤란/하지부종, S3 gallop, 2심음 분리, A.fib, 좌심연 확대 - 확진 검사는?",
+    "page": 108,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2019",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "비후성 심근병증(HCMP) 심부전 치료",
+    "question_summary": "HCMP 진단 후 치료받지 않은 환자가 심부전 증상으로 내원 시 치료약",
+    "page": 109,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심부전 장기생존율 향상 약제",
+    "question_summary": "고혈압 미치료 59세, LVEDP 65mmHg, EF 25% 심부전 환자의 장기생존율 높이는 약",
+    "page": 109,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심부전 진단 검사",
+    "question_summary": "76세 여환 숨참·어지럼, 당뇨·관상동맥우회술 과거력, 양측 하지부종, cardiomegaly에서 진단을 위한 검사",
+    "page": 109,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "심부전 진단 - 2D echocardiography",
+    "question_summary": "65세 남자, 고혈압+ACEI 복용 중, 경정맥 확장+양하지 부종+양폐야 수포음 → 심부전 진단에 도움되는 검사",
+    "page": 110,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심부전 진단 - Echocardiography",
+    "question_summary": "70세 여자, 호흡곤란+흉통, Chest PA상 bilateral pleural effusion → 진단을 위한 검사",
+    "page": 110,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "급성 심부전 증후군 치료",
+    "question_summary": "65세 여자 울혈성 심부전, 호흡곤란, 폐부종, BP 90/60 mmHg에서 적절한 치료",
+    "page": 111,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심부전 치료 - 장기생존율 향상 약물",
+    "question_summary": "67세 남자, 고혈압 약물 중단 후 기좌호흡/만성기침, EF 25% 심부전 환자에서 장기생존율을 높이는 약물 선택",
+    "page": 114,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2010 인트레이닝 1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심부전 치료 - 사망률 감소 약제",
+    "question_summary": "40세 남자 심한 호흡곤란, 고혈압으로 이뇨제+ACEi 복용 중, gallop sound, 하지부종 - 급사 예방을 위해 추가할 약물",
+    "page": 115,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2010 인트레이닝 2",
+    "answer": 7,
+    "category": "심혈관",
+    "topic": "심부전 치료 - 급성 심부전(폐부종)",
+    "question_summary": "70세 남자 3일 전부터 호흡곤란 악화, 수포음+천명음, 흉부X선 폐혈관 울혈 - 치료에 대한 적절한 설명",
+    "page": 115,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "3, 5",
+    "category": "심혈관",
+    "topic": "심부전 장기 생존율 개선 치료",
+    "question_summary": "72세 남자, MI 과거력, 고혈압, 호흡곤란 및 부종 - 장기 생존율 개선을 위한 적절한 치료",
+    "page": 116,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "수축성 vs 이완성 심부전 감별 검사",
+    "question_summary": "수축성 심부전과 이완성 심부전을 감별하는 데 도움이 되는 검사",
+    "page": 116,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심부전/폐부종",
+    "question_summary": "70세 여자, 호흡곤란, 양폐야 흡기시 수포음, 심전도 이상 - 치료제 선택",
+    "page": 117,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "폐성심",
+    "question_summary": "76세 남자, 20년간 계단 오를 때 호흡곤란, 점액성 가래, 경정맥 확장, S2 확대, 간 2횡지 촉지, 다리 부종 - 진단",
+    "page": 117,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "대동맥판막협착증(AS)",
+    "question_summary": "50대 남성, 운동 시 흉통, 우측 흉골연 수축기잡음 Gr iii/iv 양측경동맥 방사, 요골동맥 pulse 지연, LVH 소견",
+    "page": 154,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "승모판폐쇄부전",
+    "question_summary": "숨이 차서 내원, 누우면 악화, 5/6 전수축기 심잡음, LVH - 진단은?",
+    "page": 154,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "대동맥판막협착증(AS)",
+    "question_summary": "76세 남자 5분간 의식소실, 계단 오를 때 답답함, 수축기잡음 우측 쇄골 우하연 양측 경동맥 방사, 좌심실비대",
+    "page": 154,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심낭염 (Pericarditis)",
+    "question_summary": "3주전 심근경색 치료 후 숨쉴때도 불편한 흉통, CK MB/트로포닌 정상, 심전도/CXR 정상 - 치료는?",
+    "page": 169,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "알코올성 심근병증 (Alcoholic Cardiomyopathy / DCMP)",
+    "question_summary": "45세 남자, 30세부터 매일 소주 2병, CXR에서 매우 심한 cardiomegaly - 진단은?",
+    "page": 169,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "169",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "가역적 심근확장(알코올성 심근병증)",
+    "question_summary": "가역적 심근확장의 원인으로 알코올을 고르는 문제",
+    "page": 170,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Post-myocardial infarction pericarditis (Dressler syndrome)",
+    "question_summary": "55세 남성, 5일 전 심근경색 후 발열·흉통, 심비대, WBC 상승 - 치료는?",
+    "page": 192,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "바이러스성 급성 심낭염 (Coxsackievirus)",
+    "question_summary": "45세 남자 상기도 감염 후 흉골하 흉통, 앞으로 기울이면 완화, 흉부 청진상 마찰음 - 원인균은?",
+    "page": 193,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2019",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심낭삼출/심장압전 (Cardiac Tamponade)",
+    "question_summary": "67세 여성 항암치료 중 저혈압, 빈맥, 흡기시 수축기BP 15mmHg 감소, CXR 물병모양 심비대 - 다음 조치는?",
+    "page": 193,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Pericardial effusion / 심낭삼출",
+    "question_summary": "성인 S3, 숨참고 EKG low voltage, 증가된 간수치, hepatic congestion 소견 - 진단은?",
+    "page": 194,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "심혈관",
+    "topic": "감염성 심내막염",
+    "question_summary": "심장수술(판막수술) 과거력 + 발열 → 혈액배양 관련 5가지 답 기술",
+    "page": 202,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "감염성 심내막염",
+    "question_summary": "65세 남자, 대동맥판 역류 과거력, 치과 치료 후 발열·전신쇠약·손톱 밑 점상출혈 → 심장 초음파",
+    "page": 202,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 예방적 항생제",
+    "question_summary": "감염성 심내막염 과거력 있는 44세 여성, 발치/임플란트 시술 예정, 페니실린 알레르기 있을 때 예방적 항생제 선택",
+    "page": 203,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2020",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 (Infective Endocarditis) / Modified Duke Criteria",
+    "question_summary": "45세 남자, 2주간 발열·피로·오한·구역·구토, 치과치료 과거력, 체온 39도, III도 이상 수축기 심잡음, 손톱밑 점상출혈, 양쪽 폐하부 마찰음, WBC↑·CRP↑·ESR↑·RF 증가 소견에서 다음으로 시행할 검사",
+    "page": 204,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "0",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 예방적 항생제",
+    "question_summary": "인공심장판막 수술 후 발치+임플란트 예정 환자의 시술 전 예방적 항생제",
+    "page": 205,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 진단",
+    "question_summary": "65세 남환, 발열·전신쇠약, 대동맥판막역류 과거력, 손톱 및 점상출혈 - 필요한 검사는?",
+    "page": 206,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 진단",
+    "question_summary": "50세 남자, 발열·근육통·가슴 두근거림, 판막 치환술 과거력 - 진단을 위한 검사는?",
+    "page": 206,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 (S. aureus) - 수술 적응증",
+    "question_summary": "27세 여자, 승모판 수축기 심잡음, S. aureus 균혈증, 약물치료 후 부종과 호흡곤란 발생 - 치료는?",
+    "page": 207,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "인공판막 심내막염 (PVE) - early onset 원인균",
+    "question_summary": "45세 남자, 심장판막 치환술 1개월 후 oscillating mass 발견 - 가장 고려해야 할 원인균은?",
+    "page": 207,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 예방",
+    "question_summary": "승모판 폐쇄부전으로 intervention 받은 과거력 있는 60세 여자에게 치과시술 전 시행할 조치",
+    "page": 208,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 예방 - 고위험 심장질환",
+    "question_summary": "치과시술 전 심내막염 예방 요법이 추천되는 고위험 심장 질환",
+    "page": 208,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "감염성 심내막염 진단",
+    "question_summary": "27세 여자 발열, 오한, 심비대, Hb 8.9, WBC 16200(Neutrophil 95%) - 이후 시행할 검사",
+    "page": 208,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "Stable ischemic heart disease",
+    "question_summary": "61세 여자, 3개월간 흉통, 완전우각차단 소견 - 다음 검사로 관상동맥조영술",
+    "page": 209,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Stable ischemic heart disease",
+    "question_summary": "55세 남자, 고혈압 고지혈증, 계단 오를 때 2-3분 흉통 - 운동부하 심전도",
+    "page": 209,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "안정형 협심증 / 관상동맥조영술 적응증",
+    "question_summary": "79세 안정형협심증 환자, EF 35%, 운동부하검사 STD 3mm → 다음 조치",
+    "page": 210,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "이형 협심증 (Variant angina)",
+    "question_summary": "30세 남자, 주로 밤에 흉통, 술 후 발생, 10분 지속 → 진단",
+    "page": 210,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "unknown",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "안정형 협심증 / 허혈성 심질환 진단",
+    "question_summary": "60대 여성, 운동 후 수분간 흉통/안정시 호전, 전형적 안정형 협심증 의심, 무릎 골관절염으로 운동부하 검사 불가 시 다음 검사 선택",
+    "page": 211,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "협심증 감별진단 (Stable/Unstable angina, non-STEMI)",
+    "question_summary": "54세 남자, 흉통, 혈압 95/60, troponin T 정상, CK-MB 정상, ST depression 1줄짜리 EKG - 진단은?",
+    "page": 212,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "Stable angina 추가 혈압약 선택 (DHP 칼슘차단제)",
+    "question_summary": "Stable angina 양상 흉통, atenolol 복용 중, 혈압 150/9* - 추가 처방 가능한 혈압약은?",
+    "page": 212,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Nitrate induced headache 처치",
+    "question_summary": "협심증으로 isosorbid nitrate 복용 중 두통 발생 - 조치는?",
+    "page": 212,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2018전문의",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "운동부하 심전도",
+    "question_summary": "50세 남자, 1년 전 등산시 흉통 발생 후 운동/스트레스 시 전흉부 흉통 호소 - 다음 단계 검사",
+    "page": 213,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016인트레이닝",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "운동부하 심전도(treadmill test)",
+    "question_summary": "53세 남자, 운동 시 흉통 발생 후 멈추면 소실, 고혈압/고지혈증 복용 중, 안정시 심전도 정상 - 추가 검사",
+    "page": 213,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016,2006전문의",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "운동부하 심전도 양성 소견/심한 허혈성 심질환",
+    "question_summary": "운동부하 심전도 중 심한 허혈성 심질환 의심 소견",
+    "page": 213,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "213",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "협심증 / Coronary angiography",
+    "question_summary": "50세 여자, 흉골부위 누르는 듯한 통증, 계단 오를 때 및 빠르게 걸을 때 발생, EKG/Troponin/CK-MB 정상 - 다음 조치",
+    "page": 214,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "Isosorbide dinitrate 부작용 - 두통",
+    "question_summary": "협심증 환자 isosorbide 복용 후 두통 발생 시 조치",
+    "page": 216,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "안정형 협심증 - 운동부하검사",
+    "question_summary": "운동 시 흉통, 안정 시 소실, 안정시 심전도 정상인 환자의 추가 검사",
+    "page": 216,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "무증상 ST depression - 운동부하검사",
+    "question_summary": "비행기 조종사 검진에서 ST depression 발견 시 조치",
+    "page": 216,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "안정형 협심증 진단",
+    "question_summary": "50세 남자, 등산/운동/스트레스 시 흉통 - 다음 시행할 검사",
+    "page": 217,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": "2, 5",
+    "category": "심혈관",
+    "topic": "니트로글리세린 설하정 복용 설명",
+    "question_summary": "협심증 환자에서 니트로글리세린 설하정 처방 시 올바른 환자 교육 내용",
+    "page": 217,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "이형 협심증 치료",
+    "question_summary": "53세 남자, 새벽 흉통, ST elevation 후 자연 소실 - 적절한 치료",
+    "page": 217,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "안정형 협심증 환자 교육",
+    "question_summary": "안정형 협심증 환자에게 적합한 생활습관 조언",
+    "page": 218,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "안정형 협심증 치료 약물",
+    "question_summary": "고혈압 동반 안정형 협심증 환자(BP 160/100, HR 76)에서 가장 근거 있는 치료 약물",
+    "page": 218,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "unknown",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "캐나다 협심증 분류 (CCS Class)",
+    "question_summary": "캐나다 협심증 강도 Class III에 해당하는 소견",
+    "page": 219,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "unknown",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "운동부하 심전도 양성 소견",
+    "question_summary": "운동부하 심전도에서 양성으로 판정하는 소견",
+    "page": 219,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "NSTEMI/불안정협심증 - 조기 재관류 요법",
+    "question_summary": "70세 남자, 운동시 흉통, 5개월전 CABG 시행, HTN/DM, 약물치료에도 재발되는 흉통 - 처치는?",
+    "page": 220,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "NSTEMI - 심장관상동맥중재술",
+    "question_summary": "75세 남자, 10분째 지속되는 흉통, 2년전 관상동맥우회술, CK-MB/Troponin T 2배 이상 증가, 혈압 90/60, 수포음 - 처치는?",
+    "page": 220,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "NSTEMI 진단",
+    "question_summary": "65세 여자, 심와부 통증, Troponin I 상승, ST elevation 없고 v3,4,5 ST depression/T wave inversion - 진단은?",
+    "page": 220,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Unstable angina",
+    "question_summary": "50대 남자, b-blocker+nitrate 복용 중 흉통 빈도/강도 악화 - 향후 계획",
+    "page": 221,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "NSTEMI (Non-ST elevation MI)",
+    "question_summary": "65세 남자 CVA 과거력, 휴식 중 흉통, troponin 상승, v2 ST depression/v3 ST elevation - 다음 처치",
+    "page": 221,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "Unstable angina",
+    "question_summary": "45세 남자, b-blocker+nitrate 복용 중 흉통 빈도/강도 악화 - 향후 계획",
+    "page": 221,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "안정 협심증 고위험군 관리",
+    "question_summary": "70세 남성 안정 협심증, EF 38%, 운동부하검사 ST 하강 3mm - 치료 선택",
+    "page": 222,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "불안정 협심증 (Unstable Angina)",
+    "question_summary": "45세 남자, 2년간 운동시 흉통으로 beta-blocker/nitrate 복용 중, 2개월 전부터 흉통 빈도·강도 증가 시 적절한 처치",
+    "page": 223,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "급성관상동맥증후군 / 저혈압 동반 흉통 초기치료",
+    "question_summary": "68세 남자, 20분간 흉통 NRS 9/10, BP 90/50mmHg 환자의 현재 치료",
+    "page": 224,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "불안정형 협심증 / 약물 불응성 협심증 처치",
+    "question_summary": "45세 남자, 베타블로커·나이트레이트 사용 중에도 운동시 흉통 빈도 증가 시 적절한 처치",
+    "page": 224,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "불안정 협심증/UA/NSTEMI",
+    "question_summary": "72세 여성, 흉통, ST depression 소견 시 다음 조치",
+    "page": 225,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "불안정 협심증 고위험군",
+    "question_summary": "안정성 협심증 환자에서 고위험군에 해당하는 요인",
+    "page": 225,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "225",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "STEMI (ST분절 상승 심근경색)",
+    "question_summary": "42세 남자, 2주간 간헐적 흉통, 흡연력 15년, ECG상 STEMI 소견 시 조치",
+    "page": 226,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "급성 하벽부 심근경색",
+    "question_summary": "75세 남자, 심한 흉통·호흡곤란·어지럼증, 혈압 80/50, 경정맥 확장, EKG II·III·aVF ST elevation",
+    "page": 227,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "CK-MB - 재발성 심근경색 vs pericarditis 감별",
+    "question_summary": "급성심근경색 항혈전 치료 4일 후 재흉통, EKG에서 pericarditis 소견, 흉통 원인 감별 검사",
+    "page": 227,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "AMI with acute heart failure / pulmonary edema",
+    "question_summary": "53세 남자, AMI로 인한 acute heart failure 및 pulmonary edema 상황에서 적절한 치료 선택",
+    "page": 228,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "STEMI 처치 / coronary angiography",
+    "question_summary": "65세 남자, ST elevation, CK-MB/Troponin-T 증가 소견에서 적절한 처치 선택",
+    "page": 228,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "전벽 심근경색 (Anterior MI)",
+    "question_summary": "55세 남자, 흉통 3시간, CK 300 CK-MB 10 TnT 1.2, EKG V2,3,4 ST elevation + II,III,aVF ST depression → 진단",
+    "page": 229,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심근경색 진단 - Troponin",
+    "question_summary": "흉통, 숨쉬면 심해지는 증상, ST elevation 환자에서 다음 시행할 검사",
+    "page": 229,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "229",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "급성 심근경색 (STEMI)",
+    "question_summary": "66세 남자, 점심 식사 후 흉통, 식은땀, EKG에서 V2-4 ST elevation & Tall T wave, II/III/aVF reciprocal ST depression → 진단",
+    "page": 230,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "230",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "STEMI 초기 치료",
+    "question_summary": "67세 남자 흉통 2시간, STEMI 진단 시 가장 우선적으로 투여할 약물",
+    "page": 231,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "급성 심근경색 (STEMI) / 급성 심부전 치료",
+    "question_summary": "53세 남자 흉통·호흡곤란, inf. lat. lead ST상승, 폐부종 소견에서 증상 호전을 위한 적절한 치료",
+    "page": 232,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "급성 심근경색",
+    "question_summary": "66세 남자, 점심 식사 후 흉통, EKG에서 V2-5 ST elevation & Tall T wave, II/III/aVF reciprocal ST depression, I/aVL ST elevation - 진단은?",
+    "page": 233,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "AMI vs Pericarditis 감별",
+    "question_summary": "58세 남자, 급성 흉통(찌르는 듯), EKG V1 ST elevation, V1-3 wide QRS - 가장 적절한 조치는?",
+    "page": 233,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "급성 심부전 / 급성 폐부종 치료",
+    "question_summary": "32세 여자, 30분 이상 흉통+호흡곤란+하지부종, 경정맥 확장, 거품소리 - Morphine/Oxygen 후 다음 투여 약제",
+    "page": 234,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "하벽 심근경색 진단 / EKG",
+    "question_summary": "55세 남자, 흉통 3시간, CK/CK-MB/TnT 상승, EKG II·III·aVF ST elevation - 진단",
+    "page": 234,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "전벽 심근경색 / EKG",
+    "question_summary": "anterior infarct 심전도 V2-V4 ST elevation - 질환명",
+    "page": 234,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심근경색 지표",
+    "question_summary": "심근경색 지표(CK-MB, WBC 등)에 대한 설명 중 맞는 것",
+    "page": 235,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심근경색 후 재경색/사망률 감소 처방",
+    "question_summary": "심근경색 후 재경색 및 사망률을 감소시키기 위한 처방",
+    "page": 235,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Dressler syndrome (Postcardiac injury syndrome)",
+    "question_summary": "심근경색 3주 후 흉통, 발열, 마찰음 소견의 치료",
+    "page": 235,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2011",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "Pericarditis vs 재경색 감별",
+    "question_summary": "급성 심근경색 후 항응고제 치료 중 4일 뒤 흉통 재발, EKG상 pericarditis 소견일 때 감별을 위한 검사",
+    "page": 236,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "NSTEMI",
+    "question_summary": "65세 남자 전흉부 통증, BP 95/60, CK-MB 31 상승, ST elevation 없는 EKG 소견 - 진단은?",
+    "page": 237,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "심근경색 호발 부위",
+    "question_summary": "심근경색이 있을 때 가장 호발하는 부위는?",
+    "page": 237,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2008",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "급성심근경색 합병증 - 유두근 파열/심낭염",
+    "question_summary": "급성심근경색으로 CCU 치료 중 흉골하 흉통과 좌측 승모근 방사통 새로 발생 시 확진에 가장 도움이 되는 검사",
+    "page": 238,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "2, 3",
+    "category": "심혈관",
+    "topic": "우심실 경색 (RV infarction) 초기 관리",
+    "question_summary": "62세 여자, 명치 통증, 우측 경정맥확장, 심전도 II·III·avF·V3R·V4R ST상승 시 초기 관리로 적절하지 않은 것",
+    "page": 240,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "불안정형 협심증 vs NSTEMI 감별",
+    "question_summary": "불안정형 협심증과 NSTEMI를 구별할 수 있는 소견",
+    "page": 240,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2007",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "심근경색 cardiac enzyme",
+    "question_summary": "심근경색 시 cardiac enzyme(Troponin I, CK-MB, Myoglobin 등)에 대한 올바른 설명 고르기",
+    "page": 241,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "급성 심근경색 ECG 소견",
+    "question_summary": "급성 심근경색 시 가장 급성임을 시사하는 ECG 소견",
+    "page": 242,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "심근경색 후 항혈전제",
+    "question_summary": "심근경색 후 항혈전제 사용에 관한 옳은 설명",
+    "page": 242,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "3도 방실차단 치료",
+    "question_summary": "급성 심근경색 치료 중 3도 방실차단 소견 시 적절한 치료",
+    "page": 242,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "242",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "NSTEMI",
+    "question_summary": "60대 남자 지속적 흉통, CK-MB 상승(56), EKG 정상소견 → 진단",
+    "page": 243,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "243",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "이형협심증(variant angina)",
+    "question_summary": "47세 여자, 야간 흉통, 좌측 ST 분절 상승 후 소실 - 변이형 협심증 치료제 선택",
+    "page": 244,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "변이형 협심증 치료",
+    "question_summary": "48세 남자, 새벽 흉통, 술 마신 후 발생 - 변이형 협심증 치료제",
+    "page": 245,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "변이형 협심증 치료",
+    "question_summary": "53세 남자, 새벽 흉통, 안정 시 ST elevation, 증상 소실 시 정상 EKG - 적절한 치료",
+    "page": 245,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "고혈압 진단 - 백의고혈압",
+    "question_summary": "50대 남자, 진료실 혈압 높으나 24시간 활동혈압(주간/야간)은 기준 이하 - 진단은?",
+    "page": 279,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "24시간 활동혈압 정상 기준",
+    "question_summary": "24시간 활동혈압 측정에서 정상 혈압 기준(낮/밤/전체) 수치는?",
+    "page": 279,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "고혈압 약제 부작용 - ACEi/티아지드 복용 후 전해질 이상",
+    "question_summary": "65세 여자, 고혈압으로 ACEi+티아지드 복용 중 피로감·팔다리 힘 없음 - 확인할 검사는?",
+    "page": 279,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "원발성 알도스테론증 (Primary Aldosteronism)",
+    "question_summary": "30세 남자, 근무력감·감각이상·야뇨, 저칼륨혈증·낮은 renin activity·높은 aldosterone 소견 시 시행할 확진 검사",
+    "page": 280,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "백의 고혈압 (White Coat Hypertension)",
+    "question_summary": "건강검진에서 BP 150/90, 내원 BP 148/86이나 24시간 혈압 주간 130/82·야간 116/65일 때 진단",
+    "page": 280,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "백의고혈압/가정혈압 측정",
+    "question_summary": "고혈압약 복용 중 50대 남자, 매번 방문 시 혈압이 수시로 변할 때 가정의가 취해야 할 조치",
+    "page": 281,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "24시간 활동혈압 고혈압 진단기준",
+    "question_summary": "24시간 BP monitoring 시행 시 고혈압 진단기준",
+    "page": 281,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "이차성 고혈압 - 갈색세포종",
+    "question_summary": "20세 남자, 두통/발한/빈맥/기립성 저혈압/운동 시 호흡곤란, 혈압 170/116 - 다음 시행할 검사",
+    "page": 282,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "이차성 고혈압 - 원발성 알도스테론증",
+    "question_summary": "45세 남자, 혈압 180/120, 저칼륨혈증(K 2.6), 좌심실비대 - 다음 시행할 검사",
+    "page": 282,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "이차성 고혈압 - 원발성 알도스테론증",
+    "question_summary": "50세 남자, 혈압 166/78, 저칼륨혈증(K 2.8), 건강검진 - 다음 시행할 검사",
+    "page": 282,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "이차성 고혈압",
+    "question_summary": "이차성 고혈압 가능성 높은 임상 상황 고르기",
+    "page": 283,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "백의고혈압",
+    "question_summary": "진료실 혈압 상승, 24시간 활동혈압 정상인 50세 남자의 진단",
+    "page": 283,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "24시간 활동혈압 모니터링(ABPM)",
+    "question_summary": "24hr ambulatory BP monitoring의 적응증 및 설명으로 옳은 것",
+    "page": 283,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "가면고혈압(Masked Hypertension)",
+    "question_summary": "가면고혈압 가능성이 가장 높은 경우",
+    "page": 284,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "24시간 활동혈압 모니터링(ABPM)",
+    "question_summary": "24시간 BP monitoring의 적응증",
+    "page": 284,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "저항성 고혈압 치료",
+    "question_summary": "losartan, amlodipine, bioprolol, hydrochlorothiazide 복용에도 혈압 조절 안 될 때 추가 약물",
+    "page": 285,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "백의고혈압",
+    "question_summary": "37세 여자 건강검진 혈압 150/90, 진료실 160/100이나 30분 안정 후 135/80인 경우 처치",
+    "page": 285,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "고요산혈증/통풍",
+    "question_summary": "45세 남자, 요산 8.0 mg/dL, 고혈압으로 티아지드 복용 중, 통풍 병력 없음 - 치료는?",
+    "page": 286,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "뇌경색 후 저혈압",
+    "question_summary": "78세 당뇨 남환, 뇌경색 치료 중 혈압 106/60으로 저하, 어지러움 발생 - 치료는?",
+    "page": 286,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "고혈압 약제 선택/고요산혈증",
+    "question_summary": "40-50대 남자, 혈압 150/90, BMI 27, 복부비만, GERD, uric acid 9.8 - 적절한 항고혈압제는?",
+    "page": 286,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "고혈압 동반질환별 항고혈압제 선택 - 통풍/만성신질환",
+    "question_summary": "47세 남환 통풍, BMI28, 천식, Cr 2.5, BP 150/80 - 적합한 항고혈압제",
+    "page": 287,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "무증상 고요산혈증 치료 - thiazide 대체",
+    "question_summary": "50세 남자 고혈압+고지혈증에 thiazide/atorvastatin 복용 중 요산 8.2 - 옳은 처치",
+    "page": 287,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "동반질환별 항고혈압제 선택",
+    "question_summary": "심부전/양측신동맥협착/관상동맥질환/당뇨/2도방실차단별 적합한 항고혈압제 매칭",
+    "page": 287,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "당뇨병 + 고혈압 항고혈압제 선택",
+    "question_summary": "55세 남자, DM 치료 중 BP 150/100, 단백뇨 400 - 적합한 항고혈압제",
+    "page": 288,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "만성콩팥병 + 알부민뇨 동반 고혈압 치료",
+    "question_summary": "60세 남자, BP 144/94, 당뇨, 만성콩팥병 가족력, eGFR 45, 알부민뇨 320 - 적합한 고혈압약제",
+    "page": 288,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Spironolactone 부작용 - 여성형 유방",
+    "question_summary": "55세 남자 고혈압 심부전 치료 중 유방이 아프고 커지는 원인 약물",
+    "page": 289,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "2° sinus exit block - CCB 주의",
+    "question_summary": "심전도에서 2° sinus exit block 소견 시 주의해야 할 고혈압 약제",
+    "page": 289,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "저항성 고혈압 - Spironolactone 추가",
+    "question_summary": "losartan amlodipine thiazide betablocker 복용 후에도 혈압 조절 안 될 때 추가 약제",
+    "page": 289,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "칼슘채널차단제 부작용 - 하지부종",
+    "question_summary": "50세 여자 고혈압약 변경 후 하지부종 발생 - 원인 약물",
+    "page": 290,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "당뇨병+고혈압+단백뇨 항고혈압제 조합",
+    "question_summary": "당뇨병 55세 남자 혈압 150/100, 단백뇨 400mg - 적절한 항고혈압제 조합 (5지선다)",
+    "page": 290,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 12,
+    "category": "심혈관",
+    "topic": "당뇨병+고혈압+단백뇨 항고혈압제 선택",
+    "question_summary": "당뇨병 55세 남자 혈압 150/100, 단백뇨 400mg - 적절한 항고혈압제 조합 (7지선다, 정답 1,2)",
+    "page": 290,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "고혈압 약물 부작용 - DHP 칼슘차단제",
+    "question_summary": "55세 고혈압 환자, 약 변경 후 변비와 다리 부종 발생 - 원인 약제",
+    "page": 291,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "고혈압 약물 선택 - LVH, GERD 동반",
+    "question_summary": "47세 남성 고혈압, LVH 및 GERD 동반 시 적절한 항고혈압제 선택",
+    "page": 291,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "고혈압 치료제 선택 - 당뇨병성 신증",
+    "question_summary": "40세 남성, 기관지천식+통풍+미세단백뇨(당뇨병성 신증 의심) 동반 고혈압 환자에게 적절한 항고혈압제",
+    "page": 292,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "당뇨 환자 고혈압 치료제 선택 - 신기능 저하",
+    "question_summary": "당뇨 환자, Cr 1.6, LFT 정상인 고혈압 환자에게 적절한 항고혈압제",
+    "page": 292,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "임신 계획 고혈압 환자 ACEI 복용 중 약물 관리",
+    "question_summary": "36세 여자, ACEI 복용 중 혈압조절 양호, 임신계획 시 적절한 조치",
+    "page": 292,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "고혈압 약물치료 - 병합요법",
+    "question_summary": "M/50 amlodipine 10mg, olmesartan 40mg으로 BP 조절 안되는 환자에서 다음 단계 치료",
+    "page": 293,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2015",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "고혈압 약물치료 - propranolol 병용",
+    "question_summary": "고혈압 50세 남자 propranolol 사용 중 BP 160/90일 때 추가할 적당한 약은",
+    "page": 293,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "고혈압 약물 선택",
+    "question_summary": "천식, 통풍, HbA1C 6.8%, BMI 29인 고혈압 환자에게 적합한 항고혈압제 선택",
+    "page": 294,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "이차성 고혈압 - 원발성 알도스테론증",
+    "question_summary": "30세 남자, 고혈압, hypokalemia(K 3.0), 2차성 고혈압 의심 시 시행할 검사",
+    "page": 294,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "경피적 관상동맥 중재술 후 고혈압 약물",
+    "question_summary": "52세 남자, 1달 전 PCI 시행 후 적절한 고혈압 약물 선택",
+    "page": 294,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "294",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "고혈압 약제 선택 (적응증/금기)",
+    "question_summary": "50세 남자, BP 150/104, 발기부전, 모비츠II AV block, HbA1C 6.8, BMI 29, 천식, 통풍 동반 시 적합한 고혈압 약제",
+    "page": 295,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "295",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "저항성 고혈압 치료",
+    "question_summary": "65세 환자, losartan+amlodipine+bisoprolol+hydrochlorothiazide 복용에도 혈압 조절 안 될 때 추가할 약물",
+    "page": 296,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "ACEI 병용 시 주의 항고혈압제",
+    "question_summary": "ACEI와 병용 시 주의해야 할 항고혈압제 선택",
+    "page": 297,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "저항성 고혈압 추가 약물",
+    "question_summary": "Losartan, amlodipine, metoprolol 3제 복용 중 혈압 조절 안되는 50세 남자에서 추가할 약물",
+    "page": 297,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "고혈압 약제 선택",
+    "question_summary": "환자 상태(심부전, 신부전, 당뇨 등)에 따른 고혈압 약제의 올바른 선택",
+    "page": 298,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "저항성고혈압 치료",
+    "question_summary": "CCB, ACEi, 이뇨제 3제 병용에도 150/110 조절 안 되는 저항성고혈압 다음 치료",
+    "page": 299,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "임신 중 고혈압 약물",
+    "question_summary": "ACEI 복용 중인 여자 임신 예정 시 혈압약 변경",
+    "page": 300,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "임신 중 금기 고혈압약",
+    "question_summary": "임신 시 사용하면 안 되는 고혈압약",
+    "page": 300,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "임신 계획 중 고혈압 약물 변경",
+    "question_summary": "ACEi 복용 중 임신 계획 시 처치",
+    "page": 300,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "심부정맥혈전증 (DVT)",
+    "question_summary": "비행기 탑승 후 한쪽 다리 부종, 압통 및 lab 소견 - 진단은?",
+    "page": 316,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "급성 폐색전증",
+    "question_summary": "70대 여성, 교통사고 후 하지마비로 입원 중 양측 흉통과 호흡곤란, CT 소견 - 진단은?",
+    "page": 316,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "심부정맥혈전증 (DVT) 치료",
+    "question_summary": "50대 남자 왼쪽 무릎 오금 부위 통증·부종, D-dimer 상승, CT venography 이상 - 치료는?",
+    "page": 316,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "DVT/폐색전증 치료",
+    "question_summary": "67세 남성, 급성충수염 수술 3일 후 우측 하지부종 및 호흡곤란, D-dimer 상승 - 치료는?",
+    "page": 317,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "폐색전증 진단",
+    "question_summary": "73세 남성, 소장절제술 3일 후 호흡곤란·흉통, 혈압 70/40, 경정맥 확장 - 가장 적절한 검사는?",
+    "page": 317,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "DVT 치료 (암 관련)",
+    "question_summary": "72세 여성, 하부요로 종양 병력, 오른쪽 다리 부종·통증, 도플러 초음파에서 우측 골반정맥 혈전 - 치료제는?",
+    "page": 317,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "폐색전증 진단",
+    "question_summary": "65세 여자, 대퇴골골절 수술 2일 후 오른쪽 흉통과 객혈, PaO2 저하 - 진단 검사",
+    "page": 318,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "폐색전증 진단",
+    "question_summary": "73세 남자, 서혜부탈장 소장절제술 3일 후 호흡곤란·흉통, BP 70/40 경정맥확장 - 진단 검사",
+    "page": 318,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "심부정맥혈전증(DVT)",
+    "question_summary": "52세 여자, 2일 전 비행기 탑승 후 오른쪽 다리 통증·발적·열감, 발목 굴곡 시 장딴지 통증 - 진단",
+    "page": 318,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "폐색전증 / DVT",
+    "question_summary": "급성충수염 수술 후 오른쪽 발 부종·통증·숨참, D-dimer 상승, BNP 상승 시 우선 치료",
+    "page": 319,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심부정맥혈전증(DVT) 치료",
+    "question_summary": "하부요로종양 진단 후 우측 다리 부종·통증, 도플러상 우측 골반정맥 혈전 시 적절한 치료",
+    "page": 319,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "폐색전증(PE)",
+    "question_summary": "소장 절제술 후 3일째 호흡곤란·흉통, 저혈압, 빈맥, 경정맥 확장, RBBB 소견의 진단",
+    "page": 319,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "지방색전증",
+    "question_summary": "32세 남자 교통사고 후 골절, 입원 2일 후 호흡곤란, 구강점막·전흉부 액와부 점상출혈, PaO2 53, 양쪽 폐야 광범위 침윤",
+    "page": 320,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "심부정맥 혈전증",
+    "question_summary": "64세 여자 당뇨병·뇌졸중 와병 환자, 2일간 진행성 왼쪽 하지 함요부종, 피부색 변화 없음",
+    "page": 320,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "정맥부전증 / DVT",
+    "question_summary": "50세 여자, 오른쪽 다리 통증, 종아리 직경 증가, 부종, 발가락 발적·색소침착 → 병인 확인 검사",
+    "page": 321,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "DVT (심부정맥혈전증)",
+    "question_summary": "하지 부었고 pitting edema 있는 할머니 진단",
+    "page": 321,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "흉부 대동맥류 (Thoracic Aortic Aneurysm)",
+    "question_summary": "65세 남자, 고혈압 치료 중 급성 박동성 흉통, 혈압 150/90, 심전도 정상 - 다음 시행할 진단 방법",
+    "page": 325,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "복부 대동맥류 (Abdominal Aortic Aneurysm)",
+    "question_summary": "66세 남자, 배꼽 아래 박동성 종괴 촉진, 청진상 잡음 - 가장 흔한 원인",
+    "page": 325,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "68",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "복부대동맥류 진단",
+    "question_summary": "68세 남자, 복부 중앙 통증·박동성 종괴 촉진 시 가장 적합한 진단 검사법",
+    "page": 326,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "대동맥박리 (Aortic Dissection)",
+    "question_summary": "63세 남자, 쉬어도 호전되지 않는 찢어지는 흉통이 복부로 방사, 고혈압/이상지질혈증 과거력 - 진단은?",
+    "page": 327,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "대동맥박리 치료 - Nitroprusside",
+    "question_summary": "갑작스런 흉통, 등으로 방사, 혈압 220/120, 종격동 확장 소견 - 치료제는?",
+    "page": 327,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 0,
+    "category": "심혈관",
+    "topic": "대동맥박리 (Aortic Dissection)",
+    "question_summary": "61세 남자, 갑자기 발생한 등쪽 찢어지는 통증, CE chest CT에서 dual lumen - 진단은?",
+    "page": 327,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "대동맥 박리",
+    "question_summary": "60세 남자, 고혈압 치료 중 갑작스런 흉통과 방사통, CXR 상 종격동 확장 소견 - 확진 검사",
+    "page": 328,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "대동맥 박리 / 흉수",
+    "question_summary": "67세 남자, 흉통·호흡곤란, CXR에서 양측 CP angle blunting과 mediastinal widening - 우선 시행할 검사",
+    "page": 328,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "대동맥 박리 (Aortic Dissection)",
+    "question_summary": "65세 남성, 흉골 앞 흉통이 등으로 방사, 혈압 220/120, 흉부 X선 종격동 확장 - 대동맥 박리 의심 시 사용할 약제",
+    "page": 329,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "대동맥 박리 (Aortic Dissection)",
+    "question_summary": "갑자기 흉부 뒤쪽으로 방사하는 흉통, 흉부 X선 종격동 확장 및 CT에서 false lumen 관찰 - 진단",
+    "page": 329,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "말초동맥질환 (Peripheral arterial disease)",
+    "question_summary": "68세 남자, 우측 장딴지 통증, 5분 서서 쉬면 소실 - 간헐적 파행 치료",
+    "page": 334,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "말초동맥질환 (Peripheral arterial disease)",
+    "question_summary": "70세 남자 당뇨 고혈압, ABI 0.6, 300m 보행 시 통증 - 치료법",
+    "page": 334,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "말초동맥질환 (Peripheral arterial disease)",
+    "question_summary": "말초동맥질환 증례에서 증상완화를 위한 약물",
+    "page": 334,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "말초동맥폐쇄질환 (PAOD) / 간헐적 파행",
+    "question_summary": "67세 남성, 걸을 때 오른쪽 다리 통증 후 휴식 시 호전, 흡연·고혈압·당뇨·이상지질혈증 - 치료는?",
+    "page": 335,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "하지정맥류",
+    "question_summary": "40세 여성 백화점 근무, 하지 정맥이 붓는 양상, 미용상 문제 없고 다른 증상 없을 때 조치는?",
+    "page": 335,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "심혈관",
+    "topic": "버거병 (Buerger's disease / TAO)",
+    "question_summary": "17세부터 흡연한 35세 환자, 다리통증으로 arteriography 시행한 PAOD 사진 - 진단은?",
+    "page": 335,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "심혈관",
+    "topic": "말초동맥질환 / 간헐적파행",
+    "question_summary": "100m 보행 시 다리통증, 동맥촉지 불가, 오금부위 접었다폈을 때 피부색 하얗게 변함 - 다음 단계 검사",
+    "page": 336,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Atherosclerosis obliterans (폐쇄성 동맥경화증)",
+    "question_summary": "55세 남자, 걸으면 악화되는 오른쪽 종아리 통증, 쉬면 소실, 오른 대퇴혈관 박동 약함 - 진단은?",
+    "page": 337,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "간헐적 파행 (Intermittent claudication) - cilostazol",
+    "question_summary": "70세 남자, 10분 보행 후 우측 장딴지 근육통·피로감, 휴식 시 호전, 우측 발동맥박 감소 - 치료약은?",
+    "page": 337,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "말초동맥질환 (PAD) 확진검사 - 도플러 초음파",
+    "question_summary": "50세 남자, 걷거나 뛰면 하지통증·피곤함, BMI 33, 혈압 150/95, 흡연력 25 pack/year - 확진검사는?",
+    "page": 337,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Thromboangiitis obliterans (버거병)",
+    "question_summary": "흡연자 남환, 족부동맥 맥박 약화, 걷기 힘든 증상 - 진단은?",
+    "page": 338,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "Arterial occlusive disorder (동맥폐색질환)",
+    "question_summary": "5세 남자 간헐적 우하지통, 혈압 약간 높고, 대퇴 맥박 촉지 불량, 혈액/신경학적 검사 정상 - 진단은?",
+    "page": 338,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "레이노 현상 (Raynaud's phenomenon)",
+    "question_summary": "34세 여자, 추위 노출 시 손 창백→청색→홍조 후 원상복귀, 치료 약제",
+    "page": 339,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "심혈관",
+    "topic": "레이노 현상 (Raynaud's phenomenon)",
+    "question_summary": "레이노 현상 사진 제시, 치료약 선택",
+    "page": 339,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "레이노 현상 (Raynaud's phenomenon)",
+    "question_summary": "34세 여자, 추운데 손끝 창백→파랗게 변하고 따뜻하면 빨개졌다 원래대로, 스트레스 시 증상, 치료약",
+    "page": 339,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "심혈관",
+    "topic": "레이노 현상 유발 약제",
+    "question_summary": "레이노 현상을 유발하는 약제 선택",
+    "page": 340,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "심혈관",
+    "topic": "레이노 현상 치료",
+    "question_summary": "38세 여성, 2년간 간헐적 손저림, 찬 공기 노출 시 손끝 창백해지는 레이노 현상 치료",
+    "page": 340,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐렴 X-ray 판독 - 폐엽 위치",
+    "question_summary": "2주간 발열·기침 환자의 Chest PA/Lat에서 병변 위치 확인",
+    "page": 347,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐기능검사 (Pulmonary Function Test)",
+    "question_summary": "말초 소기도 병변 진단에 도움되지만 측정마다 변이성이 큰 폐기능 지표",
+    "page": 349,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "미만성 간질성 폐렴 (Restrictive pattern PFT)",
+    "question_summary": "43세 비흡연자, 운동성 호흡곤란, 마른 기침, FEV1 감소 및 FEV1/FVC 증가 소견의 질환",
+    "page": 349,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2008",
+    "answer": 0,
+    "category": "호흡기",
+    "topic": "폐기능 검사 - PEFR",
+    "question_summary": "폐기능 검사 중 최대호기유속(PEFR)을 측정하는 기구 사진 제시",
+    "page": 350,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2005",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐기능검사 - FEF25-75%",
+    "question_summary": "말초 소기도 병변 진단에 도움이 되나 측정 시마다 변이성이 큰 폐기능 지표",
+    "page": 350,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "2, 3",
+    "category": "호흡기",
+    "topic": "흉막삼출/폐렴",
+    "question_summary": "67세 남자, 흉통·호흡곤란, 폐 하부측 수포음, CXR 정상 - 다음 검사로 적절한 것",
+    "page": 351,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": "5, 8",
+    "category": "호흡기",
+    "topic": "운동유발 기관지수축/천식",
+    "question_summary": "50세 흡연 남자, 운동 시 호흡곤란, 좌측 국한 천명음, 흉부X선·심전도 정상 - 적절한 검사 2가지",
+    "page": 351,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": "9",
+    "category": "호흡기",
+    "topic": "기관지천식(폐쇄성 환기장애)",
+    "question_summary": "23세 여자, 감기 후 호흡곤란, 양폐 쌕쌕거림, FEV1/FVC 55% - 추가로 시행할 검사 1가지",
+    "page": 351,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "48세 여자, 반복적 폐렴(3년간 4차례), 만성 기침/가래, 객혈 - 흉부 X선 이상 소견에서 다음 검사",
+    "page": 352,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐색전증",
+    "question_summary": "65세 여자, 대퇴골 골절 수술 1주 후 객혈·호흡곤란, 빈맥(126회), 빈호흡(28회) - 다음 검사",
+    "page": 352,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기침이형 천식",
+    "question_summary": "39세 남성, 8주간 기침, 흡연력, 고혈압/고지혈증 약 복용 중, 폐기능검사 FEV1 pre53→post62, FEV1/FVC 77 - 진단은?",
+    "page": 353,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "호산구성 폐렴",
+    "question_summary": "37세 남성, 3년째 고혈압 약 복용, 8주간 기침과 계단 오를 때 호흡곤란, PFT FVC 100이상 FEV1/FVC 83%, CT영상 소견 - 진단은?",
+    "page": 353,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "11",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐렴 합병증/급성 호흡곤란",
+    "question_summary": "53세 남자, 좌하엽 폐렴 입원 치료 중 갑작스러운 호흡곤란 발생 시 가장 중요한 검사",
+    "page": 354,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 8,
+    "category": "호흡기",
+    "topic": "호산구성 기관지염",
+    "question_summary": "48세 남자, 2개월간 기침, 흉부X선·부비동X선 정상, 폐기능·메타콜린 정상, 유도객담 호산구 5% - 치료 약제 선택",
+    "page": 355,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "호흡기",
+    "topic": "만성기침 감별(GERD, 상기도기침증후군)",
+    "question_summary": "55세 여자, 6개월간 기침, 비흡연, 무투약, 신체검진·흉부X선 정상 - 원인별 치료 두 가지 선택 (정답: 5, 10)",
+    "page": 355,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "GERD",
+    "category": "호흡기",
+    "topic": "만성 기침 / GERD",
+    "question_summary": "남자 수개월간 기침, 인후두 이상소견 없음, chest x-ray 이상소견 없음 - 가능한 진단은?",
+    "page": 356,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": "2,5,8",
+    "category": "호흡기",
+    "topic": "객혈 / 기관지확장증 / 폐결핵 / 혈액응고이상",
+    "question_summary": "60세 남자, 선홍색 객혈(소주컵 한잔), 잦은 기침, 와파린 복용 중, chest PA 이상 - 의심되는 질환 세 가지 선택",
+    "page": 356,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "객혈/기관지염",
+    "question_summary": "30세 여자, 1주일 기침·가래 후 혈성 가래, 양측 흉곽 수포음 - 진단",
+    "page": 357,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "Parainfluenza virus 감염",
+    "question_summary": "52세 여성, 단풍놀이 후 2주간 지속 기침, 야간 악화, 흉부X선 정상 - 원인",
+    "page": 357,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "임산부 감기약 (항히스타민제)",
+    "question_summary": "임산부에게 재채기, 콧물 증상 시 사용 가능한 약물",
+    "page": 358,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "GERD 유발 만성기침",
+    "question_summary": "25세 여성, 2개월간 기침·천명음·호흡곤란, 야간 악화, ranitidine 복용력 - 적절한 치료",
+    "page": 358,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "만성 기침 / UACS / Sinusitis",
+    "question_summary": "27세 남자, 4주간 기침, 콧물이 뒤로 넘어가는 증상 - 다음 시행할 검사",
+    "page": 359,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "Vasomotor rhinitis",
+    "question_summary": "62세 남자, 뜨거운 환경에서 심해지는 코막힘, 가려움/눈물 없음 - 치료 약제",
+    "page": 359,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": "1, 13",
+    "category": "호흡기",
+    "topic": "기관지 종양 (국소 천명음)",
+    "question_summary": "50세 남자, 운동 시 호흡곤란, 흡기 시 좌하측폐 국한 천명음 - 필요한 검사 2가지 선택",
+    "page": 360,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "결핵",
+    "question_summary": "50세 남자, 8주간 마른기침/가래, 감기약 무효, 흡연력, restrictive pattern → 진단",
+    "page": 361,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "결핵성 흉막염",
+    "question_summary": "8주간 기침, pleural effusion ADA >128 → 진단",
+    "page": 361,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "만성 기침, 흡연력, Chest X-ray",
+    "question_summary": "50세 농부, 30년 흡연력, 운동시 기침 악화 - 진단을 위한 첫 번째 검사",
+    "page": 362,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 0,
+    "category": "호흡기",
+    "topic": "폐농양, 결핵, cavity 병변",
+    "question_summary": "8주간 기침·가래·발열, chest CT에서 cavity 형성 - 가능한 진단 2가지",
+    "page": 362,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2015",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "천식 진단 - 기관지 수축 유발 검사",
+    "question_summary": "35세 여성, 마른기침, 야간 악화, 폐기능 정상 시 천식 감별 검사",
+    "page": 363,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "아급성 기침 - 감염 후 기침 치료",
+    "question_summary": "35세 여성, 1개월 지속 기침, 누런 가래, 감기 후 발생, 아급성 기침 치료",
+    "page": 363,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "만성기침/상기도기침증후군",
+    "question_summary": "28세 여자, 2개월 지속 기침, 찬공기·찬물에 악화, 흉부X-ray 정상 - 다음 단계 검사",
+    "page": 364,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "ACE억제제 유발 기침",
+    "question_summary": "45세 남자, 2개월 지속 마른기침, 3개월 전부터 혈압약 복용 - 적절한 치료",
+    "page": 364,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "급성 비부비동염 / 부비동 X-ray",
+    "question_summary": "25세 여자, 3주간 기침 + 코막힘 심함, 약물치료 반응 없을 때 적절한 검사",
+    "page": 365,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "객혈 환자 치료",
+    "question_summary": "객혈 환자의 올바른 치료 방법",
+    "page": 365,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "천식 (임신 중 천식 치료)",
+    "question_summary": "임신 30주 32세 여성, 호흡곤란·기침·콧물, 꽃가루 알레르기 - 우선 사용 약물",
+    "page": 384,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "천식 (조절되지 않는 천식 단계적 치료)",
+    "question_summary": "20세 여성, 류코트리엔 조절제+속효성 베타2 항진제 사용 중 매일 증상·야간 증상·응급실 2회 방문·PEF 75% - 추가 약물",
+    "page": 384,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "인플루엔자 예방적 항바이러스제",
+    "question_summary": "70세 여성 천식 환자, 인플루엔자 유행 중 처치",
+    "page": 385,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "천식 조절 후 step-down 치료",
+    "question_summary": "38세 남자 천식 ICS+LABA 사용 중 4개월간 잘 조절된 경우 치료 조정",
+    "page": 385,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "천식 치료 - 저용량 흡입 스테로이드",
+    "question_summary": "17세 남자, 호흡곤란/기침, 월 1회 야간증상, 폐기능검사상 천식 진단 시 치료",
+    "page": 386,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "임신 중 천식 치료 - 흡입 Betamethasone",
+    "question_summary": "임신한 32세 여성, 코막힘/콧물/천식 치료 시 가장 적절한 약물",
+    "page": 386,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "천식 진단 - FEV1 기관지확장제 반응",
+    "question_summary": "호흡곤란/색쌕거림 환자에서 기관지확장제 투여 전후 비교 시 진단에 도움되는 지표",
+    "page": 386,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기침변이형 천식 / 메타콜린 유발검사",
+    "question_summary": "45세 남자, 6개월간 낮 활동 시·취침 전 기침·숨찬 증세, 환절기 악화, 청진 정상, chest x-ray/PFT/EKG 정상 - 다음 검사는?",
+    "page": 387,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "천식 / 기관지 확장제 반응 검사",
+    "question_summary": "쌕쌕 거리는 젊은 여자 - 다음 검사는?",
+    "page": 387,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "천식의 치료 효과를 판정하는 데 가장 적절한 지표는?",
+    "page": 390,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "천식 악화",
+    "question_summary": "20세 여성 천식으로 입원, 4기 전투터 증상 악화 시 나타나는 신체검진 소견",
+    "page": 391,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "만성 폐쇄성 폐질환",
+    "question_summary": "기관지 천식으로 테오필린, B2 agonist, 흡입 corticosteroid 사용 중인 환자의 추가 처치",
+    "page": 391,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "44",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "B2 agonist 부작용",
+    "question_summary": "20세 남자 환자가 B2 agonist 사용 후 나타난 증상의 원인",
+    "page": 391,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "만성폐쇄성폐질환",
+    "question_summary": "23세 여성의 1년 전 감기 이후 10년간 지속되는 호흡곤란 및 기침, 폐기능검사 결과 해석",
+    "page": 392,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐기능검사 해석",
+    "question_summary": "29세 남자의 폐기능검사에서 간질적 폐질환 패턴 해석",
+    "page": 393,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐기능검사 지표",
+    "question_summary": "천식의 치료효과를 판정하는 가장 적절한 지표",
+    "page": 393,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "44",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐기능 악화",
+    "question_summary": "20세 여자 천식환자의 PEFR 저하 원인 분석",
+    "page": 393,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "천식의 치료 효과 판정하는데 가장 객관한 지표는?",
+    "page": 394,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "천식치료약물",
+    "question_summary": "알레르기 천식환자가 향한 노출이 예상되는 상황에서 사용할 수 있는 약제는?",
+    "page": 394,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "R type 심근경색",
+    "question_summary": "R type 19세 남자가 가슴으로 내원하였을 때 심근경색 원인 규명",
+    "page": 395,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "호흡곤란",
+    "question_summary": "30세 여자가 심한 호흡곤란으로 내원한 환자의 원인 규명",
+    "page": 395,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "Theophylline 독성",
+    "question_summary": "Theophylline 농도가 정상보다 높게 유지되는 상황은?",
+    "page": 396,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "Beta agonist 사용",
+    "question_summary": "20세 남자가 정식으로 흡입 beta agonist 사용 중이었으나 잘 조절되지 않았을 때 다음 단계의 치료는?",
+    "page": 396,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "약물 부작용",
+    "question_summary": "폐쇄각 녹내장 있는 임산부의 dyspnea와 쌕쌕거리는 소리에 대한 원인 약물",
+    "page": 397,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "NSAIDs 부작용",
+    "question_summary": "아스피린 복용 후 심한 천식 악화를 보인 47세 남자의 안전한 진통제",
+    "page": 397,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "15",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "폐결핵 진단",
+    "question_summary": "기관지 내시경 검사 및 객담 검사를 통한 폐결핵 진단 방법",
+    "page": 398,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2011",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "급성 기관지염",
+    "question_summary": "40세 여자 2년 전부터 감염적인 호흡곤란으로 내원한 환자의 치료",
+    "page": 399,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2010",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "급성 상기도 감염",
+    "question_summary": "천식 악화 인자 중 가장 흔한 것",
+    "page": 399,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20102007",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "40세 여자 운동시 천명음, 호흡곤란이 내원한 환자의 폐기능 소견",
+    "page": 400,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지천식 진단",
+    "question_summary": "기관지 천식의 진단기준은?",
+    "page": 401,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "Theophylline 약물상호작용",
+    "question_summary": "Theophylline의 농도를 낮추는 약물",
+    "page": 402,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "NSAIDs 약물부작용",
+    "question_summary": "40대 남성 위궤양 약물중 안전하게 사용할 수 있는 약물",
+    "page": 402,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "62",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "천식의 표현형",
+    "question_summary": "천식의 다양한 표현형(phenotype)과 특징에 대한 이해",
+    "page": 405,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "성인 천식의 진단",
+    "question_summary": "성인 천식은 특징적인 증상(천명음, 호흡곤란, 흉통 압박감 등)과 다양한 호기 기류제한이 확인되면 인상하수 있다. 기도 폐쇄는 정상으로 회복이 가능하여야 하며, 다른 유사 질환이 없다는 것을 확인하여야 한다.",
+    "page": 406,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지유발시험(기도과민성검사)",
+    "question_summary": "기관지유발시험의 정의, 검사방법, 해석기준 및 금기사항",
+    "page": 409,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "천식 진단기준",
+    "question_summary": "6세 이상 소아, 청소년과 성인에서 천식 진단 기준",
+    "page": 410,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "흡입 스테로이드-포목테롤 병용제",
+    "question_summary": "1단계 천식 치료에서 필요시 흡입 스테로이드-포목테롤 사용의 임상적 근거",
+    "page": 413,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흡입 스테로이드제와 필요시 흡입 속효성 베타2항진제",
+    "question_summary": "2단계 천식 치료에서 매일 저용량 흡입 스테로이드제와 필요시 속효성 베타2항진제 조합의 임상적 근거",
+    "page": 413,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "소아 스테로이드-포모테롤 치료",
+    "question_summary": "4단계 천식 치료: 저용량 흡입 스테로이드-포모테롤 유지 요법 증상완화요법 사용",
+    "page": 414,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "치료단계 낮추기",
+    "question_summary": "조절된 고혈압 환자의 약물 감량 시점 및 방법",
+    "page": 415,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "금성 천식 약화",
+    "question_summary": "급성 천식 악화(천식발작)의 정의 및 임상관리",
+    "page": 417,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "일차의료기관에서의 천식의 금성 악화 진료",
+    "question_summary": "일차의료기관에서 천식 급성 악화 환자의 진단 및 치료 알고리즘",
+    "page": 419,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "천식 치료",
+    "question_summary": "속효성 베타2항진제와 지속성 베타2항진제의 용도 및 용량",
+    "page": 420,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "과민성폐렴",
+    "question_summary": "호흡곤란으로 내원한 45세 비흡연자의 폐렴 진단",
+    "page": 421,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "6",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "호산구증다증",
+    "question_summary": "폐결절과 호산구증다증을 보이는 50대 환자의 진단",
+    "page": 421,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "객혈",
+    "question_summary": "48세 남성 객혈, 혈옷증, 호흡곤란 환자의 흉부 X선 이상 소견에 대한 감별진단",
+    "page": 422,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "만성폐쇄성폐질환",
+    "question_summary": "45세 남성 1년 전 폐쇄성환기장애 진단 후 FEV1 감소의 원인 분석",
+    "page": 422,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐 질환",
+    "question_summary": "56세 남자 객혈과 호흡곤란, CXR상 폐구침윤 및 흉수 - 감별진단",
+    "page": 423,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐 질환",
+    "question_summary": "35세 여자 발열, 기침, 흉통 - Chest X-ray 소견과 치료",
+    "page": 423,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "호산구증다증폐질환",
+    "question_summary": "24세 남자 4주동안 지속되는 기침으로 찾아왔을 때 X-ray상 호산구성 폐렴 소견을 보였고 대변 검사상 충란이 관찰되었을 때 기생충 감염의 가능성이 높은 것은",
+    "page": 424,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐 침윤과 호산구증가증",
+    "question_summary": "55세 남자의 chest CT상 6mm 크기의 폐결절과 3개월 후 CT에서 기존 결절들은 사라지고 다른 부위에 비숭한 모양 크기의 폐결절이 3개 보였다. 환자는 매일 환갑성 35년 흡연력이 있었다. 시행할 검사는?",
+    "page": 425,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐 질환의 진단",
+    "question_summary": "기관지염 45도 남자, 호흡곤란, 기침으로 중수화되며 흉열은 점지않으면 1개월 전부터 바셋 재배임에 종사하고 있었다. 재배장에서 자업시작후 증상 시작되고 점차 악화양상 보였다. ESR 45mm/hr, 혈중 호산구수치는 정상이었다. 페기능 검사상 FEV1/FVC 정상, TLC 감소된 양상이었다. 진단은?",
+    "page": 425,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "환경성 폐질환",
+    "question_summary": "23년 직업력으로 인한 폐질환 진단 - 흉부 X선 소견상 진단",
+    "page": 426,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "25년간 터널작업 환자의 규폐증 X-ray 소견",
+    "page": 427,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "67세 남자 보건작업자 3년 전부터 호흡곤란, 40년간 광산 종사 경력의 진단",
+    "page": 427,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "52세 남자 서서히 기침/호흡곤란 증상 발생, chest x-ray상 흉막비후 연증 - 직업 및 관련 물질",
+    "page": 428,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "52세 남자 서서히 기침/호흡곤란 중상 발생, chest x-ray상 흉막비후연증 - 원인 물질",
+    "page": 428,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2008",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "여자가 출근하여 작업을 하기 시작하면 숨이 차기 시작한다고 한다. 가장 가능성 있는 질환은?",
+    "page": 429,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "52세 남자 서서히 시작되는 기침과 호흡곤란 증상 발생, 흉부엑스선검사에서 흉막연 따라 흉막반 관찰, 20년 동안 조선소에서 일한 병력이 있을 때 관련있는 물질",
+    "page": 430,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2012",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "52세 남자 서서히 기침/호흡곤란 증상 발생, chest x-ray상 흉막외연증 따라 흉막반 형성, PFT상 제한성 환기장애, 20년간 보일러공 관련있는 물질",
+    "page": 430,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2008",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "직업성 폐질환",
+    "question_summary": "성우공장에서 근무하는 여자가 출근하여 작업을 하기 시작하며 숨이 차기 시작한다고 한다. 가장 가능성 있는 질환은?",
+    "page": 431,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "65세 남자 폐렴 환자의 원인균 진단 - 흉부X선 소견",
+    "page": 432,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "폐렴 환자의 항생제 치료",
+    "page": 433,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "폐렴 의심 환자의 항생제 선택",
+    "page": 433,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "52",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "지역사회획득폐렴",
+    "question_summary": "52세 남자 2주 전부터 전형적 증상, 발열, 기침 있어 내원한 환자의 Chest X-ray 소견과 치료 조합",
+    "page": 434,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "홍부엑스레이상 우측 폐하면관장",
+    "question_summary": "30세 여자 고열, 기침, 가래 호소하여 시행한 흉부엑스레이상 우측 폐하면관장 우측 폐하엽원인 관창되었다. 향샘제 5일 투여 후 증상은 호전되었으나 엑스레이상 침윤이 증가하였다. 조치는?",
+    "page": 435,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "황생제검경",
+    "question_summary": "지역획득 폐렴에서 황생제 검막주사에서 경구로 건환시기 준향목은?",
+    "page": 435,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "45세 환자의 3일 전부터 발열, 기침, 객담으로 내원한 폐렴 치료",
+    "page": 436,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "74세 흡연자의 폐렴 치료",
+    "page": 436,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "40대 여자 10일 전부터 기침, 미열이 있어 내원한 환자, 7세 원아이가 2주 전 폐렴으로 치료받음. 흉부 X선상 우하엽에 폐침윤이 있을 때 진단",
+    "page": 437,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "30대 남자 기침과 누런 가래가 있어 내원, 한 달 전부터 발병, 방사선 소견상 기관지 폐공비 증가 및 바이러스 감염 이력, 진단명",
+    "page": 437,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "지역사회획득폐렴의 항생제 치료",
+    "question_summary": "신부정으로 인한 중 기침, 객담 방사혹여다. 제2 38.4 폐정진 상 우하엽수포음, X-ray상 우하엽 침윤소견이 있다. 적절한 치료는?",
+    "page": 438,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "지역획득폐렴의 병원체 진단",
+    "question_summary": "지역획득 폐렴에서 항생제 정맥주사에서 정구로 진환 시 기준이 되는 항목은?",
+    "page": 438,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "지역사회획득폐렴",
+    "question_summary": "65세 남자 발열, 오한, 기침, 가래로 내원 2주 전 독감으로 치료받았다. 혈압 150/90, 심박수 90, 호흡수 24, 체온 38.3도. 흉부 X-ray에서 폐하부 우측 소리가 들렸다. 원인균으로 알맞은 것은? (CXR) RLL or RML lobal pneumonia 사진",
+    "page": 438,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "폐렴의 항생제 치료",
+    "question_summary": "74세 남자 우하엽 폐렴 환자의 초기 치료제 선택",
+    "page": 439,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐렴의 경험적 항생제 치료",
+    "question_summary": "75세 여성 폐렴 환자의 경험적 치료제 선택",
+    "page": 439,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "lobar pneumonia",
+    "question_summary": "50세 여성 lobar pneumonia 환자의 가장 가능성 높은 원인균",
+    "page": 440,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "급성 폐렴",
+    "question_summary": "84세 남자 다발성 폐색전증 및 저혈압 환자의 의심되는 진단",
+    "page": 440,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "지역사회감염 폐렴",
+    "question_summary": "지역사회감염 폐렴에서 입원 기준에 부합하는 것",
+    "page": 441,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "55세 남자 폐렴 환자의 항생제 선택",
+    "page": 442,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "60세 남자 폐렴환자의 주요 임상증상",
+    "page": 442,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "마이코플라즈마 폐렴",
+    "question_summary": "20세 남자 3일전부터 기침이 시작된 이후 직설 가래없이 발열, 두통, 근육통, 피로감이 동반되었다. 체온 38.5도, 청진시 양측 폐하부에서 잡음이 들렸으며, 흉부 X선 검사에서 양측 폐하부에 침윤소견이 보였다. 적절한 일차 선택 약제는?",
+    "page": 443,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "흉부 영상 검사",
+    "question_summary": "50세 여자가 고열, 기침이 있었다. CXR상 우하엽 부위의 침윤이 있고 항생제 치료 5일 후 열은 내렸으나 CXR 상 우하엽 침윤 범위가 더 늘어났다고 할 때 응급하는 고치는?",
+    "page": 443,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20101",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐렴의 항생제 치료",
+    "question_summary": "냉각수에서 자라난 균에 냉각기를 통해 집단으로 감염되어 발생한 폐렴의 적절한 치료는?",
+    "page": 444,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20071",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "지역사회 폐렴환자 판단",
+    "question_summary": "지역사회 폐렴환자에서 심하다고 판단할 수 있는 소견은?",
+    "page": 444,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "폐렴의 분류 및 감별진단",
+    "question_summary": "세균성 폐렴과 비세균성 폐렴의 임상적 특징 비교",
+    "page": 445,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "원인균",
+    "question_summary": "폐렴의 원인균 및 동반이환 상태와 관련된 폐렴의 원인 병원체",
+    "page": 446,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "비정형 폐렴",
+    "question_summary": "40세 이전 연령에서 발생하는 폐렴의 원인균과 비정형 폐렴의 특징",
+    "page": 447,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "기관지확장증/폐농양",
+    "question_summary": "30세 남자 2주 전부터 시작된 기침과 누런 가래 기관 시 객혈 3회 확인, 흉부 CT에서 보이는 음영의 진단",
+    "page": 453,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "58",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐암 진단",
+    "question_summary": "58세 여자환자 평소 기침과 황녹성 가래로 내원, 흉부 전산화단층촬영에서 암죽 폐 하부에 기관지 확장 소견 보였을 때의 진단",
+    "page": 454,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "52",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐질환",
+    "question_summary": "52세 여자폐로 비흡연자 폐전달 폐렴으로 입원 받았던 병력 후 기침과 자주 발생하는 중상 위에 특이증상 없었을 때의 진단",
+    "page": 454,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "20대 여자 환자의 신한 기침과 농성 객담, CT에서 기관지확장증 소견 시 진단",
+    "page": 455,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "62세 남자 폐렴 환자의 X-ray 소견에 따른 항생제 치료",
+    "page": 455,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐 침윤 질환",
+    "question_summary": "60세 남자 폐결핵 병력, 기침·객혈·저열 증상으로 내원, CPA와 chest CT에서 공동 발견 시 감별진단",
+    "page": 456,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐질환 진단",
+    "question_summary": "50대 남자 기침·가래, 흉부 X선 이상으로 내원, 폐질환 확진을 위한 검사",
+    "page": 456,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "기관지 확장증 환자의 객담 배출 곤란 시 치료 방법",
+    "page": 457,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "만성 저산소증",
+    "question_summary": "50세 남자 5년 전병력 기침, 곤곤한 객담으로 내원한 환자의 진단",
+    "page": 457,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "68세 여성 흡연자의 객혈, 활창증을 진단받은 후 시행할 치료",
+    "page": 458,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "60대 남자 흡연력의 폐렴, 감자기 고열, CXR과 chest CT 이상에서의 진단 및 치료",
+    "page": 458,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "낭성섬유증",
+    "question_summary": "46세 여자 반복적 폐렴, 농성 객담의 원인과 치료",
+    "page": 459,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "R type 29세 여자환자 기침과 확계 객혈로 내원, 원인 질환",
+    "page": 459,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "45",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "45세 남자 기침과 객혈 증상, 기관지확장증 진단 후 치료 방법",
+    "page": 460,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "56",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐쇄성 폐질환",
+    "question_summary": "56세 여자 객혈 환자, 폐쇄성 폐질환 진단 후 기관지 확장 치료",
+    "page": 460,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "심근경색",
+    "question_summary": "45세 여자의 가슴 통증, 좌측 팔과 하악 통증 증상에서 심근경색 확진 후 적절한 진단 방법",
+    "page": 461,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐질환",
+    "question_summary": "50세 남자의 기침과 흉통 증상에서 객담 검사를 통한 진단 방법",
+    "page": 461,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2011",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "40세 남자 수 년간 지속된 기침, 화농성 객담 및 객혈을 주소로 내원한 환자의 치료",
+    "page": 462,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20102008",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD 진단",
+    "question_summary": "50세 남자 기침 황농성 객담 및 객혈을 수년간 호소하고 위폐아래폐 폐에 흡기성 수포음이 청진되었을 때 확정을 위한 검사",
+    "page": 462,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "식도이완불전증",
+    "question_summary": "60세 남자의 대직 저부 방역 식용부지 및 소화의 곡담이 있는 내원 환자, 평소 기침과 곡담이 있고 작년에도 폐렴으로 두 번 입원하였다. 적절한 치료는?",
+    "page": 463,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "연하곤란 감별진단",
+    "question_summary": "55세 남자가 2개월 간의 가래를 동반한 기침으로 왔다. 최근 수년간 같기 우에 기침과 노란색 가래가 수개월 지속된 적이 있다. 적절한 검사는?",
+    "page": 463,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐암 진단",
+    "question_summary": "78세 남환 객담으로 내원, 기관지염 의심 후 X-ray상 관련된 악질된 기관지 음영의 증기가 등반되었다. 진단을 위한 검사는?",
+    "page": 464,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "기침",
+    "question_summary": "40세 남자가 수년간의 기침, 활동성 객담 및 객혈을 주소로 내원하였다. 확진을 위한 검사는?",
+    "page": 464,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지 확장증",
+    "question_summary": "3일전부터 기침, 농성객담 있는 환자의 응급처치 약물",
+    "page": 465,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "객혈",
+    "question_summary": "50세 남자 5년 전부터 자승된 기침과 객혈의 원인 질환",
+    "page": 465,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "기관지확장증",
+    "question_summary": "기관지확장증의 정의, 임상소견, 진단, 치료",
+    "page": 466,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "기관지확장증의 약물치료",
+    "question_summary": "기관지확장증 환자의 약물치료 원칙 및 치료 약제 선택",
+    "page": 467,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "급성 기관지염",
+    "question_summary": "52세 여자 단풍구경 후 2주간 기침 지속, 근육통, 인후통 있으며 체온 37.1도, 청진과 CXR 정상. 원인균은?",
+    "page": 468,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "급성 기관지염",
+    "question_summary": "급성 기관지염의 정의, 원인 바이러스, 위험인자",
+    "page": 469,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "폐렴의 임상소견, 진단, 검사에 관한 설명",
+    "page": 470,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "감염성 기관지염(pertussis)의 진단",
+    "question_summary": "기침질환 감별진단에서 pertussis 감염의 특징적 소견",
+    "page": 471,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "기침 억제제",
+    "question_summary": "기침억제제와 진해제의 차이, 거담제의 작용 기전 및 사용약물",
+    "page": 472,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지확장제",
+    "question_summary": "기관지확장제의 종류 및 사용 경우, Albuterol의 효과",
+    "page": 472,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "만성폐쇄성폐질환",
+    "question_summary": "74세 여성 3년 전부터 거듭만 되면 지속되는 기침으로 내원한 환자의 약물 치료",
+    "page": 473,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "만성폐쇄성폐질환",
+    "question_summary": "68세 남자 폐 기능 저하 환자의 급성 악화 원인 및 치료",
+    "page": 473,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "약물유발성 폐질환",
+    "question_summary": "남성 호흡곤란 환자의 약물 유발 폐질환 치료제",
+    "page": 474,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD",
+    "question_summary": "55세 남성의 폐기능검사 이상소견의 진단",
+    "page": 474,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "고혈압 관리",
+    "question_summary": "63세 남자 고혈압 환자의 약물 조정 및 진단 접근",
+    "page": 475,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "COPD, 폐용량감소수술",
+    "question_summary": "65세 COPD 환자의 폐용량감소수술 적응증 판단",
+    "page": 476,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD 급성악화, 산염기 평형",
+    "question_summary": "68세 COPD 환자의 산염기 평형 이상 분석 및 원인 파악",
+    "page": 476,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "COPD, LAMA",
+    "question_summary": "2년 경과 COPD 환자의 LAMA 사용 중 dyspnea 악화 시 적절한 치료",
+    "page": 477,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐쇄성 폐질환",
+    "question_summary": "69세 높은 흡연력 남자의 FEV1 60% 환자의 속도음 청진 소견 의미",
+    "page": 477,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 급성악화",
+    "question_summary": "55세 남자 호흡곤란 환자의 치료 약물",
+    "page": 478,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "72세 남자 폐기능검사 결과 해석",
+    "page": 478,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "COPD 치료",
+    "question_summary": "COPD 환자의 저산소혈증 치료 약물 선택",
+    "page": 479,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 합병증",
+    "question_summary": "COPD 환자에서 장기산소요법의 적응증",
+    "page": 479,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD",
+    "question_summary": "55세 남자 COPD 환자의 생존을 높이는 약제",
+    "page": 480,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD",
+    "question_summary": "60세 남자 COPD 환자의 치료 약제 선택",
+    "page": 480,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "COPD 급성악화",
+    "question_summary": "63세 남자 COPD 환자의 LABA 사용 중이던 40강년 과거력, dyspnea 및 지한 호흡곤란으로 내원한 환자의 치료",
+    "page": 481,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD",
+    "question_summary": "68세 남자 호흡곤란으로 내원한 COPD 환자의 진단 및 치료",
+    "page": 481,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "COPD 치료",
+    "question_summary": "65세 남자 COPD로 진단 되어 황콜린제 흡입 및 금연 교육 실시 후 3개월 되었는데 나아지지 않았다. 어떻게 해야 하나?",
+    "page": 482,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "COPD 약물치료",
+    "question_summary": "59세 남자 COPD 환자의 FEV1 40% 감소 시 적절한 기관지확장제 선택",
+    "page": 483,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 급성악화 치료",
+    "question_summary": "COPD 급성악화 환자의 저산소혈증에 대한 초기 치료",
+    "page": 483,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 폐용량감소술",
+    "question_summary": "폐기종 환자의 자염 경과 높추기 위한 치료",
+    "page": 484,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "만성기관지염 치료",
+    "question_summary": "만성기관지염 70세 남자 환자의 FEV1 70% 요구 약제",
+    "page": 484,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "COPD 치료",
+    "question_summary": "COPD 환자의 bronchodilator 쓰고 나서 FEV1 65%였던 환자, anticholinergics 추가 시 치료 방법",
+    "page": 485,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 악화 원인",
+    "question_summary": "65세 남자 COPD 환자의 폐기능 악화 원인 분석",
+    "page": 485,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "COPD 폐쇄성 기도질환의 분류",
+    "question_summary": "65세 남자의 기침, 객담, 호흡곤란 증상으로 진단된 COPD의 폐쇄성 기도질환 단계",
+    "page": 486,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "알파-1 항트립신 결핍증의 치료",
+    "question_summary": "70세 남자의 진행성 폐기종에서 3년 입원치료 후 적절한 치료제",
+    "page": 486,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐쇄성수면무호흡증 치료",
+    "question_summary": "폐쇄성 호흡기 질환을 설명하는 문장 중 치료에 대해 바른 설명",
+    "page": 487,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "만성폐쇄성폐질환",
+    "question_summary": "만성 폐쇄성 폐질환의 치료에 대한 설명으로 맞는 것",
+    "page": 487,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD의 병리학적 변화 및 진단",
+    "question_summary": "COPD의 기도 내강 변화, 폐기종, 기도 협착 과정 및 진단 방법에 대한 설명",
+    "page": 489,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD의 임상 증상 및 진단",
+    "question_summary": "COPD 환자의 호흡곤란, 기침, 가래 증상과 폐활량측정법(spirometry)을 이용한 진단",
+    "page": 490,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "COPD Assessment Test",
+    "question_summary": "COPD 평가검사(CAT)를 이용한 COPD 증상 평가",
+    "page": 493,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "COPD 중증도 분류",
+    "question_summary": "폐활량초검법에 의한 평가 - GOLD 가이드라인",
+    "page": 494,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "7",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD의 감별진단",
+    "question_summary": "COPD와 유사한 임상양상을 보이는 질환들의 특징 및 감별점",
+    "page": 497,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 약물치료",
+    "question_summary": "메틴자티(테오필린)의 기관지확장제로서의 역할 및 부작용",
+    "page": 499,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 약물치료",
+    "question_summary": "ICS 단독 사용의 위험성과 흡입지속성기관지확장제 병합 사용의 효과",
+    "page": 499,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 약물치료",
+    "question_summary": "PDE4억제제의 효과와 안전성, 용량 및 사용 기간",
+    "page": 499,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 약물치료",
+    "question_summary": "N-acetylcysteine, carbocysteine 등 점액용해제의 COPD 치료 역할",
+    "page": 499,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "호흡기",
+    "topic": null,
+    "question_summary": null,
+    "page": 500,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 추적관찰",
+    "question_summary": "COPD 환자의 추적관찰 지표 및 기준",
+    "page": 502,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "항생제",
+    "question_summary": "항생제 선택기준 - 폐농양 치료 항생제",
+    "page": 504,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "COPD 급성악화 시 환기보조",
+    "question_summary": "COPD 급성악화 환자의 호흡보조 기계환기 관련 임상적 판단",
+    "page": 505,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "COPD 급성 악화 예방",
+    "question_summary": "COPD 급성 악화 예방을 위한 치료방법",
+    "page": 506,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "간질성 폐질환",
+    "question_summary": "60세 남자 기침, 호흡곤란으로 내원한 환자의 진단 및 치료",
+    "page": 508,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2014",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐기능검사",
+    "question_summary": "50세 흡연자의 FEV1/FVC 감소 소견에서 폐기능 패턴 감별",
+    "page": 509,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐침윤",
+    "question_summary": "60세 남성의 6개월 전부터 운동 시 호흡곤란과 기침으로 내원한 환자의 CT 결과 진단",
+    "page": 509,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2020",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "가슴막삼출",
+    "question_summary": "가슴막삼출 환자의 임상 진단 검사",
+    "page": 510,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "가슴막삼출",
+    "question_summary": "가슴막삼출 환자의 진단 검사",
+    "page": 510,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐암",
+    "question_summary": "82세 남자 60년 흡연력, 흉부 X-ray 우이엽 폐암 의심 소견 환자의 진단",
+    "page": 511,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2013",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐암",
+    "question_summary": "35세 남자 홍반약 건강검진상 종격동 림프절종대 환자의 원인 질환",
+    "page": 511,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "parapneumonic effusion",
+    "question_summary": "폐렴 관련 흉수에서 삼출액 적응증 판별",
+    "page": 512,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흉곽 함몰",
+    "question_summary": "홀폭곤란, 다진성 착호음부에 탁음 증가, 진동 감소, 폐음 감소 소견을 보이는 경우",
+    "page": 513,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "흉부 삼출",
+    "question_summary": "흉부 삼출(pleural effusion)의 양상이 다른 것",
+    "page": 513,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "산화된 지질단백(oxidized LDL) 검사",
+    "question_summary": "충격이 250ml 이상이면 중부 X선에서 보이게 되며 costophrenic angle의 둔화가 보일 때 흉막액 검사에서 산화된 지질단백(oxidized LDL)의 특성 및 의의",
+    "page": 515,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "기흉",
+    "question_summary": "25세 남자 기침 증상으로 내원한 자발성 기흉 환자의 치료",
+    "page": 517,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기흉",
+    "question_summary": "35세 남자 흉통 호소로 내원한 기흉 환자의 진단",
+    "page": 517,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐동맥 카테터 삽입",
+    "question_summary": "25세 남자의 급성 폐부종 환자에서 폐동맥 카테터 삽입 시 조치",
+    "page": 518,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20171",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기흉",
+    "question_summary": "25세 남자 갑자기 작은 흉부 통증 및 호흡곤란으로 내원한 환자의 흉부 방사선 촬영 소견 해석",
+    "page": 519,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "심장늑골증",
+    "question_summary": "21세 남자 운동 중에 갑자기 숨이 차서 왔다. 우측 호흡음이 들리지 않고 타진시 과공명 소견이 있었다. 적절한 진단은?",
+    "page": 519,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "23",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "흉부 외상",
+    "question_summary": "23세 남자 감각손상 흉통 호흡곤란으로 내원한 환자의 진단",
+    "page": 520,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "25",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "25세 남자 흡인성 폐렴 9개월 후 호흡곤란 악화 시 치료",
+    "page": 520,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "흉부 X선 검사",
+    "question_summary": "기흉을 가장 잘 볼 수 있는 X-ray 자신은?",
+    "page": 521,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "심장 질환 진단",
+    "question_summary": "23세 남자 갑자기 발생한 좌측가슴 통증과 호흡곤란 원인 진단",
+    "page": 521,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "고혈압",
+    "question_summary": "22세 남자 좌측 신장 동맥 협착으로 인한 고혈압 환자의 추가 검사",
+    "page": 522,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "고혈압",
+    "question_summary": "30세 남자 고혈압 및 호흡곤란 환자의 진단적 접근",
+    "page": 522,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기흉",
+    "question_summary": "32세 여자 기흉 환자의 흉부 X-ray 소견 해석",
+    "page": 523,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "기흉",
+    "question_summary": "21세 남자 기흉 환자의 치료 방법 선택",
+    "page": 523,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흉부X선 해석",
+    "question_summary": "22세 남자환자의 흉부X선 이상 소견 진단",
+    "page": 524,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "운동과 혈역학",
+    "question_summary": "17세 남자의 운동 중 심장기 생긥과 혈액관류 증소 내원",
+    "page": 524,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "23",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐결핵",
+    "question_summary": "감자기 발생한 흉통으로 내원한 환자의 흉부 방사선 사진 해석 - 기흉 감별",
+    "page": 525,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "흉부 X선 검사 해석",
+    "question_summary": "침단(visceral pleural line)과 피부 주름의 감별, 폐렴지수(PTX%) 계산",
+    "page": 527,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "6",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "기흉의 치료",
+    "question_summary": "기흉 환자의 치료 방법 선택 및 관찰, 산소 보충, 단순 흡인, 흉관 삽입술",
+    "page": 528,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흉막 유착 물질의 주입을 통한 흉막 삼출(흉막 유착술, Pleurodesis)",
+    "question_summary": "흉막 유착술에서 재발률을 낮추기 위한 물질 선택 및 성공률",
+    "page": 529,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "6",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "흉강경 수술(Thoracoscopic surgery)",
+    "question_summary": "기흉 치료에서 VATS의 역할과 이점",
+    "page": 529,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "7",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "개흉술(Open thoracotomy)",
+    "question_summary": "VATS 실패 시 개흉술의 적응증",
+    "page": 529,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "COPD 진단",
+    "question_summary": "COPD 환자의 기침과 호흡곤란 증상 및 진단적 검사",
+    "page": 530,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "COPD 치료",
+    "question_summary": "COPD 환자의 2차성 자발기흉 관리 및 치료",
+    "page": 530,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2021",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐암",
+    "question_summary": "73세 남자의 3개월 체중감소, 기침으로 왔다. X선과 CT상 종괴 있고 컴퓨터단층촬영상 침>이다. 진단은?",
+    "page": 531,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "37",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "종격동 종양",
+    "question_summary": "기침과 음슥 쇠공하 불편감, 검사는? CXR 사진: 우상부의 golden S mass?",
+    "page": 532,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "38",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐결절",
+    "question_summary": "58세 남성 우폐 고주파 ablation 후 추적 검사 - Rt. 폐에 SPNO 관찰되었다. 다음 수행할 검사는?",
+    "page": 532,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "67",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐결절",
+    "question_summary": "67세 남자 40년 흡연력, 당뇨, 고지혈증 치료 중 CT에서 우하엽 peripheral area에 nodule 발견시 다음 처치",
+    "page": 533,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "66",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "폐렴",
+    "question_summary": "66세 남자 2개월 전부터 발생한 호흡곤란으로 내원, 흉부 CT 소견상 golden S sign 등 보이는 환자의 진단",
+    "page": 533,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흉부 X선 검사",
+    "question_summary": "45세 여자 2주 전부터 기침, 가래 있어 시행한 흉부 X선 검사에서 폐결절이 보였으나 완전히 사라지고 크기는 작아진 경우의 적절한 조치",
+    "page": 534,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "흉부 X-ray 해석",
+    "question_summary": "61세 남자 환자의 흉부 X-ray에서 보이는 폐결핵의 정확한 진단",
+    "page": 535,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "흉수(pleural effusion)",
+    "question_summary": "73세 남자의 흉부 CT에서 우측 흉수가 보일 때 감별진단",
+    "page": 535,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "45",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "흉부 CT/CXR 해석",
+    "question_summary": "45세 남자 좌측 4주 간의 기침과 우측 상부늑골 충돌 불편감의 영상 소견 비교",
+    "page": 536,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "82",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "흉부 영상 해석",
+    "question_summary": "82세 남자 한쪽 가슴 간의 기침 증상의 CXR과 CT 소견 비교",
+    "page": 536,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2016",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "폐결절",
+    "question_summary": "44세 남자 폐결절 환자의 chest CT 고위험 결절 판정 이후 다음 step",
+    "page": 537,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "45",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "흉부영상과 진단",
+    "question_summary": "45세 남자 환자의 4주간 기침과 우측 상부 내측 종부 불편감으로 내원, CXR과 CT가 다음과 같을 때 추가로 해야 할 검사는?",
+    "page": 538,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "35",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "폐결절 및 종양",
+    "question_summary": "35세 남자 비흡연자가 우상엽 변연의 SPN 있어 내원하였다. CT 촬영상 석회화는 없었으며, 7mm nodule로 관찰되었다. 다음 처치는?",
+    "page": 538,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "호흡기",
+    "topic": "기관지 내시경 검사",
+    "question_summary": "기관지 내시경 검사 중 문제 상황에 대한 감시 및 검사",
+    "page": 539,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "호흡기",
+    "topic": "폐결절 평가",
+    "question_summary": "흡연력 15년, 폐 나선 전산화 단층촬영에서 2.5cm 결절 발견 시 추가 검사",
+    "page": 540,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "호흡기",
+    "topic": "심장 영상 검사",
+    "question_summary": "30세 남성 좌심실 가장자리연에 페결질 발견 시 진단적 검사",
+    "page": 541,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "호흡기",
+    "topic": "흉부 영상 검사",
+    "question_summary": "45세 여자 좌측 폐 손상 후 추적 검사",
+    "page": 541,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2006",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "흉부 X선 검사",
+    "question_summary": "30세 남자의 흉부 X선상 2cm 결절 발견 시 다음 검사 순서",
+    "page": 542,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20051996",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "고립성 폐 결절",
+    "question_summary": "고립성 폐 결절에서 조직학적 진단을 위한 절제술 고려 시점",
+    "page": 542,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2005",
+    "answer": 5,
+    "category": "호흡기",
+    "topic": "고립성 폐 결절",
+    "question_summary": "고립성 폐 결절에서 조직학적 진단 위한 절제술 고려 기준",
+    "page": 542,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "107",
+    "answer": null,
+    "category": "호흡기",
+    "topic": "고독성 폐결절(SPN) 평가",
+    "question_summary": "흉부X선에서 발견된 고독성 폐결절의 진단적 접근 및 추적 관찰 알고리즘",
+    "page": 543,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "류마티스",
+    "topic": "전신 홍반 루푸스",
+    "question_summary": "SLE 환자의 나비모양발진, 햇빛 반응에 대한 약화 및 진단 기준",
+    "page": 549,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "류마티스 질환 감별진단",
+    "question_summary": "30대 여자의 관절염, 혈액검사 이상 소견에서의 감별진단",
+    "page": 550,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "SLE 진단기준",
+    "question_summary": "15세 여자 발열, 관절통으로 발생한 질환의 진단",
+    "page": 550,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "21",
+    "answer": null,
+    "category": "류마티스",
+    "topic": "진단의 유의사항",
+    "question_summary": "루푸스 환자의 진단 기준 및 임상 양상",
+    "page": 553,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "SLE 진단 기준 및 임상 소견",
+    "question_summary": "SLE 질병 활성도와 관련된 우뇨 인자",
+    "page": 554,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "류마티스",
+    "topic": "SLE의 치료 방침",
+    "question_summary": "SLE의 치료 방침 및 약제 선택",
+    "page": 555,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20211",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "류마티스관절염",
+    "question_summary": "67세 여자 류마티스관절염 환자의 진단 기준 및 항체 검사",
+    "page": 557,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "20211",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "류마티스관절염",
+    "question_summary": "58세 여자 류마티스관절염 환자의 치료 약제 선택",
+    "page": 557,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 치료",
+    "question_summary": "1년 전부터 양손 및 손목 통증으로 내원한 환자의 2시간 동안 지속되었으며 X-ray에서 관절부 골미란 및 골감소증이 관찰될 때 치료 약물",
+    "page": 558,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "67",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 진단",
+    "question_summary": "67세 여자 3개월 피로 미열 관절골관절염 어깨 통증 다음으로 해당 진단 검사는?",
+    "page": 559,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "54",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 진단",
+    "question_summary": "54세 여자가 3개월 전부터 앓은 스카마 마디 통증 있어 내원하였다. 조조강직 1시간 있었고 RF 양성성, 다음 진단을 위한 검사는?",
+    "page": 559,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "MTX 치료 중 부작용",
+    "question_summary": "NSAIDs 쓰고 있지만 RA2,3,4 PIP Jt. 손목 등증 암증계속되고 있다. 치료는?",
+    "page": 560,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "Folate deficiency",
+    "question_summary": "MTX 치료 중 엽산 결핍 예방 및 관리",
+    "page": 560,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "류마티스 관절염",
+    "question_summary": "35세 여자 2개월 관절염 진단 후 손가락과 손목 통증, RF 230, anti-CCP Ab 양성 환자의 약물 치료",
+    "page": 561,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "52",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "류마티스 관절염",
+    "question_summary": "52세 여자 5년 관절염 환자로 스테로이드 복용 중 뼈소실 관리",
+    "page": 561,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "67",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "류마티스 관절염의 진단 및 치료",
+    "question_summary": "RA 치료 도중 시력저하. 어떤 약의 부작용인가?",
+    "page": 562,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2008",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "류마티스관절염 질환활동도",
+    "question_summary": "RA 치료 및 관장하는 데 적절한 지표는?",
+    "page": 563,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "류마티스",
+    "topic": "RA 진단 criteria",
+    "question_summary": "RA의 진단 criteria가 아닌 것은?",
+    "page": 564,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "류마티스 인자(Rheumatoid factor)",
+    "question_summary": "류마티스 관절염에서 류마티스 인자의 특성",
+    "page": 565,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 약물 치료",
+    "question_summary": "류마티스 관절염 질환 억제 약물로 가능한 약물 조합",
+    "page": 565,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 진단기준",
+    "question_summary": "1983년 개정된 류마티스 관절염 진단기준에 해당하는 항목",
+    "page": 565,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "쇼그렌 증후군",
+    "question_summary": "35세 여자 다발성 근육통 눈건조 schirmer test 5mm 검사는?",
+    "page": 566,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "쇼그렌 증후군",
+    "question_summary": "54세 여자 관자골 눈이 따갑고 입이 마르고 마탄공 징후 장목 쓰고 심긴 때 입이 들어서 내심 하였다 진단은?",
+    "page": 566,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "건성각결막염",
+    "question_summary": "건성각결막염의 증상, 진단, 원인",
+    "page": 568,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "쇼그렌 증후군의 안구 증상",
+    "question_summary": "쇼그렌 증후군 환자에서 안구 건조증의 원인",
+    "page": 569,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "쇼그렌 증후군의 진단 기준",
+    "question_summary": "쇼그렌 증후군 진단을 위한 검사 항목",
+    "page": 569,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "19",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "척추관절병증",
+    "question_summary": "19세 남자 공변통증으로 내원하였다. 펙스캔 사진 제시 필요한 추가검사는 무엇인가?",
+    "page": 572,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "355",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "축성척추관절염(Axial Spondyloarthritis)",
+    "question_summary": "3개월 이상 허리 통증, 염증성 척추질환 진단을 위한 검사 선택",
+    "page": 573,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "축성척추관절염(Axial SpA) 분류 기준",
+    "question_summary": "20세 남자로 4개월 전부터 시작된 요통으로 왔다. 직장에는 일시적인 통증이었으나, 점점 양측으로 지속적으로 발생하는 양성이었으며, 아침경직이 1시간도 지속되었다. 통증은 휴식 시 악화되며 수열제 투여 및 운동 후에 경감되는 약성이었다. MRI 촬영상 sacroiliitis 근거는 없었다. 진단으로 적절한 검사는?",
+    "page": 574,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "강직척추염",
+    "question_summary": "25세 남자 4개월 전부터 아침에 일어나면 허리 뻣뻣함, 진단에 가장 중요한 것은?",
+    "page": 575,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "강직성척추염",
+    "question_summary": "강직성척추염 40대 남환의 허리통증으로 내원 중 완화 가장 잘 동반되는 합병증",
+    "page": 576,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "강직성척추염",
+    "question_summary": "19세 남자 골반통증으로 내원한 환자의 sternoclvicular joint, iliac crest uptake 증가 소견",
+    "page": 576,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "Reactive arthritis",
+    "question_summary": "30대 남자의 10년 전부터 요통, 방혈 식해지고 야직에 인어 나 여러를 습직이기가 힘들었고 시간이 지나면 회복되었다. 3년 전 포도바염으로 치료받은 적이 있었다. 진찰결과 요추 굴곡운동범위가 제한되어 있었다. 진단을 위한 검사는?",
+    "page": 577,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "Reactive arthritis",
+    "question_summary": "44세 남자 환자 인증 전부터 좌측 무릎 통증으로 내원하였다. 2주 전 요도염으로 치료 받았으며 현재의 좌측 발바닥에 피부염을 동반하고 있다. 가장 의심 되는 질환은?",
+    "page": 577,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "월경 중 임질감염",
+    "question_summary": "21세 여자의 월경 중 임질감염에서 나타나는 증상 및 검사 소견",
+    "page": 578,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "혈관염 증후군",
+    "question_summary": "60세 여자 6개월 전부터 피로, 이계 통증, 촉두부 두통 환자의 진단",
+    "page": 579,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "혈관염 증후군",
+    "question_summary": "75세 여자 3일전부터 촉두 두통으로 내원한 환자의 진단",
+    "page": 579,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "베체트 증후군",
+    "question_summary": "30세 남자의 구강궤양, 외음부궤양, 안구병변 증상으로 1년에 5회 재발하는 환자의 진단",
+    "page": 580,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "베체트 증후군",
+    "question_summary": "베체트 증후군의 병리기전과 관련된 5회 이상 재발, 3개월전 포도막염 치료, 음성 검사와 무릎 관절 결정성 통한 등반원 환자의 진단",
+    "page": 580,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "포도막염",
+    "question_summary": "35세 여자의 5mm 크기 안와 궤양, 2-3개 재발되며 궤양은 동통을 동반하였고 1-2주 내 없어지는 양성이었다. 성기 궤양도 자주 재발 되었고 피부에 결절성 홍반도 보였다. 이환자에서 비교적 흔하고 심각한 합병증은?",
+    "page": 581,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "대동맥 궤양",
+    "question_summary": "30세 남자가 구강 내 통증을 동반한 궤양이 있다. 이런 증상이 1년에 5회 정도 반복되고 대개 1~2주 정도 지나면 호전된다고 한다. 3개월 전 피부발열증을 치로 받은 병력이 있었고, 신체지찰에서 음낭부위 궤양과 항축 무릎 아래 결절성 홍반이 관찰되었다. 진단은?",
+    "page": 581,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "류마티스",
+    "topic": null,
+    "question_summary": null,
+    "page": 582,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "38",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "골관절염",
+    "question_summary": "56세 여자 골관절염 환자의 혈압·혈당·요산 수치 이상에서 우선 약물 선택",
+    "page": 583,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2017",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "관상동맥질환",
+    "question_summary": "45세 여성, 흉부 통증 및 관절통을 호소하는 환자의 진단",
+    "page": 584,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "관절염",
+    "question_summary": "5년 전부터 무릎, 손가락 관절염 있는 환머니가 몇 달 전 넓어진 뒤 심해짐. 진단은?",
+    "page": 585,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "약물 부작용",
+    "question_summary": "61세 남자 양쪽 무릎 통증으로 왔다. 양쪽 무릎에 앞풀이 있었으나 부종은 심하지 않았고 통증의 정도는 경증이었다. 양쪽 무릎 방사선 사진에서 내측 관절 간격이 좁아져 있었다. 적절한 약물 치료는?",
+    "page": 585,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "41",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "골관절염",
+    "question_summary": "골관절염 환자에게 일상 생활에 대해 교육하고자 한다. 맞는 설명은?",
+    "page": 586,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "통풍 및 기타 크리스탈 관절병증",
+    "question_summary": "통풍 급성 발작 시 1~2일 경부터 시작된 통풍 급성 발작 치료약물",
+    "page": 587,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "58",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "통풍",
+    "question_summary": "58세 환자의 오른쪽 엄지 발가락 및 족 4번째 중족지 통증의 원인과 8.0mg/dl 요산 수치에서 환자 발작 후 급성 악화의 원인",
+    "page": 588,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "통풍",
+    "question_summary": "고요산혈증 남성 환자의 급성 통풍 발작 치료",
+    "page": 589,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "45",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "통풍",
+    "question_summary": "45세 남자의 1주족 종종지 통증 감별진단",
+    "page": 590,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "44",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "통풍 분류 기준",
+    "question_summary": "44세 남자 3년전부터 심한 운동 후 발목통증 환자의 통풍 진단 기준",
+    "page": 590,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "혈관염 진단",
+    "question_summary": "63세 남자 작열부터 3개월다 검사기 오른쪽 발가락이 심하게 아프고 괴사가 보이는 증상에서 혈관염 의심 시 진단 방법",
+    "page": 591,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "60",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "통풍 치료",
+    "question_summary": "급성 통풍 발작 중 요산 저하제 사용 시 적절한 약물 선택",
+    "page": 592,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "류마티스",
+    "topic": "고혈압 치료",
+    "question_summary": "45세 남자 고혈압환자의 약물 교체 선택",
+    "page": 593,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "류마티스",
+    "topic": "관절염 진단",
+    "question_summary": "63세 남자 관절부터 3개월에 걸친 골로 관자기 오른쪽 임지 발가락 신학에 야뇨 뼈강게 부어 오르며 아파서 걸기가 힘든 정도라고 한다. 전통적을 의순 및 시간 후 동증이 없어졌다. 통증은 대개 4~5 주 지나서 자연 호전되는 양상을 보임 증상은 파움했을 때 주로 생기고 했다. 직접한 검사는?",
+    "page": 593,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "30",
+    "answer": 3,
+    "category": "류마티스",
+    "topic": "통풍의 급성 발작 치료",
+    "question_summary": "30대 여자가 제1중족지관절 부종, 발통이 있어서 내원하였다. 관절천자했더니 MSU이 관찰되었다. 치료는?",
+    "page": 594,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "34",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "통풍의 요산저하 치료 시작 시기",
+    "question_summary": "남자가 첫 중상으로 제 1중족지 통풍과 당뇨, 발작을 주소로 내원하였다. uric acid 9.0 check 되었다. ibuprofen, colchine 투여하여 중상 호전되었다. 다음 할 것?",
+    "page": 594,
+    "vol": "vol2"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "류마티스",
+    "topic": "류마티스 관절염 치료",
+    "question_summary": "38세 여자 원폭 입자발기락의 통증과 종창이 있다. 환자는 전년 과음을 했다고 한다. 신체검사에서 제은은 36.8℃였고 원측 중족지 관절 부위가 압감한 붉게 부어있었으며, 심한 압통을 호소하였다. 적절한 치료제는?",
+    "page": 595,
+    "vol": "vol2"
+  },
+  {
+    "q_num": "67",
+    "answer": 5,
+    "category": "류마티스",
+    "topic": "거대세포동맥염(Giant cell arteritis)",
+    "question_summary": "거대세포동맥염의 특징적 검사실 소견",
+    "page": 596,
+    "vol": "vol2"
+  }
+]

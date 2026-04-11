@@ -1,0 +1,3413 @@
+[
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "사구체여과율(GFR) 계산",
+    "question_summary": "55세 남자의 24시간 소변검사 결과에서 GFR 계산",
+    "page": 5,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "요검사 소견의 임상의의",
+    "question_summary": "요검사 소견으로 볼 수 있는 것",
+    "page": 5,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "단백뇨의 감별진단",
+    "question_summary": "30세 남자의 건강검진에서 단백뇨가 있다고 했을 때, 중상은 없고 소견사에서 단백 2+, 농뇨나 혈뇨는 없다. 다음 검사는?",
+    "page": 6,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2020",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신장질환의 진단",
+    "question_summary": "혈액 검사 결과가 중상으로 나왔을 때(Hb 10.5, WBC 6000, Albumin 1.5, CRP 0.5), 추가로 해야 할 검사는?",
+    "page": 6,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "단백뇨 검사",
+    "question_summary": "20세 남자가 신체검사를 통해 우연히 단백뇨를 발견했을 때, 요단백 ++잠혈(-)소견을 보였고 다른 이상소견은 없었을 때 다음으로 시행해야 할 검사는?",
+    "page": 7,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "단백뇨 검사 및 해석",
+    "question_summary": "25세 여성의 1개월 전 시행한 소변검사에서 단백 2+로 나왔을 때 적절한 다음 조치",
+    "page": 9,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "63",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "소아 백혈병",
+    "question_summary": "63세 남자 1일 전부터 소변이 붉다며 내원. 혈색소 12.8 g/dL, 혈소판 172,000/mm³, 혈액도 검사에서 이상 소견 있음. 진단은?",
+    "page": 10,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "55",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "용혈성 빈혈",
+    "question_summary": "55세 남자가 수개월 전부터 소변이 붉다고 내원. RBC many/HPF, dysmorphic RBC 음성. 진단은?",
+    "page": 10,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "16",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "미오글로빈뇨",
+    "question_summary": "70세 남자 소변검사 이상으로 내원, 소변은 암갈색 띔. 마이오글로빈뇨 진단",
+    "page": 11,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "17",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "용혈성빈혈",
+    "question_summary": "27세 남성 혈뇨 및 전기감염 삼호 있음, sickle dipstick Hb 양성, 헤미경 RBC 0-2/HPF 확인",
+    "page": 11,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "18",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "급성신증후군",
+    "question_summary": "40세 남성이 소변검사 이상, 혈압 120/80, 혈뇨-단백뇨 증상, 진단명 감별",
+    "page": 11,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "60",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "용혈성빈혈",
+    "question_summary": "60세 남자 소변이 붉다고 내원, V/S stable, 검사 결과 UA blood 2+, protein 2+, RBC many/HPF Dysmorphic RBC(-), RBC Cast(-), WBC 0-2/HPF의 두 가지 고른 시오",
+    "page": 12,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "40",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "혈뇨",
+    "question_summary": "40대 중반 남자, 혈뇨 2+지만 RBC 0~1개일 때의 진단",
+    "page": 12,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "전립선암 선별검사",
+    "question_summary": "55세 남자 gross hematuria로 내원한 40년간 담배, 30년간 페인트공으로 일함. 진단을 위한 가장 중요한 검사는?",
+    "page": 13,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "급성신우신염",
+    "question_summary": "18세 여자가 국도 대장정을 하던 중 골반염소낭을 밟으며 하지통증을 호소하였다. 진단 검사는?",
+    "page": 13,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "혈뇨의 감별진단",
+    "question_summary": "30세 남자가 혈뇨를 주소로 내원하였다. 혈미경 검사에서 RBC 5~8/HPF 요 나왔다. 다른 중상은 없었고 다른 검사소견도 이상이 없었다. 혈압은 110/80 mmHg였고. 단백뇨도 없었다. 향후 계획은?",
+    "page": 13,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "45",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "빈혈의 감별진단",
+    "question_summary": "45세 남자의 요골혈 검사에서 2+, 혈미경 검사에서 RBC 0-1/HPF가 보인다. 진단은?",
+    "page": 14,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "30",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "혈뇨의 감별진단",
+    "question_summary": "30세 여자가 자갈섬진으로 시행한 소변검사에서 1+ 소집이 보였고 혈미경 검사에서는 RBC 10-15/HPF으로 나왔다. 적절한 처치는?",
+    "page": 14,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "혈뇨의 감별진단",
+    "question_summary": "육안적 혈뇨 감별을 위한 요검사 해석",
+    "page": 22,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "현미경적 혈뇨",
+    "question_summary": "현미경적 혈뇨의 감별진단을 위한 사구체 혈뇨와 비사구체 혈뇨의 구분",
+    "page": 23,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전해질 이상",
+    "question_summary": "67세 남자 고혈압 설사와 구토로 내원한 환자의 혈액검사 이상 원인",
+    "page": 25,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "고칼륨혈증",
+    "question_summary": "54세 남자 전신쇠약증 환자의 고칼륨혈증 응급 치료",
+    "page": 25,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "임신 중 고혈압",
+    "question_summary": "42세 여자환자 3일동안 구토하고 의식저하 내원, BP 110/90 - KCl 복용 시 치료",
+    "page": 26,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "65",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "전해질 불균형",
+    "question_summary": "65세 여자 저나트륨혈증 환자의 적절한 수액 치료",
+    "page": 26,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "48",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "고칼륨혈증 치료",
+    "question_summary": "48세 여자환자 간대정도 수술 후 호흡곤란 호소, BP 100/60 HR 120 Na/K/Cl 130/7.1/100 다시성 심중이 있었던 적절한 치료는?",
+    "page": 27,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "고혈압",
+    "question_summary": "65세 여자의 혈압 150/100 mmHg 관리 및 검사",
+    "page": 28,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "79",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "급성 신손상",
+    "question_summary": "79세 남성의 의식 운수부태인 치료 실렴양다. 소변량이 하루 400cc 이하를 보였다. 원인은?",
+    "page": 29,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "급성신손상",
+    "question_summary": "67세 남성 대원 천정부터 부종 발생, 3단계 급성신부전으로 ibuprofen 복용 중, 무른 변증 있을 때 약물 선택",
+    "page": 30,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "소변검사",
+    "question_summary": "67세 남자 4일동안 설사와 구토 후 급성신손상, Posm 300 mOsm/kg, Na/K/Cl 비정상 시 검사",
+    "page": 30,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "급성 세뇨관괴사(Acute Tubular Necrosis)",
+    "question_summary": "60세 남자 2-3일동안 소변을 제대로 보지 못한 경우, FENA>1이고 요삼투질<350 mOsm/kg일 때의 진단",
+    "page": 31,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "급성신손상",
+    "question_summary": "74세 여성의 수술 후 급성 신손상의 원인 감별 및 치료",
+    "page": 32,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "기타 콩팥질환",
+    "question_summary": "요로 주소로 내원한 환자의 진단 (뇨 WBC 많음, RBC 많음)",
+    "page": 41,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "PSGN",
+    "question_summary": "21세 남자 10일 전 인후염 후 적갈색 뇨, 혈압 150/90 환자의 진단",
+    "page": 42,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "MPGN",
+    "question_summary": "25세 남자 3일전 감기 후 부종, CVAT+ 환자의 질환 진단",
+    "page": 42,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신장질환",
+    "question_summary": "50대 혈뇨, 혈렬 있는 남자 환자의 CT 소견",
+    "page": 42,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "방광암",
+    "question_summary": "1주일 동안 불량식 소변, 치직뇨 1가지",
+    "page": 43,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "IgA신증",
+    "question_summary": "3일전, 혈뇨, C3/c4 장상",
+    "page": 43,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "말굽신",
+    "question_summary": "27세 남자의 북부 전산화단층촬영소견에서 보이는 말굽신(horseshoe kidney)의 진단",
+    "page": 44,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "고혈압과 신부전",
+    "question_summary": "37세 남자의 고혈압(180/70 mmHg)과 신기능 악화에서의 치료 방침",
+    "page": 44,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "전립선암",
+    "question_summary": "55세 남자 전립선비대증과 양측 신장에 다방성 신우종이 발견된 경우, 10년 전 아들도 다방성 신장암을 진단받았을 때 소인 검사는 무엇인가",
+    "page": 45,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "감염 및 염증병/요로감염",
+    "question_summary": "80세 여성 3일전부터 음성, 우측 옆구리 통증으로 한의원에서 침맞았으나 중장 호전없어 내원. 고열합 급성전립선염 증 골다공증으로 비프로프라놀 테브타독신 데노수맙 칼슘·비타D 복합제 복용중. 혈액검사 CRP8정대 나머지 정상, 요검사 혈뇨 및 세균뇨. 소변검사 blood3+, wbc 3+, rbc wbc many/hpf. 적절한 항생제는?",
+    "page": 46,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "감염 및 염증병/요로감염",
+    "question_summary": "70세 여자가 금성 신우신염으로 ciprofloxacin을 정주하였으나 입원 6일째 영이 떨어지지 않고 증상이 지속되었다. 입원 시 시행한 소변배양 검사 결과 Enterococcus faecalis가 105 CFU/ml 이상 배양되었다. 감수성 검사 결과는 아래와 같다. 치료는?",
+    "page": 46,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "28",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "요로감염 항생제 선택",
+    "question_summary": "28세 여성 요로감염 환자의 항생제 선택 기준",
+    "page": 47,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "45",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "감염성 설사 질환",
+    "question_summary": "45세 남성 감염성 설사의 원인 진단",
+    "page": 47,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "56",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "빈혈 감별진단",
+    "question_summary": "56세 여성 빈혈의 원인 진단",
+    "page": 47,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "63",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "도뇨관관련 요로감염",
+    "question_summary": "63세 남자 장기요양시설 거주자의 도뇨관 관련 요로감염증 치료",
+    "page": 48,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "35",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "반복성 요로감염",
+    "question_summary": "35세 여성 성관계 후 재발하는 방광염의 예방 치료",
+    "page": 48,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "요로감염 항생제 치료",
+    "question_summary": "28세 여자환자의 급성 전립선염 병생 고열, 연구라독증 발생, 5일전 배뇨통, 잔뇨감 있었던 원인은",
+    "page": 49,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "장기보균자 감염질환",
+    "question_summary": "당뇨병 지표악증 복용중인 60세 여자가 급성소련 고열, 좌측 옆구리 증상으로 내원하였던 질병적 항생제 사용하였으나, 5일이 지나도 고열이 지속되어 응금으로 시행한 초음파상 신장주위 농양이 관찰되었던 적절한 조치",
+    "page": 49,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "요로감염 항생제 사용기간",
+    "question_summary": "요로감염에서 항생제 사용기간은?",
+    "page": 50,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "9602",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "요로감염",
+    "question_summary": "복잡성 요로감염의 항생제 치료 선택",
+    "page": 53,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "소변검사 이상 소견",
+    "question_summary": "소변현미경 검사에서 세균이 발견되었을 때, 빈뇨나 고열 등 증상은 없는 경우 치료 방법",
+    "page": 54,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선염",
+    "question_summary": "70세 남자 고열 고름뇨 증상 환자의 약물 치료",
+    "page": 54,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "CVA 감염",
+    "question_summary": "당뇨병 있고 있는 50세 여자의 CVA tenderness, U/A상 RBC many, WBC 10~29의 치료",
+    "page": 55,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "재발성 방광염",
+    "question_summary": "재발성 방광염에서 요로내 폐쇄하는 금물의 원인과 치료 방법",
+    "page": 55,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "패혈증 환자의 항생제 선택",
+    "question_summary": "70세 남자 고관절 공절로 수술 후 수술 부위 도뇨관 삽입 후 항담쯤 되는 시점에서 소변이 떼떼게 나왔다. 혈액검사에서 WBC 10800, BUN/Cr 20/1, 소변검사결과 WBC 20~30, RBC 10 으로 나왔다. 처치는?",
+    "page": 56,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "APN 환자의 검사 및 치료",
+    "question_summary": "APN으로 치료 받은 25세 여자 환자가 퇴원 2주 후 병원을 다시 내원, 입원시 US 및 요로계 검사상 이상이 없었고 추적 검사상 WBC 5-10, CBC, ESR은 정상이었다. 향후 처치는?",
+    "page": 56,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "성병",
+    "question_summary": "30대 남자 성기궤양으로 내원, 수푸동맥, 누른딱 통증, 1년간 중상 있었으나 자연 호전된 이력 있음. 진료는?",
+    "page": 61,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "매독",
+    "question_summary": "46세 남자가 건강검진에서 VDRL 양성으로 왔다. 병력과 신체검사에서 특이한 소견은 없었으나 RPR 양성, TPHA 양성이다. 추가 검사에서 VDRL titer 1:16, TPHA 양성이다. 조치는?",
+    "page": 61,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "32",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "intracellular diplococci 치료",
+    "question_summary": "임질성 요도염 의심 환자에서 intracellular diplococci (-) 검사 결과 시 적절한 치료제",
+    "page": 62,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2020",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신경매독(VDRL, TPHA, benzathine penicillin G)",
+    "question_summary": "35세 임신 3기 발열, 신경매독(VDRL 1:16, TPHA+) 진단된 환자의 치료",
+    "page": 63,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신경매독(VDRL, TPHA, benzathine penicillin G)",
+    "question_summary": "30대 남성 선천매독 의증(VDRL 1:64, TPHA+) 환자의 재검사 선택",
+    "page": 63,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2012",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "매독(VDRL, 페니실린 내성균)",
+    "question_summary": "남자 선천성 매독(VDRL 1:64, 페니실린G 내성) 환자의 6개월 후 추적검사",
+    "page": 63,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "성병·매독",
+    "question_summary": "입심 9주 산모가 검진상 VDRL 양성, 병력·신체검사상에서는 특이 소견 없을 때 관련 검사 및 VDRL1:4, TPHA 양성시 치료는?",
+    "page": 65,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "28",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "성병",
+    "question_summary": "28세 여자 방진 주소로 내원, 남자친구와 성관계시는 몬두사용함. 6개월전 트리코모나스 질염, 6주전 서혜부 종창, 3주전 두통과 발열로 감기양 부음. 지황사 몸과 발 손에 구진성 발진있고 대친장 의음부에 지유성 궤양있음. 진단?",
+    "page": 66,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "임질 치료",
+    "question_summary": "임신 24주 여성의 남편 임질 감염 후 내원한 환자의 치료",
+    "page": 67,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "대상포진 치료",
+    "question_summary": "32세 여자가 5년 전부터 우측부에 자주 불길이 생겼던 임상상황에서 대상포진 진단 시 치료",
+    "page": 67,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "페니실린 알레르기 반응",
+    "question_summary": "VDRL 양성 42세 남자의 페니실린 알레르기 병력 시 치료 방법",
+    "page": 68,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "RPR (Rapid Plasma Reagin)",
+    "question_summary": "점은 남자, VDRL 1:64, FTA-ABS (+)인 환자의 치료 후 판정을 위한 추적 검사는?",
+    "page": 69,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "38",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "매독",
+    "question_summary": "35세 남성의 성기 궤양으로 내원한 환자의 진단 및 치료",
+    "page": 70,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2015",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "gonorrhea 치료",
+    "question_summary": "임질 3일 후 배뇨시 통증, 노란색 분비물이 펜티에 묻었을 때 diploccocci 치료약",
+    "page": 71,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2012",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "요도염 증상",
+    "question_summary": "성관계 문란한 남자 요도 끝에서 농이 나왔을 때 질문에 대한 답",
+    "page": 71,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "성기 궤양",
+    "question_summary": "성기 궤양을 일으키는 균",
+    "page": 72,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "요도염",
+    "question_summary": "황숙성 요도 분비물과 배뇨통을 주소로 은 남환에서 시행할 검사",
+    "page": 72,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "연성하감",
+    "question_summary": "연성하감에 관한 성병 중 맞는 것",
+    "page": 72,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "4",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "매독 치료",
+    "question_summary": "매독의 병기에 따른 약물요법",
+    "page": 77,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "82",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "클라미디아 감염증",
+    "question_summary": "클라미디아 트라코마티스 감염의 임상 증상 및 특징",
+    "page": 83,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "84",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "성기단순포진",
+    "question_summary": "Herpes simplex virus (HSV) 2형에 의한 성기단순포진의 임상 특징 및 진단",
+    "page": 85,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "감염병/항균제",
+    "question_summary": "54세 남자 고열, 감기 증상 후 폐렴 의심, 혈액배양 양성 환자의 항생제 선택",
+    "page": 90,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "감염병/전립선염",
+    "question_summary": "54세 남자 급성전립선염 의심 증상의 CVAT 양성 환자의 초음파 검사 이상 소견",
+    "page": 90,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2009",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "금성전립샘염의 원인균 및 약물치료",
+    "question_summary": "금성전립샘염의 원인균 파악 및 실시하는 검사는?",
+    "page": 91,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2007",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "금성전립샘염의 원인균 및 약물치료",
+    "question_summary": "금성 전립선염 원인균 파악에 가장 요과적인 방법은?",
+    "page": 91,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "요로감염",
+    "question_summary": "급성세균성전립선염과 만성세균성전립선염의 진단 및 치료",
+    "page": 93,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "감염병 및 감염증",
+    "question_summary": "32세 남자 2시간 전 폐렴으로 응급과에 내원, 38.3도 발열, 오른쪽 폐 부위에 음성 없음. 진단은",
+    "page": 94,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "43",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "감염병 및 감염증",
+    "question_summary": "45세 남자 연쇄상 구균성 어깨 염증로 방사되는 양상 수 시간 후 음낭이 붓고 뜨거움. 진단은",
+    "page": 94,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "31",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "성병 진단",
+    "question_summary": "31세 남자가 3일전부터 질액성 요도 분비물이 있고 BT 39도, dysuria, frequency, urgency 등이 있을 때 원인균",
+    "page": 95,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "32",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "성병 치료",
+    "question_summary": "32세 남자가 2시간전부터 오른쪽 음낭과 아랫배가 아파서 내원했을 때 원인 진단과 치료",
+    "page": 95,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "감염 및 염증병/부고환염 및 고환염",
+    "question_summary": "35세 남성의 감염성 부고환염 진단 및 치료",
+    "page": 96,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "48",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "요로결석",
+    "question_summary": "48세 남자 요로폐색 요구러기 아래서 왔다. 이전부터 협뇨와 간헐적인 우측 옆구리 통증이 있는데, 오늘 악화되어 응급이 필요상황이다. 방법은 뭔가?",
+    "page": 97,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "고혈압",
+    "question_summary": "37세 남성 고혈압 환자의 X선 검사 소견 해석",
+    "page": 98,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "63",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신장질환",
+    "question_summary": "여자환자, 구토, 구역호소, 요산 있으나 발열 없음. KUB 주어짐. 가장 적절한 치료는?",
+    "page": 99,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "혈뇨 진단",
+    "question_summary": "40세 남자 혈뇨, 통증증 주소의 진단적 접근",
+    "page": 100,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "Rt. flank pain",
+    "question_summary": "25세 남자 우측 옆구리 통증의 진단",
+    "page": 100,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "요로계 영상검사",
+    "question_summary": "40대 남자 혈뇨 재발 시 검사 선택",
+    "page": 100,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "비노생식종양/양성전립샘비대증",
+    "question_summary": "60세 남자 전립선증후 검사상 전립선 크기 40ml, 전립선 중양에 낭종 관찰될 때 진단 및 치료 가침 고려해야 하는 것",
+    "page": 106,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선염/BPH",
+    "question_summary": "BPH 남성 doxazocin 복용 3일 지났으나 호전 없을 때 전립선 크기 40ml 다음 치료",
+    "page": 106,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "배뇨곤란/하부요로증상",
+    "question_summary": "65세 남자 소변 못봐서 내원했고 그전에도 소변보는데 약간 불편한 정도였고, 앞주일 전 갑기야 약국에서 사먹었는데 어제 저녁부터는 요의 있으나 요도 못했다 가장 먼저 시행할 조처는",
+    "page": 106,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선비대증",
+    "question_summary": "60대 남자 민노와 야간뇨 있음, 전립선 30cc, psa 1.38, ipss 10점 치료",
+    "page": 107,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "전립선암",
+    "question_summary": "65세 남자 혈당 146/90? 민노 세뇨 배뇨곤란 있고 요급사, PSA 정상 사용할 수 있는 약은?",
+    "page": 107,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "55",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "전립선비대증 및 배뇨곤란",
+    "question_summary": "55세 남성 배뇨곤란, 야간뇨, 약뇨증상으로 내원한 환자의 150ml 잔뇨에 대한 약물 선택",
+    "page": 108,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "63",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선염 및 요로감염",
+    "question_summary": "63세 남성의 IPSS 23점, 만성도침증 3점, 베뇨량 143ml, 잔뇨량 13ml 환자에서 DRE상 전립선 경도 증대 시 적절한 진단 및 치료",
+    "page": 108,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "전립선암 진단 및 위험도 평가",
+    "question_summary": "전립선암 진단 후 PSA, BUN/Cr, 골스캔 결과를 이용한 위험도 분류 및 예후 판정",
+    "page": 108,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선암 치료",
+    "question_summary": "전립선 미더증 치료 중 적절한 설명",
+    "page": 109,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선 특이항원(PSA)",
+    "question_summary": "BPH 치료로 인한 PSA 수치 변화",
+    "page": 109,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선암 약물 치료",
+    "question_summary": "전립선 미더증 약 중 PSA에 영향을 미칠 수 있는 것",
+    "page": 109,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "전립선염에 대한 PSA 측정",
+    "question_summary": "전립선 비대증 치료 약물 중 PSA에 대한 표자로 전립선암의 발견을 지연시키는 약물은?",
+    "page": 110,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "요로감염",
+    "question_summary": "다음 양성 전립선 비대에 대한 설명 중 옳은 것은?",
+    "page": 110,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "전립선 증상 점수(IPSS, QOL)",
+    "question_summary": "전립선 비대증 환자의 국제전립선 증상 점수 평가",
+    "page": 112,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "약물치료 - IPSS 점수에 따른 경증 환자 교육",
+    "question_summary": "IPSS 점수가 7점까지인 경증 환자에서 주의 깊은 관찰과 환자교육에 대한 내용",
+    "page": 114,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "전립선특이항원(PSA)",
+    "question_summary": "65세 남자 5개월 전 건강검진에서 발견된 PSA 4.47 ng/mL 환자의 추적 관찰 결과 해석",
+    "page": 118,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선특이항원(PSA)",
+    "question_summary": "70세 남성, 세뇨 주소로 내원, DRE 정상, PSA4.75, velocity 1.0일 때 요한 조치",
+    "page": 118,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "53",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "PSA, DRE",
+    "question_summary": "53세 남자 전립선암 선별검사 관련 경과관찰 지침",
+    "page": 119,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "57",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "PSA velocity, 전립선암 선별검사",
+    "question_summary": "요로증상 환자의 PSA 수치와 velocity를 고려한 추적검사 방침",
+    "page": 119,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "전립선 생검 후 감염 합병증",
+    "question_summary": "70세 남성의 PSA 증가로 시행한 전립선 생검 후 발생한 요로 감염 증상에 대한 항생제 선택",
+    "page": 120,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "전립선암 검진",
+    "question_summary": "67세 남자의 PSA 6.8, 직장수지검사 정상일 때 다음 단계로 볼 검사",
+    "page": 122,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "53",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "신장질환의 치료방법",
+    "question_summary": "53세 남자의 저혈당 인으로 지탄방약 없이 적혈선 생에 국한되어 있을 때 적절한 치료방법",
+    "page": 122,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "123",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "전립선암 선별검사(PSA)",
+    "question_summary": "전립선암 선별검사 PSA 해석 및 관리 기준",
+    "page": 124,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "요실금",
+    "question_summary": "70세 여환 소변이 마려우면 참지 못하고 소변을 보는 증상, 치료제로 적절한 것은",
+    "page": 126,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "요실금",
+    "question_summary": "70/F 소변이 자면 참지 못하고 소변을 본다. 왕장실 가지건에 본다",
+    "page": 126,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "요실금",
+    "question_summary": "다음과 같은 운동을 하면 도움이 될 수 있는 것 (케겔운동 방법)",
+    "page": 126,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "방광 수축력의 억제",
+    "question_summary": "방광 수축력의 억제, 배뇨 감각의 감소, 방광용적의 증가를 위해 사용되는 요실금 치료제",
+    "page": 127,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "절박성 요실금 환자 진단",
+    "question_summary": "절박성 요실금 환자를 진단하기 위한 검사",
+    "page": 127,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "33",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "요실금 - 절박성 요실금의 기전",
+    "question_summary": "절박성 요실금의 기전 설명",
+    "page": 129,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "음경 및 남성요도병",
+    "question_summary": "3세 남아의 생식기 자적이, 동반이 잘 되는 것은?",
+    "page": 132,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20201",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "고환 및 음낭병",
+    "question_summary": "9개월 남아의 좌측 음낭이 부어있고 울음이 클 때 증가하는 증상의 진단",
+    "page": 134,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20091",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "고환 질환",
+    "question_summary": "12세 남자의 감자기 심한 좌측 고환부위의 통증, 팽대 터져있고 부고환과 고환이 구분안됨의 진단",
+    "page": 134,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20071",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "비뇨생식기계 통증",
+    "question_summary": "비뇨생식기에 기원하는 통증에 대한 설명으로 옳은 것",
+    "page": 134,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20211",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "발기부전",
+    "question_summary": "50대 남자가 sildenafil 복용 중 4시간 이상 발기가 지속되면서 응결 통증이 심해져서 온다. 조치는?",
+    "page": 137,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20191",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "발기부전(프리아피즘)",
+    "question_summary": "발기약을 먹고 발기가 10시간 지속, 통증으로 내원. 시행할 조치는?",
+    "page": 137,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2015",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "남성 발기부전",
+    "question_summary": "40대 남성 발기부전으로 내원, 2회 연중 혈중 테스토스테론 감소와 LH 감소 소견, 진료 항목",
+    "page": 138,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "노인 남성의 소변 색 변화",
+    "question_summary": "65세 남자가 소변을 못봐서 내원, 어제 저녁부터 요의 있으나 보지못했다. 가장 먼저 시행할 조치는?",
+    "page": 143,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "요로결석의 진단 위치",
+    "question_summary": "DRE시 적절한 자세는?",
+    "page": 143,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "감염",
+    "topic": "항생제 감수성 검사",
+    "question_summary": "S. aureus 감염 환자의 항생제 선택",
+    "page": 148,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "44",
+    "answer": null,
+    "category": "감염",
+    "topic": "예방접종",
+    "question_summary": "44세 남자가 소세포 폐암 진단, 필요한 예방접종은?",
+    "page": 149,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "45",
+    "answer": 5,
+    "category": "감염",
+    "topic": "예방접종",
+    "question_summary": "후천성 면역결핍 증후군(AIDS) 환자에게 금기되는 예방 백신은?",
+    "page": 149,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": 5,
+    "category": "감염",
+    "topic": "예방접종",
+    "question_summary": "50세 남자의 사우디아라비아 성지순례 후 예방접종 선택",
+    "page": 162,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "감염",
+    "topic": "예방접종",
+    "question_summary": "성인 예방접종 대상 감염병별 접종내산, 시기 등 실시기준 현황",
+    "page": 163,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "감염",
+    "topic": "영유아 예방접종",
+    "question_summary": "생후 1개월에 BCG 예방접종을 받은 8개월 영아의 파라집기 예방접종 계획",
+    "page": 167,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "감염",
+    "topic": "홍역 예방접종의 금기사항",
+    "question_summary": "홍역 예방접종의 금기사항",
+    "page": 167,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "감염",
+    "topic": "종역 예방접종",
+    "question_summary": "종역 예방접종에 있어 금기사항이 아닌 것은?",
+    "page": 168,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "9",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "예방접종: 폐렴구균",
+    "question_summary": "65세 남성 10년간 당뇨병 투약중, 7년전(?) PCV 13가 접종 후 현재 보건소에서 PCV 23가 맞으라는 여행 중, 해야할 것으로 맞는 것",
+    "page": 171,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "65",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "예방접종",
+    "question_summary": "65세 여성 2주전 13가 예방접종 후, 다음 일정은?",
+    "page": 172,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "HPV 백신 접종 및 자궁경부암 예방",
+    "question_summary": "CRF로 HD 중인 65세 여자, 2주전 PCV13를 접종하였을 때 다음 접종은?",
+    "page": 173,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2017",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "인플루엔자 예방접종",
+    "question_summary": "임신부의 인플루엔자 예방접종 안전성 및 시기",
+    "page": 174,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2016",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "패혈성유산",
+    "question_summary": "패혈성유산의 진단 및 치료 시간경과에 따른 합병증",
+    "page": 174,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "B형간염 예방",
+    "question_summary": "질은닥자 B형간염 예방접종 다했고 5년 전 항체 검사 떠 있었으냐 지금 검사하나 없다. 고치는?",
+    "page": 178,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "36",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "B형간염 예방접종",
+    "question_summary": "HBsAg 양성 환자 바늘찔림 과자 예방접종 3회 시행했으나 항체확인 못한 경우",
+    "page": 179,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "28",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "B형간염 백신 접종",
+    "question_summary": "HBsAg 양성 임산부의 B형간염 백신 3회 접종 후 현재 상처 생성여부와 모르는 상태에서 조치는?",
+    "page": 180,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "급성 감염성 설사질환/세균성 식중독",
+    "question_summary": "66세 남성의 1시간 전 식사 후 발열, 복통 증상 발생. 설사로 인한 위험 및 감염원 파악",
+    "page": 184,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "캠필로박터 제주니 감염",
+    "question_summary": "20대 남자 3일간 캄필로박터 감염으로 인한 혈성설사, 발열 환자의 원인균",
+    "page": 185,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "43",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "캠필로박터 제주니 감염 치료",
+    "question_summary": "45세 남자 캄필로박터 감염증 환자의 항생제 선택",
+    "page": 185,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "식중독",
+    "question_summary": "32세 여자가 1시간 전부터 시작된 오심, 구토, 설사가 있어 왔다. 6시간 전에 통조림 소시지와 공으로 만든 복음밥을 먹었다고 한다. 가장 가능성 높은 균은?",
+    "page": 186,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "감염성 설사 (Infectious diarrhea)",
+    "question_summary": "50대 여성 복통, 혈변으로 내원한 WBC 양성 대변 검사 환자의 감별진단 - 스테이크 셀러드 먹은 후 원인균",
+    "page": 187,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "세균성 위장관염",
+    "question_summary": "1시간 전에 발생한 복통과 수양성 설사를 내원, 중심온 감자생러드 먹고 2시간 후 발생했다 함. 원인균은?",
+    "page": 188,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "여행자 설사",
+    "question_summary": "20대 휴은 남자 캄보디아 다녀온 후 귀국 당일부터 열성설사와 발열, 구토증세가 있었다. 캄보디아 여행시 친구들과 생수음용 먹었다고 함. 원인균은?",
+    "page": 188,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "식중독",
+    "question_summary": "비뱀기 기내에서 제공된 식사를 한 후 4시간 후에 속겨 400명 중 200명이 복통, 설사를 하였다. 원인균은?",
+    "page": 189,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "설사 질환",
+    "question_summary": "가축, 가금류가 주된 병소이며 우유, 달 익은 고기 등을 섭취시에 식중독 원인균은?",
+    "page": 189,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": null,
+    "question_summary": null,
+    "page": 190,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "의료관련감염/반코마이신내성장구균",
+    "question_summary": "62세 요로감염 환자의 위전전계증 발증 후 50일째 수술 받은 환자에서 감염 발생, 두 환자에서 분리된 균주는 유전적으로 동일한 VRE로 확인된 경우 메커니즘",
+    "page": 191,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "감염성질환/PMC",
+    "question_summary": "PMC의심되는 환자 치료는",
+    "page": 191,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "항균제 잠금 치료",
+    "question_summary": "중심정맥관 관련 감염의 항균제 잠금 치료(antibiotic lock therapy) 원리 및 적용",
+    "page": 196,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "클로스트리디움 디피실 감염",
+    "question_summary": "CDI의 내시경 소견 및 치료",
+    "page": 199,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2022",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "약물유해반응",
+    "question_summary": "농부가 비오는데 농사일 중 AST ALT mild elevation 지료 - doxycycline 나머질기억이",
+    "page": 200,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2021",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "약물유해반응",
+    "question_summary": "여자가 최근 방을 따던 다닌 뒤 발생한 고열, 근육통으로 왔다 - doxycycline",
+    "page": 200,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "렙토스피라",
+    "question_summary": "박농사하는 농부의 렙토스피라(야타람 문제)",
+    "page": 201,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "신장질환",
+    "question_summary": "2임 전부터 발열 근육통, 10일 전 웅수 비뇨 세뇨다가 결광 충혈 기침 객혈",
+    "page": 201,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "신장질환",
+    "question_summary": "50세 농부 5일 전부터 39.5도의 열이 있다. 발열, 오한, 두통, 구토, 기침 요소하였으며 신체검진에서 결광 충혈 관찰되었다. WBC 상승, 요당뇨 2+, 요장혈 2+ 소견 urine RBC 30~60",
+    "page": 201,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "렙토스피라증",
+    "question_summary": "55세 농부의 4일 전문 감자 고랭과 오염, 심한두통, 오심, 구토, 근육통으로 내원한 환자. 듀통은 이틀후로 심하게 악화. 눈붉심이 동반되었다. 기침, 홍통과 함께 카레에서 새가 죽은 나왕으며, 종아리와 등의 근육통을 보조하였다. 혈압하승형, 인두 정맥의 발적, 간비종대 소견이 있고, 혈액검사에서 Hb 11.0 g/dL, 혈소판 80,000/mm3 ESR 80 mm/hr total bilirubin 2.5g/dL의 검사 소견. 요검사에서 단백뇨 1+, WBC 5-10/HPF, 유 X~인 검사에서 우측 폐 하연 patchy alveolar pattern의 침윤이 있다.",
+    "page": 202,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "피부질환-약물",
+    "question_summary": "고열, 발진이 보이는 47세 남자, 알맞은 치료제는?(쪼쪼가무시)",
+    "page": 202,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "렙토스피라증",
+    "question_summary": "55세 농부, 4일간 지속되는 고열과 오한, 심한 두통, 근육통, 오심, 구토 환자의 진단",
+    "page": 203,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "쯔쯔가무시증",
+    "question_summary": "Orienta tsutsugamushi 감염에 의한 급성 발열성 질환의 임상적 특징 및 진단",
+    "page": 205,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "사균백신 접종",
+    "question_summary": "한탄바이러스 오염된 환경에서의 사균백신 접종 방법",
+    "page": 209,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "39",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "해외유입 감염병",
+    "question_summary": "32세 남성, 인도네시아 괌에서 귀국한 뒤 우완과 요증 도반, BT 39.5, AST/ALT 375/360의 의심되는 질환",
+    "page": 212,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "40",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "간경변",
+    "question_summary": "27세 남자, 5일 전 저 피라미에서 귀국한 후 발열, 복부 불편감으로 내원한 환자의 진단",
+    "page": 212,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "수입 감염병 진단",
+    "question_summary": "인도네시아 체류 후 발생한 발열의 원인 진단",
+    "page": 213,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "뎅기열",
+    "question_summary": "전부터 발진과 오심, 구토, 맥속가지에서 근육통이 발생한 환자의 진단",
+    "page": 213,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "포도구균 중독 및 감염",
+    "question_summary": "19세 여성의 쇼크, 장기부전 증상 분석 - Staphylococcal toxic shock syndrome 진단",
+    "page": 215,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "장구균 감염(Enterococcal Infections)",
+    "question_summary": "70세 여자 요로감염 치료 중 Ciprofloxacin 내성 enterococcus faecalis 감염 시 적절한 치료약제 선택",
+    "page": 216,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2021",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "파상풍",
+    "question_summary": "파상풍 예방접종 이력이 있는 37세 환자의 상처 감염 위험도 평가 및 파상풍 예방 필요성",
+    "page": 217,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "8",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "DTaP 예방접종",
+    "question_summary": "영아의 감기 증상 후 남은 기침에 대해 2년 전 DTaP 추가 접종 후 발생한 파상풍 예방 및 지음을 위한 처치",
+    "page": 218,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "39",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "Td 기초 면역 접종",
+    "question_summary": "39세 남자 다른 중에 상대방 치아로 인해 손에 상처 발생, 파상풍 기본접종 확인 후 20대 초반에 추가 접종하였을 때 조치",
+    "page": 218,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "Pasteurella multocida",
+    "question_summary": "40세 남자의 고양이 물림 후 2년간 파상풍 예방접종 미시행시 필요한 조치",
+    "page": 219,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "파상풍 예방접종",
+    "question_summary": "농부가 흙 상처로 발열, 파상풍 예방접종 기왕력 불명확할 때 적절한 조치",
+    "page": 219,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2013",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "결핵 치료",
+    "question_summary": "8세 여아의 결핵 치료 중 파상풍 예방 및 치료를 위한 적절한 처치",
+    "page": 220,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2010",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "결핵 진단",
+    "question_summary": "67세 남자의 폐결핵 진단 후 파상풍 예방접종의 과거력 확인",
+    "page": 220,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "결핵 예방 및 치료",
+    "question_summary": "결핵 환자의 접촉자 관리 및 예방치료 방법",
+    "page": 221,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "위막성 결장염",
+    "question_summary": "위막성 결장염 포함한 클로스트리듐 디피실 관련 질환",
+    "page": 222,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "C. difficile 감염",
+    "question_summary": "C. difficile 감염 진단을 위한 검사 방법",
+    "page": 222,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "패혈증 치료",
+    "question_summary": "45세 남성의 패혈증 관리: 광범위 항생제 선택",
+    "page": 223,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2010",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "그람 음성균에 의한 질병",
+    "question_summary": "12세 아이의 고열과 관절염 증상을 보이며 뇌막염으로 입원한 환자에서 gram negative motile coccobacillus가 관찰되고 penicillin sensitive일 때 원인균은?",
+    "page": 230,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "살모넬라증",
+    "question_summary": "살모넬라증 환자의 가장 초기에 원인을 위한 검사",
+    "page": 231,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "용혈성빈혈",
+    "question_summary": "27세 여성의 황달, 다뇨증, 복부불편감 원인 진단",
+    "page": 232,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "자가면역용혈성빈혈",
+    "question_summary": "27세 남자의 간경변증, 혈소판감소증 환자의 진단적 접근",
+    "page": 232,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "항생제 선택",
+    "question_summary": "32세 남자 6일전부터 발열, 오한, 두통 증상 있는 환자의 항생제 치료",
+    "page": 233,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "발열 진단",
+    "question_summary": "7일째 의료원에서 고국한 25세 남자가 귀국 다음날 39°C 발열로 입원한 환자의 감별 진단",
+    "page": 233,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "24",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "세균성 복막염",
+    "question_summary": "24세 남자 복부팽만 및 설사, 복통으로 내원한 환자의 항생제 선택",
+    "page": 234,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "25",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "백혈병",
+    "question_summary": "25세 남자 6일 동안의 작은 궤양과 두통, 오한으로 내원한 환자의 가장 민감한 검체",
+    "page": 234,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "장티푸스",
+    "question_summary": "장티푸스 환자의 진단 및 감별진단",
+    "page": 235,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "열성질환의 항생제 치료",
+    "question_summary": "열성질환 환자의 항생제 선택 및 치료 방침",
+    "page": 235,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "66",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "장염",
+    "question_summary": "66세 여자가 1시간 전부터 시작된 묽은 설사를 주소로 내원. 장염의 원인균 진단",
+    "page": 236,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "콜레라 및 비브리오증",
+    "question_summary": "알코올성 간질환 환자의 5℃ 냉각 물질 섭취 후 발생한 설사와 복통의 원인균",
+    "page": 237,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "비브리오 감염증",
+    "question_summary": "34세 남자 2일 전 어패류 섭취 후 발열, 하지 부종 및 물집이 나타난 질환의 진단",
+    "page": 237,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "96",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "살모넬라(장티푸스) syndrome",
+    "question_summary": "살모넬라균의 세균 사항과 동물 모두를 숙주로 하여 다양한 질병을 일으키는 살모넬라 증후군에 대한 설명",
+    "page": 239,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "6",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "장티푸스",
+    "question_summary": "장티푸스의 임상 양상 및 진단 방법",
+    "page": 241,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "비브리오 콜레라",
+    "question_summary": "콜레라/기타 비브리오 감염의 병원체, 임상양상, 검사소견, 합병증",
+    "page": 246,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "결핵",
+    "question_summary": "25세 간호사의 폐용성 결핵 환자 접촉 후 노출 시 IGRA 검사 결괏값 해석",
+    "page": 249,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "결핵",
+    "question_summary": "LUL 폐 consolidation x-ray 소견의 결핵 진단 관련 추가 검사",
+    "page": 249,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "57",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "결핵 치료",
+    "question_summary": "57세 여자의 5개월 접촉된 결핵으로 isoniazide, rifampin, ethambutol 복용 중 우측 일고 가래 향산골 도말검사 양성이다. 다음은 약제 감수성검사 결과이다. 향우적 접촉 지속방침은?",
+    "page": 250,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "결핵 치료",
+    "question_summary": "35세 여자 2개월 전부터 폐결핵으로 isoniazid, ethambutol, rifampin, pyrazinamide를 복용 중인 환자의 약제 감수성 결과",
+    "page": 251,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "결핵 진단",
+    "question_summary": "66세 여자 숨가 돌버기 위해 결핵 검진하려 내원한 환자의 검사 선택",
+    "page": 251,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "54",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "결핵약제 부작용",
+    "question_summary": "54세 남자의 INH, RIF, EMB, PZA 치료 6주 후 오심, 구토, 황달 증상 - 약물 조작은?",
+    "page": 252,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "45",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "결핵",
+    "question_summary": "45세 여자 3개월 동안 미열, 기침, 제중감소로 내원 - X-RAY와 CT 소견",
+    "page": 252,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "32",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "결핵약제 상호작용",
+    "question_summary": "32세 여성이 3개월 전부터 폐결핵으로 isoniazid 300mg rifampin ethambutol 800mg 복용 중 임신 확인 - 정정한 조치는?",
+    "page": 252,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "폐결핵 진단",
+    "question_summary": "30대 여성의 폐결핵 진단을 위해 가슴 X-ray와 최근 객담 검사에서 확인할 사항",
+    "page": 253,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "결핵 치료",
+    "question_summary": "6개월간 결핵약 복용 후 결핵약 치료 50세 여자의 추적 검사 항목 및 약물 선택",
+    "page": 253,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2019",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "폐결핵",
+    "question_summary": "30대 여자 미열 및 기침으로 발견된 흉부 X선, CT 소견(군용 결핵)의 방사선 소견 해석",
+    "page": 254,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2017",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "결핵 환자 관리",
+    "question_summary": "69/F 2개월 열 결핵 진단 환자의 항결핵약 투여 중 발생한 증상에 대한 대응",
+    "page": 254,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "53",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "폐결핵 진단",
+    "question_summary": "53세 여자 6개월 전부터 기침과 누런 가래 증상, 흉부 X선과 HRCT 소견에서 결핵 의심 시 추가 검사",
+    "page": 255,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "결핵 약제내성",
+    "question_summary": "약제유발성 간염에서 미코박스 안전한 항결핵제는?",
+    "page": 256,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "결핵",
+    "question_summary": "32세 여성 3개월 동안 결핵약 투여 후 임신 확인 이유 및 해야할 것",
+    "page": 256,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "약물 상호작용",
+    "question_summary": "20~30대 여성이 페질렌으로 INH 300mg, RFP 600mg, EMB 800mg을 3개월 복용 중 입진 진단 받았을 때 취할 조치",
+    "page": 257,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "간독성 약물",
+    "question_summary": "30대의 폐결핵 환자가 INH, RIF, EMB, PZA를 먹던 도중 AST 60, ALT 68, T-Bil 1.0 이었을 때 다음에 어떻게 조치할 것인가",
+    "page": 257,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "결핵 치료",
+    "question_summary": "임신부 폐결핵 치료 중인 3개월 가능한 항결핵제 조합",
+    "page": 258,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "종양표지자",
+    "question_summary": "35세 남자의 종양 관련검사 결과 해석 (ADA 상승의 의미)",
+    "page": 258,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "결핵 진단",
+    "question_summary": "활동성 결핵환자와 접촉한 간호사, 3개월 후에 검사한 피부 반응 검사 양성, X-ray와 객담 검사에서 결핵 음성일 때 알으로 어떻게 할 것인가?",
+    "page": 259,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "30",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "HER2 양성 유방암 치료",
+    "question_summary": "30세 여성이 폐전이을 진단받고 2주일간 HERZ 투약하고 HER 3개월 투여하던 중에 원신 7주로 확인되었을 때 치료 2개월에 궁 증진 완인하였다. 치료는?",
+    "page": 262,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "54",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "간염 진단",
+    "question_summary": "54세 남자가 INH, RFP, EMB, PZA로 치료 6주 후 오심과 구토, 황달증세 나타났다. ALB 3.0으로 측정되고 알부민 1질질 만저지고 황달수준을 보였다. AST/ALT 234/260정도, ALP 110, 황우 초치는?",
+    "page": 262,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "여성 요로감염",
+    "question_summary": "6개월 전 방광염, 50대 여성 재발 요로감염의 원인균 및 치료약제 선택",
+    "page": 263,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "37",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "폐경기 여성의 질 건강",
+    "question_summary": "37세 여자가 수 개월간 자속된 반노, 열도, 완종 불통으로 내원하였을 때 소변검사에서 다수의 적혈구, 백혈구가 관찰되었으나 소변 배양 검사 결과 음은 자라지 않았고, IVP에서 요로 협착, 수신증 소견이 관찰되었을 때 진단은?",
+    "page": 264,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "잠복결핵감염",
+    "question_summary": "잠복결핵감염(LTBI)의 진단 기준 및 검사 해석",
+    "page": 266,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "4",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "암제 감수성검사",
+    "question_summary": "암제 감수성검사의 전통적 방법과 신속내성검사 비교",
+    "page": 270,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "면역학적 진단(결핵감염검사)",
+    "question_summary": "투베르쿨린 검사와 인터페론감마 분비검사의 원리 및 특징",
+    "page": 270,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2016",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "리케차, 마이코플라즈마, 클라미디아",
+    "question_summary": "3일 전부터 고열, 두통, 구순통을 호소하는 40대 농부의 피부 사진 진단",
+    "page": 288,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20122007",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "스크럽티푸스",
+    "question_summary": "46세 여자, 3일 전부터 시작된 고열, 근육통과 두통으로 입원한 환자의 치료제",
+    "page": 288,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "혈청검사 및 항체 검사",
+    "question_summary": "2세 여자가 5일 전 피부 39℃ 이상의 고열과 함께 도통 근육통이 있었던 환자의 검사 결과 해석",
+    "page": 289,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "세균감염 항생제 치료",
+    "question_summary": "48세 여자가 고열을 주소로 내원했던 10일전부터 고열과 전신 피부발진 환자의 원인균 및 항생제 선택",
+    "page": 289,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "세균감염 항생제 치료",
+    "question_summary": "40대 남자가 10일 전 발열로 다녀온 문은 발생한 발열증세로 내원했던 환자의 치료약제 선택",
+    "page": 289,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "20211",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "수두(Varicella)",
+    "question_summary": "40대 남자의 전신 소양증, 1일 전부터 발진 증상 시 DNA 바이러스 감염병 진단",
+    "page": 292,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "심내막염",
+    "question_summary": "22세 남자 5일 전열 및 도통 무력감, 관절통, 이혼통 고열이 발생한 내원환자, 전찰에서 사출잡음, 혈액배양 음성, 청진 비정상, 항생제 효과 없음, SGOT/SGPt 98/124, heterophil Ab(+) 소견 시 진단",
+    "page": 293,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "복강내감염",
+    "question_summary": "35세 남자 3일 전열 및 우측 아래고 음식섭취 힘들다, 곧은 기침 및 구토, 항생제 치료 시작했으나 발열 지속, 39.3℃이고 우측 인하 혐의 발적이 있고 우측 옆도가 강증진자가 부어 있음, 진단 및 치료",
+    "page": 293,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "DNA와 RNA 호흡기 바이러스 감염",
+    "question_summary": "인플루엔자 유행시기에 전남 병원을 방문했던 환자가 Influenza type A/H1N1에 감염되었을 때 35세 의료인의 항체 형성, 기침, 코털 등의 증상이 전혜 없고 특히 병력도 없다. 응해 인플루엔자 예방접종을 아직 시행받지 않았다. 조치는?",
+    "page": 298,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "호흡기 바이러스 감염",
+    "question_summary": "70세 여자가 독감에 걸린 걸림가 걸렸어 되어 났다. 같이 살고 있는 유족인정 손자가 어제버터 고열, 두통, 기침 증상이 생겼다고 한다. 고혈압과 당뇨병으로 치료 중이다. 1주 전 인플루엔자 예방 접종을 받았다. 조치는?",
+    "page": 298,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2016",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "인플루엔자 예방 및 치료",
+    "question_summary": "10주 35세 여자가 10일 중증 인플루엔자 예방접종 후 인플루엔자 의심증상으로 내원한 경우의 항바이러스제 선택",
+    "page": 299,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2015",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "인플루엔자",
+    "question_summary": "70세 여자기 1년전 인플루엔자 감염 후 세균성 폐렴을 앓은 과거력 있는 경우의 항바이러스제 선택",
+    "page": 299,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "감기의 약물치료",
+    "question_summary": "70세 환자의 감기 증상 치료 약물 선택",
+    "page": 300,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "오셀타미비르의 사용",
+    "question_summary": "70세 환자에서 항바이러스제 예방적 투여 여부 및 용량",
+    "page": 300,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "HIV 진단",
+    "question_summary": "rash로 발생한 환자의 HIV ELISA 검사에서 intermediate 결과의 의미",
+    "page": 306,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "HIV 진단",
+    "question_summary": "HIV 환자 수술 중에 침도와 수술기구에 혈액 노출 시 대처",
+    "page": 306,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "HIV 진단",
+    "question_summary": "HIV 환자 우숨 중 집도의가 열에 노출되어 눈에도 튀었고",
+    "page": 307,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "HIV 감염 후 항체 형성시기",
+    "question_summary": "HIV감염 후 항체 형성시기는?",
+    "page": 307,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "HIV 감염 환자의 기회감염",
+    "question_summary": "30대 HIV 환자, anti-viral 치료 중단 후 T cell count 40 이하일 때 가장 가능성 높은 기회감염",
+    "page": 308,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "HIV/AIDS 노출 후 예방",
+    "question_summary": "24세 여자 HIV 환자 노출 후 현재 CD4+ 90/mm3, viral load 300,000 copy/ml일 때 가장 적절한 처치",
+    "page": 308,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "AIDS 예방백신",
+    "question_summary": "후천성 면역결핍증후군(AIDS) 환자에게 금기되는 예방백신",
+    "page": 309,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "HIV 잠재 혈청 전환 시기",
+    "question_summary": "HIV감염 후 항체 형성 시기",
+    "page": 309,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "HIV 감염 진단",
+    "question_summary": "HIV 감염 확인을 위한 검사 순서 및 방법",
+    "page": 310,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2006",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "HIV 진단",
+    "question_summary": "건강진단에서 효소면역측정법 양성, 신제검사에서 음성일 때 확진을 위한 검사",
+    "page": 311,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2005",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "HIV 전파",
+    "question_summary": "인간면역결핍 바이러스의 전파 경로 중 가장 잘 알려진 경로",
+    "page": 311,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "HIV 감염",
+    "question_summary": "사람면역결핍바이러스 감염 - 정의, 임상소견, 진단 및 병기",
+    "page": 312,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "HIV 무증상기 감염",
+    "question_summary": "HIV 무증상기 감염 환자의 CD4+ T세포 수와 임상적 특징",
+    "page": 313,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "AIDS 진단",
+    "question_summary": "AIDS 진단 기준(CD4+ T세포 수와 기회감염)",
+    "page": 313,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "RNA 바이러스 감염",
+    "question_summary": "풍진 임상양상 및 합병증",
+    "page": 316,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "신증후군출혈열",
+    "question_summary": "신증후출혈열 맞는 치치는?",
+    "page": 317,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "절지동물과 설치류 매개 바이러스 감염",
+    "question_summary": "00세 남자, 이름깝 다녀온 우 고엽, 복통, 우안 후 발열은 온전되었으나 입이 마르고 지혈량 소진을 보인다. 지료는?",
+    "page": 317,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "로타바이러스 감염",
+    "question_summary": "로타바이러스 위장관염의 원인, 임상양상, 진단, 치료, 예방",
+    "page": 318,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "진균 감염",
+    "question_summary": "60세 남자의 2엔 전주터 입인이 따갑고, 음식을 삼기기 어려워 있는 경우 원인 진단",
+    "page": 324,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "말라리아",
+    "question_summary": "25살 남자, 5일전부터 미열, 오한, 근육통 있었고 2일전부터 구역, 구토 1회정도 있었음. 혈액도말검사와 PCR 검사 결과 말라리아 소견. 2021 진료의 첫 번째 치료제는?",
+    "page": 325,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "말라리아 치료",
+    "question_summary": "38세 남성 말라리아 환자의 PBS smear 결과에 따른 치료약물 선택",
+    "page": 326,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "신장요로생식",
+    "topic": "말라리아 감염 합병증",
+    "question_summary": "38세 남성 다구멜러리아 환자의 혈액도말검사 소견과 의식변화의 원인",
+    "page": 326,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2018",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "말라리아",
+    "question_summary": "20대 빈혈 남성 열애도망검사 다음과 같은 소견 보임, 진단은?",
+    "page": 327,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2017",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "프리마퀸",
+    "question_summary": "제대한 6개월(2)뒤 철원(2)지역에서 구토했던 군인 말라리아 증상, 초지료에 클론분혈과 같이 지방합약은?",
+    "page": 327,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "말라리아 예방약",
+    "question_summary": "태국 미얀마 국경지대 여행 시 말라리아 예방약",
+    "page": 328,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "말라리아 예방약",
+    "question_summary": "인도네시아 유행지역 여행 시 말라리아 예방약",
+    "page": 328,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "A형간염",
+    "question_summary": "6개월 전 경기도 연천에서 군부대 근무 중 23세 남자가 1주일 전부터 열, 오한, 근육통, 복부통증이 있어 내원. 검사상 ALT 39°C 이상으로 WBC 8700, Hb 12.8, PLT 125K, AST/ALT 비율 높음. 진단은?",
+    "page": 330,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "말라리아",
+    "question_summary": "24세 남자가 내원 2일 전부터 39°C 이상의 열과 함께 두통, 구토, 칼증이 있음. 5일 전부터는 피로, 관절통, 오심, 현기증이 있음. 소변검사와 혈액검사 결과는 다음과 같음. 진단은?",
+    "page": 330,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "장내선충류",
+    "question_summary": "48세 남자 복통, 오심, 구토를 주소로 내원하였다. 이제 외신하고 난 다음부터 중상이 있었고 위내시경 사진은 다음과 같다. 치료는?",
+    "page": 339,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "장내기생충",
+    "question_summary": "24세 남자의 우측간 지속성 기침음, 흉부 X-ray 소견상 폐렴 의심 시 감별진단",
+    "page": 340,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "핀웜(요충)",
+    "question_summary": "10세 남아의 항문 가려움, 야뇨증 치료를 위한 구충약 선택",
+    "page": 340,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "Trematodes infections",
+    "question_summary": "흡충류 감염증 진단을 위한 검사 방법",
+    "page": 341,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "신장요로생식",
+    "topic": "Trematodes infections",
+    "question_summary": "간흡충증의 치료약물",
+    "page": 341,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "신장요로생식",
+    "topic": "Cestodes (촌충)",
+    "question_summary": "Cellophane-tape anal swab, scotch tape test로 진단할 수 있는 기생충",
+    "page": 342,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2171",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "장내선충 (Intestinal Nematodes)",
+    "question_summary": "주요 기생충 감염 - 선충류의 특징 비교",
+    "page": 343,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "회충증(ascariasis)",
+    "question_summary": "회충증의 개요, 역학, 임상증상, 검사소견, 지료",
+    "page": 344,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "구충증",
+    "question_summary": "십이지장충, 아메리카구충 감염 시 임상증상 및 진단",
+    "page": 345,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "신장요로생식",
+    "topic": "편충증",
+    "question_summary": "편충증의 임상증상, 검사소견, 치료",
+    "page": 345,
+    "vol": "vol4"
+  },
+  {
+    "q_num": null,
+    "answer": null,
+    "category": "신장요로생식",
+    "topic": "Anisakiasis",
+    "question_summary": "고래회충유충증(Anisakiasis)의 개요, 역학, 임상양상, 예방",
+    "page": 347,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "206",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "담도흡충증(Biliary flukes)",
+    "question_summary": "간흡충증과 타이강흡충증의 임상증상 및 진단, 치료",
+    "page": 349,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "208",
+    "answer": 1,
+    "category": "신장요로생식",
+    "topic": "조충(촌충) Cestodes",
+    "question_summary": "조충의 특징, 무구조충과 아시아조충의 임상양상 및 진단, 치료",
+    "page": 351,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "65",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "망상적혈구 수정계산(Corrected reticulocyte count)",
+    "question_summary": "65세 여성 지속되는 피로감으로 내원한 환자의 혈액검사 결과 해석 및 진단 - 망상적혈구 수정계산 방법",
+    "page": 356,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2017",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "만성신장질환",
+    "question_summary": "M/60 만성신질환 환자의 혈액검사 결과 해석 및 진단",
+    "page": 357,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "빈혈의 감별진단",
+    "question_summary": "빈혈 환자의 검사실 소견 해석 - 망상적혈구수, 적혈구지수, 혈청철 등",
+    "page": 359,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "이차성 적혈구증가증",
+    "question_summary": "이차성 적혈구증가증의 원인 및 진단, 치료 약제",
+    "page": 365,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈 및 저색소성빈혈",
+    "question_summary": "67세 여자 환자의 3년간 위약으로 위부분절제술, 철결핍성빈혈 진단, 혈액검사 결과 해석 및 진단",
+    "page": 366,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "빈혈",
+    "question_summary": "48세 여성의 1개월 전부터 운 묻이 가팔고 피로하다며 왔다. 특이 병력이나 복용 중인 약물은 없다. 혈압은 115/75 mmHg, 맥박수는 분당 82회, 호흡수는 분당 16회, 체온은 36.5℃이다. 결과로 철분제 복용을 한 달 후 시행한 검사 결과가 있다. 망초형액떼바른검사(사진)이다, 조치는?",
+    "page": 367,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈",
+    "question_summary": "50대 여자 월경과다로 인한 철결핍빈혈의 치료 약제",
+    "page": 368,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "빈혈",
+    "question_summary": "54세 여자 어지럼증과 피로감이 있어 혈액검사 결과 해석",
+    "page": 368,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "혈중 철분 결핍",
+    "question_summary": "절분재 복용 후 발생한 위장 장애에 대한 적절한 조치",
+    "page": 369,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "철결핍성 빈혈",
+    "question_summary": "45세 여자의 피로 증상과 HB 10.8 MCV 감소 ferritin 300의 원인 진단",
+    "page": 369,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "빈혈",
+    "question_summary": "67세 여자환자의 피로와 호흡곤란 증상, 검사 결과 해석 및 치료",
+    "page": 369,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "58",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈",
+    "question_summary": "58세 남자환자의 피로현상 원인 - Hb9 MCV90 Ferritin120 Iron/TIBC132/310",
+    "page": 370,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "64",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "소아 빈혈",
+    "question_summary": "64세 고혈압, 심부전 있는 환자의 빈혈 원인 진단",
+    "page": 371,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "67",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "소구성 저색소성 빈혈",
+    "question_summary": "여자환자, 동물근관과 피로함으로 내원하였고, 3년전 위암으로 위절제술을 시행한 미구협 있었다. Hb 7.2, WBC 3200, PLT 190,000, MCV 105, Pb smear: microcytic hypochromic anemia 소견의 진료",
+    "page": 373,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "빈혈의 감별진단",
+    "question_summary": "62세 남자, 황중시 어지러움 등의 증상 있었고, 고혈압, 심부전 있고 있었다. 최근 3번의 항문출혈이 있었다. lab 수치) Hb 6.5고 IDA 소견의 진료",
+    "page": 373,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "위장관 출혈과 철분제 복용",
+    "question_summary": "철분 정제 복용 후 발생한 위장장애에 대한 조치",
+    "page": 374,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "철분 요구량과 elemental iron",
+    "question_summary": "철분제 복용 중 elemental iron 용량 계산",
+    "page": 374,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈과 Ferritin",
+    "question_summary": "술 먹는 폐경여성의 정상한 설명 있으나 특별한 내용 없음 Ferritin 300, Hb 6.5연차, 진단명",
+    "page": 374,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "거대적혈모구빈혈",
+    "question_summary": "MTX 복용 중인 환자의 anemia, MCV 100 초과 원인",
+    "page": 378,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "빈혈의 원인 진단",
+    "question_summary": "62세 남자의 운동 중 숨참, 창백함, 피로 증상 - 혈액도말 검사 소견 분석",
+    "page": 379,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2021",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "비타민 B12 결핍",
+    "question_summary": "50세 남자의 보행장애, 저혈구증, 높은 Hb, WBC, Plt 수치로부터 진단명 결정",
+    "page": 380,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "4",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "거대적아구성빈혈",
+    "question_summary": "60세 여자환자 빈혈로 내원, 155cm, 56kg, 진단은?",
+    "page": 381,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "48",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈",
+    "question_summary": "48세 여성 6개월 간 피로, 식욕부진으로 내원한 환자의 진단",
+    "page": 382,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "거대적아구성빈혈",
+    "question_summary": "62세 남성 호흡곤란으로 내원한 환자의 원인 감별",
+    "page": 382,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "거대적아구빈혈",
+    "question_summary": "오골관산으로 내원한 환자의 거대적아구빈혈 원인 진단",
+    "page": 383,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "65",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "빈혈",
+    "question_summary": "여자 운동선수의 거대적아구빈혈 원인 진단",
+    "page": 383,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "10",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "빈혈",
+    "question_summary": "전 위장질출혈 환자의 Hb 10, MCV 101 원인 진단",
+    "page": 383,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "50",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "거대적아구성빈혈",
+    "question_summary": "50세 남자 최근 피로하고 입맛 없어 내원. 5년전 위궤양 천공으로 위절제술 받음. Hb 9.2 WBC 3,200 PLT 80,000 PBS에서 hypersegmented neutrophil과 거대적혈구 관찰. 진단 및 감별진단",
+    "page": 385,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "62",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "거대적아모구빈혈(cobalamin deficiency)",
+    "question_summary": "62세 남자 거대적혈구빈혈 환자의 원인 진단: cobalamin 결핍의 원인 감별",
+    "page": 387,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "비타민 B12 결핍",
+    "question_summary": "60세 남자의 년 전 위암 절제술 후 재단 웃따깜 피 증이 자고 심정부처 결음이 들렸다. 귀사결과 Hb 8.3 MCV 105.3 Reticulocyte 2%인 따 진단명은?",
+    "page": 388,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "거대적아모구빈혈",
+    "question_summary": "34세 여자가 류마티스 관절염으로 현재 metatrexate, hydroxychloroquine 복용중이다. Hb 9.5 MCV 135 이었다. 치료는?",
+    "page": 388,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "50",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "적혈구 용적률(MCV)과 빈혈 분류",
+    "question_summary": "50대 여성의 거대적아구성 빈혈에서 MCV 100 이상일 때 감별질환",
+    "page": 389,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "51",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "비타민 B12 결핍",
+    "question_summary": "55세 여성의 위전절제술 후 1년간 치료 후 혈색소 수치 정상화 이후 의원소 결핍 원인",
+    "page": 389,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "비타민 B12 결핍",
+    "question_summary": "비타민 B12 결핍 질병에서 신경정신약적 증상 중 가장 먼저 나타나는 것",
+    "page": 390,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "4",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "비타민 B12 결핍",
+    "question_summary": "비타민 B12 결핍에서의 거대적혈모구 빈혈 진단 및 치료",
+    "page": 392,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈 및 급성출혈에 의한 빈혈",
+    "question_summary": "38세 여성 어지러움 증상 환자의 빈혈 원인 감별",
+    "page": 393,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈",
+    "question_summary": "21세 남자 간접적으로 직결성 소변을 보였다. 검사결과 용혈증이 있고 정상 소변색으로 오진에 진단 오류 정상화약 결합황백은 관절뇨였으며 간과 비장 비대가 있었다. 진단은?",
+    "page": 394,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈",
+    "question_summary": "40세 남자가 혈당을 주소로 내원하였다. 간과 비장이 비대해 있었다. 검사결과는 다음과 같다. WBC 8500, Hb 8.0, Plt 200,000. 더 필요한 검사는?",
+    "page": 394,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "27",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "유전성 구면세포증",
+    "question_summary": "27세 남성 용혈성 빈혈 환자의 구면세포증 원인 진단",
+    "page": 395,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "45",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "용혈성 빈혈",
+    "question_summary": "45세 여성 왕담이 있어 내원한 환자의 용혈성 빈혈 진단",
+    "page": 395,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈",
+    "question_summary": "24세 여자환자의 용혈, 골수액소견, Hb 5.2, Hct 16.8 등에서 진단은?",
+    "page": 396,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "철결핍빈혈",
+    "question_summary": "39세 여자 호흡곤란과 피로에서 철결핍빈혈 진단을 위한 검사는?",
+    "page": 396,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "소적혈구저색소성빈혈",
+    "question_summary": "65세 여자 피로, 불임감 환자의 소적혈구저색소성빈혈 원인 진단은?",
+    "page": 396,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "간접 빌리루빈혈증",
+    "question_summary": "25세 남자 내원하여 시행한 검사결과 WBC 4000, Hb 9.5g/dl, Total bilirubin 3.6mg/dl, Direct bilirubin 0.3mg/dl, 간염 바이러스 음성인 경우 추가 검사",
+    "page": 397,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "혈소판 감소증",
+    "question_summary": "40세 남자 황달을 주소로 내원하였고 WBC 8500, Hb 8.0, plt 200,000인 경우 진단을 위한 검사",
+    "page": 397,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "G6PD 결핍",
+    "question_summary": "G6PD 결핍의 정의 및 Oxidative stress와의 관계",
+    "page": 403,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "PK 결핍",
+    "question_summary": "PK(Pyruvate kinase) 결핍과 ATP 생성 장애",
+    "page": 403,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "재생불량빈혈",
+    "question_summary": "65세 여성의 피로와 멍으로 진단된 재생불량빈혈의 진단을 위한 적절한 검사",
+    "page": 407,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "재생불량빈혈",
+    "question_summary": "65세 남성의 가슴 통증과 빈혈로 진단된 재생불량빈혈의 진단을 위한 적절한 검사",
+    "page": 407,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "약제내성 감염증",
+    "question_summary": "우성장 재정 불량성 인물을 가장 잘 일으키는 약제",
+    "page": 407,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "혈액종양",
+    "topic": "골수기능저하",
+    "question_summary": "재생불량빈혈: 진단",
+    "page": 408,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "검사 소견 - 빈혈",
+    "question_summary": "정상 대적혈구 빈혈의 감별진단 및 검사 방법",
+    "page": 410,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "6",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "재생불량성빈혈(Aplastic anemia)",
+    "question_summary": "재생불량성빈혈의 진단 기준 및 특징",
+    "page": 411,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "후천성 재생불량성빈혈의 치료",
+    "question_summary": "후천성 재생불량성빈혈 환자의 수혈요법 및 철분치료에 관한 지식",
+    "page": 414,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "42",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "우혈",
+    "question_summary": "여성 환자의 IDA 양상 Hb 4.5 재염 인자 해쳐야 하는 조치는?",
+    "page": 416,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "43",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "신장질환",
+    "question_summary": "82세 여자 환자의 신부전 징후 및 혈액검사 결과 해석",
+    "page": 416,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "9",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "수혈 시 발열 반응",
+    "question_summary": "수혈 시 발열 동의 증상이 있을 때 예방하기 위한 약제",
+    "page": 417,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "진성적혈구증가증",
+    "question_summary": "45세 남성의 적혈구증가증 진단 및 치료",
+    "page": 422,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "진성적혈구증가증",
+    "question_summary": "52세 남자 환자의 혈색소, 혈구용적률, 혈소판 증가 소견에서의 진단",
+    "page": 423,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "진성적혈구증가증",
+    "question_summary": "64세 남자의 고헤모글로빈혈증에서 진성적혈구증가증의 진단 기준",
+    "page": 423,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "64",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "진성적혈구증가증",
+    "question_summary": "64세 남자의 적혈구증가증에서 Hb 18.6g/dL 소견으로 진성적혈구증가증을 의심할 수 있는 소견",
+    "page": 424,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "65",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "진성적혈구증가증 진단",
+    "question_summary": "ET환자에서 erythromelalgia증상, doralis pedis pulse(+), nerologic test(ok) 시 치료",
+    "page": 424,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "아스피린",
+    "question_summary": "55세 남자, 본태성 혈소판 증가증 환자의 약물 선택",
+    "page": 425,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": null,
+    "category": "혈액종양",
+    "topic": "본태혈소판증가증",
+    "question_summary": "본태혈소판증가증의 정의 및 병태생리",
+    "page": 428,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "68",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "형질세포질환",
+    "question_summary": "68세 남자 요붕증과 제증 감소를 주소로 내원한 환자의 검사 소견에서 무엇인가?",
+    "page": 437,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "다발골수종",
+    "question_summary": "저혈당증, A/G ratio 역전, Cr 올라가고 anemia 있는 환자의 진단",
+    "page": 439,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "다발골수종",
+    "question_summary": "65세 남자 오랫동안 피로증을 주소로 내원한 환자의 진단",
+    "page": 439,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "요추천자, 뼈 병변",
+    "question_summary": "65세 여자 2의자골부 시침된 기질 가골 구영을 주소로 내원한 환자의 진단",
+    "page": 439,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "다발골수종 진단기준",
+    "question_summary": "다발골수종의 진단기준 중 CRAB 기준에 해당하는 항목",
+    "page": 443,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "혈소판 및 혈관벽 질환",
+    "question_summary": "32세 여자 관절염 증상과 저혈소판증의 진단",
+    "page": 449,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "혈소판 및 혈관벽 질환",
+    "question_summary": "28세 여자 점상출혈과 피부 증상의 진단",
+    "page": 449,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈",
+    "question_summary": "5세 남아의 황달, 빈혈, 혈중 크레아티닌 상승 환자의 진단",
+    "page": 450,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "특발성 혈소판 감소증",
+    "question_summary": "ITP 환자에서 스테로이드 치료 후 호전되어 비정질계수술 시 필요한 처치",
+    "page": 451,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "ITP 관련 합병증",
+    "question_summary": "ITP 환자에서 혈소판 수 5000 이하일 때 필요한 추가 조치",
+    "page": 451,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "혈색소병증",
+    "question_summary": "2세 소아 위근 장기도 감염력 있고 모혈에 많이 들어서 왔다. Hb 정상, PLT 48000일 때 알맞은 처치는?",
+    "page": 452,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "자궁중곽 관절 주위 검사",
+    "question_summary": "5세 감기 후 자궁중곽 관절 주위 검사",
+    "page": 452,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "142",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "면역혈소판감소증",
+    "question_summary": "37세 여성 면역혈소판감소증 환자의 치료 선택",
+    "page": 453,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "143",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "비장절제술 전 예방접종",
+    "question_summary": "ITP 환자 비장절제술 전 필요한 예방접종",
+    "page": 453,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "37",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "혈소판감소증",
+    "question_summary": "37세 여성의 혈소판감소와 용혈성빈혈 환자의 진단",
+    "page": 454,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "38",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "면역혈소판감소증",
+    "question_summary": "ITP 환자에서 스테로이드 치료 후 혈소판 수 5000/uL 이하일 때의 처치",
+    "page": 454,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "용혈성빈혈",
+    "question_summary": "19세 여자환자의 황달, 3주 전부터 있었던 운동뇨, 임상증상과 검사 결과에서 진단하는 용혈성빈혈의 원인",
+    "page": 455,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "면역성혈소판감소증",
+    "question_summary": "40세 여자환자 평소에 멍이 잘 드는 문제로 내원, Lab 소견상 Plt 15,000이었으며, 나머지 lab은 정상 소견이었다. 치료는?",
+    "page": 456,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "자가면역용혈성빈혈",
+    "question_summary": "37세 여자의 심리양이 많아졌다고 내원하였다. 평소 피부에 멍이 잘 드는데 이번에 심증들이 있으나 약물이나 정맥에 충혈은 없고 임신마테도 없었다. 검사상 검사: Hb 9.5, WBC 8,500 Plt 25,000 LFT:wnl, pregnancy test(-)였다. 진단은?",
+    "page": 456,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "3",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "혈소판감소증",
+    "question_summary": "40세 여성이 3개월간 생리량이 많아지고, 멍이 잘 드는다고 한다. 하지에 여러 개의 점상출혈이 있으며 간이나 비장 종대는 관찰되지 않았다. 혈액검사 결과상 Hb 9, PLT 15,000, 항혈소판항체 음성. 그 외 특이 소견은 없고 이전과 때 다른 중 치료 방법은?",
+    "page": 456,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": null,
+    "category": "혈액종양",
+    "topic": "가성혈소판감소증(Pseudothrombocytopenia)",
+    "question_summary": "가성혈소판감소증의 정의, 원인, 감별법",
+    "page": 458,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "5",
+    "answer": 1,
+    "category": "혈액종양",
+    "topic": "고립성 혈소판감소증",
+    "question_summary": "고립성 혈소판감소증(isolated thrombocytopenia)의 도론 원인 탐색",
+    "page": 462,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "118",
+    "answer": null,
+    "category": "혈액종양",
+    "topic": "혈전혈소판감소증",
+    "question_summary": "혈전혈소판감소증(TTP)의 정의, 원인, 병태생리",
+    "page": 469,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "4",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "응고장애(New)",
+    "question_summary": "PT 정상, aPTT 90초(정상치 주의)일 때 응고 장애의 원인",
+    "page": 475,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 3,
+    "category": "혈액종양",
+    "topic": "부종양증후군",
+    "question_summary": "63세 남자 2주일 열공과 목이 붓고 화끈거리는 증상, 영상에서 덩이 같은 것 발견 - 진단검사",
+    "page": 476,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 2,
+    "category": "혈액종양",
+    "topic": "악성림프종",
+    "question_summary": "60대 남자 화장 하지마비 증상, 소변곤란 - 진단검사",
+    "page": 476,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "1",
+    "answer": 4,
+    "category": "혈액종양",
+    "topic": "척수압박 (Spinal cord compression)",
+    "question_summary": "NSCLC 환자의 척수압박 증상에 대한 응급 치료",
+    "page": 477,
+    "vol": "vol4"
+  },
+  {
+    "q_num": "2",
+    "answer": 5,
+    "category": "혈액종양",
+    "topic": "SVC syndrome (상대정맥증후군)",
+    "question_summary": "62세 남성의 상대정맥증후군 원인",
+    "page": 477,
+    "vol": "vol4"
+  }
+]
