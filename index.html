@@ -18,6 +18,38 @@
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; display: flex; height: 100vh; overflow: hidden; }
 
+  /* ── 모바일 ── */
+  #mobile-back {
+    display: none;
+    align-items: center; gap: 6px;
+    padding: 10px 14px;
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    font-size: 13px; color: var(--accent); cursor: pointer;
+    flex-shrink: 0;
+  }
+  #mobile-back:active { opacity: 0.7; }
+
+  @media (max-width: 700px) {
+    #sidebar {
+      position: fixed; inset: 0;
+      width: 100% !important;
+      z-index: 10;
+      transition: transform 0.25s ease;
+    }
+    #sidebar.mobile-hidden { transform: translateX(-100%); }
+    #main {
+      position: fixed; inset: 0;
+      width: 100% !important;
+      transform: translateX(100%);
+      transition: transform 0.25s ease;
+    }
+    #main.mobile-visible { transform: translateX(0); }
+    #mobile-back { display: flex; }
+    #content { padding: 12px; }
+    #q-header { gap: 6px; }
+    .hdr-btn { padding: 6px 10px; font-size: 11px; }
+  }
+
   /* 사이드바 */
   #sidebar {
     width: 260px; flex-shrink: 0;
@@ -245,6 +277,7 @@
 
 <!-- 메인 -->
 <div id="main">
+  <div id="mobile-back" onclick="mobileBack()">◀ 목록으로</div>
   <div id="empty">왼쪽에서 문제를 선택하세요</div>
   <div id="content" style="display:none">
 
@@ -464,6 +497,7 @@ function select(i) {
   renderMemo(i);
   document.getElementById('main').scrollTo({ top: 0 });
   document.querySelector('.item.active')?.scrollIntoView({ block: 'nearest' });
+  mobileShowDetail();
 }
 
 function updateHeaderBtns(i) {
@@ -745,6 +779,18 @@ function navigate(d) {
   const fi = filtered.findIndex(q => all.indexOf(q) === cur);
   const ni = fi + d;
   if (ni >= 0 && ni < filtered.length) select(all.indexOf(filtered[ni]));
+}
+
+// ── 모바일 전환 ───────────────────────────────────────
+function isMobile() { return window.innerWidth <= 700; }
+function mobileShowDetail() {
+  if (!isMobile()) return;
+  document.getElementById('sidebar').classList.add('mobile-hidden');
+  document.getElementById('main').classList.add('mobile-visible');
+}
+function mobileBack() {
+  document.getElementById('sidebar').classList.remove('mobile-hidden');
+  document.getElementById('main').classList.remove('mobile-visible');
 }
 
 // ── 유틸 ─────────────────────────────────────────────
