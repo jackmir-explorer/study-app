@@ -466,7 +466,17 @@ async function addToAnki() {
   btn.disabled = false;
 }
 
-document.addEventListener('DOMContentLoaded', initAnkiPanel);
+function applyAnkiPanel() {
+  const native = isNativeApp();
+  document.getElementById('anki-native').style.display   = native ? 'flex' : 'none';
+  document.getElementById('anki-csv-mode').style.display = native ? 'none' : 'flex';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initAnkiPanel();        // 즉시 시도
+  setTimeout(applyAnkiPanel, 300);   // 300ms 후 재시도
+  setTimeout(applyAnkiPanel, 1000);  // 1초 후 재시도 (Capacitor 브릿지 늦게 로드될 경우)
+});
 
 function downloadCSV() {
   const csv = document.getElementById('anki-csv-input').value.trim();
