@@ -348,10 +348,10 @@
         <button id="memo-edit-btn" onclick="openMemoEditor()">수정</button>
       </div>
       <div class="memo-toolbar">
-        <button onclick="formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
-        <button onclick="formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
-        <button class="tb-hl" onclick="formatMemo('highlight')" title="형광펜">형광펜</button>
-        <button class="tb-clear" onclick="formatMemo('clear')" title="서식 제거">서식 제거</button>
+        <button onmousedown="event.preventDefault();formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
+        <button onmousedown="event.preventDefault();formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
+        <button class="tb-hl" onmousedown="event.preventDefault();formatMemo('highlight')" title="형광펜">형광펜</button>
+        <button class="tb-clear" onmousedown="event.preventDefault();formatMemo('clear')" title="서식 제거">서식 제거</button>
       </div>
       <div id="memo-display" onclick="openMemoEditor()" title="클릭해서 편집"></div>
       <div id="memo-editor">
@@ -1094,25 +1094,44 @@ function memoToHtml(text) {
 }
 
 function formatMemo(cmd) {
-  const edit = document.getElementById('memo-edit');
-  edit.focus();
-  if (cmd === 'bold')      { document.execCommand('bold'); }
-  else if (cmd === 'italic') { document.execCommand('italic'); }
-  else if (cmd === 'highlight') {
-    // 선택 영역을 <mark>로 감싸기
-    const sel = window.getSelection();
+  // mousedown+preventDefault로 선택 영역 유지된 상태로 호출됨
+  const sel = window.getSelection();
+  if (cmd === 'bold')   { document.execCommand('bold'); return; }
+  if (cmd === 'italic') { document.execCommand('italic'); return; }
+
+  if (cmd === 'highlight') {
     if (!sel.rangeCount || sel.isCollapsed) return;
     const range = sel.getRangeAt(0);
     try {
       const mark = document.createElement('mark');
       range.surroundContents(mark);
-      sel.removeAllRanges();
     } catch(e) {
-      // 범위가 복잡할 때 fallback
-      document.execCommand('hiliteColor', false, '#f0c030');
+      // 여러 노드에 걸친 선택: 선택 내용을 추출해서 mark로 감싸기
+      const frag = range.extractContents();
+      const mark = document.createElement('mark');
+      mark.appendChild(frag);
+      range.insertNode(mark);
+    }
+    sel.removeAllRanges();
+    return;
+  }
+
+  if (cmd === 'clear') {
+    // bold/italic 제거
+    document.execCommand('removeFormat');
+    // <mark> 태그 제거: 선택 영역 안의 모든 mark를 언래핑
+    if (sel.rangeCount) {
+      const range = sel.getRangeAt(0);
+      const edit = document.getElementById('memo-edit');
+      edit.querySelectorAll('mark').forEach(mark => {
+        if (range.intersectsNode(mark)) {
+          const parent = mark.parentNode;
+          while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+          parent.removeChild(mark);
+        }
+      });
     }
   }
-  else if (cmd === 'clear') { document.execCommand('removeFormat'); }
 }
 
 function renderMemo(i) {
