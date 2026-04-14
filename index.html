@@ -339,7 +339,11 @@
       </div>
     </div>
 
-    <button id="gemini-btn" onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')">✦ Gemini 열기</button>
+    <div style="display:flex;gap:8px;margin-top:10px">
+      <button id="ai-gen-btn" onclick="generateWithGemini()" style="flex:1;padding:9px;font-size:12px;border-radius:6px;border:1px solid #3a5a3a;background:#0e1e0e;color:#6abf6a;cursor:pointer">✦ AI 개념+카드 생성</button>
+      <button onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')" style="padding:9px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--sub);cursor:pointer">Gemini 열기</button>
+    </div>
+    <div id="ai-gen-status" style="font-size:11px;color:var(--sub);text-align:center;min-height:16px;margin-top:4px"></div>
 
     <!-- Anki 패널 -->
     <div id="anki-panel">
@@ -421,6 +425,97 @@ function toggleAnkiPanel() {
 
 function isNativeApp() {
   return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+}
+
+// ── Gemini AI 생성 ────────────────────────────────────
+async function generateWithGemini() {
+  const apiKey = localStorage.getItem('gemini_api_key');
+  if (!apiKey) {
+    alert('⚙ 동기화 설정에서 Gemini API 키를 먼저 입력해주세요.');
+    openSyncSettings(); return;
+  }
+  const q = cur !== null ? all[cur] : null;
+  if (!q) { alert('문제를 먼저 선택해주세요.'); return; }
+
+  const btn = document.getElementById('ai-gen-btn');
+  const status = document.getElementById('ai-gen-status');
+  btn.disabled = true;
+  status.style.color = '#4a8cf7';
+  status.textContent = '생성 중...';
+
+  const model = localStorage.getItem('gemini_model') || 'gemini-1.5-pro';
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+
+  const prompt = `당신은 의학 전문 교육자입니다. 다음 의학 국가고시 문제를 바탕으로 개념 정리와 Anki 카드를 작성해주세요.
+
+과목: ${q.category || ''}
+주제: ${q.topic || ''}
+문제 요약: ${q.question_summary || ''}
+정답: ${q.answer || ''}번
+
+다음 형식을 정확히 지켜서 응답해주세요:
+
+[개념정리]
+(이 문제와 관련된 핵심 개념, 감별진단, 치료 원칙 등을 체계적으로 정리. 오개념 없이 정확하게.)
+
+[ANKI]
+(앞면;뒷면 형식으로 5~8장. 한 줄에 하나씩. 핵심 내용만.)`;
+
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.2, maxOutputTokens: 2048 }
+      })
+    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.error?.message || res.status);
+    }
+    const data = await res.json();
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+
+    // 개념정리 파싱
+    const conceptMatch = text.match(/\[개념정리\]([\s\S]*?)(?=\[ANKI\]|$)/);
+    const ankiMatch    = text.match(/\[ANKI\]([\s\S]*?)$/);
+
+    if (conceptMatch) {
+      const concept = conceptMatch[1].trim();
+      // 메모 에디터 열고 내용 채우기
+      const display = document.getElementById('memo-display');
+      const editor  = document.getElementById('memo-editor');
+      const editBtn = document.getElementById('memo-edit-btn');
+      const delBtn  = document.getElementById('memo-del-btn');
+      const textarea = document.getElementById('memo-textarea');
+      display.style.display = 'none';
+      editor.style.display  = 'flex';
+      editBtn.style.display = 'none';
+      delBtn.style.display  = memos[cur] ? 'inline-block' : 'none';
+      textarea.value = concept;
+    }
+
+    if (ankiMatch) {
+      const ankiText = ankiMatch[1].trim();
+      // 네이티브 앱이면 anki-bulk, 브라우저면 anki-web-bulk
+      const bulkEl = document.getElementById(isNativeApp() ? 'anki-bulk' : 'anki-web-bulk');
+      if (bulkEl) {
+        bulkEl.value = ankiText;
+        bulkEl.dispatchEvent(new Event('input')); // 미리보기 카운트 업데이트
+      }
+      // 패널 열기
+      if (!ankiPanelOpen) toggleAnkiPanel();
+    }
+
+    const count = (ankiMatch?.[1].trim().split('\n').filter(l => l.includes(';')).length) || 0;
+    status.style.color = '#4caf4c';
+    status.textContent = `✓ 개념 정리 + Anki ${count}장 생성 완료`;
+  } catch(e) {
+    status.style.color = '#e05555';
+    status.textContent = '오류: ' + e.message;
+  }
+  btn.disabled = false;
 }
 
 // ── 대기 카드함 ────────────────────────────────────────
@@ -1059,8 +1154,11 @@ async function initSync() {
 }
 
 function openSyncSettings() {
-  document.getElementById('token-input').value  = gistToken;
-  document.getElementById('gistid-input').value = gistId;
+  document.getElementById('token-input').value    = gistToken;
+  document.getElementById('gistid-input').value   = gistId;
+  document.getElementById('gemini-key-input').value = localStorage.getItem('gemini_api_key') || '';
+  const modelSel = document.getElementById('gemini-model-select');
+  if (modelSel) modelSel.value = localStorage.getItem('gemini_model') || 'gemini-1.5-pro';
   document.getElementById('sync-modal').style.display = 'flex';
 }
 function closeSyncModal() {
@@ -1069,10 +1167,14 @@ function closeSyncModal() {
 async function connectSync() {
   const token = document.getElementById('token-input').value.trim();
   const gId   = document.getElementById('gistid-input').value.trim();
+  const geminiKey   = document.getElementById('gemini-key-input').value.trim();
+  const geminiModel = document.getElementById('gemini-model-select').value;
   if (!token) { alert('토큰을 입력해주세요.'); return; }
   gistToken = token; gistId = gId;
   localStorage.setItem('gist_token', token);
   if (gId) localStorage.setItem('gist_id', gId); else localStorage.removeItem('gist_id');
+  if (geminiKey) localStorage.setItem('gemini_api_key', geminiKey);
+  localStorage.setItem('gemini_model', geminiModel);
   closeSyncModal();
   await initSync();
   if (!gId && gistId) alert(`Gist 생성 완료!\nGist ID: ${gistId}\n\n다른 기기 설정 시 이 ID를 입력하세요.`);
@@ -1135,6 +1237,19 @@ load();
     <div style="font-size:11px;color:#888;margin-bottom:4px">Gist ID <span style="color:#555">(비워두면 자동 생성)</span></div>
     <input id="gistid-input" placeholder="처음이면 비워두세요 → 자동 생성" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;margin-bottom:6px;outline:none;box-sizing:border-box">
     <div style="font-size:10px;color:#555;margin-bottom:18px">다른 기기에서 연결할 때 위 Gist ID를 동일하게 입력하세요.</div>
+
+    <div style="border-top:1px solid #222;margin-bottom:16px;padding-top:16px">
+      <div style="font-size:13px;font-weight:700;margin-bottom:6px">✦ Gemini AI 설정</div>
+      <div style="font-size:11px;color:#888;margin-bottom:4px">Gemini API 키</div>
+      <input id="gemini-key-input" type="password" placeholder="AIza..." style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;margin-bottom:10px;outline:none;box-sizing:border-box">
+      <div style="font-size:11px;color:#888;margin-bottom:4px">모델</div>
+      <select id="gemini-model-select" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;outline:none;box-sizing:border-box">
+        <option value="gemini-1.5-pro">gemini-1.5-pro (정확, 50회/일 무료)</option>
+        <option value="gemini-2.0-flash">gemini-2.0-flash (빠름, 무료)</option>
+        <option value="gemini-1.5-flash">gemini-1.5-flash (빠름, 1500회/일 무료)</option>
+      </select>
+      <div style="font-size:10px;color:#555;margin-top:6px">aistudio.google.com 에서 API 키 발급</div>
+    </div>
 
     <div style="display:flex;gap:8px">
       <button onclick="connectSync()" style="flex:1;padding:9px;background:#4a8cf7;border:none;color:#fff;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">연결하기</button>
