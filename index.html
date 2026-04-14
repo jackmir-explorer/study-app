@@ -516,22 +516,6 @@ async function generateWithGemini() {
     const data = await res.json();
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 
-  try {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.2, maxOutputTokens: 2048 }
-      })
-    });
-    if (!res.ok) {
-      const err = await res.json();
-      throw new Error(err.error?.message || res.status);
-    }
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-
     // 개념정리 파싱
     const conceptMatch = text.match(/\[개념정리\]([\s\S]*?)(?=\[ANKI\]|$)/);
     const ankiMatch    = text.match(/\[ANKI\]([\s\S]*?)$/);
