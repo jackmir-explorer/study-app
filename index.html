@@ -339,11 +339,14 @@
       </div>
     </div>
 
-    <div style="display:flex;gap:8px;margin-top:10px">
-      <button id="ai-gen-btn" onclick="generateWithGemini()" style="flex:1;padding:9px;font-size:12px;border-radius:6px;border:1px solid #3a5a3a;background:#0e1e0e;color:#6abf6a;cursor:pointer">✦ AI 개념+카드 생성</button>
-      <button onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')" style="padding:9px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--sub);cursor:pointer">Gemini 열기</button>
+    <div style="margin-top:10px;display:flex;flex-direction:column;gap:6px">
+      <input id="ai-concept-input" placeholder="개념/주제 입력 (예: 대동맥 협착증, 당뇨병성 신증...)" style="width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:6px;font-size:13px;outline:none;box-sizing:border-box">
+      <div style="display:flex;gap:8px">
+        <button id="ai-gen-btn" onclick="generateWithGemini()" style="flex:1;padding:9px;font-size:12px;border-radius:6px;border:1px solid #3a5a3a;background:#0e1e0e;color:#6abf6a;cursor:pointer">✦ AI 개념+카드 생성</button>
+        <button onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')" style="padding:9px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--sub);cursor:pointer">Gemini 열기</button>
+      </div>
+      <div id="ai-gen-status" style="font-size:11px;color:var(--sub);text-align:center;min-height:14px"></div>
     </div>
-    <div id="ai-gen-status" style="font-size:11px;color:var(--sub);text-align:center;min-height:16px;margin-top:4px"></div>
 
     <!-- Anki 패널 -->
     <div id="anki-panel">
@@ -434,8 +437,14 @@ async function generateWithGemini() {
     alert('⚙ 동기화 설정에서 Gemini API 키를 먼저 입력해주세요.');
     openSyncSettings(); return;
   }
-  const q = cur !== null ? all[cur] : null;
-  if (!q) { alert('문제를 먼저 선택해주세요.'); return; }
+
+  const conceptInput = document.getElementById('ai-concept-input');
+  const concept = conceptInput ? conceptInput.value.trim() : '';
+  if (!concept) {
+    alert('개념/주제를 입력해주세요. (예: 대동맥 협착증, 당뇨병성 신증...)');
+    if (conceptInput) conceptInput.focus();
+    return;
+  }
 
   const btn = document.getElementById('ai-gen-btn');
   const status = document.getElementById('ai-gen-status');
@@ -443,23 +452,69 @@ async function generateWithGemini() {
   status.style.color = '#4a8cf7';
   status.textContent = '생성 중...';
 
-  const model = localStorage.getItem('gemini_model') || 'gemini-1.5-pro';
+  const model = localStorage.getItem('gemini_model') || 'gemini-2.0-flash';
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
-  const prompt = `당신은 의학 전문 교육자입니다. 다음 의학 국가고시 문제를 바탕으로 개념 정리와 Anki 카드를 작성해주세요.
+  const systemInstruction = `이 GEM은 시험 합격용 압축 정리기다. 설명형 튜터가 아니라, 시험에서 맞히기 위해 필요한 정보만 추려주는 편집기처럼 동작한다.
 
-과목: ${q.category || ''}
-주제: ${q.topic || ''}
-문제 요약: ${q.question_summary || ''}
-정답: ${q.answer || ''}번
+1. 항상 출제 가능성이 높은 정보부터 제시한다. 자주 나오는 포인트, 감별진단 핵심 차이, 치료 결정 기준, 숫자 기준, red flag를 최우선으로 둔다.
+2. 산출물은 반드시 ANKI 변환 친화적이어야 한다. 한 줄에 한 개념, 문장 짧게, 카드로 바로 잘라낼 수 있게 작성.
+3. 최신 임상 기준과 시험용 기준이 다르면 반드시 분리한다. 시험답을 먼저 쓴다.
+4. 숫자(cut-off, 기간, 연령 기준, 적응증, 용량/횟수, 추적 주기)는 반드시 보존한다.
+5. 감별진단은 시험에서 섞어내기 쉬운 2~4개만 한 줄 차이로 제시한다.
+6. 오답 함정은 별도 표시한다.
+7. 병태생리는 진단/감별/치료 판단에 필요한 만큼만 쓴다.
+8. 불확실한 내용은 지어내지 않는다.`;
+
+  const prompt = `${concept}
 
 다음 형식을 정확히 지켜서 응답해주세요:
 
 [개념정리]
-(이 문제와 관련된 핵심 개념, 감별진단, 치료 원칙 등을 체계적으로 정리. 오개념 없이 정확하게.)
+[질환명 / 주제명]
+1. 출제 포인트
+시험에서 자주 묻는 것 3~5개
+
+2. 핵심 개념
+정의/병태생리 2~4줄 (진단/감별/치료 판단에 필요한 내용만)
+
+3. 전형적 임상 단서
+문제 stem에서 자주 나오는 표현 ("이 표현이 보이면 이 진단" 중심)
+
+4. 진단
+핵심 임상 단서 / 기본 검사 / 확진 기준 / 숫자 기준 / 감별 포인트
+
+5. 치료
+1차 원칙 / 약물·수술 적응증 / 치료 기준 숫자 / referral 기준
+(최신 임상과 시험 답이 다르면 분리)
+
+6. 시험 함정
+오답 유도 포인트 2~5개, 자주 헷갈리는 보기
+
+7. 시험용 핵심 압축
+막판 회독용 3~5줄 요약
 
 [ANKI]
-(앞면;뒷면 형식으로 5~8장. 한 줄에 하나씩. 핵심 내용만.)`;
+(위 개념정리 내용만 사용해서 Front;Back 형식으로 5~6장. 한 줄에 하나씩.
+우선순위: 숫자 기준 > 진단 기준 > 치료 기준 > 감별/함정 > 전형적 증례
+구분자는 세미콜론(;). 앞면과 뒷면 각각 짧고 단정하게.)`;
+
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        system_instruction: { parts: [{ text: systemInstruction }] },
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.2, maxOutputTokens: 3000 }
+      })
+    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.error?.message || res.status);
+    }
+    const data = await res.json();
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 
   try {
     const res = await fetch(url, {
@@ -1158,7 +1213,7 @@ function openSyncSettings() {
   document.getElementById('gistid-input').value   = gistId;
   document.getElementById('gemini-key-input').value = localStorage.getItem('gemini_api_key') || '';
   const modelSel = document.getElementById('gemini-model-select');
-  if (modelSel) modelSel.value = localStorage.getItem('gemini_model') || 'gemini-1.5-pro';
+  if (modelSel) modelSel.value = localStorage.getItem('gemini_model') || 'gemini-2.0-flash';
   document.getElementById('sync-modal').style.display = 'flex';
 }
 function closeSyncModal() {
@@ -1244,8 +1299,8 @@ load();
       <input id="gemini-key-input" type="password" placeholder="AIza..." style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;margin-bottom:10px;outline:none;box-sizing:border-box">
       <div style="font-size:11px;color:#888;margin-bottom:4px">모델</div>
       <select id="gemini-model-select" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:12px;outline:none;box-sizing:border-box">
-        <option value="gemini-1.5-pro">gemini-1.5-pro (정확, 50회/일 무료)</option>
-        <option value="gemini-2.0-flash">gemini-2.0-flash (빠름, 무료)</option>
+        <option value="gemini-2.0-flash">gemini-2.0-flash (빠름, 무료 ★추천)</option>
+        <option value="gemini-2.5-pro-preview-03-25">gemini-2.5-pro (정확, 유료)</option>
         <option value="gemini-1.5-flash">gemini-1.5-flash (빠름, 1500회/일 무료)</option>
       </select>
       <div style="font-size:10px;color:#555;margin-top:6px">aistudio.google.com 에서 API 키 발급</div>
