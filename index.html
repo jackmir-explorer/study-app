@@ -366,15 +366,27 @@
           <div id="anki-result"></div>
         </div>
 
-        <!-- 브라우저 전용 (CSV) -->
+        <!-- 브라우저 전용 (AnkiConnect + CSV 폴백) -->
         <div id="anki-csv-mode" style="display:flex;flex-direction:column;gap:8px">
-          <textarea id="anki-csv-input" placeholder="Gemini에서 받은 CSV를 여기에 붙여넣으세요.
-앞면,뒷면,태그
-&quot;질문&quot;,&quot;답변&quot;,&quot;산부인과&quot;"></textarea>
-          <div style="display:flex;align-items:center;gap:10px">
-            <button id="anki-dl-btn" onclick="downloadCSV()" disabled>⬇ CSV 다운로드</button>
-            <span id="anki-dl-msg">붙여넣기 후 활성화됩니다</span>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span id="ac-status" style="font-size:11px;color:#555">● AnkiConnect 확인 중...</span>
+            <button onclick="checkAnkiConnect()" style="font-size:10px;padding:2px 7px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">재연결</button>
           </div>
+          <div>
+            <div class="anki-field-label">덱 이름</div>
+            <input id="anki-deck-web" value="Medical" placeholder="덱 이름" style="width:100%;background:var(--bg);border:1px solid #1e2a3a;border-radius:4px;color:var(--text);font-size:12px;padding:6px 10px;outline:none;box-sizing:border-box">
+          </div>
+          <div>
+            <div class="anki-field-label">카드 목록 <span style="color:#555;font-weight:normal">— 한 줄에 하나씩: 앞면;뒷면</span></div>
+            <textarea id="anki-web-bulk" class="anki-textarea" style="min-height:110px" placeholder="질문내용;답변내용
+두번째질문;두번째답변"></textarea>
+          </div>
+          <div id="anki-web-preview" style="font-size:11px;color:#4caf4c"></div>
+          <div style="display:flex;gap:8px">
+            <button id="ac-add-btn" onclick="addToAnkiConnect()" style="flex:1;padding:8px;font-size:12px;font-weight:600;border-radius:6px;border:1px solid var(--accent);background:#0d1a30;color:var(--accent);cursor:pointer" disabled>Anki에 추가 (AnkiConnect)</button>
+            <button id="anki-dl-btn" onclick="downloadCSV()" style="padding:8px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--sub);cursor:pointer" disabled>⬇ CSV</button>
+          </div>
+          <div id="anki-web-result" style="font-size:11px;min-height:16px;text-align:center"></div>
         </div>
 
       </div>
@@ -405,6 +417,66 @@ function isNativeApp() {
   return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
 }
 
+// ── AnkiConnect ────────────────────────────────────────
+const AC_URL = 'http://127.0.0.1:8765';
+let acConnected = false;
+
+async function checkAnkiConnect() {
+  const el = document.getElementById('ac-status');
+  if (!el) return;
+  el.style.color = '#555'; el.textContent = '● 연결 확인 중...';
+  try {
+    const res = await fetch(AC_URL, {
+      method: 'POST',
+      body: JSON.stringify({ action: 'version', version: 6 })
+    });
+    const data = await res.json();
+    if (data.result >= 6) {
+      acConnected = true;
+      el.style.color = '#4caf4c'; el.textContent = '● AnkiConnect 연결됨';
+      document.getElementById('ac-add-btn').disabled = false;
+    } else { throw new Error(); }
+  } catch {
+    acConnected = false;
+    el.style.color = '#e05555'; el.textContent = '● AnkiConnect 미연결 — Anki 실행 필요';
+    document.getElementById('ac-add-btn').disabled = true;
+  }
+}
+
+async function addToAnkiConnect() {
+  const bulk = document.getElementById('anki-web-bulk').value;
+  const deck = document.getElementById('anki-deck-web').value.trim() || 'Medical';
+  const result = document.getElementById('anki-web-result');
+  const btn = document.getElementById('ac-add-btn');
+  const cards = parseAnkiCards(bulk);
+  if (cards.length === 0) {
+    result.style.color = '#e05555'; result.textContent = '앞면;뒷면 형식으로 입력해주세요.'; return;
+  }
+  const q = cur !== null ? all[cur] : null;
+  const tag = (q?.category || '의학').replace(/ /g, '_');
+  btn.disabled = true; result.style.color = '#4a8cf7'; result.textContent = `0 / ${cards.length} 추가 중...`;
+  try {
+    const notes = cards.map(c => ({
+      deckName: deck, modelName: 'Basic',
+      fields: { Front: c.front, Back: c.back },
+      tags: [tag], options: { allowDuplicate: false }
+    }));
+    const res = await fetch(AC_URL, {
+      method: 'POST',
+      body: JSON.stringify({ action: 'addNotes', version: 6, params: { notes } })
+    });
+    const data = await res.json();
+    const added = data.result.filter(id => id !== null).length;
+    const failed = cards.length - added;
+    result.style.color = failed === 0 ? '#4caf4c' : '#f0b429';
+    result.textContent = `✓ ${added}장 추가 완료${failed > 0 ? ` (${failed}장 중복/실패)` : ''}`;
+    if (added > 0) { document.getElementById('anki-web-bulk').value = ''; document.getElementById('anki-web-preview').textContent = ''; }
+  } catch {
+    result.style.color = '#e05555'; result.textContent = 'AnkiConnect 오류 — Anki가 실행 중인지 확인하세요';
+  }
+  btn.disabled = false;
+}
+
 function initAnkiPanel() {
   if (isNativeApp()) {
     document.getElementById('anki-native').style.display = 'flex';
@@ -412,11 +484,7 @@ function initAnkiPanel() {
   } else {
     document.getElementById('anki-native').style.display = 'none';
     document.getElementById('anki-csv-mode').style.display = 'flex';
-    document.getElementById('anki-csv-input').addEventListener('input', function() {
-      const hasContent = this.value.trim().length > 0;
-      document.getElementById('anki-dl-btn').disabled = !hasContent;
-      document.getElementById('anki-dl-msg').textContent = hasContent ? '준비됨' : '붙여넣기 후 활성화됩니다';
-    });
+    checkAnkiConnect();
   }
 }
 
@@ -428,12 +496,20 @@ function parseAnkiCards(text) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // 네이티브 bulk 미리보기
   const bulk = document.getElementById('anki-bulk');
   if (bulk) bulk.addEventListener('input', function() {
     const cards = parseAnkiCards(this.value);
     const prev = document.getElementById('anki-preview');
     prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
-    prev.style.color = '#4caf4c';
+  });
+  // 브라우저 bulk 미리보기 + CSV 버튼 활성화
+  const webBulk = document.getElementById('anki-web-bulk');
+  if (webBulk) webBulk.addEventListener('input', function() {
+    const cards = parseAnkiCards(this.value);
+    const prev = document.getElementById('anki-web-preview');
+    prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
+    document.getElementById('anki-dl-btn').disabled = cards.length === 0;
   });
 });
 
@@ -501,13 +577,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function downloadCSV() {
-  const csv = document.getElementById('anki-csv-input').value.trim();
-  if (!csv) return;
+  const cards = parseAnkiCards(document.getElementById('anki-web-bulk').value);
+  if (!cards.length) return;
+  const q = cur !== null ? all[cur] : null;
+  const tag = q?.category || '';
+  const rows = cards.map(c => `"${c.front.replace(/"/g,'""')}","${c.back.replace(/"/g,'""')}","${tag}"`);
+  const csv = '앞면,뒷면,태그\n' + rows.join('\n');
   const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
   const url  = URL.createObjectURL(blob);
   const a    = document.createElement('a');
-  const q    = cur !== null ? all[cur] : null;
-  const name = q ? `anki_${q.category||''}_Q${q.q_num||''}.csv` : 'anki_cards.csv';
+  const name = q ? `anki_${tag}_Q${q.q_num||''}.csv` : 'anki_cards.csv';
   a.href = url; a.download = name; a.click();
   URL.revokeObjectURL(url);
   document.getElementById('anki-dl-msg').textContent = `✓ ${name} 저장됨`;
