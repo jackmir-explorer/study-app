@@ -356,14 +356,13 @@
             <input id="anki-deck-input" value="Medical" placeholder="덱 이름">
           </div>
           <div>
-            <div class="anki-field-label">앞면 (Front)</div>
-            <textarea id="anki-front" class="anki-textarea" placeholder="카드 앞면 텍스트"></textarea>
+            <div class="anki-field-label">카드 목록 <span style="color:#555;font-weight:normal">— 한 줄에 하나씩: 앞면;뒷면</span></div>
+            <textarea id="anki-bulk" class="anki-textarea" style="min-height:110px" placeholder="질문내용;답변내용
+두번째질문;두번째답변
+세번째질문;세번째답변"></textarea>
           </div>
-          <div>
-            <div class="anki-field-label">뒷면 (Back)</div>
-            <textarea id="anki-back" class="anki-textarea" placeholder="카드 뒷면 텍스트"></textarea>
-          </div>
-          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 추가</button>
+          <div id="anki-preview" style="font-size:11px;color:#555"></div>
+          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 모두 추가</button>
           <div id="anki-result"></div>
         </div>
 
@@ -421,47 +420,67 @@ function initAnkiPanel() {
   }
 }
 
+function parseAnkiCards(text) {
+  return text.split('\n')
+    .map(l => l.trim()).filter(l => l && l.includes(';'))
+    .map(l => { const p = l.split(';'); return { front: p[0].trim(), back: p.slice(1).join(';').trim() }; })
+    .filter(c => c.front && c.back);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const bulk = document.getElementById('anki-bulk');
+  if (bulk) bulk.addEventListener('input', function() {
+    const cards = parseAnkiCards(this.value);
+    const prev = document.getElementById('anki-preview');
+    prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
+    prev.style.color = '#4caf4c';
+  });
+});
+
 async function addToAnki() {
-  const front = document.getElementById('anki-front').value.trim();
-  const back  = document.getElementById('anki-back').value.trim();
-  const deck  = document.getElementById('anki-deck-input').value.trim() || 'Medical';
+  const bulk = document.getElementById('anki-bulk').value;
+  const deck = document.getElementById('anki-deck-input').value.trim() || 'Medical';
   const result = document.getElementById('anki-result');
-
-  if (!front || !back) { result.style.color = '#e05555'; result.textContent = '앞면과 뒷면을 입력해주세요.'; return; }
-
   const btn = document.getElementById('anki-add-btn');
+
+  const cards = parseAnkiCards(bulk);
+  if (cards.length === 0) {
+    result.style.color = '#e05555';
+    result.textContent = '앞면;뒷면 형식으로 입력해주세요.';
+    return;
+  }
+
   btn.disabled = true;
   result.style.color = '#4a8cf7';
-  result.textContent = '추가 중...';
+  result.textContent = `0 / ${cards.length} 추가 중...`;
 
   try {
     const { AnkiDroid } = window.Capacitor.Plugins;
-
-    // AnkiDroid 설치 확인
     const { installed } = await AnkiDroid.isAnkiDroidInstalled();
     if (!installed) {
       result.style.color = '#e05555';
       result.textContent = 'AnkiDroid가 설치되어 있지 않습니다.';
       btn.disabled = false; return;
     }
-
-    // 권한 확인 및 요청
     const { granted } = await AnkiDroid.checkPermission();
     if (!granted) await AnkiDroid.requestPermission();
 
-    // 현재 문제 카테고리를 태그로
     const q = cur !== null ? all[cur] : null;
     const tags = q?.category || '의학';
 
-    const res = await AnkiDroid.addNote({ front, back, deckName: deck, tags });
-    if (res.success) {
-      result.style.color = '#4caf4c';
-      result.textContent = '✓ AnkiDroid에 추가됐습니다!';
-      document.getElementById('anki-front').value = '';
-      document.getElementById('anki-back').value = '';
-    } else {
-      throw new Error('추가 실패');
+    let ok = 0, fail = 0;
+    for (const [idx, card] of cards.entries()) {
+      try {
+        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: deck, tags });
+        if (res.success) ok++; else fail++;
+      } catch { fail++; }
+      result.textContent = `${idx + 1} / ${cards.length} 추가 중...`;
     }
+
+    result.style.color = fail === 0 ? '#4caf4c' : '#f0b429';
+    result.textContent = `✓ ${ok}장 추가 완료${fail > 0 ? ` (${fail}장 실패)` : ''}`;
+    if (ok > 0) document.getElementById('anki-bulk').value = '';
+    document.getElementById('anki-preview').textContent = '';
   } catch (e) {
     result.style.color = '#e05555';
     result.textContent = '오류: ' + (e.message || '알 수 없는 오류');
