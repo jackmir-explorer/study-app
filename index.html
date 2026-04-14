@@ -483,7 +483,7 @@ async function importPendingToAnkiDroid() {
     let ok = 0, fail = 0;
     for (const [i, card] of pendingAnki.entries()) {
       try {
-        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: deck, tags: card.tags });
+        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: card.deck || deck, tags: card.tags });
         if (res.success) ok++; else fail++;
       } catch { fail++; }
       result.textContent = `${i+1} / ${pendingAnki.length} 추가 중...`;
