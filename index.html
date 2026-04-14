@@ -351,18 +351,27 @@
 
         <!-- 네이티브 앱 전용 -->
         <div id="anki-native" style="display:none;flex-direction:column;gap:8px">
-          <div>
-            <div class="anki-field-label">덱 이름</div>
-            <input id="anki-deck-input" value="Medical" placeholder="덱 이름">
+          <!-- 대기함 import 섹션 -->
+          <div id="pending-section" style="display:none;flex-direction:column;gap:6px;padding:10px;background:#1a1500;border:1px solid #5a4a1a;border-radius:6px">
+            <div style="display:flex;align-items:center;justify-content:space-between">
+              <span id="pending-count" style="font-size:12px;color:var(--star);font-weight:600"></span>
+              <button onclick="clearPending()" style="font-size:10px;padding:2px 7px;background:transparent;border:1px solid #444;color:#666;border-radius:4px;cursor:pointer">비우기</button>
+            </div>
+            <div>
+              <div class="anki-field-label">가져올 덱</div>
+              <input id="anki-deck-pending" value="Medical" placeholder="덱 이름" style="width:100%;background:var(--bg);border:1px solid #1e2a3a;border-radius:4px;color:var(--text);font-size:12px;padding:6px 10px;outline:none;box-sizing:border-box">
+            </div>
+            <button id="import-pending-btn" onclick="importPendingToAnkiDroid()" style="width:100%;padding:10px;font-size:13px;font-weight:700;border-radius:6px;border:1px solid var(--star);background:#1a1500;color:var(--star);cursor:pointer">AnkiDroid로 모두 import</button>
+            <div id="import-result" style="font-size:11px;text-align:center;min-height:14px"></div>
           </div>
+          <!-- 직접 입력 섹션 -->
           <div>
-            <div class="anki-field-label">카드 목록 <span style="color:#555;font-weight:normal">— 한 줄에 하나씩: 앞면;뒷면</span></div>
-            <textarea id="anki-bulk" class="anki-textarea" style="min-height:110px" placeholder="질문내용;답변내용
-두번째질문;두번째답변
-세번째질문;세번째답변"></textarea>
+            <div class="anki-field-label">직접 추가 <span style="color:#555;font-weight:normal">— 앞면;뒷면</span></div>
+            <textarea id="anki-bulk" class="anki-textarea" style="min-height:80px" placeholder="질문내용;답변내용
+두번째질문;두번째답변"></textarea>
           </div>
-          <div id="anki-preview" style="font-size:11px;color:#555"></div>
-          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 모두 추가</button>
+          <div id="anki-preview" style="font-size:11px;color:#4caf4c"></div>
+          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 직접 추가</button>
           <div id="anki-result"></div>
         </div>
 
@@ -383,7 +392,7 @@
           </div>
           <div id="anki-web-preview" style="font-size:11px;color:#4caf4c"></div>
           <div style="display:flex;gap:8px">
-            <button id="ac-add-btn" onclick="addToAnkiConnect()" style="flex:1;padding:8px;font-size:12px;font-weight:600;border-radius:6px;border:1px solid var(--accent);background:#0d1a30;color:var(--accent);cursor:pointer" disabled>Anki에 추가 (AnkiConnect)</button>
+            <button id="anki-queue-btn" onclick="addToPending()" style="flex:1;padding:8px;font-size:12px;font-weight:600;border-radius:6px;border:1px solid var(--star);background:#1a1500;color:var(--star);cursor:pointer" disabled>대기함에 추가</button>
             <button id="anki-dl-btn" onclick="downloadCSV()" style="padding:8px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--sub);cursor:pointer" disabled>⬇ CSV</button>
           </div>
           <div id="anki-web-result" style="font-size:11px;min-height:16px;text-align:center"></div>
@@ -399,10 +408,11 @@
 let all = [], filtered = [], cur = null;
 let filter = 'all';
 
-let wrongs    = JSON.parse(localStorage.getItem('wrongs')    || '{}');
-let important = JSON.parse(localStorage.getItem('important') || '{}');
-let memos     = JSON.parse(localStorage.getItem('memos')     || '{}');
-let bookmark  = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
+let wrongs      = JSON.parse(localStorage.getItem('wrongs')      || '{}');
+let important   = JSON.parse(localStorage.getItem('important')   || '{}');
+let memos       = JSON.parse(localStorage.getItem('memos')       || '{}');
+let pendingAnki = JSON.parse(localStorage.getItem('pendingAnki') || '[]');
+let bookmark    = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
 let topicHidden = localStorage.getItem('topicHidden') === '1';
 
 // ── Anki ──────────────────────────────────────────────
@@ -415,6 +425,83 @@ function toggleAnkiPanel() {
 
 function isNativeApp() {
   return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+}
+
+// ── 대기 카드함 ────────────────────────────────────────
+function savePending() {
+  localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
+  schedulePush();
+}
+
+function updatePendingUI() {
+  const n = pendingAnki.length;
+  // 모바일: 대기함 섹션 표시/숨김
+  const sec = document.getElementById('pending-section');
+  if (sec) {
+    sec.style.display = n > 0 ? 'flex' : 'none';
+    const cnt = document.getElementById('pending-count');
+    if (cnt) cnt.textContent = `대기 중: ${n}장`;
+  }
+}
+
+function addToPending() {
+  const bulk = document.getElementById('anki-web-bulk').value;
+  const deck = document.getElementById('anki-deck-web').value.trim() || 'Medical';
+  const cards = parseAnkiCards(bulk);
+  if (!cards.length) return;
+  const q = cur !== null ? all[cur] : null;
+  const tags = q?.category || '의학';
+  cards.forEach(c => pendingAnki.push({ front: c.front, back: c.back, deck, tags }));
+  savePending();
+  updatePendingUI();
+  const result = document.getElementById('anki-web-result');
+  result.style.color = '#4caf4c';
+  result.textContent = `✓ ${cards.length}장 대기함에 추가됨 (총 ${pendingAnki.length}장)`;
+  document.getElementById('anki-web-bulk').value = '';
+  document.getElementById('anki-web-preview').textContent = '';
+  document.getElementById('anki-queue-btn').disabled = true;
+  document.getElementById('anki-dl-btn').disabled = true;
+}
+
+function clearPending() {
+  if (!confirm(`대기 중인 카드 ${pendingAnki.length}장을 모두 삭제할까요?`)) return;
+  pendingAnki = [];
+  savePending();
+  updatePendingUI();
+}
+
+async function importPendingToAnkiDroid() {
+  if (!pendingAnki.length) return;
+  const deck = document.getElementById('anki-deck-pending').value.trim() || 'Medical';
+  const btn = document.getElementById('import-pending-btn');
+  const result = document.getElementById('import-result');
+  btn.disabled = true;
+  result.style.color = '#4a8cf7';
+  result.textContent = `0 / ${pendingAnki.length} 추가 중...`;
+  try {
+    const { AnkiDroid } = window.Capacitor.Plugins;
+    const { installed } = await AnkiDroid.isAnkiDroidInstalled();
+    if (!installed) { result.style.color='#e05555'; result.textContent='AnkiDroid 미설치'; btn.disabled=false; return; }
+    const { granted } = await AnkiDroid.checkPermission();
+    if (!granted) await AnkiDroid.requestPermission();
+    let ok = 0, fail = 0;
+    for (const [i, card] of pendingAnki.entries()) {
+      try {
+        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: deck, tags: card.tags });
+        if (res.success) ok++; else fail++;
+      } catch { fail++; }
+      result.textContent = `${i+1} / ${pendingAnki.length} 추가 중...`;
+    }
+    result.style.color = fail===0 ? '#4caf4c' : '#f0b429';
+    result.textContent = `✓ ${ok}장 완료${fail>0 ? ` (${fail}장 실패)` : ''}`;
+    if (ok > 0) {
+      pendingAnki = pendingAnki.slice(ok); // 성공한 것만 제거
+      savePending(); updatePendingUI();
+    }
+  } catch(e) {
+    result.style.color = '#e05555'; result.textContent = '오류: ' + e.message;
+  }
+  btn.disabled = false;
 }
 
 // ── AnkiConnect ────────────────────────────────────────
@@ -509,7 +596,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = parseAnkiCards(this.value);
     const prev = document.getElementById('anki-web-preview');
     prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
-    document.getElementById('anki-dl-btn').disabled = cards.length === 0;
+    const hasCards = cards.length > 0;
+    document.getElementById('anki-dl-btn').disabled = !hasCards;
+    const qBtn = document.getElementById('anki-queue-btn');
+    if (qBtn) qBtn.disabled = !hasCards;
   });
 });
 
@@ -625,7 +715,8 @@ async function load() {
   applyTopicVisibility();
   const last = localStorage.getItem('last');
   if (last !== null && all[+last]) select(+last);
-  initSync(); // localStorage 렌더 후 Gist에서 머지
+  updatePendingUI();
+  initSync();
 }
 
 // ── 카테고리 필터 ─────────────────────────────────────
@@ -905,7 +996,7 @@ async function gistPush() {
         'Content-Type': 'application/json',
         'Accept': 'application/vnd.github.v3+json'
       },
-      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark }) } } })
+      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark, pendingAnki }) } } })
     });
     if (res.ok) {
       const t = new Date();
@@ -960,8 +1051,15 @@ async function initSync() {
   if (d.important) { Object.assign(important, d.important); localStorage.setItem('important', JSON.stringify(important)); }
   if (d.memos)     { Object.keys(d.memos).forEach(k => { if (d.memos[k]) memos[k] = d.memos[k]; }); localStorage.setItem('memos', JSON.stringify(memos)); }
   if (d.bookmark != null) { bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); }
+  if (Array.isArray(d.pendingAnki) && d.pendingAnki.length > 0) {
+    // Gist의 pendingAnki를 로컬과 합치되 중복 제거
+    const existing = new Set(pendingAnki.map(c => c.front + '||' + c.back));
+    d.pendingAnki.forEach(c => { if (!existing.has(c.front + '||' + c.back)) pendingAnki.push(c); });
+    localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
+  }
   renderList();
   updateBookmarkBar();
+  updatePendingUI();
   if (cur !== null) { updateHeaderBtns(cur); renderMemo(cur); }
 }
 
