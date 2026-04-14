@@ -188,10 +188,14 @@
   }
   #memo-display mark { background: #f0c030; color: #111; border-radius: 2px; padding: 0 2px; }
 
-  #memo-editor { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
+  #memo-editor { padding: 0 14px 10px; display: flex; flex-direction: column; gap: 8px; }
   .memo-toolbar {
-    display: flex; gap: 4px; flex-wrap: wrap;
+    display: none; /* memo-section 활성화 시 JS로 표시 */
+    gap: 4px; flex-wrap: wrap;
+    padding: 8px 14px 6px;
+    border-bottom: 1px solid var(--border);
   }
+  .memo-toolbar.visible { display: flex; }
   .memo-toolbar button {
     padding: 3px 9px; font-size: 12px; border-radius: 4px;
     border: 1px solid var(--border); background: var(--bg2);
@@ -343,14 +347,14 @@
         <span id="memo-saved-badge">★ 중요 표시됨</span>
         <button id="memo-edit-btn" onclick="openMemoEditor()">수정</button>
       </div>
-      <div id="memo-display"></div>
+      <div class="memo-toolbar">
+        <button onclick="formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
+        <button onclick="formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
+        <button class="tb-hl" onclick="formatMemo('highlight')" title="형광펜">형광펜</button>
+        <button class="tb-clear" onclick="formatMemo('clear')" title="서식 제거">서식 제거</button>
+      </div>
+      <div id="memo-display" onclick="openMemoEditor()" title="클릭해서 편집"></div>
       <div id="memo-editor">
-        <div class="memo-toolbar">
-          <button onclick="formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
-          <button onclick="formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
-          <button class="tb-hl" onclick="formatMemo('highlight')" title="형광펜">형광펜</button>
-          <button class="tb-clear" onclick="formatMemo('clear')" title="서식 제거">서식 제거</button>
-        </div>
         <div id="memo-edit" contenteditable="true"
              data-placeholder="Gemini에서 생성한 개념을 여기에 붙여넣으세요.&#10;저장하면 자동으로 ★ 중요 표시됩니다."></div>
         <div class="memo-btn-row">
@@ -1115,12 +1119,13 @@ function renderMemo(i) {
   const memo = memos[i] || '';
   const hasMemo = memo.trim().length > 0;
 
-  const display = document.getElementById('memo-display');
-  const editor  = document.getElementById('memo-editor');
-  const badge   = document.getElementById('memo-saved-badge');
-  const editBtn = document.getElementById('memo-edit-btn');
-  const delBtn  = document.getElementById('memo-del-btn');
+  const display  = document.getElementById('memo-display');
+  const editor   = document.getElementById('memo-editor');
+  const badge    = document.getElementById('memo-saved-badge');
+  const editBtn  = document.getElementById('memo-edit-btn');
+  const delBtn   = document.getElementById('memo-del-btn');
   const memoEdit = document.getElementById('memo-edit');
+  const toolbar  = document.querySelector('.memo-toolbar');
 
   if (hasMemo) {
     display.innerHTML = memoToHtml(memo);
@@ -1129,6 +1134,7 @@ function renderMemo(i) {
     badge.style.display   = important[i] ? 'inline-block' : 'none';
     editBtn.style.display = 'inline-block';
     delBtn.style.display  = 'none';
+    toolbar.classList.remove('visible'); // 보기 모드: 툴바 숨김
   } else {
     display.style.display = 'none';
     editor.style.display  = 'flex';
@@ -1136,6 +1142,7 @@ function renderMemo(i) {
     editBtn.style.display = 'none';
     delBtn.style.display  = 'none';
     memoEdit.innerHTML = '';
+    toolbar.classList.add('visible'); // 편집 모드: 툴바 표시
   }
 }
 
@@ -1146,12 +1153,14 @@ function openMemoEditor() {
   const editBtn  = document.getElementById('memo-edit-btn');
   const delBtn   = document.getElementById('memo-del-btn');
   const memoEdit = document.getElementById('memo-edit');
+  const toolbar  = document.querySelector('.memo-toolbar');
 
   display.style.display = 'none';
   editor.style.display  = 'flex';
   editBtn.style.display = 'none';
   delBtn.style.display  = 'inline-block';
   memoEdit.innerHTML = memoToHtml(memos[cur] || '');
+  toolbar.classList.add('visible'); // 편집 모드 진입 시 툴바 표시
   memoEdit.focus();
 }
 
