@@ -245,6 +245,30 @@
   #anki-dl-btn:hover { background: var(--accent); color: #fff; }
   #anki-dl-btn:disabled { opacity: 0.4; cursor: default; }
   #anki-dl-msg { font-size: 11px; color: var(--sub); }
+
+  /* Anki 네이티브 패널 */
+  .anki-field-label { font-size: 11px; color: var(--sub); margin-bottom: 3px; }
+  .anki-textarea {
+    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
+    border-radius: 4px; color: var(--text); font-size: 12px; line-height: 1.6;
+    padding: 8px 10px; resize: vertical; min-height: 60px;
+    font-family: inherit; outline: none;
+  }
+  .anki-textarea:focus { border-color: var(--accent); }
+  #anki-deck-input {
+    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
+    border-radius: 4px; color: var(--text); font-size: 12px;
+    padding: 6px 10px; outline: none;
+  }
+  #anki-deck-input:focus { border-color: var(--accent); }
+  #anki-add-btn {
+    width: 100%; padding: 9px; font-size: 13px; font-weight: 600;
+    border-radius: 6px; border: 1px solid var(--accent);
+    background: #0d1a30; color: var(--accent); cursor: pointer;
+  }
+  #anki-add-btn:hover { background: var(--accent); color: #fff; }
+  #anki-add-btn:disabled { opacity: 0.4; cursor: default; }
+  #anki-result { font-size: 11px; text-align: center; min-height: 16px; }
 </style>
 </head>
 <body>
@@ -314,20 +338,43 @@
 
     <button id="gemini-btn" onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')">✦ Gemini 열기</button>
 
-    <!-- Anki CSV 패널 -->
+    <!-- Anki 패널 -->
     <div id="anki-panel">
       <div id="anki-panel-header" onclick="toggleAnkiPanel()">
-        <span>⬛ Anki CSV 가져오기</span>
+        <span>⬛ Anki 카드 추가</span>
         <span id="anki-panel-arrow">▼</span>
       </div>
       <div id="anki-panel-body">
-        <textarea id="anki-csv-input" placeholder="Gemini에서 받은 CSV를 여기에 붙여넣으세요.
+
+        <!-- 네이티브 앱 전용 -->
+        <div id="anki-native" style="display:none;flex-direction:column;gap:8px">
+          <div>
+            <div class="anki-field-label">덱 이름</div>
+            <input id="anki-deck-input" value="Medical" placeholder="덱 이름">
+          </div>
+          <div>
+            <div class="anki-field-label">앞면 (Front)</div>
+            <textarea id="anki-front" class="anki-textarea" placeholder="카드 앞면 텍스트"></textarea>
+          </div>
+          <div>
+            <div class="anki-field-label">뒷면 (Back)</div>
+            <textarea id="anki-back" class="anki-textarea" placeholder="카드 뒷면 텍스트"></textarea>
+          </div>
+          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 추가</button>
+          <div id="anki-result"></div>
+        </div>
+
+        <!-- 브라우저 전용 (CSV) -->
+        <div id="anki-csv-mode" style="display:flex;flex-direction:column;gap:8px">
+          <textarea id="anki-csv-input" placeholder="Gemini에서 받은 CSV를 여기에 붙여넣으세요.
 앞면,뒷면,태그
 &quot;질문&quot;,&quot;답변&quot;,&quot;산부인과&quot;"></textarea>
-        <div style="display:flex;align-items:center;gap:10px">
-          <button id="anki-dl-btn" onclick="downloadCSV()" disabled>⬇ CSV 다운로드</button>
-          <span id="anki-dl-msg">붙여넣기 후 활성화됩니다</span>
+          <div style="display:flex;align-items:center;gap:10px">
+            <button id="anki-dl-btn" onclick="downloadCSV()" disabled>⬇ CSV 다운로드</button>
+            <span id="anki-dl-msg">붙여넣기 후 활성화됩니다</span>
+          </div>
         </div>
+
       </div>
     </div>
 
@@ -344,7 +391,7 @@ let memos     = JSON.parse(localStorage.getItem('memos')     || '{}');
 let bookmark  = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
 let topicHidden = localStorage.getItem('topicHidden') === '1';
 
-// ── Anki CSV ──────────────────────────────────────────
+// ── Anki ──────────────────────────────────────────────
 let ankiPanelOpen = true;
 function toggleAnkiPanel() {
   ankiPanelOpen = !ankiPanelOpen;
@@ -352,13 +399,74 @@ function toggleAnkiPanel() {
   document.getElementById('anki-panel-arrow').textContent = ankiPanelOpen ? '▼' : '▶';
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('anki-csv-input').addEventListener('input', function() {
-    const hasContent = this.value.trim().length > 0;
-    document.getElementById('anki-dl-btn').disabled = !hasContent;
-    document.getElementById('anki-dl-msg').textContent = hasContent ? '준비됨' : '붙여넣기 후 활성화됩니다';
-  });
-});
+function isNativeApp() {
+  return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
+}
+
+function initAnkiPanel() {
+  if (isNativeApp()) {
+    document.getElementById('anki-native').style.display = 'flex';
+    document.getElementById('anki-csv-mode').style.display = 'none';
+  } else {
+    document.getElementById('anki-native').style.display = 'none';
+    document.getElementById('anki-csv-mode').style.display = 'flex';
+    document.getElementById('anki-csv-input').addEventListener('input', function() {
+      const hasContent = this.value.trim().length > 0;
+      document.getElementById('anki-dl-btn').disabled = !hasContent;
+      document.getElementById('anki-dl-msg').textContent = hasContent ? '준비됨' : '붙여넣기 후 활성화됩니다';
+    });
+  }
+}
+
+async function addToAnki() {
+  const front = document.getElementById('anki-front').value.trim();
+  const back  = document.getElementById('anki-back').value.trim();
+  const deck  = document.getElementById('anki-deck-input').value.trim() || 'Medical';
+  const result = document.getElementById('anki-result');
+
+  if (!front || !back) { result.style.color = '#e05555'; result.textContent = '앞면과 뒷면을 입력해주세요.'; return; }
+
+  const btn = document.getElementById('anki-add-btn');
+  btn.disabled = true;
+  result.style.color = '#4a8cf7';
+  result.textContent = '추가 중...';
+
+  try {
+    const { AnkiDroid } = window.Capacitor.Plugins;
+
+    // AnkiDroid 설치 확인
+    const { installed } = await AnkiDroid.isAnkiDroidInstalled();
+    if (!installed) {
+      result.style.color = '#e05555';
+      result.textContent = 'AnkiDroid가 설치되어 있지 않습니다.';
+      btn.disabled = false; return;
+    }
+
+    // 권한 확인 및 요청
+    const { granted } = await AnkiDroid.checkPermission();
+    if (!granted) await AnkiDroid.requestPermission();
+
+    // 현재 문제 카테고리를 태그로
+    const q = cur !== null ? all[cur] : null;
+    const tags = q?.category || '의학';
+
+    const res = await AnkiDroid.addNote({ front, back, deckName: deck, tags });
+    if (res.success) {
+      result.style.color = '#4caf4c';
+      result.textContent = '✓ AnkiDroid에 추가됐습니다!';
+      document.getElementById('anki-front').value = '';
+      document.getElementById('anki-back').value = '';
+    } else {
+      throw new Error('추가 실패');
+    }
+  } catch (e) {
+    result.style.color = '#e05555';
+    result.textContent = '오류: ' + (e.message || '알 수 없는 오류');
+  }
+  btn.disabled = false;
+}
+
+document.addEventListener('DOMContentLoaded', initAnkiPanel);
 
 function downloadCSV() {
   const csv = document.getElementById('anki-csv-input').value.trim();
