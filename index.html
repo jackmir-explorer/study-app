@@ -668,18 +668,22 @@ async function importPendingToAnkiDroid() {
     const { granted } = await AnkiDroid.checkPermission();
     if (!granted) await AnkiDroid.requestPermission();
     let ok = 0, fail = 0;
+    const failedCards = [];
     for (const [i, card] of pendingAnki.entries()) {
       try {
         const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: card.deck || deck, tags: card.tags });
-        if (res.success) ok++; else fail++;
-      } catch { fail++; }
+        if (res.success) ok++; else { fail++; failedCards.push(card); }
+      } catch { fail++; failedCards.push(card); }
       result.textContent = `${i+1} / ${pendingAnki.length} 추가 중...`;
     }
     result.style.color = fail===0 ? '#4caf4c' : '#f0b429';
     result.textContent = `✓ ${ok}장 완료${fail>0 ? ` (${fail}장 실패)` : ''}`;
     if (ok > 0) {
-      pendingAnki = pendingAnki.slice(ok); // 성공한 것만 제거
-      savePending(); updatePendingUI();
+      pendingAnki = failedCards; // 실패한 카드만 남김 (성공한 것은 정확히 제거)
+      localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
+      clearTimeout(syncTimer);
+      updatePendingUI();
+      await gistPush(); // import 완료 즉시 Gist 반영 (딜레이 없이)
     }
   } catch(e) {
     result.style.color = '#e05555'; result.textContent = '오류: ' + e.message;
