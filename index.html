@@ -184,19 +184,33 @@
 
   #memo-display {
     padding: 12px 14px; font-size: 13px; line-height: 1.9;
-    white-space: pre-wrap; color: var(--text);
-    display: none;
+    color: var(--text); display: none;
   }
+  #memo-display mark { background: #f0c030; color: #111; border-radius: 2px; padding: 0 2px; }
 
   #memo-editor { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
-  #memo-textarea {
+  .memo-toolbar {
+    display: flex; gap: 4px; flex-wrap: wrap;
+  }
+  .memo-toolbar button {
+    padding: 3px 9px; font-size: 12px; border-radius: 4px;
+    border: 1px solid var(--border); background: var(--bg2);
+    color: var(--text); cursor: pointer; line-height: 1.4;
+  }
+  .memo-toolbar button:hover { border-color: var(--accent); color: var(--accent); }
+  .memo-toolbar .tb-hl { color: #f0c030; border-color: #5a4a00; background: #1a1500; }
+  .memo-toolbar .tb-hl:hover { border-color: #f0c030; }
+  .memo-toolbar .tb-clear { color: var(--sub); }
+  #memo-edit {
     width: 100%; background: var(--bg); border: 1px solid var(--border);
     border-radius: 4px; color: var(--text); font-size: 13px; line-height: 1.8;
-    padding: 10px 12px; resize: vertical; min-height: 140px;
-    font-family: inherit; outline: none;
+    padding: 10px 12px; min-height: 140px; max-height: 420px; overflow-y: auto;
+    font-family: inherit; outline: none; white-space: pre-wrap;
   }
-  #memo-textarea:focus { border-color: var(--accent); }
-  #memo-textarea::placeholder { color: #444; }
+  #memo-edit:focus { border-color: var(--accent); }
+  #memo-edit:empty:before { content: attr(data-placeholder); color: #444; pointer-events: none; }
+  #memo-edit mark { background: #f0c030; color: #111; border-radius: 2px; padding: 0 2px; }
+  #memo-edit b, #memo-edit strong { color: #fff; }
   .memo-btn-row { display: flex; gap: 8px; }
   #memo-save-btn {
     flex: 1; padding: 7px; font-size: 12px; border-radius: 6px;
@@ -331,7 +345,14 @@
       </div>
       <div id="memo-display"></div>
       <div id="memo-editor">
-        <textarea id="memo-textarea" placeholder="Gemini에서 생성한 개념을 여기에 붙여넣으세요.&#10;저장하면 자동으로 ★ 중요 표시됩니다."></textarea>
+        <div class="memo-toolbar">
+          <button onclick="formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
+          <button onclick="formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
+          <button class="tb-hl" onclick="formatMemo('highlight')" title="형광펜">형광펜</button>
+          <button class="tb-clear" onclick="formatMemo('clear')" title="서식 제거">서식 제거</button>
+        </div>
+        <div id="memo-edit" contenteditable="true"
+             data-placeholder="Gemini에서 생성한 개념을 여기에 붙여넣으세요.&#10;저장하면 자동으로 ★ 중요 표시됩니다."></div>
         <div class="memo-btn-row">
           <button id="memo-save-btn" onclick="saveMemo()">저장 (★ 중요 자동 표시)</button>
           <button id="memo-del-btn" onclick="deleteMemo()">메모 삭제</button>
@@ -575,17 +596,16 @@ async function generateWithGemini() {
 
     if (conceptMatch) {
       const concept = conceptMatch[1].trim();
-      // 메모 에디터 열고 내용 채우기
-      const display = document.getElementById('memo-display');
-      const editor  = document.getElementById('memo-editor');
-      const editBtn = document.getElementById('memo-edit-btn');
-      const delBtn  = document.getElementById('memo-del-btn');
-      const textarea = document.getElementById('memo-textarea');
+      const display  = document.getElementById('memo-display');
+      const editor   = document.getElementById('memo-editor');
+      const editBtn  = document.getElementById('memo-edit-btn');
+      const delBtn   = document.getElementById('memo-del-btn');
+      const memoEdit = document.getElementById('memo-edit');
       display.style.display = 'none';
       editor.style.display  = 'flex';
       editBtn.style.display = 'none';
-      delBtn.style.display  = memos[cur] ? 'inline-block' : 'none';
-      textarea.value = concept;
+      delBtn.style.display  = cur !== null && memos[cur] ? 'inline-block' : 'none';
+      memoEdit.innerHTML = memoToHtml(concept);
     }
 
     if (ankiMatch) {
@@ -1062,33 +1082,60 @@ function markStar(i) {
 function toggleStar() { if (cur !== null) markStar(cur); }
 
 // ── 개념 메모 ─────────────────────────────────────────
+// 구 plain-text 메모를 HTML로 변환 (이미 HTML이면 그대로)
+function memoToHtml(text) {
+  if (!text) return '';
+  if (/<(br|strong|b|mark|em|i|span)\b/i.test(text)) return text; // 이미 HTML
+  return text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');
+}
+
+function formatMemo(cmd) {
+  const edit = document.getElementById('memo-edit');
+  edit.focus();
+  if (cmd === 'bold')      { document.execCommand('bold'); }
+  else if (cmd === 'italic') { document.execCommand('italic'); }
+  else if (cmd === 'highlight') {
+    // 선택 영역을 <mark>로 감싸기
+    const sel = window.getSelection();
+    if (!sel.rangeCount || sel.isCollapsed) return;
+    const range = sel.getRangeAt(0);
+    try {
+      const mark = document.createElement('mark');
+      range.surroundContents(mark);
+      sel.removeAllRanges();
+    } catch(e) {
+      // 범위가 복잡할 때 fallback
+      document.execCommand('hiliteColor', false, '#f0c030');
+    }
+  }
+  else if (cmd === 'clear') { document.execCommand('removeFormat'); }
+}
+
 function renderMemo(i) {
   const memo = memos[i] || '';
   const hasMemo = memo.trim().length > 0;
 
-  const display  = document.getElementById('memo-display');
-  const editor   = document.getElementById('memo-editor');
-  const badge    = document.getElementById('memo-saved-badge');
-  const editBtn  = document.getElementById('memo-edit-btn');
-  const delBtn   = document.getElementById('memo-del-btn');
-  const textarea = document.getElementById('memo-textarea');
+  const display = document.getElementById('memo-display');
+  const editor  = document.getElementById('memo-editor');
+  const badge   = document.getElementById('memo-saved-badge');
+  const editBtn = document.getElementById('memo-edit-btn');
+  const delBtn  = document.getElementById('memo-del-btn');
+  const memoEdit = document.getElementById('memo-edit');
 
   if (hasMemo) {
-    // 저장된 메모 있음 → 표시 모드
-    display.textContent = memo;
+    display.innerHTML = memoToHtml(memo);
     display.style.display = 'block';
     editor.style.display  = 'none';
     badge.style.display   = important[i] ? 'inline-block' : 'none';
     editBtn.style.display = 'inline-block';
     delBtn.style.display  = 'none';
   } else {
-    // 메모 없음 → 편집 모드
     display.style.display = 'none';
     editor.style.display  = 'flex';
     badge.style.display   = 'none';
     editBtn.style.display = 'none';
     delBtn.style.display  = 'none';
-    textarea.value = '';
+    memoEdit.innerHTML = '';
   }
 }
 
@@ -1098,25 +1145,26 @@ function openMemoEditor() {
   const editor   = document.getElementById('memo-editor');
   const editBtn  = document.getElementById('memo-edit-btn');
   const delBtn   = document.getElementById('memo-del-btn');
-  const textarea = document.getElementById('memo-textarea');
+  const memoEdit = document.getElementById('memo-edit');
 
   display.style.display = 'none';
   editor.style.display  = 'flex';
   editBtn.style.display = 'none';
   delBtn.style.display  = 'inline-block';
-  textarea.value = memos[cur] || '';
-  textarea.focus();
+  memoEdit.innerHTML = memoToHtml(memos[cur] || '');
+  memoEdit.focus();
 }
 
 function saveMemo() {
   if (cur === null) return;
-  const val = document.getElementById('memo-textarea').value.trim();
-  if (!val) return;
+  const memoEdit = document.getElementById('memo-edit');
+  const val = memoEdit.innerHTML.trim();
+  // 내용 없으면 저장 안 함 (<br> 만 있는 경우도 처리)
+  if (!val || val === '<br>') return;
 
   memos[cur] = val;
   localStorage.setItem('memos', JSON.stringify(memos));
 
-  // 메모 저장 시 자동 중요 표시
   if (!important[cur]) {
     important[cur] = true;
     localStorage.setItem('important', JSON.stringify(important));
