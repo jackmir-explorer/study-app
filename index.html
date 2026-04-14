@@ -186,25 +186,8 @@
     padding: 12px 14px; font-size: 13px; line-height: 1.9;
     color: var(--text); display: none;
   }
-  #memo-display mark { background: #f0c030; color: #111; border-radius: 2px; padding: 0 2px; }
 
   #memo-editor { padding: 0 14px 10px; display: flex; flex-direction: column; gap: 8px; }
-  .memo-toolbar {
-    display: none; /* memo-section 활성화 시 JS로 표시 */
-    gap: 4px; flex-wrap: wrap;
-    padding: 8px 14px 6px;
-    border-bottom: 1px solid var(--border);
-  }
-  .memo-toolbar.visible { display: flex; }
-  .memo-toolbar button {
-    padding: 3px 9px; font-size: 12px; border-radius: 4px;
-    border: 1px solid var(--border); background: var(--bg2);
-    color: var(--text); cursor: pointer; line-height: 1.4;
-  }
-  .memo-toolbar button:hover { border-color: var(--accent); color: var(--accent); }
-  .memo-toolbar .tb-hl { color: #f0c030; border-color: #5a4a00; background: #1a1500; }
-  .memo-toolbar .tb-hl:hover { border-color: #f0c030; }
-  .memo-toolbar .tb-clear { color: var(--sub); }
   #memo-edit {
     width: 100%; background: var(--bg); border: 1px solid var(--border);
     border-radius: 4px; color: var(--text); font-size: 13px; line-height: 1.8;
@@ -213,7 +196,6 @@
   }
   #memo-edit:focus { border-color: var(--accent); }
   #memo-edit:empty:before { content: attr(data-placeholder); color: #444; pointer-events: none; }
-  #memo-edit mark { background: #f0c030; color: #111; border-radius: 2px; padding: 0 2px; }
   #memo-edit b, #memo-edit strong { color: #fff; }
   .memo-btn-row { display: flex; gap: 8px; }
   #memo-save-btn {
@@ -346,12 +328,6 @@
         <span id="memo-header-title">개념 메모</span>
         <span id="memo-saved-badge">★ 중요 표시됨</span>
         <button id="memo-edit-btn" onclick="openMemoEditor()">수정</button>
-      </div>
-      <div class="memo-toolbar">
-        <button onmousedown="event.preventDefault();formatMemo('bold')" title="굵게 (Ctrl+B)"><b>B</b></button>
-        <button onmousedown="event.preventDefault();formatMemo('italic')" title="기울임 (Ctrl+I)"><i>I</i></button>
-        <button class="tb-hl" onmousedown="event.preventDefault();formatMemo('highlight')" title="형광펜">형광펜</button>
-        <button class="tb-clear" onmousedown="event.preventDefault();formatMemo('clear')" title="서식 제거">서식 제거</button>
       </div>
       <div id="memo-display" onclick="openMemoEditor()" title="클릭해서 편집"></div>
       <div id="memo-editor">
@@ -1093,46 +1069,6 @@ function memoToHtml(text) {
   return text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');
 }
 
-function formatMemo(cmd) {
-  // mousedown+preventDefault로 선택 영역 유지된 상태로 호출됨
-  const sel = window.getSelection();
-  if (cmd === 'bold')   { document.execCommand('bold'); return; }
-  if (cmd === 'italic') { document.execCommand('italic'); return; }
-
-  if (cmd === 'highlight') {
-    if (!sel.rangeCount || sel.isCollapsed) return;
-    const range = sel.getRangeAt(0);
-    try {
-      const mark = document.createElement('mark');
-      range.surroundContents(mark);
-    } catch(e) {
-      // 여러 노드에 걸친 선택: 선택 내용을 추출해서 mark로 감싸기
-      const frag = range.extractContents();
-      const mark = document.createElement('mark');
-      mark.appendChild(frag);
-      range.insertNode(mark);
-    }
-    sel.removeAllRanges();
-    return;
-  }
-
-  if (cmd === 'clear') {
-    // bold/italic 제거
-    document.execCommand('removeFormat');
-    // <mark> 태그 제거: 선택 영역 안의 모든 mark를 언래핑
-    if (sel.rangeCount) {
-      const range = sel.getRangeAt(0);
-      const edit = document.getElementById('memo-edit');
-      edit.querySelectorAll('mark').forEach(mark => {
-        if (range.intersectsNode(mark)) {
-          const parent = mark.parentNode;
-          while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
-          parent.removeChild(mark);
-        }
-      });
-    }
-  }
-}
 
 function renderMemo(i) {
   const memo = memos[i] || '';
@@ -1144,8 +1080,6 @@ function renderMemo(i) {
   const editBtn  = document.getElementById('memo-edit-btn');
   const delBtn   = document.getElementById('memo-del-btn');
   const memoEdit = document.getElementById('memo-edit');
-  const toolbar  = document.querySelector('.memo-toolbar');
-
   if (hasMemo) {
     display.innerHTML = memoToHtml(memo);
     display.style.display = 'block';
@@ -1153,7 +1087,6 @@ function renderMemo(i) {
     badge.style.display   = important[i] ? 'inline-block' : 'none';
     editBtn.style.display = 'inline-block';
     delBtn.style.display  = 'none';
-    toolbar.classList.remove('visible'); // 보기 모드: 툴바 숨김
   } else {
     display.style.display = 'none';
     editor.style.display  = 'flex';
@@ -1161,7 +1094,6 @@ function renderMemo(i) {
     editBtn.style.display = 'none';
     delBtn.style.display  = 'none';
     memoEdit.innerHTML = '';
-    toolbar.classList.add('visible'); // 편집 모드: 툴바 표시
   }
 }
 
@@ -1172,14 +1104,11 @@ function openMemoEditor() {
   const editBtn  = document.getElementById('memo-edit-btn');
   const delBtn   = document.getElementById('memo-del-btn');
   const memoEdit = document.getElementById('memo-edit');
-  const toolbar  = document.querySelector('.memo-toolbar');
-
   display.style.display = 'none';
   editor.style.display  = 'flex';
   editBtn.style.display = 'none';
   delBtn.style.display  = 'inline-block';
   memoEdit.innerHTML = memoToHtml(memos[cur] || '');
-  toolbar.classList.add('visible'); // 편집 모드 진입 시 툴바 표시
   memoEdit.focus();
 }
 
