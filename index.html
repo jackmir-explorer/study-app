@@ -617,7 +617,7 @@ async function generateWithGemini() {
 // ── 대기 카드함 ────────────────────────────────────────
 function savePending() {
   localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
-  schedulePush();
+  gistPush();
 }
 
 function updatePendingUI() {
@@ -1029,7 +1029,7 @@ function toggleBookmark() {
   updateHeaderBtns(cur);
   updateBookmarkBar();
   renderList();
-  schedulePush();
+  gistPush();
 }
 
 function goToBookmark() {
@@ -1055,7 +1055,7 @@ function markWrong(i) {
   localStorage.setItem('wrongs', JSON.stringify(wrongs));
   if (i === cur) updateHeaderBtns(i);
   renderList();
-  schedulePush();
+  gistPush();
 }
 function toggleWrong() { if (cur !== null) markWrong(cur); }
 
@@ -1065,7 +1065,7 @@ function markStar(i) {
   localStorage.setItem('important', JSON.stringify(important));
   if (i === cur) { updateHeaderBtns(i); renderMemo(i); }
   renderList();
-  schedulePush();
+  gistPush();
 }
 function toggleStar() { if (cur !== null) markStar(cur); }
 
@@ -1147,7 +1147,7 @@ function deleteMemo() {
   delete memos[cur];
   localStorage.setItem('memos', JSON.stringify(memos));
   renderMemo(cur);
-  schedulePush();
+  gistPush();
 }
 
 // ── GitHub Gist 동기화 ────────────────────────────────
