@@ -1,32 +1,32 @@
 # CLAUDE.md
 
-## 배포 & 커밋 규칙
-- 변경 후 반드시 commit + push (GitHub Pages로 모바일/다른 PC에서 사용 중)
-- 작업 단위가 작아도 예외 없음
+## Deploy & Commit Rules
+- Always commit + push after every change (app is used across mobile and other PCs via GitHub Pages)
+- No exceptions, even for small changes
 
-## 앱 구조 (현황)
-- 단일 파일: `index.html` (CSS·HTML·JS 전부 포함)
-- 데이터 저장: `localStorage` → GitHub Gist 동기화
-- 배포: https://jackmir-explorer.github.io/study-app/
-- 모바일: Capacitor 네이티브 앱 (AnkiDroid 연동)
+## App Structure
+- Single file: `index.html` (CSS, HTML, JS all in one)
+- Data persistence: `localStorage` synced to GitHub Gist
+- Deployment: https://jackmir-explorer.github.io/study-app/
+- Mobile: Capacitor native app (AnkiDroid integration)
 
-## 작업 제약
-- 전체 파일 재작성 금지
-- 수정 위치 먼저 확인 후 작업
-- 교체할 코드 블록만 최소 범위로 수정
-- 요청한 부분 외 다른 코드 수정 금지
+## Constraints
+- Never rewrite the entire file
+- Always locate the exact edit position before making changes
+- Modify only the minimum code block needed
+- Never touch code outside the requested scope
 
-## 작업 절차
-1. 수정할 파일 확인
-2. 수정 위치 확인 (Grep/Read)
-3. 해당 블록만 Edit으로 교체
+## Workflow
+1. Identify the file to modify
+2. Locate the exact position (Grep/Read)
+3. Replace only that block using Edit
 4. commit + push
 
-## 작업 방침
-- 불필요한 기능은 제거. 추가보다 단순화를 우선 검토
-- 브라우저 vs 모바일 네이티브 동작이 다를 경우 `isNativeApp()`으로 분기
-- JS에서 참조하는 HTML 요소 ID가 실제 존재하는지 확인
-- 중요 데이터 저장 후엔 `schedulePush()`(2초 딜레이) 대신 `gistPush()` 직접 호출
+## Guidelines
+- Prefer removing over adding — simplicity first
+- Use `isNativeApp()` when behavior differs between browser and mobile native
+- Verify that HTML element IDs referenced in JS actually exist in the HTML
+- After critical data saves, call `gistPush()` directly instead of `schedulePush()` (2s delay)
 
-## UX 원칙
-- 읽기가 기본 상태. 편집은 명시적 버튼으로만 진입 (터치/클릭 ≠ 편집 의도)
+## UX Principles
+- Read mode is the default state. Edit mode only via explicit button action (touch/click ≠ intent to edit)
