@@ -1138,7 +1138,7 @@ function saveMemo() {
   renderMemo(cur);
   updateHeaderBtns(cur);
   renderList();
-  schedulePush();
+  gistPush(); // 메모 저장 즉시 Gist 반영 (딜레이 없이)
 }
 
 function deleteMemo() {
