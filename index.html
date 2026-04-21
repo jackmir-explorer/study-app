@@ -157,7 +157,16 @@
   /* 이미지 */
   #page-img {
     width: 100%; border-radius: 6px; border: 1px solid var(--border);
-    display: block; margin-bottom: 16px; background: #222;
+    display: block; margin-bottom: 16px; background: #222; cursor: zoom-in;
+  }
+  /* 이미지 확대 모달 */
+  #img-zoom-modal {
+    display: none; position: fixed; inset: 0; z-index: 1000;
+    background: rgba(0,0,0,0.92); align-items: center; justify-content: center;
+  }
+  #img-zoom-modal.open { display: flex; }
+  #img-zoom-modal img {
+    max-width: 100%; max-height: 100vh; object-fit: contain; touch-action: pinch-zoom;
   }
 
   /* 개념 메모 섹션 */
@@ -320,7 +329,10 @@
       <button class="hdr-btn" onclick="navigate(1)">다음 ▶</button>
     </div>
 
-    <img id="page-img" src="" alt="문제 페이지">
+    <img id="page-img" src="" alt="문제 페이지" onclick="openImageZoom()">
+    <div id="img-zoom-modal" onclick="closeImageZoom()">
+      <img id="img-zoom-content" src="" alt="확대 이미지">
+    </div>
 
     <!-- 개념 메모 -->
     <div id="memo-section">
@@ -971,6 +983,15 @@ function renderList() {
     el.appendChild(div);
   });
   document.getElementById('count').textContent = `${filtered.length} / ${all.length}문제`;
+}
+
+// ── 이미지 확대 ───────────────────────────────────────
+function openImageZoom() {
+  document.getElementById('img-zoom-content').src = document.getElementById('page-img').src;
+  document.getElementById('img-zoom-modal').classList.add('open');
+}
+function closeImageZoom() {
+  document.getElementById('img-zoom-modal').classList.remove('open');
 }
 
 // ── 선택 ─────────────────────────────────────────────
