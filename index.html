@@ -17,6 +17,7 @@
     --accent: #4a8cf7;
     --wrong: #e05555;
     --star: #f0b429;
+    --done: #4caf4c;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Noto Sans KR', sans-serif; display: flex; height: 100vh; overflow: hidden; }
@@ -78,6 +79,8 @@
   .filt.on { background: var(--accent); border-color: var(--accent); color: #fff; }
   .filt[data-f="star"].on { background: var(--star); border-color: var(--star); color: #111; }
   .filt[data-f="wrong"].on { background: var(--wrong); border-color: var(--wrong); color: #fff; }
+  .filt[data-f="solved"].on { background: var(--done); border-color: var(--done); color: #fff; }
+  .filt[data-f="unsolved"].on { background: var(--sub); border-color: var(--sub); color: #fff; }
 
   #bookmark-bar {
     display: none;
@@ -108,6 +111,7 @@
   .item.wrong-mark { border-left-color: var(--wrong); }
   .item.star-mark  { border-left-color: var(--star); }
   .item.wrong-mark.star-mark { border-left-color: var(--star); }
+  .item.solved-mark .item-left { opacity: 0.5; }
   .item.bookmark-mark { position: relative; }
   .item.bookmark-mark::after {
     content: '🔖';
@@ -132,6 +136,7 @@
   .dot-btn.wrong-dot.on { background: var(--wrong); border-color: var(--wrong); }
   .dot-btn.star-dot  { border-radius: 2px; }
   .dot-btn.star-dot.on { background: var(--star); border-color: var(--star); color: #111; }
+  .dot-btn.solved-dot.on { background: var(--done); border-color: var(--done); color: #fff; }
 
   /* 메인 */
   #main { flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
@@ -153,6 +158,7 @@
   .hdr-btn:hover { border-color: #555; color: var(--text); }
   #wrong-btn.on { border-color: var(--wrong); color: var(--wrong); background: #2a1414; }
   #star-btn.on  { border-color: var(--star);  color: var(--star);  background: #2a2414; }
+  #solved-btn.on { border-color: var(--done); color: var(--done); background: #142a14; }
 
   /* 이미지 */
   #page-img {
@@ -314,6 +320,8 @@
       <button class="filt on" data-f="all">전체</button>
       <button class="filt" data-f="wrong">오답만</button>
       <button class="filt" data-f="star">★ 중요만</button>
+      <button class="filt" data-f="solved">✓ 푼 문제</button>
+      <button class="filt" data-f="unsolved">안 푼 문제</button>
     </div>
     <div style="display:flex;justify-content:space-between;align-items:center">
       <div id="count"></div>
@@ -338,6 +346,7 @@
         <div id="q-title"></div>
         <div id="q-meta"></div>
       </div>
+      <button id="solved-btn"   class="hdr-btn" onclick="toggleSolved()">✓ 풀었음</button>
       <button id="wrong-btn"    class="hdr-btn" onclick="toggleWrong()">오답 표시</button>
       <button id="star-btn"     class="hdr-btn" onclick="toggleStar()">★ 중요 표시</button>
       <button id="bookmark-btn" class="hdr-btn" onclick="toggleBookmark()">🔖 책갈피</button>
@@ -452,6 +461,7 @@ let filter = 'all';
 
 let wrongs      = JSON.parse(localStorage.getItem('wrongs')      || '{}');
 let important   = JSON.parse(localStorage.getItem('important')   || '{}');
+let solved      = JSON.parse(localStorage.getItem('solved')      || '{}');
 let memos       = JSON.parse(localStorage.getItem('memos')       || '{}');
 let pendingAnki = JSON.parse(localStorage.getItem('pendingAnki') || '[]');
 let bookmark    = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
@@ -971,6 +981,8 @@ function applyFilter() {
   filtered = all.filter((q, i) => {
     if (filter === 'wrong' && !wrongs[i]) return false;
     if (filter === 'star'  && !important[i]) return false;
+    if (filter === 'solved'   && !solved[i]) return false;
+    if (filter === 'unsolved' &&  solved[i]) return false;
     if (filter.startsWith('cat:') && q.category !== filter.slice(4)) return false;
     if (!kw) return true;
     return [q.category, q.topic, q.question_summary, memos[i] || '']
@@ -989,6 +1001,7 @@ function renderList() {
     if (i === cur)    cls += ' active';
     if (wrongs[i])    cls += ' wrong-mark';
     if (important[i]) cls += ' star-mark';
+    if (solved[i])    cls += ' solved-mark';
     if (bookmark === i) cls += ' bookmark-mark';
     div.className = cls;
     div.innerHTML = `
@@ -998,6 +1011,7 @@ function renderList() {
         <div class="item-summary">${esc(q.question_summary || '')}</div>
       </div>
       <div class="item-dots">
+        <div class="dot-btn solved-dot ${solved[i]?'on':''}" title="풀었음" onclick="event.stopPropagation();markSolved(${i})">✓</div>
         <div class="dot-btn wrong-dot ${wrongs[i]?'on':''}" title="오답" onclick="event.stopPropagation();markWrong(${i})"></div>
         <div class="dot-btn star-dot  ${important[i]?'on':''}" title="중요" onclick="event.stopPropagation();markStar(${i})">★</div>
       </div>`;
@@ -1124,6 +1138,10 @@ function select(i) {
 }
 
 function updateHeaderBtns(i) {
+  const vb = document.getElementById('solved-btn');
+  vb.textContent = solved[i] ? '✓ 풀었음 해제' : '✓ 풀었음';
+  vb.className = 'hdr-btn' + (solved[i] ? ' on' : '');
+
   const wb = document.getElementById('wrong-btn');
   wb.textContent = wrongs[i] ? '오답 해제' : '오답 표시';
   wb.className = 'hdr-btn' + (wrongs[i] ? ' on' : '');
@@ -1170,6 +1188,17 @@ function updateBookmarkBar() {
     bar.style.display = 'none';
   }
 }
+
+// ── 풀었음 ────────────────────────────────────────────
+function markSolved(i) {
+  solved[i] = !solved[i];
+  if (!solved[i]) delete solved[i];
+  localStorage.setItem('solved', JSON.stringify(solved));
+  if (i === cur) updateHeaderBtns(i);
+  renderList();
+  gistPush();
+}
+function toggleSolved() { if (cur !== null) markSolved(cur); }
 
 // ── 오답 / 중요 ───────────────────────────────────────
 function markWrong(i) {
@@ -1314,7 +1343,7 @@ async function gistPush() {
         'Content-Type': 'application/json',
         'Accept': 'application/vnd.github.v3+json'
       },
-      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark, pendingAnki }) } } })
+      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark, pendingAnki }) } } })
     });
     if (res.ok) {
       const t = new Date();
@@ -1338,7 +1367,7 @@ async function gistCreate() {
       body: JSON.stringify({
         description: 'Study App Sync',
         public: false,
-        files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, memos, bookmark }) } }
+        files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark }) } }
       })
     });
     if (!res.ok) { updateSyncUI('error', 'Gist 생성 실패'); return null; }
@@ -1367,6 +1396,7 @@ async function initSync() {
   // 머지: wrongs/important는 union, memos는 Gist 우선, bookmark는 Gist 우선
   if (d.wrongs)    { Object.assign(wrongs, d.wrongs);       localStorage.setItem('wrongs', JSON.stringify(wrongs)); }
   if (d.important) { Object.assign(important, d.important); localStorage.setItem('important', JSON.stringify(important)); }
+  if (d.solved)    { Object.assign(solved, d.solved);       localStorage.setItem('solved', JSON.stringify(solved)); }
   if (d.memos)     { Object.keys(d.memos).forEach(k => { if (d.memos[k]) memos[k] = d.memos[k]; }); localStorage.setItem('memos', JSON.stringify(memos)); }
   if (d.bookmark != null) { bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); }
   if (Array.isArray(d.pendingAnki) && d.pendingAnki.length > 0) {
