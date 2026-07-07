@@ -334,7 +334,8 @@
       <button class="filt" data-f="solved">✓ 푼 문제</button>
       <button class="filt" data-f="unsolved">안 푼 문제</button>
     </div>
-    <div style="display:flex;justify-content:space-between;align-items:center">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:6px">
+      <span id="today-count" style="font-size:11px;color:var(--done);font-weight:700"></span>
       <div id="count"></div>
       <button id="topic-toggle" onclick="toggleTopics()" style="font-size:10px;padding:3px 8px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">토픽 숨기기</button>
     </div>
@@ -724,6 +725,18 @@ function renderList() {
     el.appendChild(div);
   });
   document.getElementById('count').textContent = `${filtered.length} / ${all.length}문제`;
+  updateTodayCount();
+}
+
+// ── 오늘 푼 문제 수 (성취) ────────────────────────────
+// syncMeta.solved의 풀이 시각 기록 사용 — 기기 간 동기화됨
+function dayKey(ts) { const d = new Date(ts); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
+function updateTodayCount() {
+  const el = document.getElementById('today-count');
+  if (!el) return;
+  const today = dayKey(Date.now());
+  const n = Object.keys(solved).filter(i => syncMeta.solved[i] && dayKey(syncMeta.solved[i]) === today).length;
+  el.textContent = n > 0 ? `오늘 ✓ ${n}문제` : '';
 }
 
 // ── 이미지 확대 (핀치줌 + 팬) ─────────────────────────
