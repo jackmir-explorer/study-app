@@ -560,6 +560,18 @@ let pendingAnki = JSON.parse(localStorage.getItem('pendingAnki') || '[]');
 let bookmark    = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
 let topicHidden = localStorage.getItem('topicHidden') === '1';
 
+// ── 동기화 메타 (키별 마지막 수정시각 — 기기 간 충돌 병합용) ──
+let syncMeta = (() => {
+  const m = JSON.parse(localStorage.getItem('syncMeta') || '{}');
+  ['wrongs', 'important', 'solved', 'memos'].forEach(k => { if (!m[k]) m[k] = {}; });
+  if (!m.removedAnki) m.removedAnki = {}; // 삭제된 대기카드 tombstone {front||back: ts}
+  if (!m.bookmark) m.bookmark = 0;
+  return m;
+})();
+function saveSyncMeta() { localStorage.setItem('syncMeta', JSON.stringify(syncMeta)); }
+function touchMeta(map, key) { syncMeta[map][key] = Date.now(); saveSyncMeta(); }
+const cardKey = c => c.front + '||' + c.back;
+
 // ── Anki ──────────────────────────────────────────────
 let ankiPanelOpen = true;
 function toggleAnkiPanel() {
@@ -775,7 +787,7 @@ function addToPending() {
   if (!cards.length) return;
   const q = cur !== null ? all[cur] : null;
   const tags = q?.category || '의학';
-  cards.forEach(c => pendingAnki.push({ front: c.front, back: c.back, deck, tags }));
+  cards.forEach(c => pendingAnki.push({ front: c.front, back: c.back, deck, tags, ts: Date.now() }));
   savePending();
   updatePendingUI();
   const result = document.getElementById('anki-web-result');
@@ -789,6 +801,8 @@ function addToPending() {
 
 function clearPending() {
   if (!confirm(`대기 중인 카드 ${pendingAnki.length}장을 모두 삭제할까요?`)) return;
+  pendingAnki.forEach(c => { syncMeta.removedAnki[cardKey(c)] = Date.now(); }); // 다른 기기에서 부활 방지
+  saveSyncMeta();
   pendingAnki = [];
   savePending();
   updatePendingUI();
@@ -809,17 +823,19 @@ async function importPendingToAnkiDroid() {
     const { granted } = await AnkiDroid.checkPermission();
     if (!granted) await AnkiDroid.requestPermission();
     let ok = 0, fail = 0;
-    const failedCards = [];
+    const failedCards = [], importedCards = [];
     for (const [i, card] of pendingAnki.entries()) {
       try {
         const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: card.deck || deck, tags: card.tags });
-        if (res.success) ok++; else { fail++; failedCards.push(card); }
+        if (res.success) { ok++; importedCards.push(card); } else { fail++; failedCards.push(card); }
       } catch { fail++; failedCards.push(card); }
       result.textContent = `${i+1} / ${pendingAnki.length} 추가 중...`;
     }
     result.style.color = fail===0 ? '#4caf4c' : '#f0b429';
     result.textContent = `✓ ${ok}장 완료${fail>0 ? ` (${fail}장 실패)` : ''}`;
     if (ok > 0) {
+      importedCards.forEach(c => { syncMeta.removedAnki[cardKey(c)] = Date.now(); }); // 다른 기기에서 부활 방지
+      saveSyncMeta();
       pendingAnki = failedCards; // 실패한 카드만 남김 (성공한 것은 정확히 제거)
       localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
       clearTimeout(syncTimer);
@@ -1044,6 +1060,7 @@ async function load() {
   if (last !== null && all[+last]) select(+last);
   updatePendingUI();
   initSync();
+  startAutoSync();
 }
 
 // ── 카테고리 필터 ─────────────────────────────────────
@@ -1449,7 +1466,8 @@ function saveAnswerToMemo() {
   const block = '<b>✦ AI 해답</b><br>' + lastAnswerHtml;
   memos[i] = memos[i] ? memos[i] + '<br><br>' + block : block;
   localStorage.setItem('memos', JSON.stringify(memos));
-  if (!important[i]) { important[i] = true; localStorage.setItem('important', JSON.stringify(important)); }
+  touchMeta('memos', i);
+  if (!important[i]) { important[i] = true; localStorage.setItem('important', JSON.stringify(important)); touchMeta('important', i); }
   if (i === cur) { renderMemo(i); updateHeaderBtns(i); }
   renderList();
   gistPush();
@@ -1547,6 +1565,7 @@ function toggleBookmark() {
     bookmark = cur;
     localStorage.setItem('bookmark', cur);
   }
+  syncMeta.bookmark = Date.now(); saveSyncMeta();
   updateHeaderBtns(cur);
   updateBookmarkBar();
   renderList();
@@ -1574,6 +1593,7 @@ function markSolved(i) {
   solved[i] = !solved[i];
   if (!solved[i]) delete solved[i];
   localStorage.setItem('solved', JSON.stringify(solved));
+  touchMeta('solved', i);
   if (i === cur) updateHeaderBtns(i);
   renderList();
   gistPush();
@@ -1585,6 +1605,7 @@ function markWrong(i) {
   wrongs[i] = !wrongs[i];
   if (!wrongs[i]) delete wrongs[i];
   localStorage.setItem('wrongs', JSON.stringify(wrongs));
+  touchMeta('wrongs', i);
   if (i === cur) updateHeaderBtns(i);
   renderList();
   gistPush();
@@ -1595,6 +1616,7 @@ function markStar(i) {
   important[i] = !important[i];
   if (!important[i]) delete important[i];
   localStorage.setItem('important', JSON.stringify(important));
+  touchMeta('important', i);
   if (i === cur) { updateHeaderBtns(i); renderMemo(i); }
   renderList();
   gistPush();
@@ -1661,10 +1683,12 @@ function saveMemo() {
 
   memos[cur] = val;
   localStorage.setItem('memos', JSON.stringify(memos));
+  touchMeta('memos', cur);
 
   if (!important[cur]) {
     important[cur] = true;
     localStorage.setItem('important', JSON.stringify(important));
+    touchMeta('important', cur);
   }
 
   renderMemo(cur);
@@ -1678,6 +1702,7 @@ function deleteMemo() {
   if (!confirm('메모를 삭제할까요?')) return;
   delete memos[cur];
   localStorage.setItem('memos', JSON.stringify(memos));
+  touchMeta('memos', cur);
   renderMemo(cur);
   gistPush();
 }
@@ -1687,6 +1712,7 @@ const GIST_FILE = 'study_sync.json';
 let gistToken = localStorage.getItem('gist_token') || '';
 let gistId    = localStorage.getItem('gist_id')    || '';
 let syncTimer = null;
+let lastEtag = null, pushing = false, pushQueued = false, autoSyncStarted = false;
 
 function updateSyncUI(status, msg) {
   const el = document.getElementById('sync-indicator');
@@ -1697,25 +1723,155 @@ function updateSyncUI(status, msg) {
   el.style.color = color;
 }
 
-async function gistFetch() {
-  if (!gistToken || !gistId) return null;
-  updateSyncUI('syncing', '불러오는 중...');
-  try {
-    const res = await fetch(`https://api.github.com/gists/${gistId}`, {
-      headers: { 'Authorization': `token ${gistToken}`, 'Accept': 'application/vnd.github.v3+json' }
+async function fetchGistRaw(useEtag) {
+  const headers = { 'Authorization': `token ${gistToken}`, 'Accept': 'application/vnd.github.v3+json' };
+  if (useEtag && lastEtag) headers['If-None-Match'] = lastEtag;
+  const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers, cache: 'no-store' });
+  if (res.status === 304) return { notModified: true };
+  if (!res.ok) throw new Error('gist fetch ' + res.status);
+  lastEtag = res.headers.get('ETag');
+  const data = await res.json();
+  const content = data.files?.[GIST_FILE]?.content;
+  let parsed = null;
+  try { parsed = content ? JSON.parse(content) : null; } catch {}
+  return { content: parsed };
+}
+
+// 원격 데이터를 로컬에 병합: 키별 최신 수정시각(LWW) 우선, 삭제도 전파
+function mergeRemote(d) {
+  if (!d) return false;
+  const rm = d.syncMeta || {};
+  let changed = false;
+
+  const mergeMap = (localMap, remoteMap, metaKey) => {
+    const lm = syncMeta[metaKey], rmm = rm[metaKey] || {};
+    remoteMap = remoteMap || {};
+    const keys = new Set([...Object.keys(localMap), ...Object.keys(remoteMap), ...Object.keys(lm), ...Object.keys(rmm)]);
+    let mapChanged = false;
+    keys.forEach(k => {
+      const tl = lm[k] || 0, tr = rmm[k] || 0;
+      const rHas = Object.prototype.hasOwnProperty.call(remoteMap, k);
+      const lHas = Object.prototype.hasOwnProperty.call(localMap, k);
+      if (tr > tl) {
+        if (rHas) { if (!lHas || localMap[k] !== remoteMap[k]) { localMap[k] = remoteMap[k]; mapChanged = true; } }
+        else if (lHas) { delete localMap[k]; mapChanged = true; }
+        lm[k] = tr;
+      } else if (!tr && !tl && rHas && !lHas) {
+        localMap[k] = remoteMap[k]; mapChanged = true; // 구버전(수정시각 없는) 데이터 호환: 합집합
+      }
     });
-    if (!res.ok) { updateSyncUI('error', '불러오기 실패'); return null; }
-    const data = await res.json();
-    const content = data.files?.[GIST_FILE]?.content;
-    updateSyncUI('ok', '동기화됨');
-    return content ? JSON.parse(content) : {};
-  } catch { updateSyncUI('error', '오류'); return null; }
+    if (mapChanged) localStorage.setItem(metaKey, JSON.stringify(localMap));
+    return mapChanged;
+  };
+
+  if (mergeMap(wrongs,    d.wrongs,    'wrongs'))    changed = true;
+  if (mergeMap(important, d.important, 'important')) changed = true;
+  if (mergeMap(solved,    d.solved,    'solved'))    changed = true;
+  if (mergeMap(memos,     d.memos,     'memos'))     changed = true;
+
+  // 책갈피: 최신 수정 우선
+  const btl = syncMeta.bookmark || 0, btr = rm.bookmark || 0;
+  if (btr > btl) {
+    const nb = d.bookmark == null ? null : d.bookmark;
+    if (nb !== bookmark) {
+      bookmark = nb;
+      if (bookmark === null) localStorage.removeItem('bookmark');
+      else localStorage.setItem('bookmark', bookmark);
+      changed = true;
+    }
+    syncMeta.bookmark = btr;
+  } else if (!btr && !btl && d.bookmark != null && bookmark === null) {
+    bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); changed = true;
+  }
+
+  // 대기 카드: 카드별 추가시각 vs 삭제 tombstone
+  const removed = syncMeta.removedAnki;
+  Object.entries(rm.removedAnki || {}).forEach(([k, ts]) => {
+    if ((removed[k] || 0) < ts) removed[k] = ts;
+  });
+  const byKey = new Map();
+  const consider = c => {
+    if (!c || !c.front) return;
+    const k = cardKey(c), p = byKey.get(k);
+    if (!p || (c.ts || 0) > (p.ts || 0)) byKey.set(k, c);
+  };
+  pendingAnki.forEach(consider);
+  (Array.isArray(d.pendingAnki) ? d.pendingAnki : []).forEach(consider);
+  const beforeKeys = pendingAnki.map(cardKey).sort().join('\n');
+  const merged = [];
+  byKey.forEach((c, k) => {
+    const rts = removed[k] || 0;
+    if (!rts) merged.push(c);
+    else if ((c.ts || 0) > rts) { merged.push(c); delete removed[k]; } // tombstone 이후 재추가된 카드는 유지
+  });
+  pendingAnki = merged;
+  if (merged.map(cardKey).sort().join('\n') !== beforeKeys) {
+    localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
+    changed = true;
+  }
+  // 오래된 tombstone 정리 (30일)
+  const cutoff = Date.now() - 30 * 24 * 3600 * 1000;
+  Object.keys(removed).forEach(k => { if (removed[k] < cutoff) delete removed[k]; });
+
+  saveSyncMeta();
+  return changed;
+}
+
+function isMemoEditing() {
+  const editor = document.getElementById('memo-editor');
+  const me = document.getElementById('memo-edit');
+  if (!editor || !me || editor.style.display === 'none') return false;
+  const draft = (me.innerHTML || '').trim();
+  return document.activeElement === me || (draft !== '' && draft !== '<br>');
+}
+
+function refreshAfterMerge() {
+  applyFilter();
+  updateBookmarkBar();
+  updatePendingUI();
+  if (cur !== null) {
+    updateHeaderBtns(cur);
+    if (!isMemoEditing()) renderMemo(cur); // 메모 작성 중이면 편집기 보호
+  }
+}
+
+// 원격 변경분 받아오기 (푸시 없음) — 화면 복귀/주기 폴링용
+async function gistPullMerge(silent) {
+  if (!gistToken || !gistId || pushing) return;
+  try {
+    const r = await fetchGistRaw(true); // ETag 304면 rate limit 무소모
+    if (r.notModified) return;
+    if (r.content && mergeRemote(r.content)) {
+      refreshAfterMerge();
+      const t = new Date();
+      updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 받아옴`);
+    }
+  } catch { if (!silent) updateSyncUI('error', '오류'); }
+}
+
+function startAutoSync() {
+  if (autoSyncStarted) return;
+  autoSyncStarted = true;
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) gistPullMerge(true); });
+  window.addEventListener('focus', () => gistPullMerge(true));
+  setInterval(() => { if (!document.hidden) gistPullMerge(true); }, 60000);
+}
+
+function syncPayload() {
+  return JSON.stringify({ wrongs, important, solved, memos, bookmark, pendingAnki, syncMeta });
 }
 
 async function gistPush() {
   if (!gistToken || !gistId) return;
+  if (pushing) { pushQueued = true; return; } // 연속 저장은 하나로 합침
+  pushing = true;
   updateSyncUI('syncing', '저장 중...');
   try {
+    // 푸시 직전 원격 변경분 병합 — 다른 기기 데이터 덮어쓰기 방지
+    try {
+      const r = await fetchGistRaw(false);
+      if (r.content && mergeRemote(r.content)) refreshAfterMerge();
+    } catch {}
     const res = await fetch(`https://api.github.com/gists/${gistId}`, {
       method: 'PATCH',
       headers: {
@@ -1723,15 +1879,20 @@ async function gistPush() {
         'Content-Type': 'application/json',
         'Accept': 'application/vnd.github.v3+json'
       },
-      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark, pendingAnki }) } } })
+      body: JSON.stringify({ files: { [GIST_FILE]: { content: syncPayload() } } })
     });
     if (res.ok) {
+      lastEtag = res.headers.get('ETag');
       const t = new Date();
       updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 저장됨`);
     } else {
       updateSyncUI('error', '저장 실패');
     }
   } catch { updateSyncUI('error', '오류'); }
+  finally {
+    pushing = false;
+    if (pushQueued) { pushQueued = false; gistPush(); }
+  }
 }
 
 async function gistCreate() {
@@ -1747,7 +1908,7 @@ async function gistCreate() {
       body: JSON.stringify({
         description: 'Study App Sync',
         public: false,
-        files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark }) } }
+        files: { [GIST_FILE]: { content: syncPayload() } }
       })
     });
     if (!res.ok) { updateSyncUI('error', 'Gist 생성 실패'); return null; }
@@ -1771,24 +1932,12 @@ async function initSync() {
     localStorage.setItem('gist_id', gistId);
     return;
   }
-  const d = await gistFetch();
-  if (!d) return;
-  // 머지: wrongs/important는 union, memos는 Gist 우선, bookmark는 Gist 우선
-  if (d.wrongs)    { Object.assign(wrongs, d.wrongs);       localStorage.setItem('wrongs', JSON.stringify(wrongs)); }
-  if (d.important) { Object.assign(important, d.important); localStorage.setItem('important', JSON.stringify(important)); }
-  if (d.solved)    { Object.assign(solved, d.solved);       localStorage.setItem('solved', JSON.stringify(solved)); }
-  if (d.memos)     { Object.keys(d.memos).forEach(k => { if (d.memos[k]) memos[k] = d.memos[k]; }); localStorage.setItem('memos', JSON.stringify(memos)); }
-  if (d.bookmark != null) { bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); }
-  if (Array.isArray(d.pendingAnki) && d.pendingAnki.length > 0) {
-    // Gist의 pendingAnki를 로컬과 합치되 중복 제거
-    const existing = new Set(pendingAnki.map(c => c.front + '||' + c.back));
-    d.pendingAnki.forEach(c => { if (!existing.has(c.front + '||' + c.back)) pendingAnki.push(c); });
-    localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
-  }
-  renderList();
-  updateBookmarkBar();
-  updatePendingUI();
-  if (cur !== null) { updateHeaderBtns(cur); renderMemo(cur); }
+  updateSyncUI('syncing', '불러오는 중...');
+  try {
+    const r = await fetchGistRaw(false);
+    if (r.content && mergeRemote(r.content)) refreshAfterMerge();
+    updateSyncUI('ok', '동기화됨');
+  } catch { updateSyncUI('error', '불러오기 실패'); }
 }
 
 function openSyncSettings() {
