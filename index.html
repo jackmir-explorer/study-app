@@ -252,6 +252,7 @@
   #ai-answer-header button:hover { background: #1a2e1a; }
   #ai-answer-body { padding: 12px 14px; font-size: 13px; line-height: 1.9; }
   #ai-answer-body b { color: #fff; }
+  #ai-answer-body a, #memo-display a { color: var(--accent); }
 
   /* 개념 메모 섹션 */
   #memo-section {
@@ -1378,27 +1379,48 @@ async function askGeminiFromCrop() {
   let model = localStorage.getItem('gemini_model') || 'gemini-2.0-flash';
   if (model === 'gemini-1.5-pro') model = 'gemini-2.0-flash';
   const prompt = localStorage.getItem('gem_prompt') || DEFAULT_GEM_PROMPT;
-  try {
+  const useSearch = localStorage.getItem('gem_search') !== '0'; // 기본 켜짐
+  const callGemini = async (withSearch) => {
+    const body = {
+      contents: [{ parts: [
+        { text: prompt },
+        { inline_data: { mime_type: 'image/jpeg', data: dataUrl.split(',')[1] } }
+      ] }],
+      generationConfig: { temperature: 0.2, maxOutputTokens: 4000 }
+    };
+    if (withSearch) body.tools = [{ google_search: {} }];
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [
-          { text: prompt },
-          { inline_data: { mime_type: 'image/jpeg', data: dataUrl.split(',')[1] } }
-        ] }],
-        generationConfig: { temperature: 0.2, maxOutputTokens: 4000 }
-      })
+      body: JSON.stringify(body)
     });
     if (!res.ok) {
       const err = await res.json();
       throw new Error(err.error?.message || res.status);
     }
-    const data = await res.json();
+    return res.json();
+  };
+  try {
+    let data;
+    try { data = await callGemini(useSearch); }
+    catch (e) {
+      if (!useSearch) throw e;
+      data = await callGemini(false); // 검색 미지원 모델 → 검색 없이 재시도
+    }
     const text = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
     if (!text) throw new Error('응답이 비어 있습니다.');
     if (reqId !== answerReqId) return;
-    lastAnswerHtml = answerToHtml(text);
+    // Google 검색 grounding 참고 링크
+    const chunks = data.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
+    const seen = new Set(), links = [];
+    chunks.forEach(c => {
+      const w = c.web;
+      if (!w || !w.uri || seen.has(w.uri)) return;
+      seen.add(w.uri);
+      links.push(`<a href="${esc(w.uri).replace(/"/g, '&quot;')}" target="_blank" rel="noopener">${esc(w.title || w.uri)}</a>`);
+    });
+    const srcHtml = links.length ? `<br><br><span style="font-size:11px;color:var(--sub)">🔎 참고: ${links.slice(0, 6).join(' · ')}</span>` : '';
+    lastAnswerHtml = answerToHtml(text) + srcHtml;
     const t = document.getElementById('ai-answer-text');
     if (t) { t.style.color = ''; t.innerHTML = lastAnswerHtml; }
   } catch (e) {
@@ -1788,6 +1810,8 @@ function openSyncSettings() {
   if (modelStatus && savedModel) modelStatus.textContent = `현재 저장된 모델: ${savedModel}`;
   const gemPromptEl = document.getElementById('gem-prompt-input');
   if (gemPromptEl) gemPromptEl.value = localStorage.getItem('gem_prompt') || DEFAULT_GEM_PROMPT;
+  const gemSearchEl = document.getElementById('gem-search-toggle');
+  if (gemSearchEl) gemSearchEl.checked = localStorage.getItem('gem_search') !== '0';
   document.getElementById('sync-modal').style.display = 'flex';
 }
 function closeSyncModal() {
@@ -1807,6 +1831,8 @@ async function connectSync() {
   const gemPrompt = document.getElementById('gem-prompt-input').value.trim();
   if (!gemPrompt || gemPrompt === DEFAULT_GEM_PROMPT) localStorage.removeItem('gem_prompt');
   else localStorage.setItem('gem_prompt', gemPrompt);
+  if (document.getElementById('gem-search-toggle').checked) localStorage.removeItem('gem_search');
+  else localStorage.setItem('gem_search', '0');
   closeSyncModal();
   await initSync();
   if (!gId && gistId) alert(`Gist 생성 완료!\nGist ID: ${gistId}\n\n다른 기기 설정 시 이 ID를 입력하세요.`);
@@ -1884,6 +1910,10 @@ load();
       <div id="model-load-status" style="font-size:10px;color:#555;margin-top:4px">API 키 입력 후 [내 키로 모델 조회] 버튼을 눌러 사용 가능한 모델을 불러오세요.</div>
       <div style="font-size:11px;color:#888;margin:12px 0 4px">문제 캡처 해답 프롬프트 <span style="color:#555">(내 Gem 지침을 붙여넣으세요 — 비우면 기본값)</span></div>
       <textarea id="gem-prompt-input" rows="5" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:11px;line-height:1.5;outline:none;box-sizing:border-box;resize:vertical;font-family:inherit"></textarea>
+      <label style="display:flex;align-items:center;gap:6px;font-size:11px;color:#888;margin-top:8px;cursor:pointer">
+        <input type="checkbox" id="gem-search-toggle" style="accent-color:#4a8cf7;margin:0">
+        해답 생성 시 Google 검색 참조 <span style="color:#555">(최신 근거·레퍼런스 강화)</span>
+      </label>
     </div>
 
     <div style="display:flex;gap:8px">
