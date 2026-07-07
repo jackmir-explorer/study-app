@@ -314,58 +314,6 @@
   }
   #gemini-btn:hover { background: #1a2e1a; border-color: #6abf6a; }
 
-  /* Anki CSV 패널 */
-  #anki-panel {
-    margin-top: 10px; border: 1px solid #1e2a3a;
-    border-radius: 8px; overflow: hidden;
-  }
-  #anki-panel-header {
-    padding: 9px 14px; background: #0e1620;
-    font-size: 12px; font-weight: 700; color: #4a8cf7;
-    display: flex; align-items: center; justify-content: space-between;
-    cursor: pointer; user-select: none;
-  }
-  #anki-panel-body { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
-  #anki-csv-input {
-    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
-    border-radius: 4px; color: var(--text); font-size: 12px; line-height: 1.6;
-    padding: 8px 10px; resize: vertical; min-height: 90px;
-    font-family: 'Consolas', monospace; outline: none;
-  }
-  #anki-csv-input:focus { border-color: var(--accent); }
-  #anki-csv-input::placeholder { color: #333; font-family: inherit; }
-  #anki-dl-btn {
-    padding: 7px 14px; font-size: 12px; border-radius: 6px;
-    border: 1px solid var(--accent); background: transparent;
-    color: var(--accent); cursor: pointer; width: fit-content;
-  }
-  #anki-dl-btn:hover { background: var(--accent); color: #fff; }
-  #anki-dl-btn:disabled { opacity: 0.4; cursor: default; }
-  #anki-dl-msg { font-size: 11px; color: var(--sub); }
-
-  /* Anki 네이티브 패널 */
-  .anki-field-label { font-size: 11px; color: var(--sub); margin-bottom: 3px; }
-  .anki-textarea {
-    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
-    border-radius: 4px; color: var(--text); font-size: 12px; line-height: 1.6;
-    padding: 8px 10px; resize: vertical; min-height: 60px;
-    font-family: inherit; outline: none;
-  }
-  .anki-textarea:focus { border-color: var(--accent); }
-  #anki-deck-input {
-    width: 100%; background: var(--bg); border: 1px solid #1e2a3a;
-    border-radius: 4px; color: var(--text); font-size: 12px;
-    padding: 6px 10px; outline: none;
-  }
-  #anki-deck-input:focus { border-color: var(--accent); }
-  #anki-add-btn {
-    width: 100%; padding: 9px; font-size: 13px; font-weight: 600;
-    border-radius: 6px; border: 1px solid var(--accent);
-    background: #0d1a30; color: var(--accent); cursor: pointer;
-  }
-  #anki-add-btn:hover { background: var(--accent); color: #fff; }
-  #anki-add-btn:disabled { opacity: 0.4; cursor: default; }
-  #anki-result { font-size: 11px; text-align: center; min-height: 16px; }
 </style>
 </head>
 <body>
@@ -479,70 +427,10 @@
     <div style="margin-top:10px;display:flex;flex-direction:column;gap:6px">
       <input id="ai-concept-input" placeholder="개념/주제 입력 (예: 대동맥 협착증, 당뇨병성 신증...)" style="width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:6px;font-size:13px;outline:none;box-sizing:border-box">
       <div style="display:flex;gap:8px">
-        <button id="ai-gen-btn" onclick="generateWithGemini()" style="flex:1;padding:9px;font-size:12px;border-radius:6px;border:1px solid #3a5a3a;background:#0e1e0e;color:#6abf6a;cursor:pointer">✦ AI 개념+카드 생성</button>
+        <button id="ai-gen-btn" onclick="generateWithGemini()" style="flex:1;padding:9px;font-size:12px;border-radius:6px;border:1px solid #3a5a3a;background:#0e1e0e;color:#6abf6a;cursor:pointer">✦ AI 개념 생성</button>
         <button onclick="window.open('https://gemini.google.com/gem/7115bdf573bd','_blank')" style="padding:9px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--sub);cursor:pointer">Gemini 열기</button>
       </div>
       <div id="ai-gen-status" style="font-size:11px;color:var(--sub);text-align:center;min-height:14px"></div>
-    </div>
-
-    <!-- Anki 패널 -->
-    <div id="anki-panel">
-      <div id="anki-panel-header" onclick="toggleAnkiPanel()">
-        <span>⬛ Anki 카드 추가</span>
-        <span id="anki-panel-arrow">▼</span>
-      </div>
-      <div id="anki-panel-body">
-
-        <!-- 네이티브 앱 전용 -->
-        <div id="anki-native" style="display:none;flex-direction:column;gap:8px">
-          <!-- 대기함 import 섹션 -->
-          <div id="pending-section" style="display:none;flex-direction:column;gap:6px;padding:10px;background:#1a1500;border:1px solid #5a4a1a;border-radius:6px">
-            <div style="display:flex;align-items:center;justify-content:space-between">
-              <span id="pending-count" style="font-size:12px;color:var(--star);font-weight:600"></span>
-              <button onclick="clearPending()" style="font-size:10px;padding:2px 7px;background:transparent;border:1px solid #444;color:#666;border-radius:4px;cursor:pointer">비우기</button>
-            </div>
-            <div>
-              <div class="anki-field-label">가져올 덱</div>
-              <input id="anki-deck-pending" value="Medical" placeholder="덱 이름" style="width:100%;background:var(--bg);border:1px solid #1e2a3a;border-radius:4px;color:var(--text);font-size:12px;padding:6px 10px;outline:none;box-sizing:border-box">
-            </div>
-            <button id="import-pending-btn" onclick="importPendingToAnkiDroid()" style="width:100%;padding:10px;font-size:13px;font-weight:700;border-radius:6px;border:1px solid var(--star);background:#1a1500;color:var(--star);cursor:pointer">AnkiDroid로 모두 import</button>
-            <div id="import-result" style="font-size:11px;text-align:center;min-height:14px"></div>
-          </div>
-          <!-- 직접 입력 섹션 -->
-          <div>
-            <div class="anki-field-label">저장할 덱</div>
-            <input id="anki-deck-input" value="Medical" placeholder="덱 이름" style="width:100%;background:var(--bg);border:1px solid #1e2a3a;border-radius:4px;color:var(--text);font-size:12px;padding:6px 10px;outline:none;box-sizing:border-box">
-          </div>
-          <div>
-            <div class="anki-field-label">직접 추가 <span style="color:#555;font-weight:normal">— 앞면;뒷면</span></div>
-            <textarea id="anki-bulk" class="anki-textarea" style="min-height:80px" placeholder="질문내용;답변내용
-두번째질문;두번째답변"></textarea>
-          </div>
-          <div id="anki-preview" style="font-size:11px;color:#4caf4c"></div>
-          <button id="anki-add-btn" onclick="addToAnki()">AnkiDroid에 직접 추가</button>
-          <div id="anki-result"></div>
-        </div>
-
-        <!-- 브라우저 전용 (AnkiConnect + CSV 폴백) -->
-        <div id="anki-csv-mode" style="display:flex;flex-direction:column;gap:8px">
-          <div>
-            <div class="anki-field-label">덱 이름</div>
-            <input id="anki-deck-web" value="Medical" placeholder="덱 이름" style="width:100%;background:var(--bg);border:1px solid #1e2a3a;border-radius:4px;color:var(--text);font-size:12px;padding:6px 10px;outline:none;box-sizing:border-box">
-          </div>
-          <div>
-            <div class="anki-field-label">카드 목록 <span style="color:#555;font-weight:normal">— 한 줄에 하나씩: 앞면;뒷면</span></div>
-            <textarea id="anki-web-bulk" class="anki-textarea" style="min-height:110px" placeholder="질문내용;답변내용
-두번째질문;두번째답변"></textarea>
-          </div>
-          <div id="anki-web-preview" style="font-size:11px;color:#4caf4c"></div>
-          <div style="display:flex;gap:8px">
-            <button id="anki-queue-btn" onclick="addToPending()" style="flex:1;padding:8px;font-size:12px;font-weight:600;border-radius:6px;border:1px solid var(--star);background:#1a1500;color:var(--star);cursor:pointer" disabled>대기함에 추가</button>
-            <button id="anki-dl-btn" onclick="downloadCSV()" style="padding:8px 12px;font-size:12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--sub);cursor:pointer" disabled>⬇ CSV</button>
-          </div>
-          <div id="anki-web-result" style="font-size:11px;min-height:16px;text-align:center"></div>
-        </div>
-
-      </div>
     </div>
 
   </div>
@@ -556,17 +444,18 @@ let wrongs      = JSON.parse(localStorage.getItem('wrongs')      || '{}');
 let important   = JSON.parse(localStorage.getItem('important')   || '{}');
 let solved      = JSON.parse(localStorage.getItem('solved')      || '{}');
 let memos       = JSON.parse(localStorage.getItem('memos')       || '{}');
-let pendingAnki = JSON.parse(localStorage.getItem('pendingAnki') || '[]');
 let bookmark    = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
 let topicHidden = localStorage.getItem('topicHidden') === '1';
 
-// ── Anki ──────────────────────────────────────────────
-let ankiPanelOpen = true;
-function toggleAnkiPanel() {
-  ankiPanelOpen = !ankiPanelOpen;
-  document.getElementById('anki-panel-body').style.display = ankiPanelOpen ? 'flex' : 'none';
-  document.getElementById('anki-panel-arrow').textContent = ankiPanelOpen ? '▼' : '▶';
-}
+// ── 동기화 메타 (키별 마지막 수정시각 — 기기 간 충돌 병합용) ──
+let syncMeta = (() => {
+  const m = JSON.parse(localStorage.getItem('syncMeta') || '{}');
+  ['wrongs', 'important', 'solved', 'memos'].forEach(k => { if (!m[k]) m[k] = {}; });
+  if (!m.bookmark) m.bookmark = 0;
+  return m;
+})();
+function saveSyncMeta() { localStorage.setItem('syncMeta', JSON.stringify(syncMeta)); }
+function touchMeta(map, key) { syncMeta[map][key] = Date.now(); saveSyncMeta(); }
 
 function isNativeApp() {
   return !!(window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform());
@@ -688,12 +577,7 @@ async function generateWithGemini() {
 오답 유도 포인트 2~5개, 자주 헷갈리는 보기
 
 7. 시험용 핵심 압축
-막판 회독용 3~5줄 요약
-
-[ANKI]
-위 개념정리 내용만 사용해서 Front;Back 형식으로 5~6장. 한 줄에 하나씩.
-우선순위: 숫자 기준 > 진단 기준 > 치료 기준 > 감별/함정 > 전형적 증례
-구분자는 세미콜론(;). 앞면과 뒷면 각각 짧고 단정하게.`;
+막판 회독용 3~5줄 요약`;
 
   try {
     const res = await fetch(url, {
@@ -712,8 +596,7 @@ async function generateWithGemini() {
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 
     // 개념정리 파싱
-    const conceptMatch = text.match(/\[개념정리\]([\s\S]*?)(?=\[ANKI\]|$)/);
-    const ankiMatch    = text.match(/\[ANKI\]([\s\S]*?)$/);
+    const conceptMatch = text.match(/\[개념정리\]([\s\S]*?)$/);
 
     if (conceptMatch) {
       const concept = conceptMatch[1].trim();
@@ -729,284 +612,13 @@ async function generateWithGemini() {
       memoEdit.innerHTML = memoToHtml(concept);
     }
 
-    if (ankiMatch) {
-      const ankiText = ankiMatch[1].trim();
-      // 네이티브 앱이면 anki-bulk, 브라우저면 anki-web-bulk
-      const bulkEl = document.getElementById(isNativeApp() ? 'anki-bulk' : 'anki-web-bulk');
-      if (bulkEl) {
-        bulkEl.value = ankiText;
-        bulkEl.dispatchEvent(new Event('input')); // 미리보기 카운트 업데이트
-      }
-      // 패널 열기
-      if (!ankiPanelOpen) toggleAnkiPanel();
-    }
-
-    const count = (ankiMatch?.[1].trim().split('\n').filter(l => l.includes(';')).length) || 0;
     status.style.color = '#4caf4c';
-    status.textContent = `✓ 개념 정리 + Anki ${count}장 생성 완료`;
+    status.textContent = '✓ 개념 정리 생성 완료';
   } catch(e) {
     status.style.color = '#e05555';
     status.textContent = '오류: ' + e.message;
   }
   btn.disabled = false;
-}
-
-// ── 대기 카드함 ────────────────────────────────────────
-function savePending() {
-  localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
-  gistPush();
-}
-
-function updatePendingUI() {
-  const n = pendingAnki.length;
-  // 모바일: 대기함 섹션 표시/숨김
-  const sec = document.getElementById('pending-section');
-  if (sec) {
-    sec.style.display = n > 0 ? 'flex' : 'none';
-    const cnt = document.getElementById('pending-count');
-    if (cnt) cnt.textContent = `대기 중: ${n}장`;
-  }
-}
-
-function addToPending() {
-  const bulk = document.getElementById('anki-web-bulk').value;
-  const deck = document.getElementById('anki-deck-web').value.trim() || 'Medical';
-  const cards = parseAnkiCards(bulk);
-  if (!cards.length) return;
-  const q = cur !== null ? all[cur] : null;
-  const tags = q?.category || '의학';
-  cards.forEach(c => pendingAnki.push({ front: c.front, back: c.back, deck, tags }));
-  savePending();
-  updatePendingUI();
-  const result = document.getElementById('anki-web-result');
-  result.style.color = '#4caf4c';
-  result.textContent = `✓ ${cards.length}장 대기함에 추가됨 (총 ${pendingAnki.length}장)`;
-  document.getElementById('anki-web-bulk').value = '';
-  document.getElementById('anki-web-preview').textContent = '';
-  document.getElementById('anki-queue-btn').disabled = true;
-  document.getElementById('anki-dl-btn').disabled = true;
-}
-
-function clearPending() {
-  if (!confirm(`대기 중인 카드 ${pendingAnki.length}장을 모두 삭제할까요?`)) return;
-  pendingAnki = [];
-  savePending();
-  updatePendingUI();
-}
-
-async function importPendingToAnkiDroid() {
-  if (!pendingAnki.length) return;
-  const deck = document.getElementById('anki-deck-pending').value.trim() || 'Medical';
-  const btn = document.getElementById('import-pending-btn');
-  const result = document.getElementById('import-result');
-  btn.disabled = true;
-  result.style.color = '#4a8cf7';
-  result.textContent = `0 / ${pendingAnki.length} 추가 중...`;
-  try {
-    const { AnkiDroid } = window.Capacitor.Plugins;
-    const { installed } = await AnkiDroid.isAnkiDroidInstalled();
-    if (!installed) { result.style.color='#e05555'; result.textContent='AnkiDroid 미설치'; btn.disabled=false; return; }
-    const { granted } = await AnkiDroid.checkPermission();
-    if (!granted) await AnkiDroid.requestPermission();
-    let ok = 0, fail = 0;
-    const failedCards = [];
-    for (const [i, card] of pendingAnki.entries()) {
-      try {
-        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: card.deck || deck, tags: card.tags });
-        if (res.success) ok++; else { fail++; failedCards.push(card); }
-      } catch { fail++; failedCards.push(card); }
-      result.textContent = `${i+1} / ${pendingAnki.length} 추가 중...`;
-    }
-    result.style.color = fail===0 ? '#4caf4c' : '#f0b429';
-    result.textContent = `✓ ${ok}장 완료${fail>0 ? ` (${fail}장 실패)` : ''}`;
-    if (ok > 0) {
-      pendingAnki = failedCards; // 실패한 카드만 남김 (성공한 것은 정확히 제거)
-      localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
-      clearTimeout(syncTimer);
-      updatePendingUI();
-      await gistPush(); // import 완료 즉시 Gist 반영 (딜레이 없이)
-    }
-  } catch(e) {
-    result.style.color = '#e05555'; result.textContent = '오류: ' + e.message;
-  }
-  btn.disabled = false;
-}
-
-// ── AnkiConnect ────────────────────────────────────────
-const AC_URL = 'http://127.0.0.1:8765';
-let acConnected = false;
-
-async function checkAnkiConnect() {
-  const el = document.getElementById('ac-status');
-  if (!el) return;
-  el.style.color = '#555'; el.textContent = '● 연결 확인 중...';
-  try {
-    const res = await fetch(AC_URL, {
-      method: 'POST',
-      body: JSON.stringify({ action: 'version', version: 6 })
-    });
-    const data = await res.json();
-    if (data.result >= 6) {
-      acConnected = true;
-      el.style.color = '#4caf4c'; el.textContent = '● AnkiConnect 연결됨';
-      document.getElementById('ac-add-btn').disabled = false;
-    } else { throw new Error(); }
-  } catch {
-    acConnected = false;
-    el.style.color = '#e05555'; el.textContent = '● AnkiConnect 미연결 — Anki 실행 필요';
-    document.getElementById('ac-add-btn').disabled = true;
-  }
-}
-
-async function addToAnkiConnect() {
-  const bulk = document.getElementById('anki-web-bulk').value;
-  const deck = document.getElementById('anki-deck-web').value.trim() || 'Medical';
-  const result = document.getElementById('anki-web-result');
-  const btn = document.getElementById('ac-add-btn');
-  const cards = parseAnkiCards(bulk);
-  if (cards.length === 0) {
-    result.style.color = '#e05555'; result.textContent = '앞면;뒷면 형식으로 입력해주세요.'; return;
-  }
-  const q = cur !== null ? all[cur] : null;
-  const tag = (q?.category || '의학').replace(/ /g, '_');
-  btn.disabled = true; result.style.color = '#4a8cf7'; result.textContent = `0 / ${cards.length} 추가 중...`;
-  try {
-    const notes = cards.map(c => ({
-      deckName: deck, modelName: 'Basic',
-      fields: { Front: c.front, Back: c.back },
-      tags: [tag], options: { allowDuplicate: false }
-    }));
-    const res = await fetch(AC_URL, {
-      method: 'POST',
-      body: JSON.stringify({ action: 'addNotes', version: 6, params: { notes } })
-    });
-    const data = await res.json();
-    const added = data.result.filter(id => id !== null).length;
-    const failed = cards.length - added;
-    result.style.color = failed === 0 ? '#4caf4c' : '#f0b429';
-    result.textContent = `✓ ${added}장 추가 완료${failed > 0 ? ` (${failed}장 중복/실패)` : ''}`;
-    if (added > 0) { document.getElementById('anki-web-bulk').value = ''; document.getElementById('anki-web-preview').textContent = ''; }
-  } catch {
-    result.style.color = '#e05555'; result.textContent = 'AnkiConnect 오류 — Anki가 실행 중인지 확인하세요';
-  }
-  btn.disabled = false;
-}
-
-function initAnkiPanel() {
-  if (isNativeApp()) {
-    document.getElementById('anki-native').style.display = 'flex';
-    document.getElementById('anki-csv-mode').style.display = 'none';
-  } else {
-    document.getElementById('anki-native').style.display = 'none';
-    document.getElementById('anki-csv-mode').style.display = 'flex';
-  }
-}
-
-function parseAnkiCards(text) {
-  return text.split('\n')
-    .map(l => l.trim()).filter(l => l && l.includes(';'))
-    .map(l => { const p = l.split(';'); return { front: p[0].trim(), back: p.slice(1).join(';').trim() }; })
-    .filter(c => c.front && c.back);
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  // 네이티브 bulk 미리보기
-  const bulk = document.getElementById('anki-bulk');
-  if (bulk) bulk.addEventListener('input', function() {
-    const cards = parseAnkiCards(this.value);
-    const prev = document.getElementById('anki-preview');
-    prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
-  });
-  // 브라우저 bulk 미리보기 + CSV 버튼 활성화
-  const webBulk = document.getElementById('anki-web-bulk');
-  if (webBulk) webBulk.addEventListener('input', function() {
-    const cards = parseAnkiCards(this.value);
-    const prev = document.getElementById('anki-web-preview');
-    prev.textContent = cards.length > 0 ? `${cards.length}장 인식됨` : '';
-    const hasCards = cards.length > 0;
-    document.getElementById('anki-dl-btn').disabled = !hasCards;
-    const qBtn = document.getElementById('anki-queue-btn');
-    if (qBtn) qBtn.disabled = !hasCards;
-  });
-});
-
-async function addToAnki() {
-  const bulk = document.getElementById('anki-bulk').value;
-  const deck = document.getElementById('anki-deck-input').value.trim() || 'Medical';
-  const result = document.getElementById('anki-result');
-  const btn = document.getElementById('anki-add-btn');
-
-  const cards = parseAnkiCards(bulk);
-  if (cards.length === 0) {
-    result.style.color = '#e05555';
-    result.textContent = '앞면;뒷면 형식으로 입력해주세요.';
-    return;
-  }
-
-  btn.disabled = true;
-  result.style.color = '#4a8cf7';
-  result.textContent = `0 / ${cards.length} 추가 중...`;
-
-  try {
-    const { AnkiDroid } = window.Capacitor.Plugins;
-    const { installed } = await AnkiDroid.isAnkiDroidInstalled();
-    if (!installed) {
-      result.style.color = '#e05555';
-      result.textContent = 'AnkiDroid가 설치되어 있지 않습니다.';
-      btn.disabled = false; return;
-    }
-    const { granted } = await AnkiDroid.checkPermission();
-    if (!granted) await AnkiDroid.requestPermission();
-
-    const q = cur !== null ? all[cur] : null;
-    const tags = q?.category || '의학';
-
-    let ok = 0, fail = 0;
-    for (const [idx, card] of cards.entries()) {
-      try {
-        const res = await AnkiDroid.addNote({ front: card.front, back: card.back, deckName: deck, tags });
-        if (res.success) ok++; else fail++;
-      } catch { fail++; }
-      result.textContent = `${idx + 1} / ${cards.length} 추가 중...`;
-    }
-
-    result.style.color = fail === 0 ? '#4caf4c' : '#f0b429';
-    result.textContent = `✓ ${ok}장 추가 완료${fail > 0 ? ` (${fail}장 실패)` : ''}`;
-    if (ok > 0) document.getElementById('anki-bulk').value = '';
-    document.getElementById('anki-preview').textContent = '';
-  } catch (e) {
-    result.style.color = '#e05555';
-    result.textContent = '오류: ' + (e.message || '알 수 없는 오류');
-  }
-  btn.disabled = false;
-}
-
-function applyAnkiPanel() {
-  const native = isNativeApp();
-  document.getElementById('anki-native').style.display   = native ? 'flex' : 'none';
-  document.getElementById('anki-csv-mode').style.display = native ? 'none' : 'flex';
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  initAnkiPanel();        // 즉시 시도
-  setTimeout(applyAnkiPanel, 300);   // 300ms 후 재시도
-  setTimeout(applyAnkiPanel, 1000);  // 1초 후 재시도 (Capacitor 브릿지 늦게 로드될 경우)
-});
-
-function downloadCSV() {
-  const cards = parseAnkiCards(document.getElementById('anki-web-bulk').value);
-  if (!cards.length) return;
-  const q = cur !== null ? all[cur] : null;
-  const tag = q?.category || '';
-  const rows = cards.map(c => `"${c.front.replace(/"/g,'""')}","${c.back.replace(/"/g,'""')}","${tag}"`);
-  const csv = '앞면,뒷면,태그\n' + rows.join('\n');
-  const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  const name = q ? `anki_${tag}_Q${q.q_num||''}.csv` : 'anki_cards.csv';
-  a.href = url; a.download = name; a.click();
-  URL.revokeObjectURL(url);
-  document.getElementById('anki-dl-msg').textContent = `✓ ${name} 저장됨`;
 }
 
 function toggleTopics() {
@@ -1042,8 +654,8 @@ async function load() {
   applyTopicVisibility();
   const last = localStorage.getItem('last');
   if (last !== null && all[+last]) select(+last);
-  updatePendingUI();
   initSync();
+  startAutoSync();
 }
 
 // ── 카테고리 필터 ─────────────────────────────────────
@@ -1449,7 +1061,8 @@ function saveAnswerToMemo() {
   const block = '<b>✦ AI 해답</b><br>' + lastAnswerHtml;
   memos[i] = memos[i] ? memos[i] + '<br><br>' + block : block;
   localStorage.setItem('memos', JSON.stringify(memos));
-  if (!important[i]) { important[i] = true; localStorage.setItem('important', JSON.stringify(important)); }
+  touchMeta('memos', i);
+  if (!important[i]) { important[i] = true; localStorage.setItem('important', JSON.stringify(important)); touchMeta('important', i); }
   if (i === cur) { renderMemo(i); updateHeaderBtns(i); }
   renderList();
   gistPush();
@@ -1547,6 +1160,7 @@ function toggleBookmark() {
     bookmark = cur;
     localStorage.setItem('bookmark', cur);
   }
+  syncMeta.bookmark = Date.now(); saveSyncMeta();
   updateHeaderBtns(cur);
   updateBookmarkBar();
   renderList();
@@ -1574,6 +1188,7 @@ function markSolved(i) {
   solved[i] = !solved[i];
   if (!solved[i]) delete solved[i];
   localStorage.setItem('solved', JSON.stringify(solved));
+  touchMeta('solved', i);
   if (i === cur) updateHeaderBtns(i);
   renderList();
   gistPush();
@@ -1585,6 +1200,7 @@ function markWrong(i) {
   wrongs[i] = !wrongs[i];
   if (!wrongs[i]) delete wrongs[i];
   localStorage.setItem('wrongs', JSON.stringify(wrongs));
+  touchMeta('wrongs', i);
   if (i === cur) updateHeaderBtns(i);
   renderList();
   gistPush();
@@ -1595,6 +1211,7 @@ function markStar(i) {
   important[i] = !important[i];
   if (!important[i]) delete important[i];
   localStorage.setItem('important', JSON.stringify(important));
+  touchMeta('important', i);
   if (i === cur) { updateHeaderBtns(i); renderMemo(i); }
   renderList();
   gistPush();
@@ -1661,10 +1278,12 @@ function saveMemo() {
 
   memos[cur] = val;
   localStorage.setItem('memos', JSON.stringify(memos));
+  touchMeta('memos', cur);
 
   if (!important[cur]) {
     important[cur] = true;
     localStorage.setItem('important', JSON.stringify(important));
+    touchMeta('important', cur);
   }
 
   renderMemo(cur);
@@ -1678,6 +1297,7 @@ function deleteMemo() {
   if (!confirm('메모를 삭제할까요?')) return;
   delete memos[cur];
   localStorage.setItem('memos', JSON.stringify(memos));
+  touchMeta('memos', cur);
   renderMemo(cur);
   gistPush();
 }
@@ -1687,6 +1307,7 @@ const GIST_FILE = 'study_sync.json';
 let gistToken = localStorage.getItem('gist_token') || '';
 let gistId    = localStorage.getItem('gist_id')    || '';
 let syncTimer = null;
+let lastEtag = null, pushing = false, pushQueued = false, autoSyncStarted = false;
 
 function updateSyncUI(status, msg) {
   const el = document.getElementById('sync-indicator');
@@ -1697,25 +1318,125 @@ function updateSyncUI(status, msg) {
   el.style.color = color;
 }
 
-async function gistFetch() {
-  if (!gistToken || !gistId) return null;
-  updateSyncUI('syncing', '불러오는 중...');
-  try {
-    const res = await fetch(`https://api.github.com/gists/${gistId}`, {
-      headers: { 'Authorization': `token ${gistToken}`, 'Accept': 'application/vnd.github.v3+json' }
+async function fetchGistRaw(useEtag) {
+  const headers = { 'Authorization': `token ${gistToken}`, 'Accept': 'application/vnd.github.v3+json' };
+  if (useEtag && lastEtag) headers['If-None-Match'] = lastEtag;
+  const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers, cache: 'no-store' });
+  if (res.status === 304) return { notModified: true };
+  if (!res.ok) throw new Error('gist fetch ' + res.status);
+  lastEtag = res.headers.get('ETag');
+  const data = await res.json();
+  const content = data.files?.[GIST_FILE]?.content;
+  let parsed = null;
+  try { parsed = content ? JSON.parse(content) : null; } catch {}
+  return { content: parsed };
+}
+
+// 원격 데이터를 로컬에 병합: 키별 최신 수정시각(LWW) 우선, 삭제도 전파
+function mergeRemote(d) {
+  if (!d) return false;
+  const rm = d.syncMeta || {};
+  let changed = false;
+
+  const mergeMap = (localMap, remoteMap, metaKey) => {
+    const lm = syncMeta[metaKey], rmm = rm[metaKey] || {};
+    remoteMap = remoteMap || {};
+    const keys = new Set([...Object.keys(localMap), ...Object.keys(remoteMap), ...Object.keys(lm), ...Object.keys(rmm)]);
+    let mapChanged = false;
+    keys.forEach(k => {
+      const tl = lm[k] || 0, tr = rmm[k] || 0;
+      const rHas = Object.prototype.hasOwnProperty.call(remoteMap, k);
+      const lHas = Object.prototype.hasOwnProperty.call(localMap, k);
+      if (tr > tl) {
+        if (rHas) { if (!lHas || localMap[k] !== remoteMap[k]) { localMap[k] = remoteMap[k]; mapChanged = true; } }
+        else if (lHas) { delete localMap[k]; mapChanged = true; }
+        lm[k] = tr;
+      } else if (!tr && !tl && rHas && !lHas) {
+        localMap[k] = remoteMap[k]; mapChanged = true; // 구버전(수정시각 없는) 데이터 호환: 합집합
+      }
     });
-    if (!res.ok) { updateSyncUI('error', '불러오기 실패'); return null; }
-    const data = await res.json();
-    const content = data.files?.[GIST_FILE]?.content;
-    updateSyncUI('ok', '동기화됨');
-    return content ? JSON.parse(content) : {};
-  } catch { updateSyncUI('error', '오류'); return null; }
+    if (mapChanged) localStorage.setItem(metaKey, JSON.stringify(localMap));
+    return mapChanged;
+  };
+
+  if (mergeMap(wrongs,    d.wrongs,    'wrongs'))    changed = true;
+  if (mergeMap(important, d.important, 'important')) changed = true;
+  if (mergeMap(solved,    d.solved,    'solved'))    changed = true;
+  if (mergeMap(memos,     d.memos,     'memos'))     changed = true;
+
+  // 책갈피: 최신 수정 우선
+  const btl = syncMeta.bookmark || 0, btr = rm.bookmark || 0;
+  if (btr > btl) {
+    const nb = d.bookmark == null ? null : d.bookmark;
+    if (nb !== bookmark) {
+      bookmark = nb;
+      if (bookmark === null) localStorage.removeItem('bookmark');
+      else localStorage.setItem('bookmark', bookmark);
+      changed = true;
+    }
+    syncMeta.bookmark = btr;
+  } else if (!btr && !btl && d.bookmark != null && bookmark === null) {
+    bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); changed = true;
+  }
+
+  saveSyncMeta();
+  return changed;
+}
+
+function isMemoEditing() {
+  const editor = document.getElementById('memo-editor');
+  const me = document.getElementById('memo-edit');
+  if (!editor || !me || editor.style.display === 'none') return false;
+  const draft = (me.innerHTML || '').trim();
+  return document.activeElement === me || (draft !== '' && draft !== '<br>');
+}
+
+function refreshAfterMerge() {
+  applyFilter();
+  updateBookmarkBar();
+  if (cur !== null) {
+    updateHeaderBtns(cur);
+    if (!isMemoEditing()) renderMemo(cur); // 메모 작성 중이면 편집기 보호
+  }
+}
+
+// 원격 변경분 받아오기 (푸시 없음) — 화면 복귀/주기 폴링용
+async function gistPullMerge(silent) {
+  if (!gistToken || !gistId || pushing) return;
+  try {
+    const r = await fetchGistRaw(true); // ETag 304면 rate limit 무소모
+    if (r.notModified) return;
+    if (r.content && mergeRemote(r.content)) {
+      refreshAfterMerge();
+      const t = new Date();
+      updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 받아옴`);
+    }
+  } catch { if (!silent) updateSyncUI('error', '오류'); }
+}
+
+function startAutoSync() {
+  if (autoSyncStarted) return;
+  autoSyncStarted = true;
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) gistPullMerge(true); });
+  window.addEventListener('focus', () => gistPullMerge(true));
+  setInterval(() => { if (!document.hidden) gistPullMerge(true); }, 60000);
+}
+
+function syncPayload() {
+  return JSON.stringify({ wrongs, important, solved, memos, bookmark, syncMeta });
 }
 
 async function gistPush() {
   if (!gistToken || !gistId) return;
+  if (pushing) { pushQueued = true; return; } // 연속 저장은 하나로 합침
+  pushing = true;
   updateSyncUI('syncing', '저장 중...');
   try {
+    // 푸시 직전 원격 변경분 병합 — 다른 기기 데이터 덮어쓰기 방지
+    try {
+      const r = await fetchGistRaw(false);
+      if (r.content && mergeRemote(r.content)) refreshAfterMerge();
+    } catch {}
     const res = await fetch(`https://api.github.com/gists/${gistId}`, {
       method: 'PATCH',
       headers: {
@@ -1723,15 +1444,20 @@ async function gistPush() {
         'Content-Type': 'application/json',
         'Accept': 'application/vnd.github.v3+json'
       },
-      body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark, pendingAnki }) } } })
+      body: JSON.stringify({ files: { [GIST_FILE]: { content: syncPayload() } } })
     });
     if (res.ok) {
+      lastEtag = res.headers.get('ETag');
       const t = new Date();
       updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 저장됨`);
     } else {
       updateSyncUI('error', '저장 실패');
     }
   } catch { updateSyncUI('error', '오류'); }
+  finally {
+    pushing = false;
+    if (pushQueued) { pushQueued = false; gistPush(); }
+  }
 }
 
 async function gistCreate() {
@@ -1747,7 +1473,7 @@ async function gistCreate() {
       body: JSON.stringify({
         description: 'Study App Sync',
         public: false,
-        files: { [GIST_FILE]: { content: JSON.stringify({ wrongs, important, solved, memos, bookmark }) } }
+        files: { [GIST_FILE]: { content: syncPayload() } }
       })
     });
     if (!res.ok) { updateSyncUI('error', 'Gist 생성 실패'); return null; }
@@ -1771,24 +1497,12 @@ async function initSync() {
     localStorage.setItem('gist_id', gistId);
     return;
   }
-  const d = await gistFetch();
-  if (!d) return;
-  // 머지: wrongs/important는 union, memos는 Gist 우선, bookmark는 Gist 우선
-  if (d.wrongs)    { Object.assign(wrongs, d.wrongs);       localStorage.setItem('wrongs', JSON.stringify(wrongs)); }
-  if (d.important) { Object.assign(important, d.important); localStorage.setItem('important', JSON.stringify(important)); }
-  if (d.solved)    { Object.assign(solved, d.solved);       localStorage.setItem('solved', JSON.stringify(solved)); }
-  if (d.memos)     { Object.keys(d.memos).forEach(k => { if (d.memos[k]) memos[k] = d.memos[k]; }); localStorage.setItem('memos', JSON.stringify(memos)); }
-  if (d.bookmark != null) { bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); }
-  if (Array.isArray(d.pendingAnki) && d.pendingAnki.length > 0) {
-    // Gist의 pendingAnki를 로컬과 합치되 중복 제거
-    const existing = new Set(pendingAnki.map(c => c.front + '||' + c.back));
-    d.pendingAnki.forEach(c => { if (!existing.has(c.front + '||' + c.back)) pendingAnki.push(c); });
-    localStorage.setItem('pendingAnki', JSON.stringify(pendingAnki));
-  }
-  renderList();
-  updateBookmarkBar();
-  updatePendingUI();
-  if (cur !== null) { updateHeaderBtns(cur); renderMemo(cur); }
+  updateSyncUI('syncing', '불러오는 중...');
+  try {
+    const r = await fetchGistRaw(false);
+    if (r.content && mergeRemote(r.content)) refreshAfterMerge();
+    updateSyncUI('ok', '동기화됨');
+  } catch { updateSyncUI('error', '불러오기 실패'); }
 }
 
 function openSyncSettings() {
