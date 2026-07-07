@@ -1040,7 +1040,15 @@ function detectProblemRegion(img, relX, relY) {
       }
     }
     if (s0 >= 0 && lastGood - s0 > best.w) best = { s: s0, w: lastGood - s0 };
-    const twoCol = best.w >= AW * 0.015;
+    let twoCol = best.w >= AW * 0.015;
+    // 진짜 2단은 구분선 양쪽 모두 글자가 많다. 우측 정렬 연도표기처럼 한쪽만 글자가
+    // 몰려 있으면(= 실제로는 한 단의 우측 여백) 2단으로 보지 않는다.
+    if (twoCol) {
+      let leftInk = 0, rightInk = 0;
+      for (let x = 0; x < best.s; x++) leftInk += colDark[x];
+      for (let x = best.s + best.w; x < AW; x++) rightInk += colDark[x];
+      if (Math.min(leftInk, rightInk) < Math.max(leftInk, rightInk) * 0.15) twoCol = false;
+    }
 
     // 누른 쪽 단의 x 범위 (여백 중앙 기준, 구분선 주변 제외)
     let cx0 = 0, cx1 = AW - 1;
@@ -1054,7 +1062,9 @@ function detectProblemRegion(img, relX, relY) {
     const cw = cx1 - cx0 + 1;
     if (cw < AW * 0.15) return null;
 
-    // 단 내부 행 히스토그램 → 눌린 지점에서 위/아래로 빈 띠(문제 사이 여백)까지 확장
+    // 단 내부 행 밀도 → 텍스트 줄 단위로 묶고, 눌린 지점을 포함하는 "문제 블록"으로 확장.
+    // 한 문제 = 지문 + 연도표기 + 보기. 줄 높이의 몇 배 이내 여백은 이어붙이고(지문↔보기),
+    // 문제 사이의 큰 여백에서 끊는다 — 여백 기준을 글줄 높이에 상대화해 배율에 무관하게 동작.
     const rowDark = new Uint32Array(AH);
     for (let y = 0; y < AH; y++) {
       let cnt = 0;
@@ -1062,30 +1072,34 @@ function detectProblemRegion(img, relX, relY) {
       for (let x = cx0; x <= cx1; x++) cnt += dark[base + x];
       rowDark[y] = cnt;
     }
-    const emptyRow = y => rowDark[y] <= Math.max(1, cw * 0.006);
-    let py = Math.min(AH - 1, Math.max(0, Math.round(relY * AH)));
-    if (emptyRow(py)) { // 여백을 눌렀으면 가까운 텍스트 행으로 스냅
-      const R = Math.round(AH * 0.08);
-      let found = -1;
-      for (let d = 1; d <= R; d++) {
-        if (py - d >= 0 && !emptyRow(py - d)) { found = py - d; break; }
-        if (py + d < AH && !emptyRow(py + d)) { found = py + d; break; }
-      }
-      if (found < 0) return null;
-      py = found;
+    const rowThresh = Math.max(1, cw * 0.006);
+    const joinGap = Math.max(2, Math.round(AH * 0.006)); // 한 글줄 내부 미세 여백 봉합
+    const lines = [];
+    let ls = -1, grun = 0;
+    for (let y = 0; y < AH; y++) {
+      if (rowDark[y] > rowThresh) { if (ls < 0) ls = y; grun = 0; }
+      else if (ls >= 0 && ++grun > joinGap) { lines.push({ top: ls, bottom: y - grun }); ls = -1; grun = 0; }
     }
-    const gapMin = Math.max(6, Math.round(AH * 0.018));
-    let top = py, bottom = py, run = 0;
-    for (let y = py; y >= 0; y--) {
-      if (emptyRow(y)) { if (++run > gapMin) break; }
-      else { run = 0; top = y; }
+    if (ls >= 0) lines.push({ top: ls, bottom: AH - 1 - grun });
+    if (!lines.length) return null;
+
+    const heights = lines.map(l => l.bottom - l.top + 1).sort((a, b) => a - b);
+    const lineH = heights[heights.length >> 1] || 10;
+    // 지문↔보기 여백(줄 높이의 3~4배)은 잇고, 문제 사이 여백에서 끊기도록
+    const bridgeGap = Math.min(Math.max(lineH * 4.5, AH * 0.02), AH * 0.14);
+
+    // 눌린 지점에 가장 가까운 줄에서 시작해 위·아래로 확장
+    const py = Math.min(AH - 1, Math.max(0, Math.round(relY * AH)));
+    let idx = 0, bestD = Infinity;
+    for (let k = 0; k < lines.length; k++) {
+      const d = py < lines[k].top ? lines[k].top - py : (py > lines[k].bottom ? py - lines[k].bottom : 0);
+      if (d < bestD) { bestD = d; idx = k; }
     }
-    run = 0;
-    for (let y = py; y < AH; y++) {
-      if (emptyRow(y)) { if (++run > gapMin) break; }
-      else { run = 0; bottom = y; }
-    }
-    if (bottom - top < AH * 0.02) return null;
+    let a = idx, b = idx;
+    while (a > 0 && lines[a].top - lines[a - 1].bottom <= bridgeGap) a--;
+    while (b < lines.length - 1 && lines[b + 1].top - lines[b].bottom <= bridgeGap) b++;
+    let top = lines[a].top, bottom = lines[b].bottom;
+    if (bottom - top < AH * 0.01) { top = Math.max(0, top - lineH); bottom = Math.min(AH - 1, bottom + lineH); }
 
     // 좌우는 감지된 블록의 실제 텍스트 폭에 맞춤
     let tx0 = cx1, tx1 = cx0;
