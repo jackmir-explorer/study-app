@@ -82,19 +82,15 @@
   .filt[data-f="solved"].on { background: var(--done); border-color: var(--done); color: #fff; }
   .filt[data-f="unsolved"].on { background: var(--sub); border-color: var(--sub); color: #fff; }
 
-  #bookmark-bar {
-    display: none;
-    align-items: center; gap: 8px;
-    padding: 6px 10px;
-    background: #1e1a0e;
-    border: 1px solid #5a4a1a;
-    border-radius: 6px;
-    font-size: 11px; color: #c8a840; cursor: pointer;
-  }
-  #bookmark-bar:hover { background: #2a2410; }
-  #bookmark-bar .bm-icon { font-size: 13px; }
-  #bookmark-bar .bm-label { flex: 1; }
   #count { font-size: 11px; color: var(--sub); text-align: right; }
+
+  /* 성취: 일일 목표 진행바 + 연속 학습일 */
+  #achieve-row { cursor: pointer; user-select: none; display: flex; flex-direction: column; gap: 4px; }
+  #achieve-top { display: flex; justify-content: space-between; align-items: center; font-size: 11px; }
+  #achieve-label { color: var(--sub); font-weight: 700; }
+  #streak-label { color: #ff8c42; font-size: 10px; font-weight: 700; }
+  #goal-track { height: 5px; border-radius: 3px; background: #222; overflow: hidden; display: none; }
+  #goal-fill { height: 100%; width: 0; background: var(--done); border-radius: 3px; transition: width 0.3s; }
 
   #list { flex: 1; overflow-y: auto; }
   #list::-webkit-scrollbar { width: 3px; }
@@ -112,14 +108,6 @@
   .item.star-mark  { border-left-color: var(--star); }
   .item.wrong-mark.star-mark { border-left-color: var(--star); }
   .item.solved-mark .item-left { opacity: 0.5; }
-  .item.bookmark-mark { position: relative; }
-  .item.bookmark-mark::after {
-    content: '🔖';
-    position: absolute; right: 36px; top: 50%;
-    transform: translateY(-50%);
-    font-size: 12px; opacity: 0.85;
-  }
-
   .item-left { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
   .item-num  { font-size: 10px; color: var(--sub); }
   .item-topic   { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -322,11 +310,6 @@
 <div id="sidebar">
   <div id="sidebar-top">
     <input id="search" type="text" placeholder="토픽, 키워드 검색...">
-    <div id="bookmark-bar" onclick="goToBookmark()">
-      <span class="bm-icon">🔖</span>
-      <span class="bm-label" id="bookmark-label"></span>
-      <span style="color:#666;font-size:10px">바로가기</span>
-    </div>
     <div class="filter-row" id="filter-row">
       <button class="filt on" data-f="all">전체</button>
       <button class="filt" data-f="wrong">오답만</button>
@@ -334,10 +317,16 @@
       <button class="filt" data-f="solved">✓ 푼 문제</button>
       <button class="filt" data-f="unsolved">안 푼 문제</button>
     </div>
-    <div style="display:flex;justify-content:space-between;align-items:center;gap:6px">
-      <span id="today-count" style="font-size:11px;color:var(--done);font-weight:700"></span>
+    <div style="display:flex;justify-content:space-between;align-items:center">
       <div id="count"></div>
       <button id="topic-toggle" onclick="toggleTopics()" style="font-size:10px;padding:3px 8px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">토픽 숨기기</button>
+    </div>
+    <div id="achieve-row" onclick="setDailyGoal()" title="클릭: 일일 목표 설정">
+      <div id="achieve-top">
+        <span id="achieve-label"></span>
+        <span id="streak-label"></span>
+      </div>
+      <div id="goal-track"><div id="goal-fill"></div></div>
     </div>
     <div style="display:flex;justify-content:space-between;align-items:center">
       <span id="sync-indicator" onclick="openSyncSettings()" style="font-size:10px;color:#555;cursor:pointer;user-select:none">○ 동기화 미설정</span>
@@ -361,7 +350,6 @@
       <button id="solved-btn"   class="hdr-btn" onclick="toggleSolved()">✓ 풀었음</button>
       <button id="wrong-btn"    class="hdr-btn" onclick="toggleWrong()">오답 표시</button>
       <button id="star-btn"     class="hdr-btn" onclick="toggleStar()">★ 중요 표시</button>
-      <button id="bookmark-btn" class="hdr-btn" onclick="toggleBookmark()">🔖 책갈피</button>
       <button class="hdr-btn" onclick="navigate(-1)">◀ 이전</button>
       <button class="hdr-btn" onclick="navigate(1)">다음 ▶</button>
     </div>
@@ -445,14 +433,13 @@ let wrongs      = JSON.parse(localStorage.getItem('wrongs')      || '{}');
 let important   = JSON.parse(localStorage.getItem('important')   || '{}');
 let solved      = JSON.parse(localStorage.getItem('solved')      || '{}');
 let memos       = JSON.parse(localStorage.getItem('memos')       || '{}');
-let bookmark    = localStorage.getItem('bookmark') !== null ? +localStorage.getItem('bookmark') : null;
 let topicHidden = localStorage.getItem('topicHidden') === '1';
+let dailyGoal   = +(localStorage.getItem('dailyGoal') || 0);
 
 // ── 동기화 메타 (키별 마지막 수정시각 — 기기 간 충돌 병합용) ──
 let syncMeta = (() => {
   const m = JSON.parse(localStorage.getItem('syncMeta') || '{}');
   ['wrongs', 'important', 'solved', 'memos'].forEach(k => { if (!m[k]) m[k] = {}; });
-  if (!m.bookmark) m.bookmark = 0;
   return m;
 })();
 function saveSyncMeta() { localStorage.setItem('syncMeta', JSON.stringify(syncMeta)); }
@@ -651,7 +638,6 @@ async function load() {
   }
   buildCategoryFilters();
   applyFilter();
-  updateBookmarkBar();
   applyTopicVisibility();
   const last = localStorage.getItem('last');
   if (last !== null && all[+last]) select(+last);
@@ -708,7 +694,6 @@ function renderList() {
     if (wrongs[i])    cls += ' wrong-mark';
     if (important[i]) cls += ' star-mark';
     if (solved[i])    cls += ' solved-mark';
-    if (bookmark === i) cls += ' bookmark-mark';
     div.className = cls;
     div.innerHTML = `
       <div class="item-left">
@@ -725,18 +710,81 @@ function renderList() {
     el.appendChild(div);
   });
   document.getElementById('count').textContent = `${filtered.length} / ${all.length}문제`;
-  updateTodayCount();
+  updateAchievements();
+  updateCategoryProgress();
 }
 
-// ── 오늘 푼 문제 수 (성취) ────────────────────────────
+// ── 성취: 일일 목표 / 연속 학습일 / 카테고리 진행률 ──
 // syncMeta.solved의 풀이 시각 기록 사용 — 기기 간 동기화됨
 function dayKey(ts) { const d = new Date(ts); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
-function updateTodayCount() {
-  const el = document.getElementById('today-count');
-  if (!el) return;
+
+function todaySolvedCount() {
   const today = dayKey(Date.now());
-  const n = Object.keys(solved).filter(i => syncMeta.solved[i] && dayKey(syncMeta.solved[i]) === today).length;
-  el.textContent = n > 0 ? `오늘 ✓ ${n}문제` : '';
+  return Object.keys(solved).filter(i => syncMeta.solved[i] && dayKey(syncMeta.solved[i]) === today).length;
+}
+
+function calcStreak() {
+  const days = new Set();
+  Object.keys(solved).forEach(i => { if (syncMeta.solved[i]) days.add(dayKey(syncMeta.solved[i])); });
+  if (!days.size) return 0;
+  const d = new Date();
+  // 오늘 아직 안 풀었으면 어제까지의 연속을 표시 (아직 안 깨짐)
+  if (!days.has(dayKey(d.getTime()))) d.setDate(d.getDate() - 1);
+  let streak = 0;
+  while (days.has(dayKey(d.getTime()))) { streak++; d.setDate(d.getDate() - 1); }
+  return streak;
+}
+
+function updateAchievements() {
+  const label = document.getElementById('achieve-label');
+  if (!label) return;
+  const n = todaySolvedCount();
+  const streak = calcStreak();
+  document.getElementById('streak-label').textContent = streak > 0 ? `🔥 ${streak}일 연속` : '';
+  const track = document.getElementById('goal-track');
+  const fill  = document.getElementById('goal-fill');
+  if (dailyGoal > 0) {
+    const doneGoal = n >= dailyGoal;
+    label.textContent = doneGoal ? `🎉 목표 달성! ${n} / ${dailyGoal}문제` : `오늘 ${n} / ${dailyGoal}문제`;
+    label.style.color = doneGoal ? 'var(--star)' : 'var(--done)';
+    track.style.display = 'block';
+    fill.style.width = Math.min(100, Math.round(n / dailyGoal * 100)) + '%';
+    fill.style.background = doneGoal ? 'var(--star)' : 'var(--done)';
+  } else {
+    track.style.display = 'none';
+    label.textContent = n > 0 ? `오늘 ✓ ${n}문제` : '🎯 일일 목표 설정';
+    label.style.color = n > 0 ? 'var(--done)' : '#555';
+  }
+}
+setInterval(updateAchievements, 60000); // 자정 넘어갈 때 갱신
+
+function setDailyGoal() {
+  const v = prompt('일일 목표 문제 수 (0 = 사용 안 함)', String(dailyGoal || 30));
+  if (v === null) return;
+  dailyGoal = Math.max(0, parseInt(v, 10) || 0);
+  localStorage.setItem('dailyGoal', dailyGoal);
+  syncMeta.dailyGoal = Date.now(); saveSyncMeta();
+  updateAchievements();
+  gistPush();
+}
+
+function updateCategoryProgress() {
+  const btns = document.querySelectorAll('.filt.cat');
+  if (!btns.length) return;
+  const tot = {}, done = {};
+  all.forEach((q, i) => {
+    if (!q.category) return;
+    tot[q.category] = (tot[q.category] || 0) + 1;
+    if (solved[i]) done[q.category] = (done[q.category] || 0) + 1;
+  });
+  btns.forEach(btn => {
+    const cat = btn.dataset.f.slice(4);
+    const t = tot[cat] || 0, pct = t ? Math.round((done[cat] || 0) / t * 100) : 0;
+    btn.innerHTML = `${esc(cat)} <span style="opacity:0.75;font-size:9px">${pct}%</span>`;
+    // 버튼 배경을 진행률만큼 채움 (선택된 버튼은 기본 스타일 유지)
+    btn.style.background = pct > 0 && !btn.classList.contains('on')
+      ? `linear-gradient(to right, rgba(76,175,76,0.22) ${pct}%, var(--bg2) ${pct}%)` : '';
+  });
 }
 
 // ── 이미지 확대 (핀치줌 + 팬) ─────────────────────────
@@ -1155,45 +1203,6 @@ function updateHeaderBtns(i) {
   const sb = document.getElementById('star-btn');
   sb.textContent = important[i] ? '★ 중요 해제' : '★ 중요 표시';
   sb.className = 'hdr-btn' + (important[i] ? ' on' : '');
-
-  const bb = document.getElementById('bookmark-btn');
-  const isBookmark = bookmark === i;
-  bb.textContent = isBookmark ? '🔖 책갈피 해제' : '🔖 책갈피';
-  bb.className = 'hdr-btn' + (isBookmark ? ' on' : '');
-  bb.style.borderColor = isBookmark ? '#c8a840' : '';
-  bb.style.color = isBookmark ? '#c8a840' : '';
-}
-
-function toggleBookmark() {
-  if (cur === null) return;
-  if (bookmark === cur) {
-    bookmark = null;
-    localStorage.removeItem('bookmark');
-  } else {
-    bookmark = cur;
-    localStorage.setItem('bookmark', cur);
-  }
-  syncMeta.bookmark = Date.now(); saveSyncMeta();
-  updateHeaderBtns(cur);
-  updateBookmarkBar();
-  renderList();
-  gistPush();
-}
-
-function goToBookmark() {
-  if (bookmark !== null && all[bookmark]) select(bookmark);
-}
-
-function updateBookmarkBar() {
-  const bar   = document.getElementById('bookmark-bar');
-  const label = document.getElementById('bookmark-label');
-  if (bookmark !== null && all[bookmark]) {
-    const q = all[bookmark];
-    label.textContent = `Q.${q.q_num || bookmark+1} · ${q.topic || ''}`;
-    bar.style.display = 'flex';
-  } else {
-    bar.style.display = 'none';
-  }
 }
 
 // ── 풀었음 ────────────────────────────────────────────
@@ -1377,19 +1386,15 @@ function mergeRemote(d) {
   if (mergeMap(solved,    d.solved,    'solved'))    changed = true;
   if (mergeMap(memos,     d.memos,     'memos'))     changed = true;
 
-  // 책갈피: 최신 수정 우선
-  const btl = syncMeta.bookmark || 0, btr = rm.bookmark || 0;
-  if (btr > btl) {
-    const nb = d.bookmark == null ? null : d.bookmark;
-    if (nb !== bookmark) {
-      bookmark = nb;
-      if (bookmark === null) localStorage.removeItem('bookmark');
-      else localStorage.setItem('bookmark', bookmark);
+  // 일일 목표: 최신 수정 우선
+  const gtl = syncMeta.dailyGoal || 0, gtr = rm.dailyGoal || 0;
+  if (gtr > gtl) {
+    if (typeof d.dailyGoal === 'number' && d.dailyGoal !== dailyGoal) {
+      dailyGoal = d.dailyGoal;
+      localStorage.setItem('dailyGoal', dailyGoal);
       changed = true;
     }
-    syncMeta.bookmark = btr;
-  } else if (!btr && !btl && d.bookmark != null && bookmark === null) {
-    bookmark = d.bookmark; localStorage.setItem('bookmark', bookmark); changed = true;
+    syncMeta.dailyGoal = gtr;
   }
 
   saveSyncMeta();
@@ -1406,7 +1411,6 @@ function isMemoEditing() {
 
 function refreshAfterMerge() {
   applyFilter();
-  updateBookmarkBar();
   if (cur !== null) {
     updateHeaderBtns(cur);
     if (!isMemoEditing()) renderMemo(cur); // 메모 작성 중이면 편집기 보호
@@ -1436,7 +1440,7 @@ function startAutoSync() {
 }
 
 function syncPayload() {
-  return JSON.stringify({ wrongs, important, solved, memos, bookmark, syncMeta });
+  return JSON.stringify({ wrongs, important, solved, memos, dailyGoal, syncMeta });
 }
 
 async function gistPush() {
