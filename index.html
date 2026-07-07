@@ -941,15 +941,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const pageImg = document.getElementById('page-img');
   attachLongPress(pageImg, (x, y) => {
     const r = pageImg.getBoundingClientRect();
-    openCropUI(r.height ? (y - r.top) / r.height : 0.5);
+    openCropUI(r.width ? (x - r.left) / r.width : 0.5, r.height ? (y - r.top) / r.height : 0.5);
   });
   // 확대 모달에서도 꾹 누르기 지원
   const zoomModal = document.getElementById('img-zoom-modal');
   attachLongPress(zoomModal, (x, y) => {
     const r = document.getElementById('img-zoom-content').getBoundingClientRect();
+    const relX = r.width ? (x - r.left) / r.width : 0.5;
     const relY = r.height ? (y - r.top) / r.height : 0.5;
     closeImageZoom();
-    openCropUI(Math.min(Math.max(relY, 0), 1));
+    openCropUI(Math.min(Math.max(relX, 0), 1), Math.min(Math.max(relY, 0), 1));
   });
 
   // 크롭 박스 이동/리사이즈 (포인터 이벤트)
@@ -992,7 +993,117 @@ function renderCropBox() {
   b.width = cropSel.w + 'px'; b.height = cropSel.h + 'px';
 }
 
-function openCropUI(relY = 0.5) {
+// 눌린 지점 주변의 문제 영역 자동 감지 (단 구분 + 상하 여백 경계)
+function detectProblemRegion(img, relX, relY) {
+  try {
+    const AW = Math.min(700, img.naturalWidth);
+    const s = AW / img.naturalWidth;
+    const AH = Math.max(1, Math.round(img.naturalHeight * s));
+    const c = document.createElement('canvas');
+    c.width = AW; c.height = AH;
+    const ctx = c.getContext('2d', { willReadFrequently: true });
+    ctx.drawImage(img, 0, 0, AW, AH);
+    const data = ctx.getImageData(0, 0, AW, AH).data;
+
+    // 어두운 픽셀 지도 + 열 히스토그램
+    const dark = new Uint8Array(AW * AH);
+    const colDark = new Uint32Array(AW);
+    for (let y = 0; y < AH; y++) {
+      for (let x = 0; x < AW; x++) {
+        const o = (y * AW + x) * 4;
+        if (data[o] * 0.299 + data[o + 1] * 0.587 + data[o + 2] * 0.114 < 140) {
+          dark[y * AW + x] = 1; colDark[x]++;
+        }
+      }
+    }
+
+    // 2단 구분 탐색: 세로로 길게 비어있는 열 (상단 배너 등 전폭 요소가 가로질러도 OK)
+    // 얇은 구분선(≤3px)은 통과 허용
+    const gutterish = new Uint8Array(AW);
+    for (let x = 0; x < AW; x++) {
+      let run = 0, bestRun = 0;
+      for (let y = 0; y < AH; y++) {
+        if (dark[y * AW + x]) { if (run > bestRun) bestRun = run; run = 0; }
+        else run++;
+      }
+      if (run > bestRun) bestRun = run;
+      gutterish[x] = (bestRun >= AH * 0.55 && colDark[x] < AH * 0.08) ? 1 : 0;
+    }
+    let best = { s: -1, w: 0 }, s0 = -1, bad = 0, lastGood = -1;
+    for (let x = Math.round(AW * 0.33); x <= Math.round(AW * 0.67); x++) {
+      if (gutterish[x]) {
+        if (s0 < 0) s0 = x;
+        bad = 0; lastGood = x;
+      } else if (s0 >= 0 && ++bad > 3) {
+        if (lastGood - s0 > best.w) best = { s: s0, w: lastGood - s0 };
+        s0 = -1; bad = 0;
+      }
+    }
+    if (s0 >= 0 && lastGood - s0 > best.w) best = { s: s0, w: lastGood - s0 };
+    const twoCol = best.w >= AW * 0.015;
+
+    // 누른 쪽 단의 x 범위 (여백 중앙 기준, 구분선 주변 제외)
+    let cx0 = 0, cx1 = AW - 1;
+    if (twoCol) {
+      const gmid = best.s + best.w / 2;
+      const dead = Math.max(2, Math.round(best.w * 0.2));
+      const px = Math.min(AW - 1, Math.max(0, Math.round(relX * AW)));
+      if (px < gmid) cx1 = Math.round(gmid) - dead;
+      else cx0 = Math.round(gmid) + dead;
+    }
+    const cw = cx1 - cx0 + 1;
+    if (cw < AW * 0.15) return null;
+
+    // 단 내부 행 히스토그램 → 눌린 지점에서 위/아래로 빈 띠(문제 사이 여백)까지 확장
+    const rowDark = new Uint32Array(AH);
+    for (let y = 0; y < AH; y++) {
+      let cnt = 0;
+      const base = y * AW;
+      for (let x = cx0; x <= cx1; x++) cnt += dark[base + x];
+      rowDark[y] = cnt;
+    }
+    const emptyRow = y => rowDark[y] <= Math.max(1, cw * 0.006);
+    let py = Math.min(AH - 1, Math.max(0, Math.round(relY * AH)));
+    if (emptyRow(py)) { // 여백을 눌렀으면 가까운 텍스트 행으로 스냅
+      const R = Math.round(AH * 0.08);
+      let found = -1;
+      for (let d = 1; d <= R; d++) {
+        if (py - d >= 0 && !emptyRow(py - d)) { found = py - d; break; }
+        if (py + d < AH && !emptyRow(py + d)) { found = py + d; break; }
+      }
+      if (found < 0) return null;
+      py = found;
+    }
+    const gapMin = Math.max(6, Math.round(AH * 0.018));
+    let top = py, bottom = py, run = 0;
+    for (let y = py; y >= 0; y--) {
+      if (emptyRow(y)) { if (++run > gapMin) break; }
+      else { run = 0; top = y; }
+    }
+    run = 0;
+    for (let y = py; y < AH; y++) {
+      if (emptyRow(y)) { if (++run > gapMin) break; }
+      else { run = 0; bottom = y; }
+    }
+    if (bottom - top < AH * 0.02) return null;
+
+    // 좌우는 감지된 블록의 실제 텍스트 폭에 맞춤
+    let tx0 = cx1, tx1 = cx0;
+    for (let y = top; y <= bottom; y++) {
+      const base = y * AW;
+      for (let x = cx0; x <= cx1; x++) {
+        if (dark[base + x]) { if (x < tx0) tx0 = x; if (x > tx1) tx1 = x; }
+      }
+    }
+    if (tx1 <= tx0) return null;
+
+    const pad = Math.max(3, Math.round(AH * 0.008));
+    const rx = Math.max(0, tx0 - pad), ry = Math.max(0, top - pad);
+    return { aw: AW, x: rx, y: ry, w: Math.min(AW - 1, tx1 + pad) - rx, h: Math.min(AH - 1, bottom + pad) - ry };
+  } catch { return null; }
+}
+
+function openCropUI(relX = 0.5, relY = 0.5) {
   if (cur === null) return;
   const src = document.getElementById('page-img').src;
   const ci = document.getElementById('crop-img');
@@ -1000,9 +1111,20 @@ function openCropUI(relY = 0.5) {
   const init = () => {
     const W = ci.clientWidth, H = ci.clientHeight;
     if (!W || !H) { closeCropUI(); return; }
-    const h = Math.min(H, Math.max(120, H * 0.3));
-    const y = Math.min(Math.max(H * relY - h / 2, 0), H - h);
-    cropSel = { x: W * 0.02, y, w: W * 0.96, h };
+    const det = detectProblemRegion(ci, relX, relY);
+    if (det) {
+      const f = W / det.aw;
+      cropSel = { x: det.x * f, y: det.y * f, w: det.w * f, h: det.h * f };
+    } else {
+      const h = Math.min(H, Math.max(120, H * 0.3));
+      const y = Math.min(Math.max(H * relY - h / 2, 0), H - h);
+      cropSel = { x: W * 0.02, y, w: W * 0.96, h };
+    }
+    // 경계/최소 크기 보정
+    cropSel.w = Math.min(Math.max(cropSel.w, 60), W);
+    cropSel.h = Math.min(Math.max(cropSel.h, 50), H);
+    cropSel.x = Math.min(Math.max(cropSel.x, 0), W - cropSel.w);
+    cropSel.y = Math.min(Math.max(cropSel.y, 0), H - cropSel.h);
     renderCropBox();
   };
   if (ci.src === src && ci.complete && ci.naturalWidth) init();
