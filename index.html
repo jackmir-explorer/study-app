@@ -191,6 +191,69 @@
     color: white; font-size: 18px; font-weight: 700; cursor: pointer;
   }
 
+  /* 문제 영역 캡처 (꾹 누르기) */
+  #page-img { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+  #crop-modal {
+    display: none; position: fixed; inset: 0; z-index: 1100;
+    background: rgba(0,0,0,0.9);
+    align-items: center; justify-content: center; touch-action: none;
+  }
+  #crop-modal.open { display: flex; }
+  #crop-hint {
+    position: fixed; top: 14px; left: 50%; transform: translateX(-50%);
+    width: max-content; max-width: 92vw;
+    font-size: 12px; color: #aaa; z-index: 1102; text-align: center;
+  }
+  #crop-stage { position: relative; line-height: 0; }
+  #crop-img {
+    max-width: 96vw; max-height: calc(100vh - 130px);
+    user-select: none; -webkit-user-drag: none; -webkit-touch-callout: none;
+  }
+  #crop-box {
+    position: absolute; border: 2px solid var(--accent);
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.55);
+    touch-action: none; cursor: move;
+  }
+  .crop-h { position: absolute; width: 28px; height: 28px; touch-action: none; }
+  .crop-h::after {
+    content: ''; position: absolute; inset: 7px;
+    background: var(--accent); border: 2px solid #fff; border-radius: 50%;
+  }
+  .crop-h[data-c="nw"] { left: -14px; top: -14px; cursor: nwse-resize; }
+  .crop-h[data-c="ne"] { right: -14px; top: -14px; cursor: nesw-resize; }
+  .crop-h[data-c="sw"] { left: -14px; bottom: -14px; cursor: nesw-resize; }
+  .crop-h[data-c="se"] { right: -14px; bottom: -14px; cursor: nwse-resize; }
+  #crop-actions {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 8px; z-index: 1102; width: max-content; max-width: 96vw;
+  }
+  #crop-actions button {
+    height: 44px; padding: 0 16px; border-radius: 22px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    background: rgba(20,20,20,0.85); border: 1px solid #555; color: #ddd;
+  }
+  #crop-actions #crop-ask-btn { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  /* AI 문제 해답 패널 */
+  #ai-answer-section {
+    display: none; border: 1px solid #2a3a2a; border-radius: 8px;
+    margin-bottom: 16px; overflow: hidden;
+  }
+  #ai-answer-header {
+    padding: 10px 14px; background: #111e11; color: #6abf6a;
+    font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; gap: 8px;
+  }
+  #ai-answer-header .spacer { flex: 1; }
+  #ai-answer-header button {
+    font-size: 11px; padding: 3px 10px; border-radius: 4px;
+    border: 1px solid #3a5a3a; background: transparent; color: #6abf6a; cursor: pointer;
+  }
+  #ai-answer-header button:hover { background: #1a2e1a; }
+  #ai-answer-body { padding: 12px 14px; font-size: 13px; line-height: 1.9; }
+  #ai-answer-body b { color: #fff; }
+  #ai-answer-body a, #memo-display a { color: var(--accent); }
+
   /* 개념 메모 섹션 */
   #memo-section {
     border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
@@ -354,7 +417,7 @@
       <button class="hdr-btn" onclick="navigate(1)">다음 ▶</button>
     </div>
 
-    <img id="page-img" src="" alt="문제 페이지" onclick="openImageZoom()">
+    <img id="page-img" src="" alt="문제 페이지" onclick="handleImgClick()">
     <div id="img-zoom-modal">
       <img id="img-zoom-content" src="" alt="확대 이미지">
       <button id="img-zoom-close" onclick="closeImageZoom()">✕</button>
@@ -363,6 +426,36 @@
         <button onclick="resetZoom()">1×</button>
         <button onclick="zoomStep(1.5)">+</button>
       </div>
+    </div>
+
+    <!-- 문제 영역 캡처 (이미지 꾹 누르기로 열림) -->
+    <div id="crop-modal">
+      <div id="crop-hint">상자를 문제 영역에 맞추세요 — 안쪽 드래그: 이동 · 모서리: 크기</div>
+      <div id="crop-stage">
+        <img id="crop-img" src="" alt="문제 캡처">
+        <div id="crop-box">
+          <div class="crop-h" data-c="nw"></div>
+          <div class="crop-h" data-c="ne"></div>
+          <div class="crop-h" data-c="sw"></div>
+          <div class="crop-h" data-c="se"></div>
+        </div>
+      </div>
+      <div id="crop-actions">
+        <button onclick="closeCropUI()">✕ 취소</button>
+        <button onclick="copyCropToGem()">Gem에 복사</button>
+        <button id="crop-ask-btn" onclick="askGeminiFromCrop()">✦ 해답 받기</button>
+      </div>
+    </div>
+
+    <!-- AI 문제 해답 -->
+    <div id="ai-answer-section">
+      <div id="ai-answer-header">
+        <span>✦ AI 문제 해답</span>
+        <span class="spacer"></span>
+        <button onclick="saveAnswerToMemo()">메모에 저장</button>
+        <button onclick="hideAiAnswer()">닫기</button>
+      </div>
+      <div id="ai-answer-body"></div>
     </div>
 
     <!-- 개념 메모 -->
@@ -1110,6 +1203,292 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// ── 문제 영역 캡처 → Gemini 해답 (꾹 누르기) ─────────
+const GEM_URL = 'https://gemini.google.com/gem/7115bdf573bd';
+const DEFAULT_GEM_PROMPT = `당신은 가정의학과 전문의 시험 문제 풀이 전문가다. 첨부된 이미지는 시험 문제 캡처다. 문제를 읽고 아래 규칙과 출력 형식에 따라 해설한다.
+
+<규칙>
+1. 항상 출제 가능성이 높은 정보부터 제시한다: 자주 나오는 포인트 / 감별진단 핵심 차이 / 치료 결정 기준 / 숫자 기준 / red flag — 이 다섯 가지 최우선.
+2. 최대한 간결하게: 한 줄에 한 개념, 문장 짧게, Anki 카드로 바로 잘라낼 수 있게, 불필요한 수식어 제거. 설명보다 판단 기준 우선 — 무엇을 보면 진단하는가 / 언제 검사하는가 / 언제 치료하는가 / 언제 referral·admission 하는가.
+3. 최신 임상 기준과 시험용 기준이 다르면 반드시 분리한다: "시험에서 맞는 답"을 먼저 쓰고, "최신 임상 관점"은 짧게 덧붙인다.
+4. 숫자는 최대한 보존한다: cut-off, 기간, 연령 기준, 적응증, 용량/횟수, 추적 주기.
+5. 감별진단은 적게, 강하게: 시험에서 섞어내기 쉬운 2~4개만, 차이는 한 줄로 분명히.
+6. 오답 함정은 별도 표시한다: 출제자가 헷갈리게 만드는 포인트, 보기에서 자주 섞는 요소, 임상적으로 맞아 보여도 시험에서는 틀리는 부분.
+7. 병태생리는 문제를 푸는 데 필요한 만큼만. 장황한 기전 설명 금지.
+8. 불확실한 내용은 지어내지 않는다. 모르면 모른다고 쓰고, 기준이 혼재되어 있으면 "시험 기준 확인 필요"라고 표시한다. 근거 레퍼런스(교과서/가이드라인명)를 제시하고 할루시네이션을 배제한다.
+
+<출력 형식>
+[문제 요지 한 줄]
+
+1. 정답: 번호 + 핵심 근거 1~2줄
+2. 보기 분석: 각 보기 한 줄씩 — 맞는/틀린 판단 기준
+3. 출제 포인트: 이 문제에서 맞혀야 하는 것 + 관련 숫자 기준
+4. 감별 포인트: 섞어내기 쉬운 진단 2~4개, 한 줄 차이 (해당 시에만)
+5. 오답 함정: 출제자가 노리는 헷갈림 포인트
+6. 시험 vs 최신 임상: 기준이 다를 때만, 시험 답 먼저
+7. 점검: 불확실한 부분 명시 + 근거 레퍼런스`;
+
+let suppressImgClick = false;
+let cropSel = { x: 0, y: 0, w: 0, h: 0 };
+let lastAnswerHtml = '', answerQIndex = null, answerReqId = 0;
+
+function handleImgClick() {
+  if (suppressImgClick) { suppressImgClick = false; return; }
+  openImageZoom();
+}
+
+function attachLongPress(el, onFire) {
+  let timer = null, sx = 0, sy = 0;
+  const clear = () => { clearTimeout(timer); timer = null; };
+  const start = (x, y) => {
+    clear(); sx = x; sy = y;
+    suppressImgClick = false; // 이전 꾹 누르기의 잔여 플래그 제거 (터치는 click이 안 올 수 있음)
+    timer = setTimeout(() => { timer = null; suppressImgClick = true; onFire(sx, sy); }, 550);
+  };
+  el.addEventListener('touchstart', e => {
+    if (e.touches.length === 1) start(e.touches[0].clientX, e.touches[0].clientY);
+    else clear();
+  }, { passive: true });
+  el.addEventListener('touchmove', e => {
+    if (timer && Math.hypot(e.touches[0].clientX - sx, e.touches[0].clientY - sy) > 12) clear();
+  }, { passive: true });
+  el.addEventListener('touchend', clear);
+  el.addEventListener('touchcancel', clear);
+  el.addEventListener('mousedown', e => { if (e.button === 0) start(e.clientX, e.clientY); });
+  el.addEventListener('mousemove', e => {
+    if (timer && Math.hypot(e.clientX - sx, e.clientY - sy) > 12) clear();
+  });
+  el.addEventListener('mouseup', clear);
+  el.addEventListener('mouseleave', clear);
+  el.addEventListener('contextmenu', e => e.preventDefault());
+  el.addEventListener('dragstart', e => e.preventDefault());
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const pageImg = document.getElementById('page-img');
+  attachLongPress(pageImg, (x, y) => {
+    const r = pageImg.getBoundingClientRect();
+    openCropUI(r.height ? (y - r.top) / r.height : 0.5);
+  });
+  // 확대 모달에서도 꾹 누르기 지원
+  const zoomModal = document.getElementById('img-zoom-modal');
+  attachLongPress(zoomModal, (x, y) => {
+    const r = document.getElementById('img-zoom-content').getBoundingClientRect();
+    const relY = r.height ? (y - r.top) / r.height : 0.5;
+    closeImageZoom();
+    openCropUI(Math.min(Math.max(relY, 0), 1));
+  });
+
+  // 크롭 박스 이동/리사이즈 (포인터 이벤트)
+  const box = document.getElementById('crop-box');
+  const cimg = document.getElementById('crop-img');
+  let mode = null, px = 0, py = 0, startSel = null;
+  box.addEventListener('pointerdown', e => {
+    mode = e.target.classList.contains('crop-h') ? e.target.dataset.c : 'move';
+    px = e.clientX; py = e.clientY; startSel = { ...cropSel };
+    if (e.target.setPointerCapture) e.target.setPointerCapture(e.pointerId);
+    e.preventDefault();
+  });
+  box.addEventListener('pointermove', e => {
+    if (!mode) return;
+    const W = cimg.clientWidth, H = cimg.clientHeight, MIN = 40;
+    const dx = e.clientX - px, dy = e.clientY - py;
+    let { x, y, w, h } = startSel;
+    if (mode === 'move') {
+      x = Math.min(Math.max(x + dx, 0), W - w);
+      y = Math.min(Math.max(y + dy, 0), H - h);
+    } else {
+      let x2 = x + w, y2 = y + h;
+      if (mode.includes('w')) x  = Math.min(Math.max(x + dx, 0), x2 - MIN);
+      if (mode.includes('e')) x2 = Math.max(Math.min(x2 + dx, W), x + MIN);
+      if (mode.includes('n')) y  = Math.min(Math.max(y + dy, 0), y2 - MIN);
+      if (mode.includes('s')) y2 = Math.max(Math.min(y2 + dy, H), y + MIN);
+      w = x2 - x; h = y2 - y;
+    }
+    cropSel = { x, y, w, h };
+    renderCropBox();
+  });
+  const endDrag = () => { mode = null; };
+  box.addEventListener('pointerup', endDrag);
+  box.addEventListener('pointercancel', endDrag);
+});
+
+function renderCropBox() {
+  const b = document.getElementById('crop-box').style;
+  b.left = cropSel.x + 'px'; b.top = cropSel.y + 'px';
+  b.width = cropSel.w + 'px'; b.height = cropSel.h + 'px';
+}
+
+function openCropUI(relY = 0.5) {
+  if (cur === null) return;
+  const src = document.getElementById('page-img').src;
+  const ci = document.getElementById('crop-img');
+  document.getElementById('crop-modal').classList.add('open');
+  const init = () => {
+    const W = ci.clientWidth, H = ci.clientHeight;
+    if (!W || !H) { closeCropUI(); return; }
+    const h = Math.min(H, Math.max(120, H * 0.3));
+    const y = Math.min(Math.max(H * relY - h / 2, 0), H - h);
+    cropSel = { x: W * 0.02, y, w: W * 0.96, h };
+    renderCropBox();
+  };
+  if (ci.src === src && ci.complete && ci.naturalWidth) init();
+  else { ci.onload = init; ci.onerror = closeCropUI; ci.src = src; }
+}
+
+function closeCropUI() {
+  document.getElementById('crop-modal').classList.remove('open');
+}
+
+function captureCropCanvas() {
+  const img = document.getElementById('crop-img');
+  if (!img.naturalWidth || !cropSel.w || !cropSel.h) return null;
+  const scale = img.naturalWidth / img.clientWidth;
+  const c = document.createElement('canvas');
+  c.width = Math.max(1, Math.round(cropSel.w * scale));
+  c.height = Math.max(1, Math.round(cropSel.h * scale));
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, c.width, c.height);
+  ctx.drawImage(img, cropSel.x * scale, cropSel.y * scale, cropSel.w * scale, cropSel.h * scale, 0, 0, c.width, c.height);
+  return c;
+}
+
+async function askGeminiFromCrop() {
+  const apiKey = localStorage.getItem('gemini_api_key');
+  if (!apiKey) {
+    closeCropUI();
+    alert('⚙ 동기화 설정에서 Gemini API 키를 먼저 입력해주세요.');
+    openSyncSettings(); return;
+  }
+  const canvas = captureCropCanvas();
+  closeCropUI();
+  if (!canvas) return;
+  const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+
+  answerQIndex = cur;
+  lastAnswerHtml = '';
+  const reqId = ++answerReqId;
+  const sec = document.getElementById('ai-answer-section');
+  sec.style.display = 'block';
+  document.getElementById('ai-answer-body').innerHTML =
+    `<img src="${dataUrl}" style="max-width:100%;max-height:140px;border:1px solid var(--border);border-radius:4px;display:block;margin-bottom:10px">` +
+    `<div id="ai-answer-text" style="color:var(--accent)">✦ 해답 생성 중...</div>`;
+  sec.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+  let model = localStorage.getItem('gemini_model') || 'gemini-2.0-flash';
+  if (model === 'gemini-1.5-pro') model = 'gemini-2.0-flash';
+  const prompt = localStorage.getItem('gem_prompt') || DEFAULT_GEM_PROMPT;
+  const useSearch = localStorage.getItem('gem_search') !== '0'; // 기본 켜짐
+  const callGemini = async (withSearch) => {
+    const body = {
+      contents: [{ parts: [
+        { text: prompt },
+        { inline_data: { mime_type: 'image/jpeg', data: dataUrl.split(',')[1] } }
+      ] }],
+      generationConfig: { temperature: 0.2, maxOutputTokens: 4000 }
+    };
+    if (withSearch) body.tools = [{ google_search: {} }];
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.error?.message || res.status);
+    }
+    return res.json();
+  };
+  try {
+    let data;
+    try { data = await callGemini(useSearch); }
+    catch (e) {
+      if (!useSearch) throw e;
+      data = await callGemini(false); // 검색 미지원 모델 → 검색 없이 재시도
+    }
+    const text = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('').trim();
+    if (!text) throw new Error('응답이 비어 있습니다.');
+    if (reqId !== answerReqId) return;
+    // Google 검색 grounding 참고 링크
+    const chunks = data.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
+    const seen = new Set(), links = [];
+    chunks.forEach(c => {
+      const w = c.web;
+      if (!w || !w.uri || seen.has(w.uri)) return;
+      seen.add(w.uri);
+      links.push(`<a href="${esc(w.uri).replace(/"/g, '&quot;')}" target="_blank" rel="noopener">${esc(w.title || w.uri)}</a>`);
+    });
+    const srcHtml = links.length ? `<br><br><span style="font-size:11px;color:var(--sub)">🔎 참고: ${links.slice(0, 6).join(' · ')}</span>` : '';
+    lastAnswerHtml = answerToHtml(text) + srcHtml;
+    const t = document.getElementById('ai-answer-text');
+    if (t) { t.style.color = ''; t.innerHTML = lastAnswerHtml; }
+  } catch (e) {
+    if (reqId !== answerReqId) return;
+    const t = document.getElementById('ai-answer-text');
+    if (t) { t.style.color = 'var(--wrong)'; t.textContent = '오류: ' + e.message; }
+  }
+}
+
+function answerToHtml(text) {
+  return esc(text)
+    .replace(/^#{1,4} +(.+)$/gm, '<b>$1</b>')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/^[ \t]*[\*\-] +/gm, '· ')
+    .replace(/\n/g, '<br>');
+}
+
+function hideAiAnswer() {
+  const sec = document.getElementById('ai-answer-section');
+  if (sec) sec.style.display = 'none';
+}
+
+function saveAnswerToMemo() {
+  if (answerQIndex === null || !lastAnswerHtml) return;
+  const i = answerQIndex;
+  const block = '<b>✦ AI 해답</b><br>' + lastAnswerHtml;
+  memos[i] = memos[i] ? memos[i] + '<br><br>' + block : block;
+  localStorage.setItem('memos', JSON.stringify(memos));
+  if (!important[i]) { important[i] = true; localStorage.setItem('important', JSON.stringify(important)); }
+  if (i === cur) { renderMemo(i); updateHeaderBtns(i); }
+  renderList();
+  gistPush();
+  hideAiAnswer();
+}
+
+async function copyCropToGem() {
+  const canvas = captureCropCanvas();
+  closeCropUI();
+  if (!canvas) return;
+  // 1) 네이티브 앱: 캡처를 파일로 저장 후 공유 시트 (Gemini 앱 선택)
+  try {
+    const P = window.Capacitor && window.Capacitor.Plugins;
+    if (isNativeApp() && P.Filesystem && P.Share) {
+      const b64 = canvas.toDataURL('image/png').split(',')[1];
+      const f = await P.Filesystem.writeFile({ path: 'problem_capture.png', data: b64, directory: 'CACHE' });
+      await P.Share.share({ files: [f.uri] });
+      return;
+    }
+  } catch {}
+  const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
+  if (!blob) { alert('캡처 생성에 실패했습니다.'); return; }
+  // 2) 클립보드에 복사 → Gem 새 탭 열기 → 채팅창에 붙여넣기만 하면 됨
+  try {
+    await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+    window.open(GEM_URL, '_blank');
+    return;
+  } catch {}
+  // 3) 공유 시트 (모바일 브라우저)
+  try {
+    const file = new File([blob], 'problem.png', { type: 'image/png' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file] });
+      return;
+    }
+  } catch {}
+  alert('이 기기에서는 이미지 복사/공유가 지원되지 않습니다.');
+}
+
 // ── 선택 ─────────────────────────────────────────────
 function select(i) {
   cur = i;
@@ -1132,6 +1511,7 @@ function select(i) {
   img.onerror = () => { img.src = `${pageBase}.jpg`; img.onerror = null; };
 
   renderMemo(i);
+  hideAiAnswer();
   document.getElementById('main').scrollTo({ top: 0 });
   document.querySelector('.item.active')?.scrollIntoView({ block: 'nearest' });
   mobileShowDetail();
@@ -1428,6 +1808,10 @@ function openSyncSettings() {
   }
   const modelStatus = document.getElementById('model-load-status');
   if (modelStatus && savedModel) modelStatus.textContent = `현재 저장된 모델: ${savedModel}`;
+  const gemPromptEl = document.getElementById('gem-prompt-input');
+  if (gemPromptEl) gemPromptEl.value = localStorage.getItem('gem_prompt') || DEFAULT_GEM_PROMPT;
+  const gemSearchEl = document.getElementById('gem-search-toggle');
+  if (gemSearchEl) gemSearchEl.checked = localStorage.getItem('gem_search') !== '0';
   document.getElementById('sync-modal').style.display = 'flex';
 }
 function closeSyncModal() {
@@ -1444,6 +1828,11 @@ async function connectSync() {
   if (gId) localStorage.setItem('gist_id', gId); else localStorage.removeItem('gist_id');
   if (geminiKey) localStorage.setItem('gemini_api_key', geminiKey);
   localStorage.setItem('gemini_model', geminiModel);
+  const gemPrompt = document.getElementById('gem-prompt-input').value.trim();
+  if (!gemPrompt || gemPrompt === DEFAULT_GEM_PROMPT) localStorage.removeItem('gem_prompt');
+  else localStorage.setItem('gem_prompt', gemPrompt);
+  if (document.getElementById('gem-search-toggle').checked) localStorage.removeItem('gem_search');
+  else localStorage.setItem('gem_search', '0');
   closeSyncModal();
   await initSync();
   if (!gId && gistId) alert(`Gist 생성 완료!\nGist ID: ${gistId}\n\n다른 기기 설정 시 이 ID를 입력하세요.`);
@@ -1519,6 +1908,12 @@ load();
         <option value="">── 아래 [내 키로 모델 조회] 클릭 ──</option>
       </select>
       <div id="model-load-status" style="font-size:10px;color:#555;margin-top:4px">API 키 입력 후 [내 키로 모델 조회] 버튼을 눌러 사용 가능한 모델을 불러오세요.</div>
+      <div style="font-size:11px;color:#888;margin:12px 0 4px">문제 캡처 해답 프롬프트 <span style="color:#555">(내 Gem 지침을 붙여넣으세요 — 비우면 기본값)</span></div>
+      <textarea id="gem-prompt-input" rows="5" style="width:100%;background:#111;border:1px solid #333;color:#ddd;padding:8px 10px;border-radius:4px;font-size:11px;line-height:1.5;outline:none;box-sizing:border-box;resize:vertical;font-family:inherit"></textarea>
+      <label style="display:flex;align-items:center;gap:6px;font-size:11px;color:#888;margin-top:8px;cursor:pointer">
+        <input type="checkbox" id="gem-search-toggle" style="accent-color:#4a8cf7;margin:0">
+        해답 생성 시 Google 검색 참조 <span style="color:#555">(최신 근거·레퍼런스 강화)</span>
+      </label>
     </div>
 
     <div style="display:flex;gap:8px">
