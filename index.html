@@ -242,6 +242,16 @@
   #ai-answer-body b { color: #fff; }
   #ai-answer-body a, #memo-display a { color: var(--accent); }
 
+  /* 경량 수식 렌더링 (분수/첨자) */
+  .math { max-width: 100%; }
+  .math-block { display: block; overflow-x: auto; margin: 8px 0; padding-bottom: 2px; text-align: center; }
+  .mfrac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; margin: 0 3px; }
+  .mfrac > .mnum { border-bottom: 1px solid currentColor; padding: 0 6px 1px; }
+  .mfrac > .mden { padding: 1px 6px 0; }
+  .mtext { white-space: pre; }
+  .msqrt { border-top: 1px solid currentColor; padding: 0 2px; }
+  .math sub, .math sup { font-size: 0.72em; line-height: 0; }
+
   /* 개념 메모 섹션 */
   #memo-section {
     border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
@@ -1239,12 +1249,96 @@ async function askGeminiFromCrop() {
   }
 }
 
+// ── 경량 LaTeX 수식 렌더러 (분수/첨자/기호 → HTML, 외부 라이브러리 없음) ──
+const MATH_SYM = {
+  times:'×', div:'÷', pm:'±', mp:'∓', cdot:'·', ast:'∗', star:'★',
+  leq:'≤', le:'≤', geq:'≥', ge:'≥', neq:'≠', ne:'≠', approx:'≈', equiv:'≡', sim:'∼', propto:'∝',
+  rightarrow:'→', to:'→', leftarrow:'←', Rightarrow:'⇒', Leftarrow:'⇐', leftrightarrow:'↔',
+  alpha:'α', beta:'β', gamma:'γ', Gamma:'Γ', delta:'δ', Delta:'Δ', epsilon:'ε', theta:'θ',
+  lambda:'λ', mu:'µ', sigma:'σ', Sigma:'Σ', tau:'τ', phi:'φ', omega:'ω', Omega:'Ω', beta1:'β',
+  infty:'∞', sum:'∑', prod:'∏', partial:'∂', nabla:'∇', degree:'°', circ:'∘',
+  ldots:'…', cdots:'⋯', dots:'…', pi:'π', rho:'ρ', kappa:'κ'
+};
+function mathToHtml(str) {
+  let out = '', i = 0; const L = str.length;
+  const readGroup = () => { // str[i] === '{' 가정, 짝 맞는 } 까지
+    let depth = 0, start = i;
+    for (; i < L; i++) {
+      if (str[i] === '{') depth++;
+      else if (str[i] === '}') { depth--; if (!depth) { const g = str.slice(start + 1, i); i++; return g; } }
+    }
+    return str.slice(start + 1);
+  };
+  const readArg = () => {
+    while (str[i] === ' ') i++;
+    if (str[i] === '{') return readGroup();
+    if (str[i] === '\\') { let j = i + 1; while (j < L && /[a-zA-Z]/.test(str[j])) j++; const t = str.slice(i, j); i = j; return t; }
+    const c = str[i] || ''; i++; return c;
+  };
+  while (i < L) {
+    const c = str[i];
+    if (c === '\\') {
+      let j = i + 1; while (j < L && /[a-zA-Z]/.test(str[j])) j++;
+      const cmd = str.slice(i + 1, j);
+      if (cmd === '') { // 백슬래시 + 비문자 (\, \; \% \{ 등)
+        const n = str[i + 1] || ''; i += 2;
+        if (',;!: '.includes(n)) out += ' ';
+        else if (n === '%') out += '%';
+        else if (n === '\\') out += ' ';
+        else out += esc(n);
+      } else {
+        i = j;
+        if (cmd === 'frac' || cmd === 'dfrac' || cmd === 'tfrac') {
+          const num = readArg(), den = readArg();
+          out += `<span class="mfrac"><span class="mnum">${mathToHtml(num)}</span><span class="mden">${mathToHtml(den)}</span></span>`;
+        } else if (cmd === 'text' || cmd === 'mathrm' || cmd === 'textrm' || cmd === 'mathbf' || cmd === 'operatorname' || cmd === 'mathit') {
+          out += `<span class="mtext">${mathToHtml(readArg())}</span>`;
+        } else if (cmd === 'sqrt') {
+          out += `√<span class="msqrt">${mathToHtml(readArg())}</span>`;
+        } else if (cmd === 'left' || cmd === 'right' || cmd === 'big' || cmd === 'Big') {
+          /* 구분자 기호는 다음 글자로 그대로 출력됨 */
+        } else if (MATH_SYM[cmd] != null) {
+          out += MATH_SYM[cmd];
+        } /* 알 수 없는 명령은 버림 */
+      }
+    } else if (c === '_' || c === '^') {
+      i++;
+      out += `<${c === '_' ? 'sub' : 'sup'}>${mathToHtml(readArg())}</${c === '_' ? 'sub' : 'sup'}>`;
+    } else if (c === '{') {
+      out += mathToHtml(readGroup());
+    } else if (c === '}' || c === '$') {
+      i++;
+    } else {
+      out += esc(c); i++;
+    }
+  }
+  return out;
+}
+function renderMath(src, block) {
+  let inner;
+  try { inner = mathToHtml(src.trim()); }
+  catch { inner = esc(src.replace(/\\[a-zA-Z]+/g, ' ').replace(/[{}$]/g, '')); }
+  return `<span class="math${block ? ' math-block' : ''}">${inner}</span>`;
+}
+
 function answerToHtml(text) {
-  return esc(text)
+  // 수식($$…$$, \[…\], \(…\), $…$)을 먼저 뽑아 렌더 → 자리표시자로 치환
+  const math = [];
+  const stash = (m, block) => `@@MATH${math.push(renderMath(m, block)) - 1}@@`;
+  let s = text
+    .replace(/\$\$([\s\S]+?)\$\$/g, (_, m) => stash(m, true))
+    .replace(/\\\[([\s\S]+?)\\\]/g, (_, m) => stash(m, true))
+    .replace(/\\\(([\s\S]+?)\\\)/g, (_, m) => stash(m, false))
+    .replace(/\$([^$\n]+?)\$/g, (_, m) => stash(m, false));
+  s = esc(s)
     .replace(/^#{1,4} +(.+)$/gm, '<b>$1</b>')
     .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
     .replace(/^[ \t]*[\*\-] +/gm, '· ')
+    // 구분자 없이 새어나온 LaTeX 잔여물 정리 (읽기 편하게)
+    .replace(/\\text\s*\{([^{}]*)\}/g, '$1')
+    .replace(/\\(times|div|pm|leq|le|geq|ge|approx|neq|mu|alpha|beta|to|rightarrow|cdot|degree|circ|pi)\b/g, (m, x) => MATH_SYM[x] || m)
     .replace(/\n/g, '<br>');
+  return s.replace(/@@MATH(\d+)@@/g, (_, k) => math[+k] || '');
 }
 
 function hideAiAnswer() {
