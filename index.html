@@ -719,7 +719,14 @@ function renderList() {
     div.addEventListener('click', () => select(i));
     el.appendChild(div);
   });
-  document.getElementById('count').textContent = `${filtered.length} / ${all.length}문제`;
+  // 남은(안 푼)/전체 진행 표시. 필터·검색 중이면 현재 목록 개수도 함께 표시.
+  const total = all.length;
+  const solvedCount = Object.keys(solved).filter(k => solved[k] && +k < total).length;
+  const remaining = total - solvedCount;
+  const narrowed = filter !== 'all' || document.getElementById('search').value.trim() !== '';
+  document.getElementById('count').textContent = narrowed
+    ? `목록 ${filtered.length} · 남은 ${remaining}/${total}`
+    : `남은 ${remaining} / 전체 ${total}`;
   updateAchievements();
   updateCategoryProgress();
 }
