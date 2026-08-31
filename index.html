@@ -1575,7 +1575,7 @@ async function fetchGistRaw(useEtag) {
   if (useEtag && lastEtag) headers['If-None-Match'] = lastEtag;
   const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers, cache: 'no-store' });
   if (res.status === 304) return { notModified: true };
-  if (!res.ok) throw new Error('gist fetch ' + res.status);
+  if (!res.ok) { const e = new Error('gist fetch ' + res.status); e.status = res.status; throw e; }
   lastEtag = res.headers.get('ETag');
   const data = await res.json();
   const content = data.files?.[GIST_FILE]?.content;
@@ -1698,7 +1698,7 @@ async function gistPush() {
       const t = new Date();
       updateSyncUI('ok', `${t.getHours()}:${String(t.getMinutes()).padStart(2,'0')} 저장됨`);
     } else {
-      updateSyncUI('error', '저장 실패');
+      updateSyncUI('error', syncErrMsg({ status: res.status }));
     }
   } catch { updateSyncUI('error', '오류'); }
   finally {
@@ -1749,7 +1749,17 @@ async function initSync() {
     const r = await fetchGistRaw(false);
     if (r.content && mergeRemote(r.content)) refreshAfterMerge();
     updateSyncUI('ok', '동기화됨');
-  } catch { updateSyncUI('error', '불러오기 실패'); }
+  } catch (e) { updateSyncUI('error', syncErrMsg(e)); }
+}
+
+// 동기화 실패 원인을 구체적으로 안내 (토큰/ID/권한 진단)
+function syncErrMsg(e) {
+  const s = e && e.status;
+  if (s === 401) return '토큰 오류 — 만료·무효, 재발급 필요';
+  if (s === 404) return 'Gist 없음 — ID/계정/gist권한 확인';
+  if (s === 403) return '권한·요청한도 — gist scope 확인';
+  if (s) return `실패 (HTTP ${s})`;
+  return '네트워크 오류 — 연결/방화벽 확인';
 }
 
 function openSyncSettings() {
