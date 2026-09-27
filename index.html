@@ -104,6 +104,14 @@
   #goal-track { height: 5px; border-radius: 3px; background: #222; overflow: hidden; display: none; }
   #goal-fill { height: 100%; width: 0; background: var(--done); border-radius: 3px; transition: width 0.3s; }
 
+  /* 학습 기록 (주별/월별) */
+  .stats-sec-title { font-size: 12px; font-weight: 700; color: var(--text); margin: 16px 0 8px; }
+  .stat-row { display: flex; align-items: center; gap: 8px; font-size: 12px; margin-bottom: 5px; }
+  .stat-label { width: 56px; color: var(--sub); flex-shrink: 0; }
+  .stat-bar { flex: 1; height: 15px; background: #222; border-radius: 8px; overflow: hidden; }
+  .stat-fill { display: block; height: 100%; background: var(--accent); border-radius: 8px; }
+  .stat-val { width: 34px; text-align: right; color: var(--text); font-variant-numeric: tabular-nums; }
+
   #list { flex: 1; overflow-y: auto; }
   #list::-webkit-scrollbar { width: 3px; }
   #list::-webkit-scrollbar-thumb { background: #333; }
@@ -352,7 +360,10 @@
     </div>
     <div style="display:flex;justify-content:space-between;align-items:center">
       <span id="sync-indicator" onclick="openSyncSettings()" style="font-size:10px;color:#555;cursor:pointer;user-select:none">○ 동기화 미설정</span>
-      <button onclick="openSyncSettings()" style="font-size:10px;padding:2px 7px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">⚙ 동기화</button>
+      <div style="display:flex;gap:6px">
+        <button onclick="openStats()" style="font-size:10px;padding:2px 7px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">📊 기록</button>
+        <button onclick="openSyncSettings()" style="font-size:10px;padding:2px 7px;background:var(--bg2);border:1px solid var(--border);color:var(--sub);border-radius:4px;cursor:pointer">⚙ 동기화</button>
+      </div>
     </div>
   </div>
   <div id="list"></div>
@@ -815,6 +826,52 @@ function updateCategoryProgress() {
       ? `linear-gradient(to right, rgba(76,175,76,0.22) ${pct}%, var(--bg2) ${pct}%)` : '';
   });
 }
+
+// ── 학습 기록: 주별/월별 로그 ─────────────────────────
+// syncMeta.solved의 풀이 시각 사용 (기기 간 동기화됨). 현재 풀린 문제만 집계.
+function weekStart(ts) { const d = new Date(ts); d.setHours(0,0,0,0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d; } // 월요일 기준
+function ymKeyOf(ts) { const d = new Date(ts); return d.getFullYear() + '-' + (d.getMonth() + 1); }
+function solveTimestamps() {
+  const out = [];
+  Object.keys(solved).forEach(i => { if (solved[i] && syncMeta.solved[i] && +i < all.length) out.push(syncMeta.solved[i]); });
+  return out;
+}
+function statBars(rows, hiIdx) {
+  const max = Math.max(1, ...rows.map(r => r.count));
+  return rows.map((r, idx) => {
+    const w = r.count ? Math.max(4, Math.round(r.count / max * 100)) : 0;
+    const bg = idx === hiIdx ? 'var(--star)' : 'var(--accent)';
+    return `<div class="stat-row"><span class="stat-label">${esc(r.label)}</span>`
+      + `<span class="stat-bar"><span class="stat-fill" style="width:${w}%;background:${bg}"></span></span>`
+      + `<span class="stat-val">${r.count}</span></div>`;
+  }).join('');
+}
+function openStats() {
+  const tss = solveTimestamps();
+  const now = Date.now(), curWeek = +weekStart(now), curYM = ymKeyOf(now);
+  let weekN = 0, monthN = 0;
+  tss.forEach(t => { if (+weekStart(t) === curWeek) weekN++; if (ymKeyOf(t) === curYM) monthN++; });
+  document.getElementById('stats-summary').innerHTML = tss.length
+    ? `이번 주 <b style="color:var(--done)">${weekN}</b>문제 · 이번 달 <b style="color:var(--done)">${monthN}</b>문제 · 기록된 누적 <b>${tss.length}</b>문제`
+    : '아직 기록이 없습니다. 문제를 ✓ 풀었음으로 표시하면 주별·월별로 쌓입니다.';
+
+  // 최근 8주
+  const weeks = [], base = weekStart(now);
+  for (let k = 7; k >= 0; k--) { const d = new Date(base); d.setDate(d.getDate() - k * 7); weeks.push({ key: +weekStart(d), label: `${d.getMonth()+1}/${d.getDate()}~`, count: 0 }); }
+  const wi = {}; weeks.forEach((w, idx) => wi[w.key] = idx);
+  tss.forEach(t => { const k = +weekStart(t); if (k in wi) weeks[wi[k]].count++; });
+  document.getElementById('stats-weeks').innerHTML = statBars(weeks, weeks.length - 1);
+
+  // 최근 6개월
+  const months = [], dm = new Date(now);
+  for (let k = 5; k >= 0; k--) { const d = new Date(dm.getFullYear(), dm.getMonth() - k, 1); months.push({ key: d.getFullYear()+'-'+(d.getMonth()+1), label: `${d.getFullYear()%100}.${d.getMonth()+1}`, count: 0 }); }
+  const mi = {}; months.forEach((m, idx) => mi[m.key] = idx);
+  tss.forEach(t => { const k = ymKeyOf(t); if (k in mi) months[mi[k]].count++; });
+  document.getElementById('stats-months').innerHTML = statBars(months, months.length - 1);
+
+  document.getElementById('stats-modal').style.display = 'flex';
+}
+function closeStatsModal() { document.getElementById('stats-modal').style.display = 'none'; }
 
 // ── 이미지 확대 (핀치줌 + 팬) ─────────────────────────
 let zoomScale = 1, zoomTx = 0, zoomTy = 0;
@@ -1876,6 +1933,22 @@ document.addEventListener('keydown', e => {
 
 load();
 </script>
+<!-- 학습 기록 모달 -->
+<div id="stats-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:200;align-items:center;justify-content:center">
+  <div style="background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:22px;width:420px;max-width:92vw;max-height:88vh;overflow-y:auto">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px">
+      <div style="font-size:14px;font-weight:700">📊 학습 기록</div>
+      <button onclick="closeStatsModal()" style="font-size:12px;padding:4px 10px;background:transparent;border:1px solid #333;color:#888;border-radius:6px;cursor:pointer">닫기</button>
+    </div>
+    <div id="stats-summary" style="font-size:12px;color:var(--sub);margin-bottom:6px"></div>
+    <div class="stats-sec-title">주별 (최근 8주)</div>
+    <div id="stats-weeks"></div>
+    <div class="stats-sec-title">월별 (최근 6개월)</div>
+    <div id="stats-months"></div>
+    <div style="font-size:10px;color:#555;margin-top:14px;line-height:1.5">· 풀이 시각이 기록되기 시작한 이후의 데이터만 집계됩니다.<br>· '✓ 풀었음'으로 표시한 문제 기준 (PC·모바일 합산).</div>
+  </div>
+</div>
+
 <!-- 동기화 설정 모달 -->
 <div id="sync-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:200;align-items:center;justify-content:center">
   <div style="background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:24px;width:380px;max-width:92vw">
