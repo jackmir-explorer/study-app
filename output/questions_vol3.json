@@ -2171,7 +2171,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 케톤산증",
     "question_summary": "47세 여자 당뇨병 환자의 의식저하 증상에 대한 진단",
     "page": 226,
@@ -2360,7 +2360,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "뇌하수제 기능저하중",
     "question_summary": "32세 여자의 무월경, 쇠약, 체중 감소 증상에서 뇌하수제 질환의 감별 진단",
     "page": 245,
@@ -2369,7 +2369,7 @@
   {
     "q_num": "31",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "뇌하수체 전엽 종양",
     "question_summary": "31세 여성의 폐쇄성 무월경, 유즙분비, 두통에서 bromocriptin 치료법",
     "page": 250,
@@ -2378,7 +2378,7 @@
   {
     "q_num": "42",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "말단비대증",
     "question_summary": "42세 남성 말단비대증 환자의 Phalen 징후, 혈당, Tinnitus 증상에서 검사 선택",
     "page": 250,
@@ -2387,7 +2387,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "뇌하수체 종양",
     "question_summary": "40세 남자 야콘증 진단, 200 ng/dL 고프로락틴혈증에 대한 검사",
     "page": 251,
@@ -2396,7 +2396,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "뇌하수체 종양",
     "question_summary": "36세 여자 6개월 전부터 시작된 무월경, prolactin 234 ng/mL 상승 환자의 진단",
     "page": 251,
@@ -2405,7 +2405,7 @@
   {
     "q_num": "404",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "요붕증의 감별진단",
     "question_summary": "20대 남자의 다뇨증, 고혈장삼투압 환자에서 ADH 억제 후 요삼투압 변화로 요붕증 감별",
     "page": 255,
@@ -2414,7 +2414,7 @@
   {
     "q_num": "57",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "SIADH",
     "question_summary": "저나트륨혈증 환자의 진단 - SIADH 감별",
     "page": 256,
@@ -2423,7 +2423,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선질환",
     "question_summary": "60세 갑상선기능저하증 환자의 TSH 7, freeT4 1에서 Levothyroxine 용량 결정",
     "page": 259,
@@ -2432,7 +2432,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선질환",
     "question_summary": "33세 여자 임신 중 갑상선중독증으로 L-thyroxine 복용 중, TSH 10.1 상승 시 적절한 처치",
     "page": 259,
@@ -2441,7 +2441,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능저하증",
     "question_summary": "66세 여자, 1개월 전부터 지속된 피로감으로 내원, 혈심증으로 약물 치료 중. 검사 결과 TSH 11.XX, fT4 0.49, TPO Ab 양성 bradycardia (HR 48). 2019년 인턴레이닝 BB, 갑상선 초음파, 3개월 추 갑상선기능검사 추적, levothyroxine 50 μg 치료 시작, 2주후 25 μg증량, levothyroxine 25 μg 치료시작, 6주후 12.5 μg 증량",
     "page": 260,
@@ -2450,7 +2450,7 @@
   {
     "q_num": "2",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능저하증 진단",
     "question_summary": "46세 여자, 최근 1년간 6kg 체중증가 보였으며 기운없고 피로하며 최근 1년 전과 비교했을 때 우울감이 심해졌다고 함. 신체검사상 정장이 부위 놀피도 들어가지 않는 부종이 보였다. 환자에게 지금 필요한 검사는?",
     "page": 260,
@@ -2459,7 +2459,7 @@
   {
     "q_num": "67",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능저하증",
     "question_summary": "67세 남자의 levothyroxine 복용 중 TSH 1.5, free T4 1.0 정상 범위에서 여전히 증상이 있는 경우 다음 약물은?",
     "page": 261,
@@ -2468,7 +2468,7 @@
   {
     "q_num": "42",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능저하증",
     "question_summary": "42세 여자 6개월전부터 기운없고 피로감 있었으며 혈압은 110/60, TSH 52로 정상 용부를명장 심비대가 있는 경우 다음으로 해야 할 검사는?",
     "page": 261,
@@ -2477,7 +2477,7 @@
   {
     "q_num": "56",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능검사",
     "question_summary": "56세 여자환자가 붓고 피로하여 내원한 경우 CBC, AST/ALT 정상 범위, TSH 0.7, fT4 0.6일 때 다음으로 시행할 검사는?",
     "page": 262,
@@ -2486,7 +2486,7 @@
   {
     "q_num": "57",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상샘기능저하증",
     "question_summary": "갑상샘 기능저하증 약물치료 중 맞는 것?",
     "page": 262,
@@ -2495,7 +2495,7 @@
   {
     "q_num": "2012",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 호르몬 복용량",
     "question_summary": "갑상선 저하증에서 갑상선 호르몬 백드리코 복용량 결정 방법",
     "page": 263,
@@ -2504,7 +2504,7 @@
   {
     "q_num": "2012",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "인슐린 결핍",
     "question_summary": "46세 여자 1년 중증 저혈당증 환자의 약물 용량 조정",
     "page": 263,
@@ -2513,7 +2513,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상샘 기능항진증",
     "question_summary": "35세 남자 갑상샘기능항진증 환자의 필요한 검사",
     "page": 264,
@@ -2522,7 +2522,7 @@
   {
     "q_num": "53",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "감상선기능항진증",
     "question_summary": "감상선기능항진증으로 MTZ 복용 중, URI 증상 시 lever 있고 나머지는 stable한 경우의 처치",
     "page": 265,
@@ -2531,7 +2531,7 @@
   {
     "q_num": "31",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선독성증(thyrotoxicosis) 진단",
     "question_summary": "31세 여성, 2주 전부터 3kg 체중감소와 두근거림을 주소로 내원한 환자. TSH 0.01, 정상수치 저장해숨 다음 검사는?",
     "page": 266,
@@ -2540,7 +2540,7 @@
   {
     "q_num": "32",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증",
     "question_summary": "갑상선기능항진증 환자의 TSH, T4, T3 검사 결과 해석 및 PTU 용량 결정",
     "page": 267,
@@ -2549,7 +2549,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선중독증",
     "question_summary": "35세 남성 하시마모토 증급성 내원 환자의 신체검사상 미만성 갑상선종 및 bruitt 음성 시 진단",
     "page": 268,
@@ -2558,7 +2558,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증",
     "question_summary": "갑상선기능항진증으로 메티마졸 복용중인 환자에서 항갑상선제 용량 조절을 위해 사용할 수 있는 가장 민감한 지표",
     "page": 268,
@@ -2567,7 +2567,7 @@
   {
     "q_num": "3",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증",
     "question_summary": "갑상선기능항진증 치료 후 재발가능성이 높은 것",
     "page": 268,
@@ -2576,7 +2576,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "그레이브스병",
     "question_summary": "35세 여자 그레이브스병으로 메티마졸 25mg 18개월 복용 중 감상선기능저하증 약을 궁고 싶다",
     "page": 269,
@@ -2585,7 +2585,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "PTU 부작용",
     "question_summary": "임신 6개월인 33세 임산부가 왔다. 감상선 항진증으로 PTU 복용 중이다. 감상에서 fT4는 정상이고 TSH는 감소되어 있다. 적절한 치치는",
     "page": 269,
@@ -2594,7 +2594,7 @@
   {
     "q_num": "27",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "27세 여성 피로 제증상을 주소로 내원, 갑상선 결절에서 hot nodule 발견 시 최적의 장기 치료법",
     "page": 270,
@@ -2603,7 +2603,7 @@
   {
     "q_num": "31",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선중독증",
     "question_summary": "31세 여자 2주전부터 3kg체중감소와 두근거림, TSH 0.01일 때 갑상선중독증의 원인 감별",
     "page": 270,
@@ -2612,7 +2612,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증",
     "question_summary": "35세 여성 항갑상선제 복용 2주 만에 가려움증 발생, 금질 및 박적의 특이사항없음, 사용한 약은",
     "page": 271,
@@ -2621,7 +2621,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "PTU 사용중 검사",
     "question_summary": "PTU 치료중 환자에서 발열, 인후통 발생, 우선 시행할 검사",
     "page": 271,
@@ -2630,7 +2630,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암",
     "question_summary": "4kg 체중감소, 25세 여자의 갑상선 스캔 이상 - 진단명",
     "page": 272,
@@ -2639,7 +2639,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "메타마숨",
     "question_summary": "45세 여자, 메타마숨 복용 중 엘러이 발생 - 검사 결과 해석",
     "page": 272,
@@ -2648,7 +2648,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "폐경기 여성의 안구 건조증",
     "question_summary": "70대 여자의 안구 건조증, 폐경 후 호르몬 변화와 관련된 검사",
     "page": 273,
@@ -2657,7 +2657,7 @@
   {
     "q_num": "2",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "감염성 합병증",
     "question_summary": "24세 여자의 갑상선기능 항진증으로 진단받은 환자의 특정 합병증 검사",
     "page": 273,
@@ -2666,7 +2666,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증 치료",
     "question_summary": "23세 여자 갑상선기능항진증으로 갑상선아전절제술 1년 후 시행한 추적 검사에서 T3, T4 상승 TSH 감소되었을 때 치료 약물",
     "page": 274,
@@ -2675,7 +2675,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암 진단 및 치료",
     "question_summary": "56세 남자가 근육통과 함께 피로감과 열리는 증상이 발생하여 내원한 경우, 3kg 체중 감소, 갑상선염 의심 시 검사실 소견 분석 및 진단",
     "page": 274,
@@ -2684,7 +2684,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 기능저하증",
     "question_summary": "갑상선 기능저하증 치료 후 재발 가능성이 높은 경우",
     "page": 275,
@@ -2693,7 +2693,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암 방사성 요오드 치료",
     "question_summary": "갑상선암 치료 후 TSH 억제 목표 달성을 위한 추가 조치",
     "page": 276,
@@ -2702,7 +2702,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "자가면역 갑상선염 항체",
     "question_summary": "젊은 여성의 갑상선기능저하증 관련 항체 검사",
     "page": 276,
@@ -2711,7 +2711,7 @@
   {
     "q_num": "35",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암",
     "question_summary": "35세 여성 갑상선 기능항진으로 22주 전부터 항갑상선제를 복용한 후 가러움증이 발생되었다. 진찰에서 등피 문제에 가버운 발적과 금은 혼작이 있었나 적절한 치치는?",
     "page": 277,
@@ -2720,7 +2720,7 @@
   {
     "q_num": "40",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "PTU 부작용",
     "question_summary": "40세 여자가 3일 전부터 시작된 고열과 인후통으로 왔다. 1개월 전부터 갑상샘 기능항진증으로 PTU를 복용 중이다. 적절한 조치는?",
     "page": 277,
@@ -2729,7 +2729,7 @@
   {
     "q_num": "42",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선염/기타 갑상선질환",
     "question_summary": "30대 초반 여자 명개혈전 출산 과거력, 갑상선 압통음증 환자의 진단 및 치료",
     "page": 278,
@@ -2738,7 +2738,7 @@
   {
     "q_num": "377",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "아급성갑상선염",
     "question_summary": "아급성갑상선염의 임상경과 및 검사소견",
     "page": 279,
@@ -2747,7 +2747,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "산후갑상선염",
     "question_summary": "산후갑상선염 환자의 베타차단제 선택",
     "page": 280,
@@ -2756,7 +2756,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "아급성갑상선염",
     "question_summary": "아급성갑상선염 환자의 치료약물 선택",
     "page": 280,
@@ -2765,7 +2765,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선염",
     "question_summary": "급성화농성 갑상선염 환자의 임상검사 및 치료",
     "page": 281,
@@ -2774,7 +2774,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능항진증",
     "question_summary": "甲状腺中毒症 후 갑상선기능항진증의 감별진단",
     "page": 281,
@@ -2783,7 +2783,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선중독증",
     "question_summary": "갑상선중독증, 빈맥, 피로 증상의 28세 여자 환자의 초음파에서 3개월 뒤 이상 소견, ESR 30, FT4 1.1, TSH <0.01, RAIU 3% 적절한 처치",
     "page": 282,
@@ -2792,7 +2792,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "산후갑상선염",
     "question_summary": "33세 여자환자로 둘째 작은 딸이라 만자격서 내원했을 때, 4개월전 출산 이후 의심증상, TSH 0.07, FT4 3.5, 방사성 스캔 3% 적절한 조치",
     "page": 282,
@@ -2801,7 +2801,7 @@
   {
     "q_num": "39",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선기능저하증",
     "question_summary": "TSH 상승, Free T4 저하 환자의 진단",
     "page": 283,
@@ -2810,7 +2810,7 @@
   {
     "q_num": "33",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절",
     "question_summary": "TSH 상승, fT4 저하 환자의 진단",
     "page": 283,
@@ -2819,7 +2819,7 @@
   {
     "q_num": "40",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선중독증",
     "question_summary": "ESR 상승, T3/T4 상승, TSH 저하 환자의 치료",
     "page": 283,
@@ -2828,7 +2828,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 기능 저하증",
     "question_summary": "중년 남성, 이전 현침증 등 다양한 underlying, 머침전 무률 수술한 lab) T3 감소, free T4 감소, TSH 정상, TSH 자극 시험 정상",
     "page": 284,
@@ -2837,7 +2837,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 질환",
     "question_summary": "50세 여자, 목 앞부위 통증으로 내원, 감상선 미만성 종대와 압통이 있음. ESR 45, TSH 0.03, freeT4 2.3 적절한 치료는?",
     "page": 284,
@@ -2846,7 +2846,7 @@
   {
     "q_num": "59",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선염",
     "question_summary": "갑상선 결절과 높은 TSH, FT4&T3 정상, TPO Ab+ 환자의 진단",
     "page": 285,
@@ -2855,7 +2855,7 @@
   {
     "q_num": "16",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선염",
     "question_summary": "갑상선 결절 환자의 FT4, T3, TSH, anti-thyroid peroxidase Ab, RAIU 결과 해석",
     "page": 285,
@@ -2864,7 +2864,7 @@
   {
     "q_num": "30",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "아급성 갑상선염",
     "question_summary": "아급성 갑상선염 환자의 ESR 상승, 저TSH, 고T4 소견에서 초기 치료 약물",
     "page": 285,
@@ -2873,7 +2873,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절/갑상선암",
     "question_summary": "갑상선결절 0.8cm, TSH 2.05, T3/T4 정상인 환자의 진찰 소견 해석",
     "page": 286,
@@ -2882,7 +2882,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절",
     "question_summary": "40대 여자 음든 목갑상선 단순 냉증 1.5cm처치",
     "page": 286,
@@ -2891,7 +2891,7 @@
   {
     "q_num": "3",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암",
     "question_summary": "45세 여자 갑상선암으로 수술받은 3일 후 부정맥, 손발저림, 입주변 감각이상 증상",
     "page": 286,
@@ -2900,7 +2900,7 @@
   {
     "q_num": "48",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "48세 여자 우연히 발견된 뇌 부위의 종괴로 왔다. 신체검사에서 1.5cm 경도의 단단한 결절이 만져졌다. 갑상선 검사 결과는 다음과 같다. 다음 검사는?",
     "page": 287,
@@ -2909,7 +2909,7 @@
   {
     "q_num": "40",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "40대 여자 건강검진에서 1.5cm? 0.8cm? 우측곡 갑상선 결절, TSH 0.05일 때 다음 검사는?",
     "page": 287,
@@ -2918,7 +2918,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "정상 TFT 갑상선 결절에서 5*5*11mm 저에코 고형 결절의 관리",
     "page": 288,
@@ -2927,7 +2927,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "40대 여성 갑상선 결절 1.5cm, 0.8cm 초음파 소견과 TSH 0.05에서 진단 및 처치",
     "page": 288,
@@ -2936,7 +2936,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "40대 여성의 0.9cm 갑상선 결절에 대한 감시 방침",
     "page": 289,
@@ -2945,7 +2945,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 기능 검사",
     "question_summary": "갑상선 우엽에 결절이 있고 TSH와 free T4가 정상인 경우의 다음 검사",
     "page": 289,
@@ -2954,7 +2954,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절",
     "question_summary": "56세 여자 간강점성 갑상선 조음막에서 작업 0.8cm 결절 발견되었다 경부 림프절 비대는 없었다 TSH 0.15(범호안 정상수치우이디) 일 다음 처치는",
     "page": 290,
@@ -2963,7 +2963,7 @@
   {
     "q_num": "32",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "32세 여자 목에 0.8cm 혼합경계 내혼 침삼징 때 움직임 있고 단단한 결절이며 TSH 12로 상승함. 적절한 검사는?",
     "page": 291,
@@ -2972,7 +2972,7 @@
   {
     "q_num": "56",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 기능 이상",
     "question_summary": "56세 여자 간장결절상 갑상선 종물에서 좌엽 0.8cm경 혼련되었다. 경부 림프절 비대는 없었다. TSH 0.18(판호오 정상수치주어짐) 일때 다음 처치는?",
     "page": 291,
@@ -2981,7 +2981,7 @@
   {
     "q_num": "35",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "갑상선 결절 환자의 TSH 수준과 추가 검사 필요성",
     "page": 292,
@@ -2990,7 +2990,7 @@
   {
     "q_num": "43",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암",
     "question_summary": "갑상선암 수술 후 TSH 억제 치료 시 추적 관찰",
     "page": 292,
@@ -2999,7 +2999,7 @@
   {
     "q_num": "43",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암",
     "question_summary": "43세 여자환자 갑상선초음파검진에서 tall than wide hypoechoic lesion FNA상 유두세포종. 의사로서 권고할 사항은?",
     "page": 293,
@@ -3008,7 +3008,7 @@
   {
     "q_num": "35",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절",
     "question_summary": "35세 남자가 갑상선 초음파 검사에서 우연히 1cm의 결절이 발견된 atypia of undetermined significance. 다음 조치는?",
     "page": 293,
@@ -3017,7 +3017,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선결절",
     "question_summary": "27세 여자 12주 임신부의 우연히 발견된 우측 갑상선 결절에 대한 진단 및 관리",
     "page": 294,
@@ -3026,7 +3026,7 @@
   {
     "q_num": "42",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절 진단",
     "question_summary": "30세 여자의 갑상선 결절 진단 방법 선택",
     "page": 295,
@@ -3035,7 +3035,7 @@
   {
     "q_num": "43",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절 추적 관찰",
     "question_summary": "56세 여자 갑상선 결절의 추적 검사 시기",
     "page": 295,
@@ -3044,7 +3044,7 @@
   {
     "q_num": "44",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 악성 결절 특징",
     "question_summary": "30세 남자 갑상선 악성 결절의 안전성 평가",
     "page": 295,
@@ -3053,7 +3053,7 @@
   {
     "q_num": "55",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "55세 여자 갑상선 결절 환자에서 악성 종양 위험도 평가",
     "page": 296,
@@ -3062,7 +3062,7 @@
   {
     "q_num": "56",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 결절",
     "question_summary": "56세 남성 갑상선 결절 환자의 진단 검사 선택",
     "page": 296,
@@ -3071,7 +3071,7 @@
   {
     "q_num": "46",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선암 수술 후 추적검사",
     "question_summary": "46세 여자 갑상선암 수술 후 1.5cm 지에코 결절이 있을 때 추가 검사",
     "page": 297,
@@ -3080,7 +3080,7 @@
   {
     "q_num": "35",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상샘기능검사",
     "question_summary": "35세 여자 2년간 피로감, TSH 상승, 무통절혈 발견 시 조치",
     "page": 297,
@@ -3089,7 +3089,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "부신피질질환",
     "question_summary": "부신피질질환의 진단을 위한 검사 순서",
     "page": 298,
@@ -3098,7 +3098,7 @@
   {
     "q_num": "4",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "원발성 알도스테론증",
     "question_summary": "44세 여성의 고혈압, 저칼륨혈증, 대사성 알칼로시스 환자의 진단",
     "page": 299,
@@ -3107,7 +3107,7 @@
   {
     "q_num": "5",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군",
     "question_summary": "40세 남성의 고혈압, 저칼륨혈증, 중심비만 환자의 진단 검사",
     "page": 299,
@@ -3116,7 +3116,7 @@
   {
     "q_num": "2020",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군 진단",
     "question_summary": "비만여성에서 중심성 비만, 자색선조 의심 시 초기 검사",
     "page": 300,
@@ -3125,7 +3125,7 @@
   {
     "q_num": "2019",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군 진단",
     "question_summary": "52세 여성 신증상으로 내원, cortisol 49ug/dL일 때 다음 검사",
     "page": 300,
@@ -3134,7 +3134,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군",
     "question_summary": "16세 여자, 중심비만·무월경·체중증가·혈압 170/100인 쿠싱증후군 의심 환자의 선별검사",
     "page": 301,
@@ -3143,7 +3143,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "원발성 부신부전",
     "question_summary": "50세 여자 저혈당, 피로, 저나트륨혈증, 80/50 저혈압 환자의 진단 검사",
     "page": 302,
@@ -3152,7 +3152,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "비만",
     "question_summary": "26세 여자 1년 동안 체중이 10kg 증가한 환자의 혈압 및 검사 결과 해석",
     "page": 303,
@@ -3161,7 +3161,7 @@
   {
     "q_num": "2",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군",
     "question_summary": "35세 여환 원형 혈장뇨질로 내원한 환자의 진단 검사",
     "page": 303,
@@ -3170,7 +3170,7 @@
   {
     "q_num": "43",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "일차성 알도스테론증",
     "question_summary": "43세 여자, 8년 전 고혈압 진단받은 환자의 진단 및 원인 감별",
     "page": 304,
@@ -3179,7 +3179,7 @@
   {
     "q_num": "58",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군 진단",
     "question_summary": "여자 고혈압, 골밀도 감소 환자의 쿠싱증후군 진단 검사",
     "page": 305,
@@ -3188,7 +3188,7 @@
   {
     "q_num": "42",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군",
     "question_summary": "27세 여성의 쿠싱증후군 진단을 위한 선별검사",
     "page": 306,
@@ -3197,7 +3197,7 @@
   {
     "q_num": "2010",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "쿠싱증후군의 진단",
     "question_summary": "52세 여자의 중심성 비만, 자주색 줄무늬, 고혈압, 당뇨병 환자에서 cortisol 49μg/dL(정상 30) 일 때 다음 단계로 시행할 적절한 검사",
     "page": 307,
@@ -3206,7 +3206,7 @@
   {
     "q_num": "2012",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "일차성 알도스테론증",
     "question_summary": "26세 여자의 1년 동안 체중 10Kg 증가, 우측 옆구리와 배에 상이 깔다고 호소, 혈압 170/100 mmHg인 환자의 진단적 검사",
     "page": 307,
@@ -3215,7 +3215,7 @@
   {
     "q_num": "16",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "고혈압과 저칼륨혈증",
     "question_summary": "50세 남자의 고혈압, 저칼륨혈증 환자에서 향후 추가 검사",
     "page": 308,
@@ -3224,7 +3224,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "카테콜아민 분비 종양",
     "question_summary": "두통, 심계항진, 발한 3대 증상. 검사는?",
     "page": 309,
@@ -3233,7 +3233,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "카테콜아민 분비 종양",
     "question_summary": "21세 남자, 고혈압, 저칼륨혈증 환자의 진단 검사",
     "page": 309,
@@ -3242,7 +3242,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병",
     "question_summary": "67세 남자 당뇨병 환자의 혈당 조절 상태 평가",
     "page": 310,
@@ -3251,7 +3251,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병",
     "question_summary": "47세 남자 당뇨병 환자의 혈당 관리 및 치료",
     "page": 310,
@@ -3260,7 +3260,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 진단",
     "question_summary": "외국인 남자 최근 2달 사이 10kg 감소 후 당뇨병 진단 시 필요한 검사",
     "page": 311,
@@ -3269,7 +3269,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 선별검사",
     "question_summary": "47세 남자 당뇨 가족력 있을 때 공복혈당 검사 간격",
     "page": 311,
@@ -3278,7 +3278,7 @@
   {
     "q_num": "54",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 선별검사",
     "question_summary": "54세 여자, 3개월 전부터 몸 무게 마시고 소변 많이 본다. 3kg 감소, 어지러운 먹고 있다. 다음에 할 검사는?",
     "page": 312,
@@ -3287,7 +3287,7 @@
   {
     "q_num": "1",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 진단 및 관리",
     "question_summary": "35세 남자의 공복혈당 130, 8시간 공복후 129에서 당뇨병 진단 및 치료 방침",
     "page": 313,
@@ -3296,7 +3296,7 @@
   {
     "q_num": "2",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선 기능 항진증",
     "question_summary": "53세 여자 2개월 동안 6kg 체중감소, 식욕항진, 열감 증상의 진단 및 치료",
     "page": 313,
@@ -3305,7 +3305,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "인슐린 분비 자극 약물",
     "question_summary": "인슐린 분비시 부산물로서 1형 당뇨에서는 감소하고, 2형 당뇨에서는 약간 증가 되어 측정되는 지표",
     "page": 314,
@@ -3314,7 +3314,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 관리",
     "question_summary": "46세 여자 BMI 27.4 공복혈당 105 BP 130/78 HbA1c 6.8 환자에게 어떤 검사를 제일 할 것인가",
     "page": 314,
@@ -3323,7 +3323,7 @@
   {
     "q_num": "12",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "새로 진단된 제2형 당뇨병 치료",
     "question_summary": "새로 진단된 제2형 당뇨병 환자에서 경구 혈당강하제 추가 요법 선택",
     "page": 315,
@@ -3332,7 +3332,7 @@
   {
     "q_num": "45",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "2형 당뇨병 환자의 인슐린 도입 시 적절한 약물 선택",
     "page": 316,
@@ -3341,7 +3341,7 @@
   {
     "q_num": "50",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 진단",
     "question_summary": "신규 진단 2형 당뇨병 환자의 초기 치료 약물 선택",
     "page": 316,
@@ -3350,7 +3350,7 @@
   {
     "q_num": "20211",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 치료약물",
     "question_summary": "HbA1c 8.0, Cr 1.6, AST/ALT 220/240인 환자의 적절한 치료약",
     "page": 317,
@@ -3359,7 +3359,7 @@
   {
     "q_num": "20171",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 치료약물",
     "question_summary": "DPP4억제제 복용 중 ALT/AST 상승 시 적절한 약물",
     "page": 317,
@@ -3368,7 +3368,7 @@
   {
     "q_num": null,
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 환자의 약물 치료",
     "question_summary": "비만 심부정맥증 환자, Cr 1.2 LFT 정상 공복혈당 높음 - 약물 선택",
     "page": 318,
@@ -3377,7 +3377,7 @@
   {
     "q_num": null,
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 환자의 치료",
     "question_summary": "60세 남자, 키 168cm 체중 58kg, Cr 2.1, AST 35 ALT 38 - 적절한 치료약",
     "page": 318,
@@ -3386,7 +3386,7 @@
   {
     "q_num": "138",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "당뇨약 metformin 2000mg 복용 중 혈당 조절 불량 환자에서 추가할 약제 선택",
     "page": 319,
@@ -3395,7 +3395,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "Metformin 복용 중 혈당 조절 실패 환자의 추가 약물 선택",
     "page": 320,
@@ -3404,7 +3404,7 @@
   {
     "q_num": "2",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "고혈압 약물치료",
     "question_summary": "75세 고혈압 환자의 적절한 치료 약물 선택",
     "page": 320,
@@ -3413,7 +3413,7 @@
   {
     "q_num": "42",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "임신 중 혈당관리",
     "question_summary": "42세 남자가 13시간 걸린 미국 출장 중 혈당 제어 시 하루 중 가장 인슐린 요구량이 조정되어야 할 시간대",
     "page": 321,
@@ -3422,7 +3422,7 @@
   {
     "q_num": "50",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "제2형 당뇨병 약물치료",
     "question_summary": "50세 남자 1개월간 5kg 체중감소로 내원, 당뇨병 소견의 진단 및 약물치료",
     "page": 321,
@@ -3431,7 +3431,7 @@
   {
     "q_num": "2019",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "노인 당뇨병 환자의 약물 선택",
     "question_summary": "58세 남자의 당뇨병 약물 치료 선택",
     "page": 322,
@@ -3440,7 +3440,7 @@
   {
     "q_num": "2018",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물 치료",
     "question_summary": "60세 남자 당뇨병 환자의 약물 선택",
     "page": 322,
@@ -3449,7 +3449,7 @@
   {
     "q_num": "46",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증 약물치료",
     "question_summary": "46세 여성의 이상지질혈증 환자에서 Simvastatin 복용 중 LDL 45인 경우 추가 약물 선택",
     "page": 323,
@@ -3458,7 +3458,7 @@
   {
     "q_num": "53",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "53세 여성 3년전 당뇨 진단받고 Metformin 복용 중 FBS 130, HbA1c 8.5%일 때 추가 약물 선택",
     "page": 323,
@@ -3467,7 +3467,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "Metformin 부작용",
     "question_summary": "당뇨 환자 metformin 사용 중 발기력 증상, 결핍영양소는?",
     "page": 324,
@@ -3476,7 +3476,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물 치료",
     "question_summary": "58세 비만 당뇨 환자의 적절한 약물 선택",
     "page": 324,
@@ -3485,7 +3485,7 @@
   {
     "q_num": "15",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "NPH 인슐린",
     "question_summary": "15시간 경구혈당강하제 중단 후 최근에 혈당관리가 안 되어 NPH 40/10단위 맞는 환자의 식욕항상 210→상승 170→하강 조치",
     "page": 325,
@@ -3494,7 +3494,7 @@
   {
     "q_num": "42",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "경구혈당강하제",
     "question_summary": "남자가 13시간 걷히는 미국에 2주간 여행 시 당뇨병 있으면 경구혈당강하제 복용중일 때 처치",
     "page": 325,
@@ -3503,7 +3503,7 @@
   {
     "q_num": "5",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "30대 남성 당뇨병 환자의 크레아티닌 청소율에 따른 메트포르민 용량 조절",
     "page": 326,
@@ -3512,7 +3512,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "제2형 당뇨병 약물치료",
     "question_summary": "50세 남자 당뇨병 환자의 글리메피리드 복용 중 저혈당 발생 시 적절한 약물",
     "page": 327,
@@ -3521,7 +3521,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "제2형 당뇨병",
     "question_summary": "62세 여자, 식욕 저하 환는데도 최근 1개월 동안 4kg의 체중 감소, HbA1c 11, 미세알부민뇨 양성 환자의 약물 치료",
     "page": 328,
@@ -3530,7 +3530,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "제2형 당뇨병",
     "question_summary": "54세 남자가 피로감으로 내원, 혈압 130/80, HbA1c 7.5, HBs Ab 양성 환자의 약물 선택",
     "page": 328,
@@ -3539,7 +3539,7 @@
   {
     "q_num": "42",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "해외여행 시 인슐린 투여",
     "question_summary": "한국에서 미국으로 2주간 여행 중 인슐린 투여 시간 결정",
     "page": 329,
@@ -3548,7 +3548,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 환자의 약물 치료",
     "question_summary": "63세 남자, 10년 경 당뇨병 진단, 고혈압으로 치료 중인 환자의 추가 치료 약물",
     "page": 330,
@@ -3557,7 +3557,7 @@
   {
     "q_num": "47",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 치료",
     "question_summary": "47세 여자, 2형 당뇨병 환자의 glimepiride 4mg 복용 중 FBS 90~110, HbA1c 7.9%일 때 적절한 다음 조치",
     "page": 331,
@@ -3566,7 +3566,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "제2형 당뇨병 환자의 적절한 추가 약물 선택",
     "page": 332,
@@ -3575,7 +3575,7 @@
   {
     "q_num": "2",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "당뇨병 환자의 혈당 조절을 위한 적절한 약물 선택",
     "page": 332,
@@ -3584,7 +3584,7 @@
   {
     "q_num": "3",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 환자의 약물 치료",
     "question_summary": "51세 남성 당뇨병 환자의 혈당 조절 실패 시 추가 약물 선택",
     "page": 333,
@@ -3593,7 +3593,7 @@
   {
     "q_num": "5",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 환자의 약물 치료",
     "question_summary": "50세 여성 제2형 당뇨병 환자의 혈당 조절 상태에서 적절한 치료",
     "page": 333,
@@ -3602,7 +3602,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 혼합증: 금성 혼병증",
     "question_summary": "23세 여자 혼수 호소 환자의 혈액 및 요검사 결과 해석 및 적절한 수액 치료액 선택",
     "page": 334,
@@ -3611,7 +3611,7 @@
   {
     "q_num": "2",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병",
     "question_summary": "68세 당뇨 환자의 고혈당증 상태에서 혈당 90/50 혈압 650에 배터 및 의식이 저하 되어 있을 때 응급 처치",
     "page": 334,
@@ -3620,7 +3620,7 @@
   {
     "q_num": "28",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 케톤산증",
     "question_summary": "28세 여환의 당뇨병성 케톤산증 치료액 선택",
     "page": 335,
@@ -3629,7 +3629,7 @@
   {
     "q_num": "29",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "저나트륨혈증",
     "question_summary": "저혈당·저나트륨혈증 환자의 수액 요법",
     "page": 335,
@@ -3638,7 +3638,7 @@
   {
     "q_num": "45",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "대사성산증",
     "question_summary": "45세 남자 의식 소실, 혈압 저하, 고혈당증 환자의 진단",
     "page": 336,
@@ -3647,7 +3647,7 @@
   {
     "q_num": "26",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "저혈당증 치료",
     "question_summary": "26세 여자 저혈당증 환자의 혈당 수치와 전해질 이상에 대한 치료액 선택",
     "page": 337,
@@ -3656,7 +3656,7 @@
   {
     "q_num": "63",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "고혈당성 고삼투압 상태",
     "question_summary": "63세 여자 당뇨병 환자의 의식 변화와 합병증 진단",
     "page": 337,
@@ -3665,7 +3665,7 @@
   {
     "q_num": "27",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 케톤산혈증",
     "question_summary": "27세 여자 의식장애 환자의 혈압과 대사성 산증 진단",
     "page": 337,
@@ -3674,7 +3674,7 @@
   {
     "q_num": "212",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성신장병증",
     "question_summary": "10년 당뇨, 62세 남자의 약순 무감각 이상감각 통증 주소로 내원, HbA1c 9.3 cr2.1 환자의 치료",
     "page": 338,
@@ -3683,7 +3683,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 신경병증",
     "question_summary": "64세 남자 환자의 다리가 아프다고 내원, 20년전부터 당뇨를 알고 있으며 인슐린으로 조절중, HbA1c 9.4% 소견 당뇨병성 신경병증의 증례에서 100mg/dL 일때 말초신경병증은?",
     "page": 339,
@@ -3692,7 +3692,7 @@
   {
     "q_num": "2",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "위마비(gastroparesis)",
     "question_summary": "60대 남자, 1년 전부터 발생한 소화불량, 오심, 구기 포만감을 주소로 내원, 자주 식이나 가스블롯 없고 당뇨병 있는 환자로 인슐린 치료중, 적절한 약물치료로?",
     "page": 339,
@@ -3701,7 +3701,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 약물치료",
     "question_summary": "65세 당뇨 환자의 인슐린, 메트포민, 스타틴 복용 중 야간뇨, 피로증 발생시 대처 방법",
     "page": 340,
@@ -3710,7 +3710,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 관리",
     "question_summary": "59세 여성 DM 환자의 저혈당증 증상과 대응 방법",
     "page": 340,
@@ -3719,7 +3719,7 @@
   {
     "q_num": "42",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 신경병증",
     "question_summary": "당뇨병성 신경병증에 관한 설명 중 옳은 것",
     "page": 341,
@@ -3728,7 +3728,7 @@
   {
     "q_num": "43",
     "answer": 5,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 신경병증 치료",
     "question_summary": "63세 당뇨병 환자의 신경통증 치료약",
     "page": 341,
@@ -3737,7 +3737,7 @@
   {
     "q_num": null,
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 신경병증",
     "question_summary": "당뇨병 55세 여자 중족 발바닥 마가증, 저릿저릿 통증 시 가장 적절한 치료 약제",
     "page": 342,
@@ -3746,7 +3746,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 합병증",
     "question_summary": "저혈당의 증상 중 메타칼단제로 masking되지 않아 가장 신뢰할 수 있는 증상",
     "page": 344,
@@ -3755,7 +3755,7 @@
   {
     "q_num": "2",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병",
     "question_summary": "58세 남자의 20년 전 2형 당뇨병으로 진단받은 후, 10년 전부터 인슐린으로 치료받고 있는 환자의 저혈당 중상에 발생하지 않는 가장 가능성이 높은 원인",
     "page": 344,
@@ -3764,7 +3764,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "인슐린 투여의 적응증",
     "question_summary": "제1형 당뇨병 환자의 인슐린 치료 시작 기준",
     "page": 355,
@@ -3773,7 +3773,7 @@
   {
     "q_num": "3",
     "answer": null,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "기저-볼루스 인슐린 요법",
     "question_summary": "기저인슐린에 식전 인슐린 요법(basal-bolus) 설명",
     "page": 357,
@@ -3782,7 +3782,7 @@
   {
     "q_num": null,
     "answer": null,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병 인슐린 요법의 비교",
     "question_summary": "기저 인슐린요법, 혼합형 인슐린요법, 기저-식전 인슐린에 식전 인슐린 요법의 장단점 비교",
     "page": 358,
@@ -3791,7 +3791,7 @@
   {
     "q_num": null,
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "당뇨병성 인슐린 치료법",
     "question_summary": "기본 의인-제1형 당뇨병 인슐린 요법 관리",
     "page": 359,
@@ -3800,7 +3800,7 @@
   {
     "q_num": "2013",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "여성 갱년기 증후군",
     "question_summary": "50세 여성의 안면홍조 증상으로 내원한 환자의 총콜레스테롤 212, HDL 56, TG 110일 때 적절한 치료약물",
     "page": 360,
@@ -3809,7 +3809,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "호르몬치료(폐경)",
     "question_summary": "폐경과 관련된 질환에서 호르몬치료의 적응증과 용량",
     "page": 363,
@@ -3818,7 +3818,7 @@
   {
     "q_num": "48",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "남성 갱년기 증후군",
     "question_summary": "남성 갱년기 증후군의 진단검사",
     "page": 368,
@@ -3827,7 +3827,7 @@
   {
     "q_num": "2018",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "부갑상샘 및 칼슘대사 질환",
     "question_summary": "60대 남자의 고칼슘혈증(Ca 10.5, ALP 300, LFT, Viral marker 정상)에서 진단을 위한 적절한 검사",
     "page": 369,
@@ -3836,7 +3836,7 @@
   {
     "q_num": "63",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "부갑상선 기능 항진증",
     "question_summary": "고칼슘혈증 환자의 검사실 소견 해석 및 감별진단",
     "page": 370,
@@ -3845,7 +3845,7 @@
   {
     "q_num": "61",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "갑상선절제술 후 저칼슘혈증",
     "question_summary": "갑상선 수술 후 감작이상 호소 시 가장 먼저 시행할 검사",
     "page": 370,
@@ -3854,7 +3854,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "고칼슘혈증",
     "question_summary": "중앙의 고칼슘혈증 치료로 다음 중 맞는 것은",
     "page": 371,
@@ -3863,7 +3863,7 @@
   {
     "q_num": "55",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증(Osteoporosis)",
     "question_summary": "55세 여자, 골밀도 검사 결과 대퇴부 T score -2.7일 때 적절한 약물 치료",
     "page": 372,
@@ -3872,7 +3872,7 @@
   {
     "q_num": "66",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증",
     "question_summary": "66세 여성 DXA 결과해석 및 치료약물 선택",
     "page": 373,
@@ -3881,7 +3881,7 @@
   {
     "q_num": "67",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증",
     "question_summary": "67세 여성 골다공증 치료에서 약물 선택",
     "page": 373,
@@ -3890,7 +3890,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "폐경 후 여성 골다공증",
     "question_summary": "61세 여성 골다공증으로 6년간 리세드로네이트를 복용하였을 때, 골절 병력은 없었으나 이번에 촉각한 T-2.6 이었을 때 우우어떻게 해야하나",
     "page": 374,
@@ -3899,7 +3899,7 @@
   {
     "q_num": "71",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증",
     "question_summary": "71세 여성, BMD T score -3.1, Hx 3A RA 진단, steroid therapy 시행 중인 환자의 치료약 선택",
     "page": 375,
@@ -3908,7 +3908,7 @@
   {
     "q_num": "64",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증",
     "question_summary": "64세 여성, 요추 부 골밀도 검사 소견, L1-L4의 T-score 계산",
     "page": 375,
@@ -3917,7 +3917,7 @@
   {
     "q_num": "72",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증",
     "question_summary": "RA로 수년간 PD 복용한 72세 여자, T score -3.1 일때 입자 약제는",
     "page": 375,
@@ -3926,7 +3926,7 @@
   {
     "q_num": "1",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증 치료약물",
     "question_summary": "67세 여성의 골다공증으로 인한 대퇴골 골절 환자에서 Femur T=-3.5 수치 저하 시 적절한 약물 선택",
     "page": 376,
@@ -3935,7 +3935,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증 약제 작용기전",
     "question_summary": "골다공증 약제에 관한 작용기전의 올바른 설명",
     "page": 376,
@@ -3944,7 +3944,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "골다공증 진단",
     "question_summary": "골밀도 측정의 적응증 - NOF 가이드라인과 대한골대사학회 가이드라인 비교",
     "page": 380,
@@ -3953,7 +3953,7 @@
   {
     "q_num": "69",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "Paget disease",
     "question_summary": "69세 남자의 우측 종아리 통증이 있고 X선에서 두꺼워진 골과 미골절한 골관손증 양상을 보일 때, 진단과 치료법용 평가에 필요한 검사",
     "page": 387,
@@ -3962,7 +3962,7 @@
   {
     "q_num": "122",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "당뇨병 환자의 이상지질혈증 관리 및 스타틴 용량 결정",
     "page": 388,
@@ -3971,7 +3971,7 @@
   {
     "q_num": "3",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증 치료",
     "question_summary": "TG 350, HDL 45, LDL 196인 환자의 약물 치료",
     "page": 389,
@@ -3980,7 +3980,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "Atorvastatin 복용 중 ASL ALT 72/80, GGT 42, BMI 24 환자의 처치",
     "page": 390,
@@ -3989,7 +3989,7 @@
   {
     "q_num": "2",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "Atorvastatin 변경 후 3개월 뒤 OT/PT mild elevation, TG 300 LDL 130 T chol 230 HDL 40 환자의 처치",
     "page": 390,
@@ -3998,7 +3998,7 @@
   {
     "q_num": null,
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "55세 남자 혈압 138/88, LDL 콜레스테롤 236, Total cholesterol 236, TG 550 HDL 38인 환자의 약물 선택",
     "page": 391,
@@ -4007,7 +4007,7 @@
   {
     "q_num": "2016",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "50세 남자 atorvastatin 복용 중 AST/ALT 60/80 GTP상승 BMI 23.4 평소 혈1 떨 떨추완병정도증우 Viral load 정상 다음 중 적절한것은",
     "page": 392,
@@ -4016,7 +4016,7 @@
   {
     "q_num": "2015",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "경구혈당강하제 복용중인 40세 남자 현자가 내원하였다. 극저 소주 한병정도 마셨고 답변는 하루 한잔마셨다. 판상동맥경화의 가족력은 없었다. 지질 수치 목표치는",
     "page": 392,
@@ -4025,7 +4025,7 @@
   {
     "q_num": "42",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "스타틴 부작용 및 약물 선택",
     "question_summary": "Atorvastatin 복용 중 AST/ALT 상승 환자의 약물 변경",
     "page": 393,
@@ -4034,7 +4034,7 @@
   {
     "q_num": "43",
     "answer": 4,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증 약물 치료",
     "question_summary": "고트리글리세리드혈증 환자의 약물 선택",
     "page": 393,
@@ -4043,7 +4043,7 @@
   {
     "q_num": "1",
     "answer": 2,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "55세 남자 고콜레스테롤혈증 환자의 지질 개선 약물 선택",
     "page": 394,
@@ -4052,7 +4052,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "고혈압",
     "question_summary": "63세 남자 고혈압 환자의 약물 치료 변경",
     "page": 394,
@@ -4061,7 +4061,7 @@
   {
     "q_num": "56",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "LDL 콜레스테롤 계산",
     "question_summary": "Total cholesterol 220, Triglyceride 300, HDL 30인 환자의 LDL 치료 목표",
     "page": 395,
@@ -4070,7 +4070,7 @@
   {
     "q_num": "54",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증 치료",
     "question_summary": "TC 245, TG 300, HDL 40인 환자의 치료약",
     "page": 395,
@@ -4079,7 +4079,7 @@
   {
     "q_num": null,
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "스타틴 부작용",
     "question_summary": "스타틴 약물 사용 중 근육통, 근력약화 환자의 관리",
     "page": 395,
@@ -4088,7 +4088,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "54세 남자 고혈압·당뇨병 환자의 LDL콜레스테롤 치료 목표",
     "page": 396,
@@ -4097,7 +4097,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증 약물치료",
     "question_summary": "40세 미만, 75세 이상의 당뇨 환자에서 ASCVD위험도를 낮추는 약물 선택",
     "page": 409,
@@ -4106,7 +4106,7 @@
   {
     "q_num": "1",
     "answer": 3,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "대사증후군",
     "question_summary": "대사 증후군의 진단 기준에 속하는 것",
     "page": 412,
@@ -4115,7 +4115,7 @@
   {
     "q_num": "1",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "이상지질혈증",
     "question_summary": "65세 여자 고지혈증 환자의 약물 치료 선택",
     "page": 413,
@@ -4124,7 +4124,7 @@
   {
     "q_num": "2",
     "answer": 1,
-    "category": "소화기",
+    "category": "내분비",
     "topic": "유증분비가 되지 않는 질환",
     "question_summary": "유증분비가 되지 않는 질환의 감별",
     "page": 413,
