@@ -521,12 +521,15 @@ async function loadAvailableModels() {
       if (id === saved) opt.selected = true;
       sel.appendChild(opt);
     });
-    // 저장된 모델 없으면 Pro 계열(최신)을 우선 선택 — 정확도 우선. 없으면 flash
+    // 저장된 모델 없으면 flash/경량이 아닌 상위(추론) 모델 중 최신을 우선 선택 — 정확도 우선.
+    // (pro뿐 아니라 argon 등 코드네임 플래그십도 포함; flash/lite/nano/임베딩/실험/구버전 제외)
     if (!saved) {
-      const pros = models
-        .filter(m => /pro/i.test(m.name) && !/vision|exp|tuning|preview|1\.0|1\.5/i.test(m.name))
+      const big = models
+        .filter(m => !/flash|lite|nano|embedding|aqa|gemma/i.test(m.name)
+                  && !/vision|exp|tuning|preview|1\.0|1\.5/i.test(m.name))
         .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
-      const pick = pros[pros.length - 1] || models.find(m => /pro/i.test(m.name))
+      const pick = big[big.length - 1]
+                || models.find(m => /pro/i.test(m.name))
                 || models.find(m => m.name.includes('flash')) || models[0];
       if (pick) sel.value = pick.name.replace('models/', '');
     }
