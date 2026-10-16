@@ -521,10 +521,14 @@ async function loadAvailableModels() {
       if (id === saved) opt.selected = true;
       sel.appendChild(opt);
     });
-    // 저장된 모델 없으면 flash 계열 첫번째 선택
+    // 저장된 모델 없으면 Pro 계열(최신)을 우선 선택 — 정확도 우선. 없으면 flash
     if (!saved) {
-      const flash = models.find(m => m.name.includes('flash'));
-      if (flash) sel.value = flash.name.replace('models/', '');
+      const pros = models
+        .filter(m => /pro/i.test(m.name) && !/vision|exp|tuning|preview|1\.0|1\.5/i.test(m.name))
+        .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+      const pick = pros[pros.length - 1] || models.find(m => /pro/i.test(m.name))
+                || models.find(m => m.name.includes('flash')) || models[0];
+      if (pick) sel.value = pick.name.replace('models/', '');
     }
     status.style.color = '#4caf4c';
     status.textContent = `✓ ${models.length}개 모델 로드됨`;
